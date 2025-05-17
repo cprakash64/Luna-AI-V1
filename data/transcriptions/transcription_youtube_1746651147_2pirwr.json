@@ -1,0 +1,680 @@
+{
+  "text": "Man. Why can't I get a job offer? You just gotta say the right things. Come, I'll show you. I would like a job. Do you have a resume? Here, put it together yourself. You're hired. Come on. I want a job. And why should we hire you? Well, I can bring a lot to the table. You're hired. I want a job. So, what are your salary expectations? Well, I'm happy with 50 of whatever you make. You start Monday. Knock, knock. You start Sunday. Come on. I need job. Can I see your resume? Yep. Sure. I've seen enough. You're hired. Oh, man. I love this shit. You're hired, huh?",
+  "segments": [],
+  "timestamps": [
+    {
+      "word": "Man.",
+      "start_time": 0.16,
+      "end_time": 0.272,
+      "confidence": 0.88411
+    },
+    {
+      "word": "Why",
+      "start_time": 0.272,
+      "end_time": 0.36,
+      "confidence": 0.99768
+    },
+    {
+      "word": "can't",
+      "start_time": 0.36,
+      "end_time": 0.496,
+      "confidence": 0.9763
+    },
+    {
+      "word": "I",
+      "start_time": 0.504,
+      "end_time": 0.632,
+      "confidence": 0.78137
+    },
+    {
+      "word": "get",
+      "start_time": 0.656,
+      "end_time": 0.792,
+      "confidence": 0.9986
+    },
+    {
+      "word": "a",
+      "start_time": 0.816,
+      "end_time": 0.904,
+      "confidence": 0.9965
+    },
+    {
+      "word": "job",
+      "start_time": 0.912,
+      "end_time": 1.032,
+      "confidence": 0.99991
+    },
+    {
+      "word": "offer?",
+      "start_time": 1.056,
+      "end_time": 1.336,
+      "confidence": 0.99938
+    },
+    {
+      "word": "You",
+      "start_time": 1.408,
+      "end_time": 1.592,
+      "confidence": 0.98462
+    },
+    {
+      "word": "just",
+      "start_time": 1.616,
+      "end_time": 1.752,
+      "confidence": 0.98439
+    },
+    {
+      "word": "gotta",
+      "start_time": 1.776,
+      "end_time": 2.008,
+      "confidence": 0.54634
+    },
+    {
+      "word": "say",
+      "start_time": 2.024,
+      "end_time": 2.104,
+      "confidence": 0.99777
+    },
+    {
+      "word": "the",
+      "start_time": 2.112,
+      "end_time": 2.232,
+      "confidence": 0.99783
+    },
+    {
+      "word": "right",
+      "start_time": 2.256,
+      "end_time": 2.392,
+      "confidence": 0.99781
+    },
+    {
+      "word": "things.",
+      "start_time": 2.416,
+      "end_time": 2.744,
+      "confidence": 0.98921
+    },
+    {
+      "word": "Come,",
+      "start_time": 2.832,
+      "end_time": 3.08,
+      "confidence": 0.99484
+    },
+    {
+      "word": "I'll",
+      "start_time": 3.12,
+      "end_time": 3.288,
+      "confidence": 0.97684
+    },
+    {
+      "word": "show",
+      "start_time": 3.304,
+      "end_time": 3.432,
+      "confidence": 0.99992
+    },
+    {
+      "word": "you.",
+      "start_time": 3.456,
+      "end_time": 4.02,
+      "confidence": 0.99613
+    },
+    {
+      "word": "I",
+      "start_time": 4.64,
+      "end_time": 5.0,
+      "confidence": 0.99901
+    },
+    {
+      "word": "would",
+      "start_time": 5.04,
+      "end_time": 5.192,
+      "confidence": 0.95867
+    },
+    {
+      "word": "like",
+      "start_time": 5.216,
+      "end_time": 5.4,
+      "confidence": 0.99967
+    },
+    {
+      "word": "a",
+      "start_time": 5.44,
+      "end_time": 5.544,
+      "confidence": 0.99798
+    },
+    {
+      "word": "job.",
+      "start_time": 5.552,
+      "end_time": 6.1,
+      "confidence": 0.99952
+    },
+    {
+      "word": "Do",
+      "start_time": 6.48,
+      "end_time": 6.792,
+      "confidence": 0.94623
+    },
+    {
+      "word": "you",
+      "start_time": 6.816,
+      "end_time": 6.904,
+      "confidence": 0.997
+    },
+    {
+      "word": "have",
+      "start_time": 6.912,
+      "end_time": 7.032,
+      "confidence": 0.99585
+    },
+    {
+      "word": "a",
+      "start_time": 7.056,
+      "end_time": 7.144,
+      "confidence": 0.99691
+    },
+    {
+      "word": "resume?",
+      "start_time": 7.152,
+      "end_time": 7.624,
+      "confidence": 0.99377
+    },
+    {
+      "word": "Here,",
+      "start_time": 7.672,
+      "end_time": 7.928,
+      "confidence": 0.98297
+    },
+    {
+      "word": "put",
+      "start_time": 7.984,
+      "end_time": 8.152,
+      "confidence": 0.99974
+    },
+    {
+      "word": "it",
+      "start_time": 8.176,
+      "end_time": 8.264,
+      "confidence": 0.99813
+    },
+    {
+      "word": "together",
+      "start_time": 8.272,
+      "end_time": 8.488,
+      "confidence": 0.99755
+    },
+    {
+      "word": "yourself.",
+      "start_time": 8.544,
+      "end_time": 9.26,
+      "confidence": 0.99759
+    },
+    {
+      "word": "You're",
+      "start_time": 11.04,
+      "end_time": 11.448,
+      "confidence": 0.97854
+    },
+    {
+      "word": "hired.",
+      "start_time": 11.464,
+      "end_time": 11.944,
+      "confidence": 0.82575
+    },
+    {
+      "word": "Come",
+      "start_time": 12.072,
+      "end_time": 12.36,
+      "confidence": 0.91274
+    },
+    {
+      "word": "on.",
+      "start_time": 12.4,
+      "end_time": 12.98,
+      "confidence": 0.98496
+    },
+    {
+      "word": "I",
+      "start_time": 14.16,
+      "end_time": 14.568,
+      "confidence": 0.99923
+    },
+    {
+      "word": "want",
+      "start_time": 14.624,
+      "end_time": 14.792,
+      "confidence": 0.99339
+    },
+    {
+      "word": "a",
+      "start_time": 14.816,
+      "end_time": 14.952,
+      "confidence": 0.99877
+    },
+    {
+      "word": "job.",
+      "start_time": 14.976,
+      "end_time": 15.352,
+      "confidence": 0.99984
+    },
+    {
+      "word": "And",
+      "start_time": 15.456,
+      "end_time": 15.72,
+      "confidence": 0.97627
+    },
+    {
+      "word": "why",
+      "start_time": 15.76,
+      "end_time": 15.96,
+      "confidence": 0.99949
+    },
+    {
+      "word": "should",
+      "start_time": 16.0,
+      "end_time": 16.152,
+      "confidence": 0.99421
+    },
+    {
+      "word": "we",
+      "start_time": 16.176,
+      "end_time": 16.312,
+      "confidence": 0.99524
+    },
+    {
+      "word": "hire",
+      "start_time": 16.336,
+      "end_time": 16.488,
+      "confidence": 0.99938
+    },
+    {
+      "word": "you?",
+      "start_time": 16.504,
+      "end_time": 16.776,
+      "confidence": 0.99911
+    },
+    {
+      "word": "Well,",
+      "start_time": 16.848,
+      "end_time": 17.08,
+      "confidence": 0.98343
+    },
+    {
+      "word": "I",
+      "start_time": 17.12,
+      "end_time": 17.224,
+      "confidence": 0.98851
+    },
+    {
+      "word": "can",
+      "start_time": 17.232,
+      "end_time": 17.352,
+      "confidence": 0.99276
+    },
+    {
+      "word": "bring",
+      "start_time": 17.376,
+      "end_time": 17.512,
+      "confidence": 0.99957
+    },
+    {
+      "word": "a",
+      "start_time": 17.536,
+      "end_time": 17.624,
+      "confidence": 0.99781
+    },
+    {
+      "word": "lot",
+      "start_time": 17.632,
+      "end_time": 17.8,
+      "confidence": 0.99898
+    },
+    {
+      "word": "to",
+      "start_time": 17.84,
+      "end_time": 17.944,
+      "confidence": 0.99399
+    },
+    {
+      "word": "the",
+      "start_time": 17.952,
+      "end_time": 18.072,
+      "confidence": 0.99816
+    },
+    {
+      "word": "table.",
+      "start_time": 18.096,
+      "end_time": 18.7,
+      "confidence": 0.99946
+    },
+    {
+      "word": "You're",
+      "start_time": 19.6,
+      "end_time": 19.976,
+      "confidence": 0.82033
+    },
+    {
+      "word": "hired.",
+      "start_time": 20.008,
+      "end_time": 20.62,
+      "confidence": 0.99908
+    },
+    {
+      "word": "I",
+      "start_time": 23.36,
+      "end_time": 23.72,
+      "confidence": 0.99628
+    },
+    {
+      "word": "want",
+      "start_time": 23.76,
+      "end_time": 23.96,
+      "confidence": 0.93827
+    },
+    {
+      "word": "a",
+      "start_time": 24.0,
+      "end_time": 24.152,
+      "confidence": 0.96143
+    },
+    {
+      "word": "job.",
+      "start_time": 24.176,
+      "end_time": 24.74,
+      "confidence": 0.97798
+    },
+    {
+      "word": "So,",
+      "start_time": 29.04,
+      "end_time": 29.352,
+      "confidence": 0.97955
+    },
+    {
+      "word": "what",
+      "start_time": 29.376,
+      "end_time": 29.512,
+      "confidence": 0.99941
+    },
+    {
+      "word": "are",
+      "start_time": 29.536,
+      "end_time": 29.624,
+      "confidence": 0.99642
+    },
+    {
+      "word": "your",
+      "start_time": 29.632,
+      "end_time": 29.752,
+      "confidence": 0.99283
+    },
+    {
+      "word": "salary",
+      "start_time": 29.776,
+      "end_time": 30.056,
+      "confidence": 0.99665
+    },
+    {
+      "word": "expectations?",
+      "start_time": 30.088,
+      "end_time": 30.776,
+      "confidence": 0.99794
+    },
+    {
+      "word": "Well,",
+      "start_time": 30.888,
+      "end_time": 31.112,
+      "confidence": 0.96463
+    },
+    {
+      "word": "I'm",
+      "start_time": 31.136,
+      "end_time": 31.288,
+      "confidence": 0.98021
+    },
+    {
+      "word": "happy",
+      "start_time": 31.304,
+      "end_time": 31.448,
+      "confidence": 0.99901
+    },
+    {
+      "word": "with",
+      "start_time": 31.464,
+      "end_time": 31.592,
+      "confidence": 0.99083
+    },
+    {
+      "word": "50",
+      "start_time": 31.616,
+      "end_time": 32.028,
+      "confidence": 0.96826
+    },
+    {
+      "word": "of",
+      "start_time": 32.144,
+      "end_time": 32.372,
+      "confidence": 0.86627
+    },
+    {
+      "word": "whatever",
+      "start_time": 32.396,
+      "end_time": 32.596,
+      "confidence": 0.99792
+    },
+    {
+      "word": "you",
+      "start_time": 32.628,
+      "end_time": 32.772,
+      "confidence": 0.99809
+    },
+    {
+      "word": "make.",
+      "start_time": 32.796,
+      "end_time": 33.36,
+      "confidence": 0.998
+    },
+    {
+      "word": "You",
+      "start_time": 33.74,
+      "end_time": 34.1,
+      "confidence": 0.97005
+    },
+    {
+      "word": "start",
+      "start_time": 34.14,
+      "end_time": 34.388,
+      "confidence": 0.96525
+    },
+    {
+      "word": "Monday.",
+      "start_time": 34.444,
+      "end_time": 35.04,
+      "confidence": 0.99965
+    },
+    {
+      "word": "Knock,",
+      "start_time": 38.38,
+      "end_time": 38.804,
+      "confidence": 0.97519
+    },
+    {
+      "word": "knock.",
+      "start_time": 38.852,
+      "end_time": 39.48,
+      "confidence": 0.99561
+    },
+    {
+      "word": "You",
+      "start_time": 40.46,
+      "end_time": 40.772,
+      "confidence": 0.98462
+    },
+    {
+      "word": "start",
+      "start_time": 40.796,
+      "end_time": 41.028,
+      "confidence": 0.99297
+    },
+    {
+      "word": "Sunday.",
+      "start_time": 41.084,
+      "end_time": 41.54,
+      "confidence": 0.90508
+    },
+    {
+      "word": "Come",
+      "start_time": 41.66,
+      "end_time": 41.94,
+      "confidence": 0.98556
+    },
+    {
+      "word": "on.",
+      "start_time": 41.98,
+      "end_time": 42.56,
+      "confidence": 0.99461
+    },
+    {
+      "word": "I",
+      "start_time": 42.86,
+      "end_time": 43.268,
+      "confidence": 0.99783
+    },
+    {
+      "word": "need",
+      "start_time": 43.324,
+      "end_time": 43.636,
+      "confidence": 0.99928
+    },
+    {
+      "word": "job.",
+      "start_time": 43.708,
+      "end_time": 44.132,
+      "confidence": 0.99961
+    },
+    {
+      "word": "Can",
+      "start_time": 44.236,
+      "end_time": 44.452,
+      "confidence": 0.99707
+    },
+    {
+      "word": "I",
+      "start_time": 44.476,
+      "end_time": 44.564,
+      "confidence": 0.98423
+    },
+    {
+      "word": "see",
+      "start_time": 44.572,
+      "end_time": 44.692,
+      "confidence": 0.98789
+    },
+    {
+      "word": "your",
+      "start_time": 44.716,
+      "end_time": 44.852,
+      "confidence": 0.98598
+    },
+    {
+      "word": "resume?",
+      "start_time": 44.876,
+      "end_time": 45.412,
+      "confidence": 0.9975
+    },
+    {
+      "word": "Yep.",
+      "start_time": 45.476,
+      "end_time": 45.844,
+      "confidence": 0.90752
+    },
+    {
+      "word": "Sure.",
+      "start_time": 45.892,
+      "end_time": 46.48,
+      "confidence": 0.99952
+    },
+    {
+      "word": "I've",
+      "start_time": 48.46,
+      "end_time": 48.836,
+      "confidence": 0.96299
+    },
+    {
+      "word": "seen",
+      "start_time": 48.868,
+      "end_time": 49.06,
+      "confidence": 0.99906
+    },
+    {
+      "word": "enough.",
+      "start_time": 49.1,
+      "end_time": 49.444,
+      "confidence": 0.99976
+    },
+    {
+      "word": "You're",
+      "start_time": 49.532,
+      "end_time": 49.796,
+      "confidence": 0.9935
+    },
+    {
+      "word": "hired.",
+      "start_time": 49.828,
+      "end_time": 50.44,
+      "confidence": 0.99612
+    },
+    {
+      "word": "Oh,",
+      "start_time": 50.86,
+      "end_time": 51.236,
+      "confidence": 0.97327
+    },
+    {
+      "word": "man.",
+      "start_time": 51.268,
+      "end_time": 51.46,
+      "confidence": 0.99619
+    },
+    {
+      "word": "I",
+      "start_time": 51.5,
+      "end_time": 51.604,
+      "confidence": 0.99848
+    },
+    {
+      "word": "love",
+      "start_time": 51.612,
+      "end_time": 51.732,
+      "confidence": 0.99969
+    },
+    {
+      "word": "this",
+      "start_time": 51.756,
+      "end_time": 51.94,
+      "confidence": 0.99715
+    },
+    {
+      "word": "shit.",
+      "start_time": 51.98,
+      "end_time": 52.388,
+      "confidence": 0.50529
+    },
+    {
+      "word": "You're",
+      "start_time": 52.484,
+      "end_time": 52.756,
+      "confidence": 0.93249
+    },
+    {
+      "word": "hired,",
+      "start_time": 52.788,
+      "end_time": 53.4,
+      "confidence": 0.99539
+    },
+    {
+      "word": "huh?",
+      "start_time": 53.74,
+      "end_time": 54.1,
+      "confidence": 0.96979
+    }
+  ],
+  "source_type": "audio_file",
+  "video_id": "youtube_1746651147_2pirwr"
+}

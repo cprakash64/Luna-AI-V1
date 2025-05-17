@@ -1,0 +1,2658 @@
+{
+  "text": "Hello and welcome to our groundbreaking summer project where technology meets the power of mind. Well now you think what I mean by that? Well, we have created a thing by which you can control the lights just by using your brain. What I actually mean, have you ever had own an Alexa where you have to say like Alexa, turn on the light or something. But you don't have to do right now, now you can just think of it and the light will turn off. But first let, let me introduce you to the team of innovators who made this possible. So now I'm going to explain you how the system works. The device I'm wearing right now is called EEG device. This device sends a signal to our processing unit and our processing unit is connected to our code. Our code analyzes the intent of a person and according to that it turns on and turns off the light. So at the heart of our project is an EEG device that detects the brain wave and converts that into an actionable data. Let us demonstrate our first stage of our project. So now I'm going to show you how the system is working. Here you can see my friend is bringing the EEG device and this device is capturing the brain waves. So if the brain waves reach certain level, the light will turn on and light will turn off. So here you can see our code. Let me run my code. Now the system is started, so I will ask my friend to start thinking so that light can turn on. So here you can see the light is on. Now I will ask my friend to think so that light can turn off. Here you can see light is turning on and turning off. And in the code as well, you can see light turn off and light turn on according to the thinking. But this is just the beginning. Our ultimate goal is to create a system which will understand complex thought and can generate the corresponding image according to it. What I mean by that, if with the current technology that we have, you have to write out the prompt to get the desired result. With our technology, you just have to think about it and it will create create the image that you desire or that you want. How cool is that? And it will be done in no time as well. Well, deep dive into our journey and follow us along the way. Thank you so much and have a great day.",
+  "segments": [],
+  "timestamps": [
+    {
+      "word": "Hello",
+      "start_time": 1.36,
+      "end_time": 1.632,
+      "confidence": 0.96693
+    },
+    {
+      "word": "and",
+      "start_time": 1.656,
+      "end_time": 1.832,
+      "confidence": 0.97359
+    },
+    {
+      "word": "welcome",
+      "start_time": 1.856,
+      "end_time": 2.136,
+      "confidence": 0.998
+    },
+    {
+      "word": "to",
+      "start_time": 2.168,
+      "end_time": 2.312,
+      "confidence": 0.99869
+    },
+    {
+      "word": "our",
+      "start_time": 2.336,
+      "end_time": 2.52,
+      "confidence": 0.9949
+    },
+    {
+      "word": "groundbreaking",
+      "start_time": 2.56,
+      "end_time": 3.064,
+      "confidence": 0.94824
+    },
+    {
+      "word": "summer",
+      "start_time": 3.112,
+      "end_time": 3.416,
+      "confidence": 0.96634
+    },
+    {
+      "word": "project",
+      "start_time": 3.448,
+      "end_time": 3.784,
+      "confidence": 0.99728
+    },
+    {
+      "word": "where",
+      "start_time": 3.872,
+      "end_time": 4.12,
+      "confidence": 0.99621
+    },
+    {
+      "word": "technology",
+      "start_time": 4.16,
+      "end_time": 4.6,
+      "confidence": 0.99936
+    },
+    {
+      "word": "meets",
+      "start_time": 4.72,
+      "end_time": 5.048,
+      "confidence": 0.95544
+    },
+    {
+      "word": "the",
+      "start_time": 5.064,
+      "end_time": 5.192,
+      "confidence": 0.9931
+    },
+    {
+      "word": "power",
+      "start_time": 5.216,
+      "end_time": 5.4,
+      "confidence": 0.99869
+    },
+    {
+      "word": "of",
+      "start_time": 5.44,
+      "end_time": 5.64,
+      "confidence": 0.99465
+    },
+    {
+      "word": "mind.",
+      "start_time": 5.68,
+      "end_time": 6.26,
+      "confidence": 0.95888
+    },
+    {
+      "word": "Well",
+      "start_time": 6.56,
+      "end_time": 7.256,
+      "confidence": 0.95984
+    },
+    {
+      "word": "now",
+      "start_time": 7.408,
+      "end_time": 7.72,
+      "confidence": 0.99853
+    },
+    {
+      "word": "you",
+      "start_time": 7.76,
+      "end_time": 7.96,
+      "confidence": 0.99443
+    },
+    {
+      "word": "think",
+      "start_time": 8.0,
+      "end_time": 8.2,
+      "confidence": 0.98673
+    },
+    {
+      "word": "what",
+      "start_time": 8.24,
+      "end_time": 8.392,
+      "confidence": 0.99854
+    },
+    {
+      "word": "I",
+      "start_time": 8.416,
+      "end_time": 8.552,
+      "confidence": 0.98958
+    },
+    {
+      "word": "mean",
+      "start_time": 8.576,
+      "end_time": 8.76,
+      "confidence": 0.99806
+    },
+    {
+      "word": "by",
+      "start_time": 8.8,
+      "end_time": 8.952,
+      "confidence": 0.99907
+    },
+    {
+      "word": "that?",
+      "start_time": 8.976,
+      "end_time": 9.54,
+      "confidence": 0.99827
+    },
+    {
+      "word": "Well,",
+      "start_time": 9.84,
+      "end_time": 10.2,
+      "confidence": 0.97843
+    },
+    {
+      "word": "we",
+      "start_time": 10.24,
+      "end_time": 10.392,
+      "confidence": 0.99942
+    },
+    {
+      "word": "have",
+      "start_time": 10.416,
+      "end_time": 10.6,
+      "confidence": 0.9933
+    },
+    {
+      "word": "created",
+      "start_time": 10.64,
+      "end_time": 10.984,
+      "confidence": 0.99593
+    },
+    {
+      "word": "a",
+      "start_time": 11.032,
+      "end_time": 11.192,
+      "confidence": 0.95753
+    },
+    {
+      "word": "thing",
+      "start_time": 11.216,
+      "end_time": 11.688,
+      "confidence": 0.98623
+    },
+    {
+      "word": "by",
+      "start_time": 11.824,
+      "end_time": 12.12,
+      "confidence": 0.99047
+    },
+    {
+      "word": "which",
+      "start_time": 12.16,
+      "end_time": 12.36,
+      "confidence": 0.99891
+    },
+    {
+      "word": "you",
+      "start_time": 12.4,
+      "end_time": 12.6,
+      "confidence": 0.99868
+    },
+    {
+      "word": "can",
+      "start_time": 12.64,
+      "end_time": 12.792,
+      "confidence": 0.99849
+    },
+    {
+      "word": "control",
+      "start_time": 12.816,
+      "end_time": 13.048,
+      "confidence": 0.99965
+    },
+    {
+      "word": "the",
+      "start_time": 13.104,
+      "end_time": 13.32,
+      "confidence": 0.99593
+    },
+    {
+      "word": "lights",
+      "start_time": 13.36,
+      "end_time": 14.024,
+      "confidence": 0.95217
+    },
+    {
+      "word": "just",
+      "start_time": 14.152,
+      "end_time": 14.44,
+      "confidence": 0.99787
+    },
+    {
+      "word": "by",
+      "start_time": 14.48,
+      "end_time": 14.632,
+      "confidence": 0.99858
+    },
+    {
+      "word": "using",
+      "start_time": 14.656,
+      "end_time": 14.84,
+      "confidence": 0.99946
+    },
+    {
+      "word": "your",
+      "start_time": 14.88,
+      "end_time": 15.032,
+      "confidence": 0.99091
+    },
+    {
+      "word": "brain.",
+      "start_time": 15.056,
+      "end_time": 15.72,
+      "confidence": 0.99349
+    },
+    {
+      "word": "What",
+      "start_time": 15.88,
+      "end_time": 16.152,
+      "confidence": 0.94045
+    },
+    {
+      "word": "I",
+      "start_time": 16.176,
+      "end_time": 16.312,
+      "confidence": 0.94459
+    },
+    {
+      "word": "actually",
+      "start_time": 16.336,
+      "end_time": 16.616,
+      "confidence": 0.99531
+    },
+    {
+      "word": "mean,",
+      "start_time": 16.688,
+      "end_time": 17.352,
+      "confidence": 0.99013
+    },
+    {
+      "word": "have",
+      "start_time": 17.536,
+      "end_time": 17.88,
+      "confidence": 0.99893
+    },
+    {
+      "word": "you",
+      "start_time": 17.92,
+      "end_time": 18.072,
+      "confidence": 0.99953
+    },
+    {
+      "word": "ever",
+      "start_time": 18.096,
+      "end_time": 18.52,
+      "confidence": 0.99837
+    },
+    {
+      "word": "had",
+      "start_time": 18.64,
+      "end_time": 19.064,
+      "confidence": 0.88352
+    },
+    {
+      "word": "own",
+      "start_time": 19.152,
+      "end_time": 19.544,
+      "confidence": 0.51652
+    },
+    {
+      "word": "an",
+      "start_time": 19.632,
+      "end_time": 19.88,
+      "confidence": 0.78616
+    },
+    {
+      "word": "Alexa",
+      "start_time": 19.92,
+      "end_time": 20.424,
+      "confidence": 0.99719
+    },
+    {
+      "word": "where",
+      "start_time": 20.472,
+      "end_time": 20.632,
+      "confidence": 0.99248
+    },
+    {
+      "word": "you",
+      "start_time": 20.656,
+      "end_time": 20.744,
+      "confidence": 0.99394
+    },
+    {
+      "word": "have",
+      "start_time": 20.752,
+      "end_time": 20.872,
+      "confidence": 0.96808
+    },
+    {
+      "word": "to",
+      "start_time": 20.896,
+      "end_time": 20.984,
+      "confidence": 0.99628
+    },
+    {
+      "word": "say",
+      "start_time": 20.992,
+      "end_time": 21.112,
+      "confidence": 0.98819
+    },
+    {
+      "word": "like",
+      "start_time": 21.136,
+      "end_time": 21.32,
+      "confidence": 0.89083
+    },
+    {
+      "word": "Alexa,",
+      "start_time": 21.36,
+      "end_time": 21.784,
+      "confidence": 0.96845
+    },
+    {
+      "word": "turn",
+      "start_time": 21.832,
+      "end_time": 21.992,
+      "confidence": 0.99511
+    },
+    {
+      "word": "on",
+      "start_time": 22.016,
+      "end_time": 22.152,
+      "confidence": 0.9774
+    },
+    {
+      "word": "the",
+      "start_time": 22.176,
+      "end_time": 22.312,
+      "confidence": 0.99574
+    },
+    {
+      "word": "light",
+      "start_time": 22.336,
+      "end_time": 22.568,
+      "confidence": 0.99819
+    },
+    {
+      "word": "or",
+      "start_time": 22.624,
+      "end_time": 22.84,
+      "confidence": 0.99367
+    },
+    {
+      "word": "something.",
+      "start_time": 22.88,
+      "end_time": 23.46,
+      "confidence": 0.9995
+    },
+    {
+      "word": "But",
+      "start_time": 23.84,
+      "end_time": 24.152,
+      "confidence": 0.96693
+    },
+    {
+      "word": "you",
+      "start_time": 24.176,
+      "end_time": 24.264,
+      "confidence": 0.99774
+    },
+    {
+      "word": "don't",
+      "start_time": 24.272,
+      "end_time": 24.456,
+      "confidence": 0.9511
+    },
+    {
+      "word": "have",
+      "start_time": 24.488,
+      "end_time": 24.584,
+      "confidence": 0.9989
+    },
+    {
+      "word": "to",
+      "start_time": 24.592,
+      "end_time": 24.712,
+      "confidence": 0.99609
+    },
+    {
+      "word": "do",
+      "start_time": 24.736,
+      "end_time": 25.112,
+      "confidence": 0.98042
+    },
+    {
+      "word": "right",
+      "start_time": 25.216,
+      "end_time": 25.432,
+      "confidence": 0.99712
+    },
+    {
+      "word": "now,",
+      "start_time": 25.456,
+      "end_time": 25.976,
+      "confidence": 0.99736
+    },
+    {
+      "word": "now",
+      "start_time": 26.128,
+      "end_time": 26.392,
+      "confidence": 0.99998
+    },
+    {
+      "word": "you",
+      "start_time": 26.416,
+      "end_time": 26.552,
+      "confidence": 0.9989
+    },
+    {
+      "word": "can",
+      "start_time": 26.576,
+      "end_time": 26.712,
+      "confidence": 0.9897
+    },
+    {
+      "word": "just",
+      "start_time": 26.736,
+      "end_time": 26.872,
+      "confidence": 0.99649
+    },
+    {
+      "word": "think",
+      "start_time": 26.896,
+      "end_time": 27.032,
+      "confidence": 0.99916
+    },
+    {
+      "word": "of",
+      "start_time": 27.056,
+      "end_time": 27.192,
+      "confidence": 0.99506
+    },
+    {
+      "word": "it",
+      "start_time": 27.216,
+      "end_time": 27.544,
+      "confidence": 0.99324
+    },
+    {
+      "word": "and",
+      "start_time": 27.632,
+      "end_time": 28.312,
+      "confidence": 0.84497
+    },
+    {
+      "word": "the",
+      "start_time": 28.496,
+      "end_time": 28.792,
+      "confidence": 0.96442
+    },
+    {
+      "word": "light",
+      "start_time": 28.816,
+      "end_time": 29.0,
+      "confidence": 0.98625
+    },
+    {
+      "word": "will",
+      "start_time": 29.04,
+      "end_time": 29.192,
+      "confidence": 0.98695
+    },
+    {
+      "word": "turn",
+      "start_time": 29.216,
+      "end_time": 29.4,
+      "confidence": 0.99904
+    },
+    {
+      "word": "off.",
+      "start_time": 29.44,
+      "end_time": 30.02,
+      "confidence": 0.91146
+    },
+    {
+      "word": "But",
+      "start_time": 30.32,
+      "end_time": 30.776,
+      "confidence": 0.98369
+    },
+    {
+      "word": "first",
+      "start_time": 30.848,
+      "end_time": 31.368,
+      "confidence": 0.96222
+    },
+    {
+      "word": "let,",
+      "start_time": 31.504,
+      "end_time": 31.836,
+      "confidence": 0.56095
+    },
+    {
+      "word": "let",
+      "start_time": 31.888,
+      "end_time": 32.004,
+      "confidence": 0.71659
+    },
+    {
+      "word": "me",
+      "start_time": 32.012,
+      "end_time": 32.084,
+      "confidence": 0.99892
+    },
+    {
+      "word": "introduce",
+      "start_time": 32.092,
+      "end_time": 32.436,
+      "confidence": 0.99977
+    },
+    {
+      "word": "you",
+      "start_time": 32.468,
+      "end_time": 32.756,
+      "confidence": 0.99139
+    },
+    {
+      "word": "to",
+      "start_time": 32.828,
+      "end_time": 33.012,
+      "confidence": 0.99656
+    },
+    {
+      "word": "the",
+      "start_time": 33.036,
+      "end_time": 33.124,
+      "confidence": 0.99083
+    },
+    {
+      "word": "team",
+      "start_time": 33.132,
+      "end_time": 33.252,
+      "confidence": 0.99822
+    },
+    {
+      "word": "of",
+      "start_time": 33.276,
+      "end_time": 33.46,
+      "confidence": 0.99628
+    },
+    {
+      "word": "innovators",
+      "start_time": 33.5,
+      "end_time": 33.988,
+      "confidence": 0.58803
+    },
+    {
+      "word": "who",
+      "start_time": 34.084,
+      "end_time": 34.34,
+      "confidence": 0.99764
+    },
+    {
+      "word": "made",
+      "start_time": 34.38,
+      "end_time": 34.58,
+      "confidence": 0.98315
+    },
+    {
+      "word": "this",
+      "start_time": 34.62,
+      "end_time": 34.82,
+      "confidence": 0.99689
+    },
+    {
+      "word": "possible.",
+      "start_time": 34.86,
+      "end_time": 35.44,
+      "confidence": 0.99917
+    },
+    {
+      "word": "So",
+      "start_time": 40.38,
+      "end_time": 40.692,
+      "confidence": 0.90365
+    },
+    {
+      "word": "now",
+      "start_time": 40.716,
+      "end_time": 40.852,
+      "confidence": 0.99769
+    },
+    {
+      "word": "I'm",
+      "start_time": 40.876,
+      "end_time": 41.156,
+      "confidence": 0.49745
+    },
+    {
+      "word": "going",
+      "start_time": 41.188,
+      "end_time": 41.332,
+      "confidence": 0.99446
+    },
+    {
+      "word": "to",
+      "start_time": 41.356,
+      "end_time": 41.492,
+      "confidence": 0.99707
+    },
+    {
+      "word": "explain",
+      "start_time": 41.516,
+      "end_time": 41.844,
+      "confidence": 0.99844
+    },
+    {
+      "word": "you",
+      "start_time": 41.892,
+      "end_time": 42.1,
+      "confidence": 0.96304
+    },
+    {
+      "word": "how",
+      "start_time": 42.14,
+      "end_time": 42.292,
+      "confidence": 0.99782
+    },
+    {
+      "word": "the",
+      "start_time": 42.316,
+      "end_time": 42.452,
+      "confidence": 0.98211
+    },
+    {
+      "word": "system",
+      "start_time": 42.476,
+      "end_time": 42.756,
+      "confidence": 0.9992
+    },
+    {
+      "word": "works.",
+      "start_time": 42.828,
+      "end_time": 43.476,
+      "confidence": 0.79352
+    },
+    {
+      "word": "The",
+      "start_time": 43.588,
+      "end_time": 43.812,
+      "confidence": 0.99031
+    },
+    {
+      "word": "device",
+      "start_time": 43.836,
+      "end_time": 44.116,
+      "confidence": 0.99812
+    },
+    {
+      "word": "I'm",
+      "start_time": 44.148,
+      "end_time": 44.308,
+      "confidence": 0.5104
+    },
+    {
+      "word": "wearing",
+      "start_time": 44.324,
+      "end_time": 44.564,
+      "confidence": 0.76638
+    },
+    {
+      "word": "right",
+      "start_time": 44.612,
+      "end_time": 44.772,
+      "confidence": 0.96069
+    },
+    {
+      "word": "now",
+      "start_time": 44.796,
+      "end_time": 44.98,
+      "confidence": 0.99721
+    },
+    {
+      "word": "is",
+      "start_time": 45.02,
+      "end_time": 45.172,
+      "confidence": 0.9845
+    },
+    {
+      "word": "called",
+      "start_time": 45.196,
+      "end_time": 45.428,
+      "confidence": 0.98568
+    },
+    {
+      "word": "EEG",
+      "start_time": 45.484,
+      "end_time": 45.924,
+      "confidence": 0.84781
+    },
+    {
+      "word": "device.",
+      "start_time": 45.972,
+      "end_time": 46.548,
+      "confidence": 0.97767
+    },
+    {
+      "word": "This",
+      "start_time": 46.644,
+      "end_time": 46.9,
+      "confidence": 0.99673
+    },
+    {
+      "word": "device",
+      "start_time": 46.94,
+      "end_time": 47.236,
+      "confidence": 0.99881
+    },
+    {
+      "word": "sends",
+      "start_time": 47.268,
+      "end_time": 47.556,
+      "confidence": 0.76904
+    },
+    {
+      "word": "a",
+      "start_time": 47.588,
+      "end_time": 47.732,
+      "confidence": 0.98509
+    },
+    {
+      "word": "signal",
+      "start_time": 47.756,
+      "end_time": 48.164,
+      "confidence": 0.9992
+    },
+    {
+      "word": "to",
+      "start_time": 48.212,
+      "end_time": 48.42,
+      "confidence": 0.99666
+    },
+    {
+      "word": "our",
+      "start_time": 48.46,
+      "end_time": 48.66,
+      "confidence": 0.70997
+    },
+    {
+      "word": "processing",
+      "start_time": 48.7,
+      "end_time": 49.156,
+      "confidence": 0.9964
+    },
+    {
+      "word": "unit",
+      "start_time": 49.188,
+      "end_time": 49.668,
+      "confidence": 0.99653
+    },
+    {
+      "word": "and",
+      "start_time": 49.764,
+      "end_time": 50.02,
+      "confidence": 0.98613
+    },
+    {
+      "word": "our",
+      "start_time": 50.06,
+      "end_time": 50.26,
+      "confidence": 0.99214
+    },
+    {
+      "word": "processing",
+      "start_time": 50.3,
+      "end_time": 50.676,
+      "confidence": 0.99263
+    },
+    {
+      "word": "unit",
+      "start_time": 50.708,
+      "end_time": 50.948,
+      "confidence": 0.99422
+    },
+    {
+      "word": "is",
+      "start_time": 50.964,
+      "end_time": 51.092,
+      "confidence": 0.9971
+    },
+    {
+      "word": "connected",
+      "start_time": 51.116,
+      "end_time": 51.412,
+      "confidence": 0.67618
+    },
+    {
+      "word": "to",
+      "start_time": 51.476,
+      "end_time": 51.652,
+      "confidence": 0.9985
+    },
+    {
+      "word": "our",
+      "start_time": 51.676,
+      "end_time": 51.812,
+      "confidence": 0.98382
+    },
+    {
+      "word": "code.",
+      "start_time": 51.836,
+      "end_time": 52.484,
+      "confidence": 0.5254
+    },
+    {
+      "word": "Our",
+      "start_time": 52.612,
+      "end_time": 52.948,
+      "confidence": 0.99551
+    },
+    {
+      "word": "code",
+      "start_time": 53.004,
+      "end_time": 53.46,
+      "confidence": 0.93742
+    },
+    {
+      "word": "analyzes",
+      "start_time": 53.54,
+      "end_time": 54.036,
+      "confidence": 0.47652
+    },
+    {
+      "word": "the",
+      "start_time": 54.068,
+      "end_time": 54.164,
+      "confidence": 0.99464
+    },
+    {
+      "word": "intent",
+      "start_time": 54.172,
+      "end_time": 54.484,
+      "confidence": 0.9634
+    },
+    {
+      "word": "of",
+      "start_time": 54.532,
+      "end_time": 54.644,
+      "confidence": 0.99926
+    },
+    {
+      "word": "a",
+      "start_time": 54.652,
+      "end_time": 54.772,
+      "confidence": 0.977
+    },
+    {
+      "word": "person",
+      "start_time": 54.796,
+      "end_time": 55.22,
+      "confidence": 0.99916
+    },
+    {
+      "word": "and",
+      "start_time": 55.34,
+      "end_time": 55.62,
+      "confidence": 0.99024
+    },
+    {
+      "word": "according",
+      "start_time": 55.66,
+      "end_time": 56.004,
+      "confidence": 0.99973
+    },
+    {
+      "word": "to",
+      "start_time": 56.092,
+      "end_time": 56.244,
+      "confidence": 0.99555
+    },
+    {
+      "word": "that",
+      "start_time": 56.252,
+      "end_time": 56.516,
+      "confidence": 0.9739
+    },
+    {
+      "word": "it",
+      "start_time": 56.588,
+      "end_time": 56.82,
+      "confidence": 0.98726
+    },
+    {
+      "word": "turns",
+      "start_time": 56.86,
+      "end_time": 57.204,
+      "confidence": 0.98266
+    },
+    {
+      "word": "on",
+      "start_time": 57.252,
+      "end_time": 57.46,
+      "confidence": 0.99842
+    },
+    {
+      "word": "and",
+      "start_time": 57.5,
+      "end_time": 57.7,
+      "confidence": 0.99224
+    },
+    {
+      "word": "turns",
+      "start_time": 57.74,
+      "end_time": 57.988,
+      "confidence": 0.5845
+    },
+    {
+      "word": "off",
+      "start_time": 58.004,
+      "end_time": 58.18,
+      "confidence": 0.94088
+    },
+    {
+      "word": "the",
+      "start_time": 58.22,
+      "end_time": 58.372,
+      "confidence": 0.98699
+    },
+    {
+      "word": "light.",
+      "start_time": 58.396,
+      "end_time": 58.96,
+      "confidence": 0.9983
+    },
+    {
+      "word": "So",
+      "start_time": 59.66,
+      "end_time": 60.02,
+      "confidence": 0.97645
+    },
+    {
+      "word": "at",
+      "start_time": 60.06,
+      "end_time": 60.212,
+      "confidence": 0.99614
+    },
+    {
+      "word": "the",
+      "start_time": 60.236,
+      "end_time": 60.372,
+      "confidence": 0.99566
+    },
+    {
+      "word": "heart",
+      "start_time": 60.396,
+      "end_time": 60.532,
+      "confidence": 0.9989
+    },
+    {
+      "word": "of",
+      "start_time": 60.556,
+      "end_time": 60.692,
+      "confidence": 0.99732
+    },
+    {
+      "word": "our",
+      "start_time": 60.716,
+      "end_time": 60.852,
+      "confidence": 0.74605
+    },
+    {
+      "word": "project",
+      "start_time": 60.876,
+      "end_time": 61.156,
+      "confidence": 0.99903
+    },
+    {
+      "word": "is",
+      "start_time": 61.228,
+      "end_time": 61.412,
+      "confidence": 0.9935
+    },
+    {
+      "word": "an",
+      "start_time": 61.436,
+      "end_time": 61.572,
+      "confidence": 0.96228
+    },
+    {
+      "word": "EEG",
+      "start_time": 61.596,
+      "end_time": 62.052,
+      "confidence": 0.81168
+    },
+    {
+      "word": "device",
+      "start_time": 62.116,
+      "end_time": 62.58,
+      "confidence": 0.99826
+    },
+    {
+      "word": "that",
+      "start_time": 62.66,
+      "end_time": 62.852,
+      "confidence": 0.99604
+    },
+    {
+      "word": "detects",
+      "start_time": 62.876,
+      "end_time": 63.188,
+      "confidence": 0.9907
+    },
+    {
+      "word": "the",
+      "start_time": 63.204,
+      "end_time": 63.332,
+      "confidence": 0.97695
+    },
+    {
+      "word": "brain",
+      "start_time": 63.356,
+      "end_time": 63.508,
+      "confidence": 0.98457
+    },
+    {
+      "word": "wave",
+      "start_time": 63.524,
+      "end_time": 63.896,
+      "confidence": 0.35918
+    },
+    {
+      "word": "and",
+      "start_time": 63.988,
+      "end_time": 64.192,
+      "confidence": 0.93176
+    },
+    {
+      "word": "converts",
+      "start_time": 64.216,
+      "end_time": 64.608,
+      "confidence": 0.9264
+    },
+    {
+      "word": "that",
+      "start_time": 64.624,
+      "end_time": 64.752,
+      "confidence": 0.9886
+    },
+    {
+      "word": "into",
+      "start_time": 64.776,
+      "end_time": 64.96,
+      "confidence": 0.9947
+    },
+    {
+      "word": "an",
+      "start_time": 65.0,
+      "end_time": 65.152,
+      "confidence": 0.861
+    },
+    {
+      "word": "actionable",
+      "start_time": 65.176,
+      "end_time": 65.584,
+      "confidence": 0.99605
+    },
+    {
+      "word": "data.",
+      "start_time": 65.632,
+      "end_time": 66.22,
+      "confidence": 0.98031
+    },
+    {
+      "word": "Let",
+      "start_time": 66.6,
+      "end_time": 66.912,
+      "confidence": 0.98681
+    },
+    {
+      "word": "us",
+      "start_time": 66.936,
+      "end_time": 67.072,
+      "confidence": 0.9919
+    },
+    {
+      "word": "demonstrate",
+      "start_time": 67.096,
+      "end_time": 67.76,
+      "confidence": 0.72992
+    },
+    {
+      "word": "our",
+      "start_time": 67.84,
+      "end_time": 68.08,
+      "confidence": 0.98485
+    },
+    {
+      "word": "first",
+      "start_time": 68.12,
+      "end_time": 68.32,
+      "confidence": 0.99948
+    },
+    {
+      "word": "stage",
+      "start_time": 68.36,
+      "end_time": 68.576,
+      "confidence": 0.99642
+    },
+    {
+      "word": "of",
+      "start_time": 68.608,
+      "end_time": 68.752,
+      "confidence": 0.99473
+    },
+    {
+      "word": "our",
+      "start_time": 68.776,
+      "end_time": 68.912,
+      "confidence": 0.73538
+    },
+    {
+      "word": "project.",
+      "start_time": 68.936,
+      "end_time": 69.5,
+      "confidence": 0.99841
+    },
+    {
+      "word": "So",
+      "start_time": 70.04,
+      "end_time": 70.352,
+      "confidence": 0.92366
+    },
+    {
+      "word": "now",
+      "start_time": 70.376,
+      "end_time": 70.512,
+      "confidence": 0.99807
+    },
+    {
+      "word": "I'm",
+      "start_time": 70.536,
+      "end_time": 70.688,
+      "confidence": 0.72018
+    },
+    {
+      "word": "going",
+      "start_time": 70.704,
+      "end_time": 70.832,
+      "confidence": 0.99835
+    },
+    {
+      "word": "to",
+      "start_time": 70.856,
+      "end_time": 70.992,
+      "confidence": 0.99801
+    },
+    {
+      "word": "show",
+      "start_time": 71.016,
+      "end_time": 71.152,
+      "confidence": 0.99984
+    },
+    {
+      "word": "you",
+      "start_time": 71.176,
+      "end_time": 71.36,
+      "confidence": 0.99581
+    },
+    {
+      "word": "how",
+      "start_time": 71.4,
+      "end_time": 71.552,
+      "confidence": 0.99938
+    },
+    {
+      "word": "the",
+      "start_time": 71.576,
+      "end_time": 71.76,
+      "confidence": 0.99377
+    },
+    {
+      "word": "system",
+      "start_time": 71.8,
+      "end_time": 72.0,
+      "confidence": 0.99958
+    },
+    {
+      "word": "is",
+      "start_time": 72.04,
+      "end_time": 72.192,
+      "confidence": 0.99702
+    },
+    {
+      "word": "working.",
+      "start_time": 72.216,
+      "end_time": 72.784,
+      "confidence": 0.99942
+    },
+    {
+      "word": "Here",
+      "start_time": 72.952,
+      "end_time": 73.232,
+      "confidence": 0.99235
+    },
+    {
+      "word": "you",
+      "start_time": 73.256,
+      "end_time": 73.344,
+      "confidence": 0.99542
+    },
+    {
+      "word": "can",
+      "start_time": 73.352,
+      "end_time": 73.472,
+      "confidence": 0.99051
+    },
+    {
+      "word": "see",
+      "start_time": 73.496,
+      "end_time": 73.632,
+      "confidence": 0.98729
+    },
+    {
+      "word": "my",
+      "start_time": 73.656,
+      "end_time": 73.84,
+      "confidence": 0.99784
+    },
+    {
+      "word": "friend",
+      "start_time": 73.88,
+      "end_time": 74.08,
+      "confidence": 0.98744
+    },
+    {
+      "word": "is",
+      "start_time": 74.12,
+      "end_time": 74.32,
+      "confidence": 0.66144
+    },
+    {
+      "word": "bringing",
+      "start_time": 74.36,
+      "end_time": 74.528,
+      "confidence": 0.27272
+    },
+    {
+      "word": "the",
+      "start_time": 74.544,
+      "end_time": 74.672,
+      "confidence": 0.96607
+    },
+    {
+      "word": "EEG",
+      "start_time": 74.696,
+      "end_time": 75.104,
+      "confidence": 0.66189
+    },
+    {
+      "word": "device",
+      "start_time": 75.152,
+      "end_time": 75.792,
+      "confidence": 0.9865
+    },
+    {
+      "word": "and",
+      "start_time": 75.936,
+      "end_time": 76.192,
+      "confidence": 0.98357
+    },
+    {
+      "word": "this",
+      "start_time": 76.216,
+      "end_time": 76.4,
+      "confidence": 0.99447
+    },
+    {
+      "word": "device",
+      "start_time": 76.44,
+      "end_time": 76.688,
+      "confidence": 0.99503
+    },
+    {
+      "word": "is",
+      "start_time": 76.704,
+      "end_time": 76.832,
+      "confidence": 0.97255
+    },
+    {
+      "word": "capturing",
+      "start_time": 76.856,
+      "end_time": 77.184,
+      "confidence": 0.77186
+    },
+    {
+      "word": "the",
+      "start_time": 77.232,
+      "end_time": 77.392,
+      "confidence": 0.98693
+    },
+    {
+      "word": "brain",
+      "start_time": 77.416,
+      "end_time": 77.616,
+      "confidence": 0.86245
+    },
+    {
+      "word": "waves.",
+      "start_time": 77.648,
+      "end_time": 78.272,
+      "confidence": 0.74373
+    },
+    {
+      "word": "So",
+      "start_time": 78.416,
+      "end_time": 78.624,
+      "confidence": 0.96225
+    },
+    {
+      "word": "if",
+      "start_time": 78.632,
+      "end_time": 78.752,
+      "confidence": 0.99786
+    },
+    {
+      "word": "the",
+      "start_time": 78.776,
+      "end_time": 78.912,
+      "confidence": 0.99102
+    },
+    {
+      "word": "brain",
+      "start_time": 78.936,
+      "end_time": 79.136,
+      "confidence": 0.75765
+    },
+    {
+      "word": "waves",
+      "start_time": 79.168,
+      "end_time": 79.424,
+      "confidence": 0.85182
+    },
+    {
+      "word": "reach",
+      "start_time": 79.472,
+      "end_time": 79.728,
+      "confidence": 0.9926
+    },
+    {
+      "word": "certain",
+      "start_time": 79.784,
+      "end_time": 80.0,
+      "confidence": 0.99481
+    },
+    {
+      "word": "level,",
+      "start_time": 80.04,
+      "end_time": 80.336,
+      "confidence": 0.96805
+    },
+    {
+      "word": "the",
+      "start_time": 80.408,
+      "end_time": 80.592,
+      "confidence": 0.99686
+    },
+    {
+      "word": "light",
+      "start_time": 80.616,
+      "end_time": 80.752,
+      "confidence": 0.9982
+    },
+    {
+      "word": "will",
+      "start_time": 80.776,
+      "end_time": 80.912,
+      "confidence": 0.99685
+    },
+    {
+      "word": "turn",
+      "start_time": 80.936,
+      "end_time": 81.12,
+      "confidence": 0.99882
+    },
+    {
+      "word": "on",
+      "start_time": 81.16,
+      "end_time": 81.408,
+      "confidence": 0.99701
+    },
+    {
+      "word": "and",
+      "start_time": 81.464,
+      "end_time": 81.632,
+      "confidence": 0.99065
+    },
+    {
+      "word": "light",
+      "start_time": 81.656,
+      "end_time": 81.84,
+      "confidence": 0.94197
+    },
+    {
+      "word": "will",
+      "start_time": 81.88,
+      "end_time": 82.032,
+      "confidence": 0.98919
+    },
+    {
+      "word": "turn",
+      "start_time": 82.056,
+      "end_time": 82.24,
+      "confidence": 0.99769
+    },
+    {
+      "word": "off.",
+      "start_time": 82.28,
+      "end_time": 82.86,
+      "confidence": 0.99889
+    },
+    {
+      "word": "So",
+      "start_time": 83.32,
+      "end_time": 83.632,
+      "confidence": 0.95182
+    },
+    {
+      "word": "here",
+      "start_time": 83.656,
+      "end_time": 83.792,
+      "confidence": 0.99528
+    },
+    {
+      "word": "you",
+      "start_time": 83.816,
+      "end_time": 83.904,
+      "confidence": 0.99777
+    },
+    {
+      "word": "can",
+      "start_time": 83.912,
+      "end_time": 83.984,
+      "confidence": 0.99702
+    },
+    {
+      "word": "see",
+      "start_time": 83.992,
+      "end_time": 84.112,
+      "confidence": 0.99866
+    },
+    {
+      "word": "our",
+      "start_time": 84.136,
+      "end_time": 84.32,
+      "confidence": 0.94609
+    },
+    {
+      "word": "code.",
+      "start_time": 84.36,
+      "end_time": 84.672,
+      "confidence": 0.72839
+    },
+    {
+      "word": "Let",
+      "start_time": 84.736,
+      "end_time": 84.912,
+      "confidence": 0.99923
+    },
+    {
+      "word": "me",
+      "start_time": 84.936,
+      "end_time": 85.072,
+      "confidence": 0.99846
+    },
+    {
+      "word": "run",
+      "start_time": 85.096,
+      "end_time": 85.232,
+      "confidence": 0.99111
+    },
+    {
+      "word": "my",
+      "start_time": 85.256,
+      "end_time": 85.392,
+      "confidence": 0.99611
+    },
+    {
+      "word": "code.",
+      "start_time": 85.416,
+      "end_time": 86.1,
+      "confidence": 0.99471
+    },
+    {
+      "word": "Now",
+      "start_time": 86.52,
+      "end_time": 86.832,
+      "confidence": 0.99661
+    },
+    {
+      "word": "the",
+      "start_time": 86.856,
+      "end_time": 86.992,
+      "confidence": 0.99687
+    },
+    {
+      "word": "system",
+      "start_time": 87.016,
+      "end_time": 87.248,
+      "confidence": 0.99904
+    },
+    {
+      "word": "is",
+      "start_time": 87.304,
+      "end_time": 87.472,
+      "confidence": 0.74769
+    },
+    {
+      "word": "started,",
+      "start_time": 87.496,
+      "end_time": 87.968,
+      "confidence": 0.99525
+    },
+    {
+      "word": "so",
+      "start_time": 88.104,
+      "end_time": 88.352,
+      "confidence": 0.97304
+    },
+    {
+      "word": "I",
+      "start_time": 88.376,
+      "end_time": 88.464,
+      "confidence": 0.99865
+    },
+    {
+      "word": "will",
+      "start_time": 88.472,
+      "end_time": 88.592,
+      "confidence": 0.89519
+    },
+    {
+      "word": "ask",
+      "start_time": 88.616,
+      "end_time": 88.8,
+      "confidence": 0.99805
+    },
+    {
+      "word": "my",
+      "start_time": 88.84,
+      "end_time": 88.992,
+      "confidence": 0.98992
+    },
+    {
+      "word": "friend",
+      "start_time": 89.016,
+      "end_time": 89.296,
+      "confidence": 0.82751
+    },
+    {
+      "word": "to",
+      "start_time": 89.368,
+      "end_time": 89.648,
+      "confidence": 0.99304
+    },
+    {
+      "word": "start",
+      "start_time": 89.704,
+      "end_time": 89.968,
+      "confidence": 0.99871
+    },
+    {
+      "word": "thinking",
+      "start_time": 90.024,
+      "end_time": 90.624,
+      "confidence": 0.59212
+    },
+    {
+      "word": "so",
+      "start_time": 90.752,
+      "end_time": 90.992,
+      "confidence": 0.99462
+    },
+    {
+      "word": "that",
+      "start_time": 91.016,
+      "end_time": 91.152,
+      "confidence": 0.83921
+    },
+    {
+      "word": "light",
+      "start_time": 91.176,
+      "end_time": 91.36,
+      "confidence": 0.9763
+    },
+    {
+      "word": "can",
+      "start_time": 91.4,
+      "end_time": 91.6,
+      "confidence": 0.73466
+    },
+    {
+      "word": "turn",
+      "start_time": 91.64,
+      "end_time": 91.888,
+      "confidence": 0.99918
+    },
+    {
+      "word": "on.",
+      "start_time": 91.944,
+      "end_time": 92.54,
+      "confidence": 0.99798
+    },
+    {
+      "word": "So",
+      "start_time": 93.48,
+      "end_time": 93.792,
+      "confidence": 0.91346
+    },
+    {
+      "word": "here",
+      "start_time": 93.816,
+      "end_time": 93.952,
+      "confidence": 0.94782
+    },
+    {
+      "word": "you",
+      "start_time": 93.976,
+      "end_time": 94.112,
+      "confidence": 0.99635
+    },
+    {
+      "word": "can",
+      "start_time": 94.136,
+      "end_time": 94.272,
+      "confidence": 0.99553
+    },
+    {
+      "word": "see",
+      "start_time": 94.296,
+      "end_time": 94.48,
+      "confidence": 0.99422
+    },
+    {
+      "word": "the",
+      "start_time": 94.52,
+      "end_time": 94.672,
+      "confidence": 0.98892
+    },
+    {
+      "word": "light",
+      "start_time": 94.696,
+      "end_time": 94.88,
+      "confidence": 0.9929
+    },
+    {
+      "word": "is",
+      "start_time": 94.92,
+      "end_time": 95.072,
+      "confidence": 0.9887
+    },
+    {
+      "word": "on.",
+      "start_time": 95.096,
+      "end_time": 95.652,
+      "confidence": 0.99494
+    },
+    {
+      "word": "Now",
+      "start_time": 95.816,
+      "end_time": 96.092,
+      "confidence": 0.98088
+    },
+    {
+      "word": "I",
+      "start_time": 96.116,
+      "end_time": 96.252,
+      "confidence": 0.9948
+    },
+    {
+      "word": "will",
+      "start_time": 96.276,
+      "end_time": 96.412,
+      "confidence": 0.93821
+    },
+    {
+      "word": "ask",
+      "start_time": 96.436,
+      "end_time": 96.62,
+      "confidence": 0.99812
+    },
+    {
+      "word": "my",
+      "start_time": 96.66,
+      "end_time": 96.812,
+      "confidence": 0.9973
+    },
+    {
+      "word": "friend",
+      "start_time": 96.836,
+      "end_time": 97.02,
+      "confidence": 0.96339
+    },
+    {
+      "word": "to",
+      "start_time": 97.06,
+      "end_time": 97.212,
+      "confidence": 0.99451
+    },
+    {
+      "word": "think",
+      "start_time": 97.236,
+      "end_time": 97.516,
+      "confidence": 0.99802
+    },
+    {
+      "word": "so",
+      "start_time": 97.588,
+      "end_time": 97.772,
+      "confidence": 0.99229
+    },
+    {
+      "word": "that",
+      "start_time": 97.796,
+      "end_time": 97.932,
+      "confidence": 0.96519
+    },
+    {
+      "word": "light",
+      "start_time": 97.956,
+      "end_time": 98.14,
+      "confidence": 0.99479
+    },
+    {
+      "word": "can",
+      "start_time": 98.18,
+      "end_time": 98.332,
+      "confidence": 0.98672
+    },
+    {
+      "word": "turn",
+      "start_time": 98.356,
+      "end_time": 98.54,
+      "confidence": 0.99686
+    },
+    {
+      "word": "off.",
+      "start_time": 98.58,
+      "end_time": 99.16,
+      "confidence": 0.99253
+    },
+    {
+      "word": "Here",
+      "start_time": 99.86,
+      "end_time": 100.172,
+      "confidence": 0.99437
+    },
+    {
+      "word": "you",
+      "start_time": 100.196,
+      "end_time": 100.332,
+      "confidence": 0.99682
+    },
+    {
+      "word": "can",
+      "start_time": 100.356,
+      "end_time": 100.444,
+      "confidence": 0.99773
+    },
+    {
+      "word": "see",
+      "start_time": 100.452,
+      "end_time": 100.62,
+      "confidence": 0.99702
+    },
+    {
+      "word": "light",
+      "start_time": 100.66,
+      "end_time": 100.86,
+      "confidence": 0.99033
+    },
+    {
+      "word": "is",
+      "start_time": 100.9,
+      "end_time": 101.052,
+      "confidence": 0.98809
+    },
+    {
+      "word": "turning",
+      "start_time": 101.076,
+      "end_time": 101.356,
+      "confidence": 0.99828
+    },
+    {
+      "word": "on",
+      "start_time": 101.388,
+      "end_time": 101.628,
+      "confidence": 0.9981
+    },
+    {
+      "word": "and",
+      "start_time": 101.684,
+      "end_time": 101.852,
+      "confidence": 0.98903
+    },
+    {
+      "word": "turning",
+      "start_time": 101.876,
+      "end_time": 102.156,
+      "confidence": 0.99436
+    },
+    {
+      "word": "off.",
+      "start_time": 102.188,
+      "end_time": 102.62,
+      "confidence": 0.98945
+    },
+    {
+      "word": "And",
+      "start_time": 102.74,
+      "end_time": 102.972,
+      "confidence": 0.92728
+    },
+    {
+      "word": "in",
+      "start_time": 102.996,
+      "end_time": 103.084,
+      "confidence": 0.99741
+    },
+    {
+      "word": "the",
+      "start_time": 103.092,
+      "end_time": 103.212,
+      "confidence": 0.99099
+    },
+    {
+      "word": "code",
+      "start_time": 103.236,
+      "end_time": 103.436,
+      "confidence": 0.64818
+    },
+    {
+      "word": "as",
+      "start_time": 103.468,
+      "end_time": 103.66,
+      "confidence": 0.98246
+    },
+    {
+      "word": "well,",
+      "start_time": 103.7,
+      "end_time": 103.9,
+      "confidence": 0.99807
+    },
+    {
+      "word": "you",
+      "start_time": 103.94,
+      "end_time": 104.092,
+      "confidence": 0.99371
+    },
+    {
+      "word": "can",
+      "start_time": 104.116,
+      "end_time": 104.252,
+      "confidence": 0.99566
+    },
+    {
+      "word": "see",
+      "start_time": 104.276,
+      "end_time": 104.508,
+      "confidence": 0.99313
+    },
+    {
+      "word": "light",
+      "start_time": 104.564,
+      "end_time": 104.828,
+      "confidence": 0.99428
+    },
+    {
+      "word": "turn",
+      "start_time": 104.884,
+      "end_time": 105.148,
+      "confidence": 0.99813
+    },
+    {
+      "word": "off",
+      "start_time": 105.204,
+      "end_time": 105.372,
+      "confidence": 0.98648
+    },
+    {
+      "word": "and",
+      "start_time": 105.396,
+      "end_time": 105.58,
+      "confidence": 0.97596
+    },
+    {
+      "word": "light",
+      "start_time": 105.62,
+      "end_time": 105.82,
+      "confidence": 0.96545
+    },
+    {
+      "word": "turn",
+      "start_time": 105.86,
+      "end_time": 106.06,
+      "confidence": 0.97688
+    },
+    {
+      "word": "on",
+      "start_time": 106.1,
+      "end_time": 106.444,
+      "confidence": 0.9977
+    },
+    {
+      "word": "according",
+      "start_time": 106.532,
+      "end_time": 106.828,
+      "confidence": 0.98972
+    },
+    {
+      "word": "to",
+      "start_time": 106.884,
+      "end_time": 107.052,
+      "confidence": 0.99716
+    },
+    {
+      "word": "the",
+      "start_time": 107.076,
+      "end_time": 107.212,
+      "confidence": 0.93895
+    },
+    {
+      "word": "thinking.",
+      "start_time": 107.236,
+      "end_time": 107.996,
+      "confidence": 0.993
+    },
+    {
+      "word": "But",
+      "start_time": 108.188,
+      "end_time": 108.636,
+      "confidence": 0.97538
+    },
+    {
+      "word": "this",
+      "start_time": 108.708,
+      "end_time": 108.892,
+      "confidence": 0.99592
+    },
+    {
+      "word": "is",
+      "start_time": 108.916,
+      "end_time": 109.052,
+      "confidence": 0.9914
+    },
+    {
+      "word": "just",
+      "start_time": 109.076,
+      "end_time": 109.212,
+      "confidence": 0.99164
+    },
+    {
+      "word": "the",
+      "start_time": 109.236,
+      "end_time": 109.372,
+      "confidence": 0.97922
+    },
+    {
+      "word": "beginning.",
+      "start_time": 109.396,
+      "end_time": 109.724,
+      "confidence": 0.89437
+    },
+    {
+      "word": "Our",
+      "start_time": 109.772,
+      "end_time": 109.932,
+      "confidence": 0.9917
+    },
+    {
+      "word": "ultimate",
+      "start_time": 109.956,
+      "end_time": 110.284,
+      "confidence": 0.9975
+    },
+    {
+      "word": "goal",
+      "start_time": 110.332,
+      "end_time": 110.652,
+      "confidence": 0.93835
+    },
+    {
+      "word": "is",
+      "start_time": 110.716,
+      "end_time": 110.892,
+      "confidence": 0.99677
+    },
+    {
+      "word": "to",
+      "start_time": 110.916,
+      "end_time": 111.052,
+      "confidence": 0.99299
+    },
+    {
+      "word": "create",
+      "start_time": 111.076,
+      "end_time": 111.26,
+      "confidence": 0.99885
+    },
+    {
+      "word": "a",
+      "start_time": 111.3,
+      "end_time": 111.452,
+      "confidence": 0.99512
+    },
+    {
+      "word": "system",
+      "start_time": 111.476,
+      "end_time": 111.756,
+      "confidence": 0.99954
+    },
+    {
+      "word": "which",
+      "start_time": 111.828,
+      "end_time": 112.012,
+      "confidence": 0.99055
+    },
+    {
+      "word": "will",
+      "start_time": 112.036,
+      "end_time": 112.22,
+      "confidence": 0.56259
+    },
+    {
+      "word": "understand",
+      "start_time": 112.26,
+      "end_time": 112.604,
+      "confidence": 0.99274
+    },
+    {
+      "word": "complex",
+      "start_time": 112.692,
+      "end_time": 113.132,
+      "confidence": 0.99478
+    },
+    {
+      "word": "thought",
+      "start_time": 113.196,
+      "end_time": 113.516,
+      "confidence": 0.99069
+    },
+    {
+      "word": "and",
+      "start_time": 113.588,
+      "end_time": 114.108,
+      "confidence": 0.99331
+    },
+    {
+      "word": "can",
+      "start_time": 114.244,
+      "end_time": 114.54,
+      "confidence": 0.9863
+    },
+    {
+      "word": "generate",
+      "start_time": 114.58,
+      "end_time": 114.876,
+      "confidence": 0.92561
+    },
+    {
+      "word": "the",
+      "start_time": 114.908,
+      "end_time": 115.052,
+      "confidence": 0.98235
+    },
+    {
+      "word": "corresponding",
+      "start_time": 115.076,
+      "end_time": 115.596,
+      "confidence": 0.96728
+    },
+    {
+      "word": "image",
+      "start_time": 115.628,
+      "end_time": 115.916,
+      "confidence": 0.96594
+    },
+    {
+      "word": "according",
+      "start_time": 115.948,
+      "end_time": 116.236,
+      "confidence": 0.9947
+    },
+    {
+      "word": "to",
+      "start_time": 116.308,
+      "end_time": 116.444,
+      "confidence": 0.99713
+    },
+    {
+      "word": "it.",
+      "start_time": 116.452,
+      "end_time": 116.908,
+      "confidence": 0.99663
+    },
+    {
+      "word": "What",
+      "start_time": 117.044,
+      "end_time": 117.34,
+      "confidence": 0.99783
+    },
+    {
+      "word": "I",
+      "start_time": 117.38,
+      "end_time": 117.484,
+      "confidence": 0.99307
+    },
+    {
+      "word": "mean",
+      "start_time": 117.492,
+      "end_time": 117.612,
+      "confidence": 0.99863
+    },
+    {
+      "word": "by",
+      "start_time": 117.636,
+      "end_time": 117.82,
+      "confidence": 0.99812
+    },
+    {
+      "word": "that,",
+      "start_time": 117.86,
+      "end_time": 118.44,
+      "confidence": 0.97203
+    },
+    {
+      "word": "if",
+      "start_time": 118.74,
+      "end_time": 119.292,
+      "confidence": 0.65806
+    },
+    {
+      "word": "with",
+      "start_time": 119.396,
+      "end_time": 119.66,
+      "confidence": 0.98722
+    },
+    {
+      "word": "the",
+      "start_time": 119.7,
+      "end_time": 119.804,
+      "confidence": 0.99245
+    },
+    {
+      "word": "current",
+      "start_time": 119.812,
+      "end_time": 119.98,
+      "confidence": 0.99355
+    },
+    {
+      "word": "technology",
+      "start_time": 120.02,
+      "end_time": 120.316,
+      "confidence": 0.99622
+    },
+    {
+      "word": "that",
+      "start_time": 120.388,
+      "end_time": 120.572,
+      "confidence": 0.98283
+    },
+    {
+      "word": "we",
+      "start_time": 120.596,
+      "end_time": 120.732,
+      "confidence": 0.98025
+    },
+    {
+      "word": "have,",
+      "start_time": 120.756,
+      "end_time": 120.988,
+      "confidence": 0.99664
+    },
+    {
+      "word": "you",
+      "start_time": 121.044,
+      "end_time": 121.26,
+      "confidence": 0.99111
+    },
+    {
+      "word": "have",
+      "start_time": 121.3,
+      "end_time": 121.5,
+      "confidence": 0.99753
+    },
+    {
+      "word": "to",
+      "start_time": 121.54,
+      "end_time": 121.884,
+      "confidence": 0.9963
+    },
+    {
+      "word": "write",
+      "start_time": 121.972,
+      "end_time": 122.236,
+      "confidence": 0.99682
+    },
+    {
+      "word": "out",
+      "start_time": 122.268,
+      "end_time": 122.412,
+      "confidence": 0.98658
+    },
+    {
+      "word": "the",
+      "start_time": 122.436,
+      "end_time": 122.62,
+      "confidence": 0.98772
+    },
+    {
+      "word": "prompt",
+      "start_time": 122.66,
+      "end_time": 122.924,
+      "confidence": 0.81136
+    },
+    {
+      "word": "to",
+      "start_time": 122.972,
+      "end_time": 123.084,
+      "confidence": 0.9969
+    },
+    {
+      "word": "get",
+      "start_time": 123.092,
+      "end_time": 123.212,
+      "confidence": 0.99863
+    },
+    {
+      "word": "the",
+      "start_time": 123.236,
+      "end_time": 123.372,
+      "confidence": 0.98937
+    },
+    {
+      "word": "desired",
+      "start_time": 123.396,
+      "end_time": 123.644,
+      "confidence": 0.79052
+    },
+    {
+      "word": "result.",
+      "start_time": 123.692,
+      "end_time": 124.14,
+      "confidence": 0.97639
+    },
+    {
+      "word": "With",
+      "start_time": 124.26,
+      "end_time": 124.492,
+      "confidence": 0.75946
+    },
+    {
+      "word": "our",
+      "start_time": 124.516,
+      "end_time": 124.7,
+      "confidence": 0.96348
+    },
+    {
+      "word": "technology,",
+      "start_time": 124.74,
+      "end_time": 125.228,
+      "confidence": 0.99159
+    },
+    {
+      "word": "you",
+      "start_time": 125.364,
+      "end_time": 125.66,
+      "confidence": 0.9909
+    },
+    {
+      "word": "just",
+      "start_time": 125.7,
+      "end_time": 125.852,
+      "confidence": 0.99816
+    },
+    {
+      "word": "have",
+      "start_time": 125.876,
+      "end_time": 126.012,
+      "confidence": 0.98927
+    },
+    {
+      "word": "to",
+      "start_time": 126.036,
+      "end_time": 126.172,
+      "confidence": 0.99683
+    },
+    {
+      "word": "think",
+      "start_time": 126.196,
+      "end_time": 126.332,
+      "confidence": 0.99956
+    },
+    {
+      "word": "about",
+      "start_time": 126.356,
+      "end_time": 126.54,
+      "confidence": 0.99813
+    },
+    {
+      "word": "it",
+      "start_time": 126.58,
+      "end_time": 126.828,
+      "confidence": 0.99617
+    },
+    {
+      "word": "and",
+      "start_time": 126.884,
+      "end_time": 127.052,
+      "confidence": 0.9871
+    },
+    {
+      "word": "it",
+      "start_time": 127.076,
+      "end_time": 127.212,
+      "confidence": 0.98289
+    },
+    {
+      "word": "will",
+      "start_time": 127.236,
+      "end_time": 127.372,
+      "confidence": 0.94344
+    },
+    {
+      "word": "create",
+      "start_time": 127.396,
+      "end_time": 127.616,
+      "confidence": 0.79416
+    },
+    {
+      "word": "create",
+      "start_time": 127.668,
+      "end_time": 128.072,
+      "confidence": 0.71432
+    },
+    {
+      "word": "the",
+      "start_time": 128.176,
+      "end_time": 128.68,
+      "confidence": 0.9975
+    },
+    {
+      "word": "image",
+      "start_time": 128.8,
+      "end_time": 129.224,
+      "confidence": 0.99929
+    },
+    {
+      "word": "that",
+      "start_time": 129.272,
+      "end_time": 129.384,
+      "confidence": 0.99548
+    },
+    {
+      "word": "you",
+      "start_time": 129.392,
+      "end_time": 129.608,
+      "confidence": 0.99495
+    },
+    {
+      "word": "desire",
+      "start_time": 129.664,
+      "end_time": 130.056,
+      "confidence": 0.98931
+    },
+    {
+      "word": "or",
+      "start_time": 130.088,
+      "end_time": 130.28,
+      "confidence": 0.98199
+    },
+    {
+      "word": "that",
+      "start_time": 130.32,
+      "end_time": 130.472,
+      "confidence": 0.9974
+    },
+    {
+      "word": "you",
+      "start_time": 130.496,
+      "end_time": 130.632,
+      "confidence": 0.99846
+    },
+    {
+      "word": "want.",
+      "start_time": 130.656,
+      "end_time": 131.032,
+      "confidence": 0.99855
+    },
+    {
+      "word": "How",
+      "start_time": 131.136,
+      "end_time": 131.352,
+      "confidence": 0.99842
+    },
+    {
+      "word": "cool",
+      "start_time": 131.376,
+      "end_time": 131.576,
+      "confidence": 0.99832
+    },
+    {
+      "word": "is",
+      "start_time": 131.608,
+      "end_time": 131.704,
+      "confidence": 0.99904
+    },
+    {
+      "word": "that?",
+      "start_time": 131.712,
+      "end_time": 131.88,
+      "confidence": 0.99912
+    },
+    {
+      "word": "And",
+      "start_time": 131.92,
+      "end_time": 132.072,
+      "confidence": 0.9921
+    },
+    {
+      "word": "it",
+      "start_time": 132.096,
+      "end_time": 132.328,
+      "confidence": 0.9812
+    },
+    {
+      "word": "will",
+      "start_time": 132.384,
+      "end_time": 132.552,
+      "confidence": 0.98087
+    },
+    {
+      "word": "be",
+      "start_time": 132.576,
+      "end_time": 132.712,
+      "confidence": 0.99838
+    },
+    {
+      "word": "done",
+      "start_time": 132.736,
+      "end_time": 132.92,
+      "confidence": 0.99777
+    },
+    {
+      "word": "in",
+      "start_time": 132.96,
+      "end_time": 133.112,
+      "confidence": 0.99872
+    },
+    {
+      "word": "no",
+      "start_time": 133.136,
+      "end_time": 133.32,
+      "confidence": 0.99855
+    },
+    {
+      "word": "time",
+      "start_time": 133.36,
+      "end_time": 133.56,
+      "confidence": 0.99988
+    },
+    {
+      "word": "as",
+      "start_time": 133.6,
+      "end_time": 133.752,
+      "confidence": 0.99873
+    },
+    {
+      "word": "well.",
+      "start_time": 133.776,
+      "end_time": 134.296,
+      "confidence": 0.99877
+    },
+    {
+      "word": "Well,",
+      "start_time": 134.448,
+      "end_time": 134.856,
+      "confidence": 0.99928
+    },
+    {
+      "word": "deep",
+      "start_time": 134.928,
+      "end_time": 135.176,
+      "confidence": 0.95197
+    },
+    {
+      "word": "dive",
+      "start_time": 135.208,
+      "end_time": 135.496,
+      "confidence": 0.99772
+    },
+    {
+      "word": "into",
+      "start_time": 135.528,
+      "end_time": 135.72,
+      "confidence": 0.99922
+    },
+    {
+      "word": "our",
+      "start_time": 135.76,
+      "end_time": 135.96,
+      "confidence": 0.99935
+    },
+    {
+      "word": "journey",
+      "start_time": 136.0,
+      "end_time": 136.392,
+      "confidence": 0.99989
+    },
+    {
+      "word": "and",
+      "start_time": 136.456,
+      "end_time": 136.68,
+      "confidence": 0.95785
+    },
+    {
+      "word": "follow",
+      "start_time": 136.72,
+      "end_time": 136.92,
+      "confidence": 0.99856
+    },
+    {
+      "word": "us",
+      "start_time": 136.96,
+      "end_time": 137.208,
+      "confidence": 0.88552
+    },
+    {
+      "word": "along",
+      "start_time": 137.264,
+      "end_time": 137.48,
+      "confidence": 0.9999
+    },
+    {
+      "word": "the",
+      "start_time": 137.52,
+      "end_time": 137.672,
+      "confidence": 0.99934
+    },
+    {
+      "word": "way.",
+      "start_time": 137.696,
+      "end_time": 138.024,
+      "confidence": 0.99984
+    },
+    {
+      "word": "Thank",
+      "start_time": 138.112,
+      "end_time": 138.376,
+      "confidence": 0.9994
+    },
+    {
+      "word": "you",
+      "start_time": 138.408,
+      "end_time": 138.552,
+      "confidence": 0.99978
+    },
+    {
+      "word": "so",
+      "start_time": 138.576,
+      "end_time": 138.712,
+      "confidence": 0.99967
+    },
+    {
+      "word": "much",
+      "start_time": 138.736,
+      "end_time": 138.872,
+      "confidence": 0.99963
+    },
+    {
+      "word": "and",
+      "start_time": 138.896,
+      "end_time": 139.08,
+      "confidence": 0.81757
+    },
+    {
+      "word": "have",
+      "start_time": 139.12,
+      "end_time": 139.272,
+      "confidence": 0.99985
+    },
+    {
+      "word": "a",
+      "start_time": 139.296,
+      "end_time": 139.384,
+      "confidence": 0.99965
+    },
+    {
+      "word": "great",
+      "start_time": 139.392,
+      "end_time": 139.56,
+      "confidence": 0.99952
+    },
+    {
+      "word": "day.",
+      "start_time": 139.6,
+      "end_time": 139.68,
+      "confidence": 0.99788
+    }
+  ],
+  "video_id": "upload_1745200727_23a2b9",
+  "metadata": {
+    "file_type": "video",
+    "file_name": "upload_1745200727_23a2b9.mov",
+    "file_hash": "cc5aa141cd003eaa219e63bd9c441cef"
+  }
+}

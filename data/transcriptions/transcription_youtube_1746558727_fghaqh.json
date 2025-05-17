@@ -1,0 +1,1427 @@
+{
+  "text": "Google just created a digital insect. A fruit fly that lives inside your computer and walks flies and sees as if it's real. But how? Well, the team started by carefully creating the fly's body and built a highly detailed 3D model using Mujoko, a physics simulator. But a body needs a brain to function. So next the team set out to build its brain and collected massive amounts of videos of real fruit flies and trained a special AI model, teaching it exactly how flies walk on table, make sharp turns mid flight, or buzz through the air. Once trained, they let this brain control the fly's body in the simulator. And the result ear amazed everyone. It moved exactly like a real fly would, buzzing, turning and adjusting its speed. What's crazy is that this digital fly could also see and respond to its surroundings by processing real time visual inputs inside the simulator. Something only real flies can do. But why even bother creating a digital fly? Well, think about its implications. If this tech holds up, we wouldn't need to subject animals to harmful experiments anymore. Instead, we could create digital animals like mice or zebrafish and run as many experiments as we want. Not just this. Scientists could also use these digital animals and tweak different factors to understand how anim brains work and influence behavior. What do you think?",
+  "segments": [],
+  "timestamps": [
+    {
+      "word": "Google",
+      "start_time": 0.16,
+      "end_time": 0.416,
+      "confidence": 0.99916
+    },
+    {
+      "word": "just",
+      "start_time": 0.416,
+      "end_time": 0.56,
+      "confidence": 0.99819
+    },
+    {
+      "word": "created",
+      "start_time": 0.576,
+      "end_time": 0.904,
+      "confidence": 0.9991
+    },
+    {
+      "word": "a",
+      "start_time": 0.952,
+      "end_time": 1.16,
+      "confidence": 0.99711
+    },
+    {
+      "word": "digital",
+      "start_time": 1.2,
+      "end_time": 1.592,
+      "confidence": 0.99982
+    },
+    {
+      "word": "insect.",
+      "start_time": 1.696,
+      "end_time": 2.232,
+      "confidence": 0.99501
+    },
+    {
+      "word": "A",
+      "start_time": 2.296,
+      "end_time": 2.424,
+      "confidence": 0.99841
+    },
+    {
+      "word": "fruit",
+      "start_time": 2.432,
+      "end_time": 2.664,
+      "confidence": 0.99839
+    },
+    {
+      "word": "fly",
+      "start_time": 2.712,
+      "end_time": 3.016,
+      "confidence": 0.9966
+    },
+    {
+      "word": "that",
+      "start_time": 3.048,
+      "end_time": 3.192,
+      "confidence": 0.9991
+    },
+    {
+      "word": "lives",
+      "start_time": 3.216,
+      "end_time": 3.448,
+      "confidence": 0.99904
+    },
+    {
+      "word": "inside",
+      "start_time": 3.504,
+      "end_time": 3.864,
+      "confidence": 0.9998
+    },
+    {
+      "word": "your",
+      "start_time": 3.912,
+      "end_time": 4.072,
+      "confidence": 0.99786
+    },
+    {
+      "word": "computer",
+      "start_time": 4.096,
+      "end_time": 4.552,
+      "confidence": 0.99963
+    },
+    {
+      "word": "and",
+      "start_time": 4.616,
+      "end_time": 4.792,
+      "confidence": 0.99127
+    },
+    {
+      "word": "walks",
+      "start_time": 4.816,
+      "end_time": 5.224,
+      "confidence": 0.99571
+    },
+    {
+      "word": "flies",
+      "start_time": 5.272,
+      "end_time": 5.544,
+      "confidence": 0.9818
+    },
+    {
+      "word": "and",
+      "start_time": 5.592,
+      "end_time": 5.752,
+      "confidence": 0.99561
+    },
+    {
+      "word": "sees",
+      "start_time": 5.776,
+      "end_time": 6.136,
+      "confidence": 0.96173
+    },
+    {
+      "word": "as",
+      "start_time": 6.168,
+      "end_time": 6.312,
+      "confidence": 0.9968
+    },
+    {
+      "word": "if",
+      "start_time": 6.336,
+      "end_time": 6.424,
+      "confidence": 0.99879
+    },
+    {
+      "word": "it's",
+      "start_time": 6.432,
+      "end_time": 6.616,
+      "confidence": 0.91542
+    },
+    {
+      "word": "real.",
+      "start_time": 6.648,
+      "end_time": 6.84,
+      "confidence": 0.99985
+    },
+    {
+      "word": "But",
+      "start_time": 6.88,
+      "end_time": 7.032,
+      "confidence": 0.98429
+    },
+    {
+      "word": "how?",
+      "start_time": 7.056,
+      "end_time": 7.288,
+      "confidence": 0.99944
+    },
+    {
+      "word": "Well,",
+      "start_time": 7.344,
+      "end_time": 7.56,
+      "confidence": 0.98745
+    },
+    {
+      "word": "the",
+      "start_time": 7.6,
+      "end_time": 7.752,
+      "confidence": 0.99738
+    },
+    {
+      "word": "team",
+      "start_time": 7.776,
+      "end_time": 8.056,
+      "confidence": 0.99976
+    },
+    {
+      "word": "started",
+      "start_time": 8.128,
+      "end_time": 8.408,
+      "confidence": 0.99931
+    },
+    {
+      "word": "by",
+      "start_time": 8.464,
+      "end_time": 8.632,
+      "confidence": 0.9989
+    },
+    {
+      "word": "carefully",
+      "start_time": 8.656,
+      "end_time": 9.016,
+      "confidence": 0.99963
+    },
+    {
+      "word": "creating",
+      "start_time": 9.048,
+      "end_time": 9.336,
+      "confidence": 0.99748
+    },
+    {
+      "word": "the",
+      "start_time": 9.368,
+      "end_time": 9.512,
+      "confidence": 0.99796
+    },
+    {
+      "word": "fly's",
+      "start_time": 9.536,
+      "end_time": 9.928,
+      "confidence": 0.90415
+    },
+    {
+      "word": "body",
+      "start_time": 9.944,
+      "end_time": 10.216,
+      "confidence": 0.99967
+    },
+    {
+      "word": "and",
+      "start_time": 10.288,
+      "end_time": 10.472,
+      "confidence": 0.99754
+    },
+    {
+      "word": "built",
+      "start_time": 10.496,
+      "end_time": 10.696,
+      "confidence": 0.98909
+    },
+    {
+      "word": "a",
+      "start_time": 10.728,
+      "end_time": 10.872,
+      "confidence": 0.99914
+    },
+    {
+      "word": "highly",
+      "start_time": 10.896,
+      "end_time": 11.224,
+      "confidence": 0.9991
+    },
+    {
+      "word": "detailed",
+      "start_time": 11.272,
+      "end_time": 11.656,
+      "confidence": 0.99936
+    },
+    {
+      "word": "3D",
+      "start_time": 11.688,
+      "end_time": 12.04,
+      "confidence": 0.99967
+    },
+    {
+      "word": "model",
+      "start_time": 12.08,
+      "end_time": 12.344,
+      "confidence": 0.99898
+    },
+    {
+      "word": "using",
+      "start_time": 12.392,
+      "end_time": 12.6,
+      "confidence": 0.99763
+    },
+    {
+      "word": "Mujoko,",
+      "start_time": 12.64,
+      "end_time": 13.224,
+      "confidence": 0.46386
+    },
+    {
+      "word": "a",
+      "start_time": 13.272,
+      "end_time": 13.384,
+      "confidence": 0.97698
+    },
+    {
+      "word": "physics",
+      "start_time": 13.392,
+      "end_time": 13.608,
+      "confidence": 0.99636
+    },
+    {
+      "word": "simulator.",
+      "start_time": 13.624,
+      "end_time": 14.024,
+      "confidence": 0.99719
+    },
+    {
+      "word": "But",
+      "start_time": 14.072,
+      "end_time": 14.232,
+      "confidence": 0.99376
+    },
+    {
+      "word": "a",
+      "start_time": 14.256,
+      "end_time": 14.392,
+      "confidence": 0.98969
+    },
+    {
+      "word": "body",
+      "start_time": 14.416,
+      "end_time": 14.648,
+      "confidence": 0.99941
+    },
+    {
+      "word": "needs",
+      "start_time": 14.704,
+      "end_time": 14.92,
+      "confidence": 0.99909
+    },
+    {
+      "word": "a",
+      "start_time": 14.96,
+      "end_time": 15.112,
+      "confidence": 0.99603
+    },
+    {
+      "word": "brain",
+      "start_time": 15.136,
+      "end_time": 15.336,
+      "confidence": 0.99946
+    },
+    {
+      "word": "to",
+      "start_time": 15.368,
+      "end_time": 15.512,
+      "confidence": 0.99919
+    },
+    {
+      "word": "function.",
+      "start_time": 15.536,
+      "end_time": 15.96,
+      "confidence": 0.99948
+    },
+    {
+      "word": "So",
+      "start_time": 16.04,
+      "end_time": 16.28,
+      "confidence": 0.98363
+    },
+    {
+      "word": "next",
+      "start_time": 16.32,
+      "end_time": 16.568,
+      "confidence": 0.99688
+    },
+    {
+      "word": "the",
+      "start_time": 16.624,
+      "end_time": 16.792,
+      "confidence": 0.99821
+    },
+    {
+      "word": "team",
+      "start_time": 16.816,
+      "end_time": 17.048,
+      "confidence": 0.99972
+    },
+    {
+      "word": "set",
+      "start_time": 17.104,
+      "end_time": 17.272,
+      "confidence": 0.99941
+    },
+    {
+      "word": "out",
+      "start_time": 17.296,
+      "end_time": 17.48,
+      "confidence": 0.99852
+    },
+    {
+      "word": "to",
+      "start_time": 17.52,
+      "end_time": 17.672,
+      "confidence": 0.99916
+    },
+    {
+      "word": "build",
+      "start_time": 17.696,
+      "end_time": 17.832,
+      "confidence": 0.99911
+    },
+    {
+      "word": "its",
+      "start_time": 17.856,
+      "end_time": 18.04,
+      "confidence": 0.97539
+    },
+    {
+      "word": "brain",
+      "start_time": 18.08,
+      "end_time": 18.392,
+      "confidence": 0.99813
+    },
+    {
+      "word": "and",
+      "start_time": 18.456,
+      "end_time": 18.632,
+      "confidence": 0.9944
+    },
+    {
+      "word": "collected",
+      "start_time": 18.656,
+      "end_time": 19.112,
+      "confidence": 0.99406
+    },
+    {
+      "word": "massive",
+      "start_time": 19.176,
+      "end_time": 19.576,
+      "confidence": 0.99963
+    },
+    {
+      "word": "amounts",
+      "start_time": 19.608,
+      "end_time": 19.848,
+      "confidence": 0.99263
+    },
+    {
+      "word": "of",
+      "start_time": 19.864,
+      "end_time": 19.992,
+      "confidence": 0.99923
+    },
+    {
+      "word": "videos",
+      "start_time": 20.016,
+      "end_time": 20.328,
+      "confidence": 0.99488
+    },
+    {
+      "word": "of",
+      "start_time": 20.344,
+      "end_time": 20.52,
+      "confidence": 0.99927
+    },
+    {
+      "word": "real",
+      "start_time": 20.56,
+      "end_time": 20.76,
+      "confidence": 0.99844
+    },
+    {
+      "word": "fruit",
+      "start_time": 20.8,
+      "end_time": 21.064,
+      "confidence": 0.92687
+    },
+    {
+      "word": "flies",
+      "start_time": 21.112,
+      "end_time": 21.512,
+      "confidence": 0.99743
+    },
+    {
+      "word": "and",
+      "start_time": 21.576,
+      "end_time": 21.752,
+      "confidence": 0.99711
+    },
+    {
+      "word": "trained",
+      "start_time": 21.776,
+      "end_time": 22.024,
+      "confidence": 0.99216
+    },
+    {
+      "word": "a",
+      "start_time": 22.072,
+      "end_time": 22.184,
+      "confidence": 0.99676
+    },
+    {
+      "word": "special",
+      "start_time": 22.192,
+      "end_time": 22.456,
+      "confidence": 0.99876
+    },
+    {
+      "word": "AI",
+      "start_time": 22.528,
+      "end_time": 22.856,
+      "confidence": 0.98433
+    },
+    {
+      "word": "model,",
+      "start_time": 22.888,
+      "end_time": 23.176,
+      "confidence": 0.99628
+    },
+    {
+      "word": "teaching",
+      "start_time": 23.208,
+      "end_time": 23.448,
+      "confidence": 0.99697
+    },
+    {
+      "word": "it",
+      "start_time": 23.464,
+      "end_time": 23.592,
+      "confidence": 0.99196
+    },
+    {
+      "word": "exactly",
+      "start_time": 23.616,
+      "end_time": 23.944,
+      "confidence": 0.99729
+    },
+    {
+      "word": "how",
+      "start_time": 23.992,
+      "end_time": 24.2,
+      "confidence": 0.99927
+    },
+    {
+      "word": "flies",
+      "start_time": 24.24,
+      "end_time": 24.504,
+      "confidence": 0.98994
+    },
+    {
+      "word": "walk",
+      "start_time": 24.552,
+      "end_time": 24.76,
+      "confidence": 0.99895
+    },
+    {
+      "word": "on",
+      "start_time": 24.8,
+      "end_time": 24.952,
+      "confidence": 0.99939
+    },
+    {
+      "word": "table,",
+      "start_time": 24.976,
+      "end_time": 25.32,
+      "confidence": 0.99192
+    },
+    {
+      "word": "make",
+      "start_time": 25.4,
+      "end_time": 25.64,
+      "confidence": 0.99708
+    },
+    {
+      "word": "sharp",
+      "start_time": 25.68,
+      "end_time": 25.896,
+      "confidence": 0.99603
+    },
+    {
+      "word": "turns",
+      "start_time": 25.928,
+      "end_time": 26.216,
+      "confidence": 0.99748
+    },
+    {
+      "word": "mid",
+      "start_time": 26.248,
+      "end_time": 26.44,
+      "confidence": 0.99954
+    },
+    {
+      "word": "flight,",
+      "start_time": 26.48,
+      "end_time": 26.744,
+      "confidence": 0.98861
+    },
+    {
+      "word": "or",
+      "start_time": 26.792,
+      "end_time": 26.952,
+      "confidence": 0.99822
+    },
+    {
+      "word": "buzz",
+      "start_time": 26.976,
+      "end_time": 27.176,
+      "confidence": 0.97888
+    },
+    {
+      "word": "through",
+      "start_time": 27.208,
+      "end_time": 27.352,
+      "confidence": 0.99388
+    },
+    {
+      "word": "the",
+      "start_time": 27.376,
+      "end_time": 27.512,
+      "confidence": 0.98711
+    },
+    {
+      "word": "air.",
+      "start_time": 27.536,
+      "end_time": 27.768,
+      "confidence": 0.99905
+    },
+    {
+      "word": "Once",
+      "start_time": 27.824,
+      "end_time": 28.04,
+      "confidence": 0.99656
+    },
+    {
+      "word": "trained,",
+      "start_time": 28.08,
+      "end_time": 28.344,
+      "confidence": 0.99053
+    },
+    {
+      "word": "they",
+      "start_time": 28.392,
+      "end_time": 28.552,
+      "confidence": 0.99382
+    },
+    {
+      "word": "let",
+      "start_time": 28.576,
+      "end_time": 28.712,
+      "confidence": 0.99883
+    },
+    {
+      "word": "this",
+      "start_time": 28.736,
+      "end_time": 28.872,
+      "confidence": 0.97904
+    },
+    {
+      "word": "brain",
+      "start_time": 28.896,
+      "end_time": 29.192,
+      "confidence": 0.96611
+    },
+    {
+      "word": "control",
+      "start_time": 29.256,
+      "end_time": 29.48,
+      "confidence": 0.99987
+    },
+    {
+      "word": "the",
+      "start_time": 29.52,
+      "end_time": 29.672,
+      "confidence": 0.99666
+    },
+    {
+      "word": "fly's",
+      "start_time": 29.696,
+      "end_time": 30.056,
+      "confidence": 0.92062
+    },
+    {
+      "word": "body",
+      "start_time": 30.088,
+      "end_time": 30.328,
+      "confidence": 0.99945
+    },
+    {
+      "word": "in",
+      "start_time": 30.384,
+      "end_time": 30.504,
+      "confidence": 0.99743
+    },
+    {
+      "word": "the",
+      "start_time": 30.512,
+      "end_time": 30.632,
+      "confidence": 0.99484
+    },
+    {
+      "word": "simulator.",
+      "start_time": 30.656,
+      "end_time": 31.064,
+      "confidence": 0.99304
+    },
+    {
+      "word": "And",
+      "start_time": 31.112,
+      "end_time": 31.272,
+      "confidence": 0.99164
+    },
+    {
+      "word": "the",
+      "start_time": 31.296,
+      "end_time": 31.384,
+      "confidence": 0.97984
+    },
+    {
+      "word": "result",
+      "start_time": 31.392,
+      "end_time": 31.608,
+      "confidence": 0.84776
+    },
+    {
+      "word": "ear",
+      "start_time": 31.664,
+      "end_time": 31.916,
+      "confidence": 0.64392
+    },
+    {
+      "word": "amazed",
+      "start_time": 31.968,
+      "end_time": 32.404,
+      "confidence": 0.96603
+    },
+    {
+      "word": "everyone.",
+      "start_time": 32.452,
+      "end_time": 32.756,
+      "confidence": 0.99655
+    },
+    {
+      "word": "It",
+      "start_time": 32.828,
+      "end_time": 33.012,
+      "confidence": 0.99824
+    },
+    {
+      "word": "moved",
+      "start_time": 33.036,
+      "end_time": 33.364,
+      "confidence": 0.98883
+    },
+    {
+      "word": "exactly",
+      "start_time": 33.412,
+      "end_time": 33.924,
+      "confidence": 0.75278
+    },
+    {
+      "word": "like",
+      "start_time": 33.972,
+      "end_time": 34.132,
+      "confidence": 0.99834
+    },
+    {
+      "word": "a",
+      "start_time": 34.156,
+      "end_time": 34.292,
+      "confidence": 0.99476
+    },
+    {
+      "word": "real",
+      "start_time": 34.316,
+      "end_time": 34.5,
+      "confidence": 0.99632
+    },
+    {
+      "word": "fly",
+      "start_time": 34.54,
+      "end_time": 34.836,
+      "confidence": 0.9981
+    },
+    {
+      "word": "would,",
+      "start_time": 34.868,
+      "end_time": 35.156,
+      "confidence": 0.97404
+    },
+    {
+      "word": "buzzing,",
+      "start_time": 35.228,
+      "end_time": 35.652,
+      "confidence": 0.99908
+    },
+    {
+      "word": "turning",
+      "start_time": 35.716,
+      "end_time": 36.036,
+      "confidence": 0.99787
+    },
+    {
+      "word": "and",
+      "start_time": 36.068,
+      "end_time": 36.212,
+      "confidence": 0.99445
+    },
+    {
+      "word": "adjusting",
+      "start_time": 36.236,
+      "end_time": 36.596,
+      "confidence": 0.99959
+    },
+    {
+      "word": "its",
+      "start_time": 36.628,
+      "end_time": 36.772,
+      "confidence": 0.97818
+    },
+    {
+      "word": "speed.",
+      "start_time": 36.796,
+      "end_time": 37.092,
+      "confidence": 0.99966
+    },
+    {
+      "word": "What's",
+      "start_time": 37.156,
+      "end_time": 37.396,
+      "confidence": 0.7468
+    },
+    {
+      "word": "crazy",
+      "start_time": 37.428,
+      "end_time": 37.764,
+      "confidence": 0.99922
+    },
+    {
+      "word": "is",
+      "start_time": 37.812,
+      "end_time": 37.972,
+      "confidence": 0.99632
+    },
+    {
+      "word": "that",
+      "start_time": 37.996,
+      "end_time": 38.132,
+      "confidence": 0.99315
+    },
+    {
+      "word": "this",
+      "start_time": 38.156,
+      "end_time": 38.34,
+      "confidence": 0.9914
+    },
+    {
+      "word": "digital",
+      "start_time": 38.38,
+      "end_time": 38.724,
+      "confidence": 0.99795
+    },
+    {
+      "word": "fly",
+      "start_time": 38.812,
+      "end_time": 39.172,
+      "confidence": 0.99521
+    },
+    {
+      "word": "could",
+      "start_time": 39.236,
+      "end_time": 39.46,
+      "confidence": 0.99255
+    },
+    {
+      "word": "also",
+      "start_time": 39.5,
+      "end_time": 39.844,
+      "confidence": 0.99371
+    },
+    {
+      "word": "see",
+      "start_time": 39.932,
+      "end_time": 40.132,
+      "confidence": 0.99729
+    },
+    {
+      "word": "and",
+      "start_time": 40.156,
+      "end_time": 40.292,
+      "confidence": 0.99779
+    },
+    {
+      "word": "respond",
+      "start_time": 40.316,
+      "end_time": 40.596,
+      "confidence": 0.99914
+    },
+    {
+      "word": "to",
+      "start_time": 40.628,
+      "end_time": 40.772,
+      "confidence": 0.99905
+    },
+    {
+      "word": "its",
+      "start_time": 40.796,
+      "end_time": 40.932,
+      "confidence": 0.98574
+    },
+    {
+      "word": "surroundings",
+      "start_time": 40.956,
+      "end_time": 41.412,
+      "confidence": 0.64814
+    },
+    {
+      "word": "by",
+      "start_time": 41.476,
+      "end_time": 41.652,
+      "confidence": 0.99877
+    },
+    {
+      "word": "processing",
+      "start_time": 41.676,
+      "end_time": 42.132,
+      "confidence": 0.9987
+    },
+    {
+      "word": "real",
+      "start_time": 42.196,
+      "end_time": 42.468,
+      "confidence": 0.99954
+    },
+    {
+      "word": "time",
+      "start_time": 42.524,
+      "end_time": 42.74,
+      "confidence": 0.9893
+    },
+    {
+      "word": "visual",
+      "start_time": 42.78,
+      "end_time": 43.076,
+      "confidence": 0.99703
+    },
+    {
+      "word": "inputs",
+      "start_time": 43.108,
+      "end_time": 43.604,
+      "confidence": 0.32741
+    },
+    {
+      "word": "inside",
+      "start_time": 43.652,
+      "end_time": 44.004,
+      "confidence": 0.99762
+    },
+    {
+      "word": "the",
+      "start_time": 44.052,
+      "end_time": 44.212,
+      "confidence": 0.99057
+    },
+    {
+      "word": "simulator.",
+      "start_time": 44.236,
+      "end_time": 44.74,
+      "confidence": 0.99368
+    },
+    {
+      "word": "Something",
+      "start_time": 44.82,
+      "end_time": 45.06,
+      "confidence": 0.99942
+    },
+    {
+      "word": "only",
+      "start_time": 45.1,
+      "end_time": 45.348,
+      "confidence": 0.9991
+    },
+    {
+      "word": "real",
+      "start_time": 45.404,
+      "end_time": 45.62,
+      "confidence": 0.99679
+    },
+    {
+      "word": "flies",
+      "start_time": 45.66,
+      "end_time": 45.956,
+      "confidence": 0.98833
+    },
+    {
+      "word": "can",
+      "start_time": 45.988,
+      "end_time": 46.132,
+      "confidence": 0.98682
+    },
+    {
+      "word": "do.",
+      "start_time": 46.156,
+      "end_time": 46.292,
+      "confidence": 0.99902
+    },
+    {
+      "word": "But",
+      "start_time": 46.316,
+      "end_time": 46.452,
+      "confidence": 0.98966
+    },
+    {
+      "word": "why",
+      "start_time": 46.476,
+      "end_time": 46.66,
+      "confidence": 0.99945
+    },
+    {
+      "word": "even",
+      "start_time": 46.7,
+      "end_time": 46.852,
+      "confidence": 0.98846
+    },
+    {
+      "word": "bother",
+      "start_time": 46.876,
+      "end_time": 47.124,
+      "confidence": 0.97956
+    },
+    {
+      "word": "creating",
+      "start_time": 47.172,
+      "end_time": 47.396,
+      "confidence": 0.99761
+    },
+    {
+      "word": "a",
+      "start_time": 47.428,
+      "end_time": 47.524,
+      "confidence": 0.9979
+    },
+    {
+      "word": "digital",
+      "start_time": 47.532,
+      "end_time": 47.796,
+      "confidence": 0.99908
+    },
+    {
+      "word": "fly?",
+      "start_time": 47.868,
+      "end_time": 48.196,
+      "confidence": 0.99872
+    },
+    {
+      "word": "Well,",
+      "start_time": 48.228,
+      "end_time": 48.42,
+      "confidence": 0.98307
+    },
+    {
+      "word": "think",
+      "start_time": 48.46,
+      "end_time": 48.612,
+      "confidence": 0.99984
+    },
+    {
+      "word": "about",
+      "start_time": 48.636,
+      "end_time": 48.772,
+      "confidence": 0.9959
+    },
+    {
+      "word": "its",
+      "start_time": 48.796,
+      "end_time": 48.98,
+      "confidence": 0.97107
+    },
+    {
+      "word": "implications.",
+      "start_time": 49.02,
+      "end_time": 49.492,
+      "confidence": 0.97635
+    },
+    {
+      "word": "If",
+      "start_time": 49.556,
+      "end_time": 49.684,
+      "confidence": 0.99946
+    },
+    {
+      "word": "this",
+      "start_time": 49.692,
+      "end_time": 49.86,
+      "confidence": 0.98574
+    },
+    {
+      "word": "tech",
+      "start_time": 49.9,
+      "end_time": 50.116,
+      "confidence": 0.98764
+    },
+    {
+      "word": "holds",
+      "start_time": 50.148,
+      "end_time": 50.388,
+      "confidence": 0.99848
+    },
+    {
+      "word": "up,",
+      "start_time": 50.404,
+      "end_time": 50.532,
+      "confidence": 0.99909
+    },
+    {
+      "word": "we",
+      "start_time": 50.556,
+      "end_time": 50.644,
+      "confidence": 0.9978
+    },
+    {
+      "word": "wouldn't",
+      "start_time": 50.652,
+      "end_time": 50.916,
+      "confidence": 0.93499
+    },
+    {
+      "word": "need",
+      "start_time": 50.948,
+      "end_time": 51.092,
+      "confidence": 0.99731
+    },
+    {
+      "word": "to",
+      "start_time": 51.116,
+      "end_time": 51.252,
+      "confidence": 0.99702
+    },
+    {
+      "word": "subject",
+      "start_time": 51.276,
+      "end_time": 51.604,
+      "confidence": 0.99854
+    },
+    {
+      "word": "animals",
+      "start_time": 51.652,
+      "end_time": 52.004,
+      "confidence": 0.97079
+    },
+    {
+      "word": "to",
+      "start_time": 52.052,
+      "end_time": 52.212,
+      "confidence": 0.99907
+    },
+    {
+      "word": "harmful",
+      "start_time": 52.236,
+      "end_time": 52.564,
+      "confidence": 0.99967
+    },
+    {
+      "word": "experiments",
+      "start_time": 52.612,
+      "end_time": 52.996,
+      "confidence": 0.70517
+    },
+    {
+      "word": "anymore.",
+      "start_time": 53.028,
+      "end_time": 53.412,
+      "confidence": 0.90701
+    },
+    {
+      "word": "Instead,",
+      "start_time": 53.476,
+      "end_time": 53.764,
+      "confidence": 0.99918
+    },
+    {
+      "word": "we",
+      "start_time": 53.812,
+      "end_time": 53.972,
+      "confidence": 0.99822
+    },
+    {
+      "word": "could",
+      "start_time": 53.996,
+      "end_time": 54.132,
+      "confidence": 0.99633
+    },
+    {
+      "word": "create",
+      "start_time": 54.156,
+      "end_time": 54.388,
+      "confidence": 0.99757
+    },
+    {
+      "word": "digital",
+      "start_time": 54.444,
+      "end_time": 54.756,
+      "confidence": 0.99763
+    },
+    {
+      "word": "animals",
+      "start_time": 54.828,
+      "end_time": 55.204,
+      "confidence": 0.99804
+    },
+    {
+      "word": "like",
+      "start_time": 55.252,
+      "end_time": 55.46,
+      "confidence": 0.9938
+    },
+    {
+      "word": "mice",
+      "start_time": 55.5,
+      "end_time": 55.812,
+      "confidence": 0.99896
+    },
+    {
+      "word": "or",
+      "start_time": 55.876,
+      "end_time": 56.052,
+      "confidence": 0.99048
+    },
+    {
+      "word": "zebrafish",
+      "start_time": 56.076,
+      "end_time": 56.644,
+      "confidence": 0.97515
+    },
+    {
+      "word": "and",
+      "start_time": 56.692,
+      "end_time": 56.852,
+      "confidence": 0.9974
+    },
+    {
+      "word": "run",
+      "start_time": 56.876,
+      "end_time": 57.06,
+      "confidence": 0.9993
+    },
+    {
+      "word": "as",
+      "start_time": 57.1,
+      "end_time": 57.252,
+      "confidence": 0.99791
+    },
+    {
+      "word": "many",
+      "start_time": 57.276,
+      "end_time": 57.508,
+      "confidence": 0.99942
+    },
+    {
+      "word": "experiments",
+      "start_time": 57.564,
+      "end_time": 58.004,
+      "confidence": 0.99897
+    },
+    {
+      "word": "as",
+      "start_time": 58.052,
+      "end_time": 58.164,
+      "confidence": 0.99658
+    },
+    {
+      "word": "we",
+      "start_time": 58.172,
+      "end_time": 58.292,
+      "confidence": 0.99596
+    },
+    {
+      "word": "want.",
+      "start_time": 58.316,
+      "end_time": 58.596,
+      "confidence": 0.99709
+    },
+    {
+      "word": "Not",
+      "start_time": 58.668,
+      "end_time": 58.852,
+      "confidence": 0.99141
+    },
+    {
+      "word": "just",
+      "start_time": 58.876,
+      "end_time": 59.012,
+      "confidence": 0.9998
+    },
+    {
+      "word": "this.",
+      "start_time": 59.036,
+      "end_time": 59.316,
+      "confidence": 0.9973
+    },
+    {
+      "word": "Scientists",
+      "start_time": 59.388,
+      "end_time": 59.764,
+      "confidence": 0.98818
+    },
+    {
+      "word": "could",
+      "start_time": 59.812,
+      "end_time": 59.972,
+      "confidence": 0.99534
+    },
+    {
+      "word": "also",
+      "start_time": 59.996,
+      "end_time": 60.18,
+      "confidence": 0.99296
+    },
+    {
+      "word": "use",
+      "start_time": 60.22,
+      "end_time": 60.42,
+      "confidence": 0.99925
+    },
+    {
+      "word": "these",
+      "start_time": 60.46,
+      "end_time": 60.66,
+      "confidence": 0.99513
+    },
+    {
+      "word": "digital",
+      "start_time": 60.7,
+      "end_time": 60.996,
+      "confidence": 0.99964
+    },
+    {
+      "word": "animals",
+      "start_time": 61.068,
+      "end_time": 61.444,
+      "confidence": 0.99709
+    },
+    {
+      "word": "and",
+      "start_time": 61.492,
+      "end_time": 61.652,
+      "confidence": 0.99715
+    },
+    {
+      "word": "tweak",
+      "start_time": 61.676,
+      "end_time": 61.876,
+      "confidence": 0.99921
+    },
+    {
+      "word": "different",
+      "start_time": 61.908,
+      "end_time": 62.148,
+      "confidence": 0.99936
+    },
+    {
+      "word": "factors",
+      "start_time": 62.204,
+      "end_time": 62.612,
+      "confidence": 0.99863
+    },
+    {
+      "word": "to",
+      "start_time": 62.676,
+      "end_time": 62.852,
+      "confidence": 0.99715
+    },
+    {
+      "word": "understand",
+      "start_time": 62.876,
+      "end_time": 63.108,
+      "confidence": 0.9992
+    },
+    {
+      "word": "how",
+      "start_time": 63.164,
+      "end_time": 63.332,
+      "confidence": 0.99902
+    },
+    {
+      "word": "anim",
+      "start_time": 63.356,
+      "end_time": 63.736,
+      "confidence": 0.99479
+    },
+    {
+      "word": "brains",
+      "start_time": 63.828,
+      "end_time": 64.096,
+      "confidence": 0.97558
+    },
+    {
+      "word": "work",
+      "start_time": 64.128,
+      "end_time": 64.272,
+      "confidence": 0.99929
+    },
+    {
+      "word": "and",
+      "start_time": 64.296,
+      "end_time": 64.432,
+      "confidence": 0.9983
+    },
+    {
+      "word": "influence",
+      "start_time": 64.456,
+      "end_time": 64.816,
+      "confidence": 0.9896
+    },
+    {
+      "word": "behavior.",
+      "start_time": 64.848,
+      "end_time": 65.232,
+      "confidence": 0.61437
+    },
+    {
+      "word": "What",
+      "start_time": 65.296,
+      "end_time": 65.424,
+      "confidence": 0.99857
+    },
+    {
+      "word": "do",
+      "start_time": 65.432,
+      "end_time": 65.552,
+      "confidence": 0.99914
+    },
+    {
+      "word": "you",
+      "start_time": 65.576,
+      "end_time": 65.664,
+      "confidence": 0.99971
+    },
+    {
+      "word": "think?",
+      "start_time": 65.672,
+      "end_time": 65.72,
+      "confidence": 0.99804
+    }
+  ],
+  "source_type": "audio_file",
+  "video_id": "youtube_1746558727_fghaqh",
+  "metadata": {
+    "source_url": "https://www.youtube.com/shorts/FBwV4kPErew",
+    "youtube_info": {
+      "path": "/Users/chotu/Documents/MY_AI/Luna/data/temp/youtube_1746558727_fghaqh.mp4",
+      "video_title": "Downloaded with yt-dlp",
+      "author": "Unknown",
+      "length": 0
+    }
+  }
+}

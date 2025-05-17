@@ -1,0 +1,983 @@
+{
+  "text": "Stop making these useless comics. You need to learn a reliable skill set like installing asbestos. You need to stop monkeying around with these computer machines and get a job like being a travel agent. Stop messing around on the Internet. It's just a fad. Be practical. Start selling fax machines. Get off the video games. You can't make any money from that. You need a job. You know what? They're hiring a blockbuster. Stop making YouTube videos with Michael Mazzatelli. You need to get your college DE. They're always going to be valuable. Get off of ChatGPT. You need to get into a creative field. AI is never going to replace human creativity. Why are you so obsessed with water? There will never be a shortage. You need to focus on the things that matter. Like building AI systems. Quit messing around with telekinesis. It's not possible. You need to do something useful. Like finding water. The overseers. Let's go.",
+  "segments": [],
+  "timestamps": [
+    {
+      "word": "Stop",
+      "start_time": 1.04,
+      "end_time": 1.24,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "making",
+      "start_time": 1.24,
+      "end_time": 1.52,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "these",
+      "start_time": 1.52,
+      "end_time": 1.76,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "useless",
+      "start_time": 1.76,
+      "end_time": 2.28,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "comics.",
+      "start_time": 2.28,
+      "end_time": 2.76,
+      "confidence": 0.9992676
+    },
+    {
+      "word": "You",
+      "start_time": 2.76,
+      "end_time": 3.0,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "need",
+      "start_time": 3.0,
+      "end_time": 3.16,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "to",
+      "start_time": 3.16,
+      "end_time": 3.32,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "learn",
+      "start_time": 3.32,
+      "end_time": 3.56,
+      "confidence": 0.9992676
+    },
+    {
+      "word": "a",
+      "start_time": 3.56,
+      "end_time": 3.72,
+      "confidence": 0.99072266
+    },
+    {
+      "word": "reliable",
+      "start_time": 3.72,
+      "end_time": 4.28,
+      "confidence": 0.9996745
+    },
+    {
+      "word": "skill",
+      "start_time": 4.28,
+      "end_time": 4.64,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "set",
+      "start_time": 4.64,
+      "end_time": 4.92,
+      "confidence": 0.97314453
+    },
+    {
+      "word": "like",
+      "start_time": 4.92,
+      "end_time": 5.24,
+      "confidence": 0.9946289
+    },
+    {
+      "word": "installing",
+      "start_time": 5.24,
+      "end_time": 5.8,
+      "confidence": 0.8741862
+    },
+    {
+      "word": "asbestos.",
+      "start_time": 5.8,
+      "end_time": 6.64,
+      "confidence": 0.9803467
+    },
+    {
+      "word": "You",
+      "start_time": 7.28,
+      "end_time": 7.56,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "need",
+      "start_time": 7.56,
+      "end_time": 7.72,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "to",
+      "start_time": 7.72,
+      "end_time": 7.84,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "stop",
+      "start_time": 7.84,
+      "end_time": 8.08,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "monkeying",
+      "start_time": 8.08,
+      "end_time": 8.72,
+      "confidence": 0.99641925
+    },
+    {
+      "word": "around",
+      "start_time": 8.72,
+      "end_time": 8.96,
+      "confidence": 0.9916992
+    },
+    {
+      "word": "with",
+      "start_time": 8.96,
+      "end_time": 9.16,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "these",
+      "start_time": 9.16,
+      "end_time": 9.36,
+      "confidence": 0.99365234
+    },
+    {
+      "word": "computer",
+      "start_time": 9.36,
+      "end_time": 9.8,
+      "confidence": 0.9996745
+    },
+    {
+      "word": "machines",
+      "start_time": 9.8,
+      "end_time": 10.2,
+      "confidence": 0.99934894
+    },
+    {
+      "word": "and",
+      "start_time": 10.2,
+      "end_time": 10.44,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "get",
+      "start_time": 10.44,
+      "end_time": 10.6,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "a",
+      "start_time": 10.6,
+      "end_time": 10.8,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "job",
+      "start_time": 10.8,
+      "end_time": 11.12,
+      "confidence": 1.0
+    },
+    {
+      "word": "like",
+      "start_time": 11.44,
+      "end_time": 11.76,
+      "confidence": 0.9863281
+    },
+    {
+      "word": "being",
+      "start_time": 11.76,
+      "end_time": 12.0,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "a",
+      "start_time": 12.0,
+      "end_time": 12.24,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "travel",
+      "start_time": 12.24,
+      "end_time": 12.8,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "agent.",
+      "start_time": 12.8,
+      "end_time": 13.36,
+      "confidence": 0.9798177
+    },
+    {
+      "word": "Stop",
+      "start_time": 14.24,
+      "end_time": 14.6,
+      "confidence": 1.0
+    },
+    {
+      "word": "messing",
+      "start_time": 14.6,
+      "end_time": 15.0,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "around",
+      "start_time": 15.0,
+      "end_time": 15.2,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "on",
+      "start_time": 15.2,
+      "end_time": 15.36,
+      "confidence": 0.99365234
+    },
+    {
+      "word": "the",
+      "start_time": 15.36,
+      "end_time": 15.48,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "Internet.",
+      "start_time": 15.48,
+      "end_time": 15.84,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "It's",
+      "start_time": 15.84,
+      "end_time": 16.199,
+      "confidence": 0.99625653
+    },
+    {
+      "word": "just",
+      "start_time": 16.199,
+      "end_time": 16.4,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "a",
+      "start_time": 16.4,
+      "end_time": 16.6,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "fad.",
+      "start_time": 16.6,
+      "end_time": 16.96,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "Be",
+      "start_time": 17.12,
+      "end_time": 17.48,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "practical.",
+      "start_time": 17.48,
+      "end_time": 18.0,
+      "confidence": 0.7651367
+    },
+    {
+      "word": "Start",
+      "start_time": 18.0,
+      "end_time": 18.36,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "selling",
+      "start_time": 18.36,
+      "end_time": 18.8,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "fax",
+      "start_time": 19.28,
+      "end_time": 19.76,
+      "confidence": 0.9890137
+    },
+    {
+      "word": "machines.",
+      "start_time": 19.76,
+      "end_time": 20.4,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "Get",
+      "start_time": 21.04,
+      "end_time": 21.36,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "off",
+      "start_time": 21.36,
+      "end_time": 21.6,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "the",
+      "start_time": 21.6,
+      "end_time": 21.84,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "video",
+      "start_time": 21.84,
+      "end_time": 22.12,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "games.",
+      "start_time": 22.12,
+      "end_time": 22.4,
+      "confidence": 0.99316406
+    },
+    {
+      "word": "You",
+      "start_time": 22.4,
+      "end_time": 22.6,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "can't",
+      "start_time": 22.6,
+      "end_time": 22.84,
+      "confidence": 0.9978841
+    },
+    {
+      "word": "make",
+      "start_time": 22.84,
+      "end_time": 23.04,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "any",
+      "start_time": 23.04,
+      "end_time": 23.24,
+      "confidence": 0.99121094
+    },
+    {
+      "word": "money",
+      "start_time": 23.24,
+      "end_time": 23.44,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "from",
+      "start_time": 23.44,
+      "end_time": 23.64,
+      "confidence": 0.9941406
+    },
+    {
+      "word": "that.",
+      "start_time": 23.64,
+      "end_time": 23.92,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "You",
+      "start_time": 24.08,
+      "end_time": 24.4,
+      "confidence": 0.98876953
+    },
+    {
+      "word": "need",
+      "start_time": 24.4,
+      "end_time": 24.64,
+      "confidence": 1.0
+    },
+    {
+      "word": "a",
+      "start_time": 24.64,
+      "end_time": 24.84,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "job.",
+      "start_time": 24.84,
+      "end_time": 25.08,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "You",
+      "start_time": 25.08,
+      "end_time": 25.28,
+      "confidence": 0.98535156
+    },
+    {
+      "word": "know",
+      "start_time": 25.28,
+      "end_time": 25.4,
+      "confidence": 0.9814453
+    },
+    {
+      "word": "what?",
+      "start_time": 25.4,
+      "end_time": 25.56,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "They're",
+      "start_time": 25.56,
+      "end_time": 25.8,
+      "confidence": 0.92838544
+    },
+    {
+      "word": "hiring",
+      "start_time": 25.8,
+      "end_time": 26.08,
+      "confidence": 0.9742839
+    },
+    {
+      "word": "a",
+      "start_time": 26.08,
+      "end_time": 26.24,
+      "confidence": 0.9824219
+    },
+    {
+      "word": "blockbuster.",
+      "start_time": 26.24,
+      "end_time": 26.96,
+      "confidence": 0.9969727
+    },
+    {
+      "word": "Stop",
+      "start_time": 27.28,
+      "end_time": 27.6,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "making",
+      "start_time": 27.6,
+      "end_time": 27.88,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "YouTube",
+      "start_time": 27.88,
+      "end_time": 28.36,
+      "confidence": 0.98828125
+    },
+    {
+      "word": "videos",
+      "start_time": 28.36,
+      "end_time": 28.72,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "with",
+      "start_time": 28.72,
+      "end_time": 28.88,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "Michael",
+      "start_time": 28.88,
+      "end_time": 29.2,
+      "confidence": 0.8753255
+    },
+    {
+      "word": "Mazzatelli.",
+      "start_time": 29.2,
+      "end_time": 30.12,
+      "confidence": 0.9967913
+    },
+    {
+      "word": "You",
+      "start_time": 30.12,
+      "end_time": 30.36,
+      "confidence": 0.99316406
+    },
+    {
+      "word": "need",
+      "start_time": 30.36,
+      "end_time": 30.52,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "to",
+      "start_time": 30.52,
+      "end_time": 30.68,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "get",
+      "start_time": 30.68,
+      "end_time": 30.84,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "your",
+      "start_time": 30.84,
+      "end_time": 31.04,
+      "confidence": 0.99365234
+    },
+    {
+      "word": "college",
+      "start_time": 31.04,
+      "end_time": 31.4,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "DE.",
+      "start_time": 31.4,
+      "end_time": 31.68,
+      "confidence": 0.98828125
+    },
+    {
+      "word": "They're",
+      "start_time": 32.22,
+      "end_time": 32.38,
+      "confidence": 0.85465497
+    },
+    {
+      "word": "always",
+      "start_time": 32.38,
+      "end_time": 32.54,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "going",
+      "start_time": 32.54,
+      "end_time": 32.74,
+      "confidence": 0.46850586
+    },
+    {
+      "word": "to",
+      "start_time": 32.74,
+      "end_time": 32.86,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "be",
+      "start_time": 32.86,
+      "end_time": 33.02,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "valuable.",
+      "start_time": 33.02,
+      "end_time": 33.58,
+      "confidence": 0.9998372
+    },
+    {
+      "word": "Get",
+      "start_time": 33.74,
+      "end_time": 34.06,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "off",
+      "start_time": 34.06,
+      "end_time": 34.3,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "of",
+      "start_time": 34.3,
+      "end_time": 34.5,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "ChatGPT.",
+      "start_time": 34.5,
+      "end_time": 35.18,
+      "confidence": 0.94995
+    },
+    {
+      "word": "You",
+      "start_time": 35.34,
+      "end_time": 35.62,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "need",
+      "start_time": 35.62,
+      "end_time": 35.78,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "to",
+      "start_time": 35.78,
+      "end_time": 35.94,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "get",
+      "start_time": 35.94,
+      "end_time": 36.14,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "into",
+      "start_time": 36.14,
+      "end_time": 36.38,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "a",
+      "start_time": 36.38,
+      "end_time": 36.62,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "creative",
+      "start_time": 36.62,
+      "end_time": 37.18,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "field.",
+      "start_time": 37.18,
+      "end_time": 37.5,
+      "confidence": 0.99316406
+    },
+    {
+      "word": "AI",
+      "start_time": 37.58,
+      "end_time": 38.14,
+      "confidence": 0.99731445
+    },
+    {
+      "word": "is",
+      "start_time": 38.14,
+      "end_time": 38.42,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "never",
+      "start_time": 38.42,
+      "end_time": 38.78,
+      "confidence": 1.0
+    },
+    {
+      "word": "going",
+      "start_time": 38.78,
+      "end_time": 39.06,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "to",
+      "start_time": 39.06,
+      "end_time": 39.22,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "replace",
+      "start_time": 39.22,
+      "end_time": 39.58,
+      "confidence": 1.0
+    },
+    {
+      "word": "human",
+      "start_time": 39.58,
+      "end_time": 39.9,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "creativity.",
+      "start_time": 39.98,
+      "end_time": 40.78,
+      "confidence": 0.9998372
+    },
+    {
+      "word": "Why",
+      "start_time": 41.42,
+      "end_time": 41.74,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "are",
+      "start_time": 41.74,
+      "end_time": 41.94,
+      "confidence": 1.0
+    },
+    {
+      "word": "you",
+      "start_time": 41.94,
+      "end_time": 42.14,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "so",
+      "start_time": 42.14,
+      "end_time": 42.34,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "obsessed",
+      "start_time": 42.34,
+      "end_time": 42.78,
+      "confidence": 0.9923503
+    },
+    {
+      "word": "with",
+      "start_time": 42.78,
+      "end_time": 42.94,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "water?",
+      "start_time": 42.94,
+      "end_time": 43.22,
+      "confidence": 1.0
+    },
+    {
+      "word": "There",
+      "start_time": 43.22,
+      "end_time": 43.46,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "will",
+      "start_time": 43.46,
+      "end_time": 43.62,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "never",
+      "start_time": 43.62,
+      "end_time": 43.82,
+      "confidence": 1.0
+    },
+    {
+      "word": "be",
+      "start_time": 43.82,
+      "end_time": 43.98,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "a",
+      "start_time": 43.98,
+      "end_time": 44.1,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "shortage.",
+      "start_time": 44.1,
+      "end_time": 44.5,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "You",
+      "start_time": 44.5,
+      "end_time": 44.74,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "need",
+      "start_time": 44.74,
+      "end_time": 44.9,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "to",
+      "start_time": 44.9,
+      "end_time": 45.06,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "focus",
+      "start_time": 45.06,
+      "end_time": 45.26,
+      "confidence": 1.0
+    },
+    {
+      "word": "on",
+      "start_time": 45.26,
+      "end_time": 45.46,
+      "confidence": 1.0
+    },
+    {
+      "word": "the",
+      "start_time": 45.46,
+      "end_time": 45.58,
+      "confidence": 0.99316406
+    },
+    {
+      "word": "things",
+      "start_time": 45.58,
+      "end_time": 45.74,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "that",
+      "start_time": 45.74,
+      "end_time": 45.94,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "matter.",
+      "start_time": 45.94,
+      "end_time": 46.22,
+      "confidence": 1.0
+    },
+    {
+      "word": "Like",
+      "start_time": 46.22,
+      "end_time": 46.5,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "building",
+      "start_time": 46.5,
+      "end_time": 46.74,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "AI",
+      "start_time": 46.74,
+      "end_time": 47.22,
+      "confidence": 0.80126953
+    },
+    {
+      "word": "systems.",
+      "start_time": 47.22,
+      "end_time": 47.74,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "Quit",
+      "start_time": 48.3,
+      "end_time": 48.7,
+      "confidence": 0.9953613
+    },
+    {
+      "word": "messing",
+      "start_time": 48.7,
+      "end_time": 49.06,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "around",
+      "start_time": 49.06,
+      "end_time": 49.26,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "with",
+      "start_time": 49.26,
+      "end_time": 49.46,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "telekinesis.",
+      "start_time": 49.46,
+      "end_time": 50.3,
+      "confidence": 0.9993164
+    },
+    {
+      "word": "It's",
+      "start_time": 50.3,
+      "end_time": 50.66,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "not",
+      "start_time": 50.66,
+      "end_time": 50.9,
+      "confidence": 1.0
+    },
+    {
+      "word": "possible.",
+      "start_time": 50.9,
+      "end_time": 51.26,
+      "confidence": 1.0
+    },
+    {
+      "word": "You",
+      "start_time": 51.5,
+      "end_time": 51.82,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "need",
+      "start_time": 51.82,
+      "end_time": 52.02,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "to",
+      "start_time": 52.02,
+      "end_time": 52.18,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "do",
+      "start_time": 52.18,
+      "end_time": 52.38,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "something",
+      "start_time": 52.38,
+      "end_time": 52.7,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "useful.",
+      "start_time": 52.7,
+      "end_time": 53.18,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "Like",
+      "start_time": 53.18,
+      "end_time": 53.46,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "finding",
+      "start_time": 53.46,
+      "end_time": 53.94,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "water.",
+      "start_time": 53.94,
+      "end_time": 54.3,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "The",
+      "start_time": 55.5,
+      "end_time": 55.78,
+      "confidence": 0.97558594
+    },
+    {
+      "word": "overseers.",
+      "start_time": 55.78,
+      "end_time": 56.38,
+      "confidence": 0.9946289
+    },
+    {
+      "word": "Let's",
+      "start_time": 56.38,
+      "end_time": 56.7,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "go.",
+      "start_time": 56.7,
+      "end_time": 56.94,
+      "confidence": 0.99902344
+    }
+  ],
+  "source_type": "audio_file",
+  "video_id": "youtube_1747158711_8qgw1j",
+  "metadata": {
+    "source_url": "https://www.youtube.com/shorts/piWdncMDyNs",
+    "youtube_info": {
+      "path": "/Users/chotu/Documents/MY_AI/Luna/data/temp/youtube_1747158711_8qgw1j.mp4",
+      "video_title": "Downloaded with yt-dlp",
+      "author": "Unknown",
+      "length": 0
+    }
+  }
+}

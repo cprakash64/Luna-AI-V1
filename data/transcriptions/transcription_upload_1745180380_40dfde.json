@@ -1,0 +1,660 @@
+{
+  "text": "You took me in his arms I heard him say when you get older you're wild I will live for younger days Think of me if ever you're afraid he said one day you'll leave this world behind so live a life you will remember My father told me When I was just a child these are the nights that never die My father told me Sa he said go venture far beyond the shores Back on planet Earth, my friend look at that smile. You have a good time? Yeah, I had a great time. Rishi. Rishi. Come in. All right. Nice job. For you, my friends.",
+  "segments": [],
+  "timestamps": [
+    {
+      "word": "You",
+      "start_time": 0.24,
+      "end_time": 0.448,
+      "confidence": 0.65486
+    },
+    {
+      "word": "took",
+      "start_time": 0.464,
+      "end_time": 0.68,
+      "confidence": 0.99596
+    },
+    {
+      "word": "me",
+      "start_time": 0.72,
+      "end_time": 0.92,
+      "confidence": 0.98919
+    },
+    {
+      "word": "in",
+      "start_time": 0.96,
+      "end_time": 1.16,
+      "confidence": 0.98163
+    },
+    {
+      "word": "his",
+      "start_time": 1.2,
+      "end_time": 1.4,
+      "confidence": 0.9545
+    },
+    {
+      "word": "arms",
+      "start_time": 1.44,
+      "end_time": 1.704,
+      "confidence": 0.90225
+    },
+    {
+      "word": "I",
+      "start_time": 1.752,
+      "end_time": 1.96,
+      "confidence": 0.93244
+    },
+    {
+      "word": "heard",
+      "start_time": 2.0,
+      "end_time": 2.216,
+      "confidence": 0.9961
+    },
+    {
+      "word": "him",
+      "start_time": 2.248,
+      "end_time": 2.44,
+      "confidence": 0.99932
+    },
+    {
+      "word": "say",
+      "start_time": 2.48,
+      "end_time": 3.06,
+      "confidence": 0.97269
+    },
+    {
+      "word": "when",
+      "start_time": 3.44,
+      "end_time": 3.8,
+      "confidence": 0.99707
+    },
+    {
+      "word": "you",
+      "start_time": 3.84,
+      "end_time": 4.04,
+      "confidence": 0.99871
+    },
+    {
+      "word": "get",
+      "start_time": 4.08,
+      "end_time": 4.28,
+      "confidence": 0.99906
+    },
+    {
+      "word": "older",
+      "start_time": 4.32,
+      "end_time": 4.84,
+      "confidence": 0.9994
+    },
+    {
+      "word": "you're",
+      "start_time": 4.92,
+      "end_time": 5.176,
+      "confidence": 0.31566
+    },
+    {
+      "word": "wild",
+      "start_time": 5.208,
+      "end_time": 5.592,
+      "confidence": 0.74069
+    },
+    {
+      "word": "I",
+      "start_time": 5.656,
+      "end_time": 5.832,
+      "confidence": 0.81458
+    },
+    {
+      "word": "will",
+      "start_time": 5.856,
+      "end_time": 6.088,
+      "confidence": 0.51803
+    },
+    {
+      "word": "live",
+      "start_time": 6.144,
+      "end_time": 6.408,
+      "confidence": 0.99869
+    },
+    {
+      "word": "for",
+      "start_time": 6.464,
+      "end_time": 6.68,
+      "confidence": 0.98006
+    },
+    {
+      "word": "younger",
+      "start_time": 6.72,
+      "end_time": 7.144,
+      "confidence": 0.99656
+    },
+    {
+      "word": "days",
+      "start_time": 7.192,
+      "end_time": 7.784,
+      "confidence": 0.99956
+    },
+    {
+      "word": "Think",
+      "start_time": 7.952,
+      "end_time": 8.28,
+      "confidence": 0.97889
+    },
+    {
+      "word": "of",
+      "start_time": 8.32,
+      "end_time": 8.52,
+      "confidence": 0.61084
+    },
+    {
+      "word": "me",
+      "start_time": 8.56,
+      "end_time": 8.76,
+      "confidence": 0.9896
+    },
+    {
+      "word": "if",
+      "start_time": 8.8,
+      "end_time": 9.048,
+      "confidence": 0.94938
+    },
+    {
+      "word": "ever",
+      "start_time": 9.104,
+      "end_time": 9.368,
+      "confidence": 0.99195
+    },
+    {
+      "word": "you're",
+      "start_time": 9.424,
+      "end_time": 9.784,
+      "confidence": 0.60045
+    },
+    {
+      "word": "afraid",
+      "start_time": 9.832,
+      "end_time": 10.776,
+      "confidence": 0.84239
+    },
+    {
+      "word": "he",
+      "start_time": 10.968,
+      "end_time": 11.32,
+      "confidence": 0.99537
+    },
+    {
+      "word": "said",
+      "start_time": 11.36,
+      "end_time": 11.608,
+      "confidence": 0.99803
+    },
+    {
+      "word": "one",
+      "start_time": 11.664,
+      "end_time": 11.88,
+      "confidence": 0.99922
+    },
+    {
+      "word": "day",
+      "start_time": 11.92,
+      "end_time": 12.36,
+      "confidence": 0.99971
+    },
+    {
+      "word": "you'll",
+      "start_time": 12.48,
+      "end_time": 12.856,
+      "confidence": 0.60138
+    },
+    {
+      "word": "leave",
+      "start_time": 12.888,
+      "end_time": 13.096,
+      "confidence": 0.99853
+    },
+    {
+      "word": "this",
+      "start_time": 13.128,
+      "end_time": 13.32,
+      "confidence": 0.99737
+    },
+    {
+      "word": "world",
+      "start_time": 13.36,
+      "end_time": 13.608,
+      "confidence": 0.99834
+    },
+    {
+      "word": "behind",
+      "start_time": 13.664,
+      "end_time": 14.26,
+      "confidence": 0.99972
+    },
+    {
+      "word": "so",
+      "start_time": 14.72,
+      "end_time": 15.176,
+      "confidence": 0.99553
+    },
+    {
+      "word": "live",
+      "start_time": 15.248,
+      "end_time": 15.48,
+      "confidence": 0.99395
+    },
+    {
+      "word": "a",
+      "start_time": 15.52,
+      "end_time": 15.672,
+      "confidence": 0.98561
+    },
+    {
+      "word": "life",
+      "start_time": 15.696,
+      "end_time": 16.168,
+      "confidence": 0.66387
+    },
+    {
+      "word": "you",
+      "start_time": 16.304,
+      "end_time": 16.648,
+      "confidence": 0.99509
+    },
+    {
+      "word": "will",
+      "start_time": 16.704,
+      "end_time": 17.256,
+      "confidence": 0.99818
+    },
+    {
+      "word": "remember",
+      "start_time": 17.408,
+      "end_time": 18.14,
+      "confidence": 0.90333
+    },
+    {
+      "word": "My",
+      "start_time": 18.64,
+      "end_time": 19.0,
+      "confidence": 0.99725
+    },
+    {
+      "word": "father",
+      "start_time": 19.04,
+      "end_time": 19.448,
+      "confidence": 0.99956
+    },
+    {
+      "word": "told",
+      "start_time": 19.544,
+      "end_time": 19.896,
+      "confidence": 0.99862
+    },
+    {
+      "word": "me",
+      "start_time": 19.968,
+      "end_time": 20.2,
+      "confidence": 0.99957
+    },
+    {
+      "word": "When",
+      "start_time": 20.24,
+      "end_time": 20.44,
+      "confidence": 0.99884
+    },
+    {
+      "word": "I",
+      "start_time": 20.48,
+      "end_time": 20.68,
+      "confidence": 0.99909
+    },
+    {
+      "word": "was",
+      "start_time": 20.72,
+      "end_time": 20.92,
+      "confidence": 0.9993
+    },
+    {
+      "word": "just",
+      "start_time": 20.96,
+      "end_time": 21.16,
+      "confidence": 0.99735
+    },
+    {
+      "word": "a",
+      "start_time": 21.2,
+      "end_time": 21.4,
+      "confidence": 0.99814
+    },
+    {
+      "word": "child",
+      "start_time": 21.44,
+      "end_time": 22.02,
+      "confidence": 0.99843
+    },
+    {
+      "word": "these",
+      "start_time": 22.48,
+      "end_time": 22.84,
+      "confidence": 0.99952
+    },
+    {
+      "word": "are",
+      "start_time": 22.88,
+      "end_time": 23.08,
+      "confidence": 0.99595
+    },
+    {
+      "word": "the",
+      "start_time": 23.12,
+      "end_time": 23.32,
+      "confidence": 0.99684
+    },
+    {
+      "word": "nights",
+      "start_time": 23.36,
+      "end_time": 23.944,
+      "confidence": 0.97494
+    },
+    {
+      "word": "that",
+      "start_time": 23.992,
+      "end_time": 24.296,
+      "confidence": 0.53893
+    },
+    {
+      "word": "never",
+      "start_time": 24.368,
+      "end_time": 24.936,
+      "confidence": 0.99925
+    },
+    {
+      "word": "die",
+      "start_time": 25.088,
+      "end_time": 25.816,
+      "confidence": 0.86589
+    },
+    {
+      "word": "My",
+      "start_time": 25.928,
+      "end_time": 26.2,
+      "confidence": 0.9971
+    },
+    {
+      "word": "father",
+      "start_time": 26.24,
+      "end_time": 26.552,
+      "confidence": 0.99982
+    },
+    {
+      "word": "told",
+      "start_time": 26.616,
+      "end_time": 26.84,
+      "confidence": 0.99764
+    },
+    {
+      "word": "me",
+      "start_time": 26.88,
+      "end_time": 27.46,
+      "confidence": 0.99803
+    },
+    {
+      "word": "Sa",
+      "start_time": 31.82,
+      "end_time": 32.56,
+      "confidence": 0.73574
+    },
+    {
+      "word": "he",
+      "start_time": 64.28,
+      "end_time": 64.64,
+      "confidence": 0.79776
+    },
+    {
+      "word": "said",
+      "start_time": 64.68,
+      "end_time": 64.88,
+      "confidence": 0.993
+    },
+    {
+      "word": "go",
+      "start_time": 64.92,
+      "end_time": 65.168,
+      "confidence": 0.98861
+    },
+    {
+      "word": "venture",
+      "start_time": 65.224,
+      "end_time": 65.632,
+      "confidence": 0.98424
+    },
+    {
+      "word": "far",
+      "start_time": 65.696,
+      "end_time": 65.92,
+      "confidence": 0.97532
+    },
+    {
+      "word": "beyond",
+      "start_time": 65.96,
+      "end_time": 66.304,
+      "confidence": 0.82793
+    },
+    {
+      "word": "the",
+      "start_time": 66.352,
+      "end_time": 66.512,
+      "confidence": 0.99502
+    },
+    {
+      "word": "shores",
+      "start_time": 66.536,
+      "end_time": 67.3,
+      "confidence": 0.91985
+    },
+    {
+      "word": "Back",
+      "start_time": 69.08,
+      "end_time": 69.488,
+      "confidence": 0.97669
+    },
+    {
+      "word": "on",
+      "start_time": 69.544,
+      "end_time": 69.808,
+      "confidence": 0.99171
+    },
+    {
+      "word": "planet",
+      "start_time": 69.864,
+      "end_time": 70.304,
+      "confidence": 0.52657
+    },
+    {
+      "word": "Earth,",
+      "start_time": 70.352,
+      "end_time": 70.624,
+      "confidence": 0.99971
+    },
+    {
+      "word": "my",
+      "start_time": 70.672,
+      "end_time": 70.928,
+      "confidence": 0.99937
+    },
+    {
+      "word": "friend",
+      "start_time": 70.984,
+      "end_time": 71.296,
+      "confidence": 0.99176
+    },
+    {
+      "word": "look",
+      "start_time": 71.368,
+      "end_time": 71.552,
+      "confidence": 0.98238
+    },
+    {
+      "word": "at",
+      "start_time": 71.576,
+      "end_time": 71.664,
+      "confidence": 0.99661
+    },
+    {
+      "word": "that",
+      "start_time": 71.672,
+      "end_time": 71.888,
+      "confidence": 0.99436
+    },
+    {
+      "word": "smile.",
+      "start_time": 71.944,
+      "end_time": 72.448,
+      "confidence": 0.97715
+    },
+    {
+      "word": "You",
+      "start_time": 72.544,
+      "end_time": 72.752,
+      "confidence": 0.80372
+    },
+    {
+      "word": "have",
+      "start_time": 72.776,
+      "end_time": 72.864,
+      "confidence": 0.98824
+    },
+    {
+      "word": "a",
+      "start_time": 72.872,
+      "end_time": 72.944,
+      "confidence": 0.98501
+    },
+    {
+      "word": "good",
+      "start_time": 72.952,
+      "end_time": 73.12,
+      "confidence": 0.99913
+    },
+    {
+      "word": "time?",
+      "start_time": 73.16,
+      "end_time": 73.552,
+      "confidence": 0.99984
+    },
+    {
+      "word": "Yeah,",
+      "start_time": 73.656,
+      "end_time": 73.984,
+      "confidence": 0.88636
+    },
+    {
+      "word": "I",
+      "start_time": 74.032,
+      "end_time": 74.144,
+      "confidence": 0.99417
+    },
+    {
+      "word": "had",
+      "start_time": 74.152,
+      "end_time": 74.272,
+      "confidence": 0.52928
+    },
+    {
+      "word": "a",
+      "start_time": 74.296,
+      "end_time": 74.432,
+      "confidence": 0.75466
+    },
+    {
+      "word": "great",
+      "start_time": 74.456,
+      "end_time": 74.64,
+      "confidence": 0.93626
+    },
+    {
+      "word": "time.",
+      "start_time": 74.68,
+      "end_time": 74.928,
+      "confidence": 0.95701
+    },
+    {
+      "word": "Rishi.",
+      "start_time": 74.984,
+      "end_time": 75.632,
+      "confidence": 0.84928
+    },
+    {
+      "word": "Rishi.",
+      "start_time": 75.776,
+      "end_time": 76.224,
+      "confidence": 0.47668
+    },
+    {
+      "word": "Come",
+      "start_time": 76.272,
+      "end_time": 76.432,
+      "confidence": 0.99757
+    },
+    {
+      "word": "in.",
+      "start_time": 76.456,
+      "end_time": 77.02,
+      "confidence": 0.99218
+    },
+    {
+      "word": "All",
+      "start_time": 77.48,
+      "end_time": 77.792,
+      "confidence": 0.91575
+    },
+    {
+      "word": "right.",
+      "start_time": 77.816,
+      "end_time": 77.952,
+      "confidence": 0.9998
+    },
+    {
+      "word": "Nice",
+      "start_time": 77.976,
+      "end_time": 78.176,
+      "confidence": 0.95539
+    },
+    {
+      "word": "job.",
+      "start_time": 78.208,
+      "end_time": 78.4,
+      "confidence": 0.90117
+    },
+    {
+      "word": "For",
+      "start_time": 78.44,
+      "end_time": 78.544,
+      "confidence": 0.311
+    },
+    {
+      "word": "you,",
+      "start_time": 78.552,
+      "end_time": 78.72,
+      "confidence": 0.66355
+    },
+    {
+      "word": "my",
+      "start_time": 78.76,
+      "end_time": 78.864,
+      "confidence": 0.9957
+    },
+    {
+      "word": "friends.",
+      "start_time": 78.872,
+      "end_time": 78.92,
+      "confidence": 0.67498
+    }
+  ],
+  "video_id": "upload_1745180380_40dfde",
+  "metadata": {
+    "file_type": "video",
+    "file_name": "upload_1745175138_bd2241.mp4",
+    "file_hash": "7f825d3ca3f19021be6b2dda0b389c32"
+  }
+}

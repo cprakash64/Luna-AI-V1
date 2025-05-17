@@ -1,0 +1,5060 @@
+{
+  "text": "Yesterday, Google released a new version of Gemini 2.5 Pro, and the thing that everybody always thought would happen but never happened finally just happened. They built arguably the best coding AI model of all time, currently ranking number one in all ELM arenas. The timing for this release is surprising because their annual developer conference, Google IO, is just two weeks away and that's where they normally hype up their best new tech. We've been applying AI to make AI. AI for generative AI, AI with AI, which could only mean that they must have something even bigger cooking, like maybe Gemini 3 or Gemini 2.5 ultra. Only time will tell. But one thing we do know for sure thanks to an accidentally published blog post, is that the Android 16 UI is getting a major overhaul to be more emotional and expressive. In today's video, we'll try out Google's latest model and look at other recent developments in the AI space that every vibe coder needs to know about. It is 05-07-2025 and you're watching the code report before we talk about Gemini, Another huge development is that OpenAI is abandoning its plans to convert to a for profit company. Many people, and especially Elon Musk outraged at the idea of OpenAI making money and this headline sounds like a huge win for humanity. But with any announcement like this the devil is in the details and what we find is that the current capped profit LLC will become an uncapped profit public benefit corporation, the key word there being uncapped profit. The non profit will continue to oversee and be a shareholder in the PBC and this approach has much better optics for OpenAI, but it paves the way for them to make tons of money without much friction. All they have to do is pretend that AI is super scary and convince politicians that they're trying really hard to keep it in a cage to benefit the public. It's worth noting that Anthropic and XAI are also public benefit corporations. Now, despite having these super advanced AI models, OpenAI just agreed to acquire Windsurf a VS code fork for an incredible $3 billion. Meanwhile, OpenAI is claiming that their AI is one of the top 50 programmers in the world. Impressive. But that begs the question, why pay $3 billion for a VSCode fork when you could just build one with your own AI? But OpenAI is feeling less and less dominant in the AI space every day. Gemini 2.5 is completely dominating L arena, including the coding and web dev arenas, which is like a blind taste test where people choose the best LLM based on actual responses. However, if we look at livebench, which takes a more scientific approach and tries to provide LLMs with contamination free questions, you'll find that OpenAI is still on top and Gemini falls behind. Furthermore, it appears Gemini falls behind on its own benchmarks compared to the last version they released, except when it comes to coding. Like I've said many times before though, never trust benchmarks and just try it for yourself. The first test I usually do is to see if it can generate svelte 5 runecode, and surprisingly Gemini 2.5 almost did it right. I prompted it for a simple to do app and the actual syntax looks correct, although it wasn't doing things correctly and the app itself didn't actually run. That's disappointing, but at least it's a step in the right direction. The next thing I had it do was Vibe code a game from scratch with three js and the end result was pretty solid, but not significantly better than any of the other models I've tried. But one thing about Gemini is that it's especially good with vision prompts. So what I did is sketch out my application on a piece of toilet paper. Then I asked it to build a full stack application with a postgres database and the end result actually had some pretty solid vibes. But now the more important decision is where do we deploy it? Well, that's why you need to know about Savala, the sponsor of today's video. If you're old enough to remember, Heroku, Savala is like a superior modern successor where you can deploy entire full stack applications, databases and static websites, all backed by Google, Kubernetes engine and Cloudflare without the pain of all these YAML configs. We can easily ship our app by first connecting a git, repo or docker image to Savala and provision some resources and then click the deploy button. What's especially awesome is that they just released a database studio that allows us to manage our database directly from their web ui. All infrastructure and data can be easily managed in one place. Give Savala a try for free with $50 in free credits using the link below. This has been the code report. Thanks for watching and I will see you in the next one. Thanks for watching.",
+  "segments": [],
+  "timestamps": [
+    {
+      "word": "Yesterday,",
+      "start_time": 0.32,
+      "end_time": 0.72,
+      "confidence": 0.9998372
+    },
+    {
+      "word": "Google",
+      "start_time": 0.72,
+      "end_time": 1.24,
+      "confidence": 0.9944661
+    },
+    {
+      "word": "released",
+      "start_time": 1.24,
+      "end_time": 1.6,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "a",
+      "start_time": 1.6,
+      "end_time": 1.72,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "new",
+      "start_time": 1.72,
+      "end_time": 1.92,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "version",
+      "start_time": 1.92,
+      "end_time": 2.32,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "of",
+      "start_time": 2.32,
+      "end_time": 2.56,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "Gemini",
+      "start_time": 2.56,
+      "end_time": 3.12,
+      "confidence": 1.0
+    },
+    {
+      "word": "2.5",
+      "start_time": 3.12,
+      "end_time": 3.8,
+      "confidence": 0.98258
+    },
+    {
+      "word": "Pro,",
+      "start_time": 3.8,
+      "end_time": 4.16,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "and",
+      "start_time": 4.24,
+      "end_time": 4.52,
+      "confidence": 0.99316406
+    },
+    {
+      "word": "the",
+      "start_time": 4.52,
+      "end_time": 4.64,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "thing",
+      "start_time": 4.64,
+      "end_time": 4.76,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "that",
+      "start_time": 4.76,
+      "end_time": 4.92,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "everybody",
+      "start_time": 4.92,
+      "end_time": 5.36,
+      "confidence": 0.93188477
+    },
+    {
+      "word": "always",
+      "start_time": 5.36,
+      "end_time": 5.6,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "thought",
+      "start_time": 5.6,
+      "end_time": 5.84,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "would",
+      "start_time": 5.84,
+      "end_time": 6.04,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "happen",
+      "start_time": 6.04,
+      "end_time": 6.28,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "but",
+      "start_time": 6.28,
+      "end_time": 6.56,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "never",
+      "start_time": 6.56,
+      "end_time": 6.8,
+      "confidence": 1.0
+    },
+    {
+      "word": "happened",
+      "start_time": 6.8,
+      "end_time": 7.36,
+      "confidence": 0.99780273
+    },
+    {
+      "word": "finally",
+      "start_time": 7.44,
+      "end_time": 7.88,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "just",
+      "start_time": 7.88,
+      "end_time": 8.12,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "happened.",
+      "start_time": 8.12,
+      "end_time": 8.64,
+      "confidence": 0.9848633
+    },
+    {
+      "word": "They",
+      "start_time": 8.64,
+      "end_time": 8.96,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "built",
+      "start_time": 8.96,
+      "end_time": 9.28,
+      "confidence": 0.9967448
+    },
+    {
+      "word": "arguably",
+      "start_time": 9.28,
+      "end_time": 9.84,
+      "confidence": 0.9998372
+    },
+    {
+      "word": "the",
+      "start_time": 9.84,
+      "end_time": 10.04,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "best",
+      "start_time": 10.04,
+      "end_time": 10.24,
+      "confidence": 1.0
+    },
+    {
+      "word": "coding",
+      "start_time": 10.24,
+      "end_time": 10.64,
+      "confidence": 0.99934894
+    },
+    {
+      "word": "AI",
+      "start_time": 10.64,
+      "end_time": 11.0,
+      "confidence": 0.9921875
+    },
+    {
+      "word": "model",
+      "start_time": 11.0,
+      "end_time": 11.32,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "of",
+      "start_time": 11.32,
+      "end_time": 11.48,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "all",
+      "start_time": 11.48,
+      "end_time": 11.68,
+      "confidence": 1.0
+    },
+    {
+      "word": "time,",
+      "start_time": 11.68,
+      "end_time": 12.0,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "currently",
+      "start_time": 12.08,
+      "end_time": 12.48,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "ranking",
+      "start_time": 12.48,
+      "end_time": 12.96,
+      "confidence": 0.9996338
+    },
+    {
+      "word": "number",
+      "start_time": 12.96,
+      "end_time": 13.2,
+      "confidence": 0.8925781
+    },
+    {
+      "word": "one",
+      "start_time": 13.2,
+      "end_time": 13.4,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "in",
+      "start_time": 13.4,
+      "end_time": 13.52,
+      "confidence": 0.97998047
+    },
+    {
+      "word": "all",
+      "start_time": 13.52,
+      "end_time": 13.68,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "ELM",
+      "start_time": 13.68,
+      "end_time": 14.08,
+      "confidence": 0.59936523
+    },
+    {
+      "word": "arenas.",
+      "start_time": 14.08,
+      "end_time": 14.64,
+      "confidence": 0.9983724
+    },
+    {
+      "word": "The",
+      "start_time": 14.72,
+      "end_time": 15.0,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "timing",
+      "start_time": 15.0,
+      "end_time": 15.28,
+      "confidence": 1.0
+    },
+    {
+      "word": "for",
+      "start_time": 15.28,
+      "end_time": 15.4,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "this",
+      "start_time": 15.4,
+      "end_time": 15.6,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "release",
+      "start_time": 15.6,
+      "end_time": 15.919,
+      "confidence": 1.0
+    },
+    {
+      "word": "is",
+      "start_time": 15.919,
+      "end_time": 16.199,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "surprising",
+      "start_time": 16.199,
+      "end_time": 16.72,
+      "confidence": 0.9996745
+    },
+    {
+      "word": "because",
+      "start_time": 16.8,
+      "end_time": 17.12,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "their",
+      "start_time": 17.12,
+      "end_time": 17.32,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "annual",
+      "start_time": 17.32,
+      "end_time": 17.72,
+      "confidence": 1.0
+    },
+    {
+      "word": "developer",
+      "start_time": 17.72,
+      "end_time": 18.24,
+      "confidence": 0.9987793
+    },
+    {
+      "word": "conference,",
+      "start_time": 18.24,
+      "end_time": 18.64,
+      "confidence": 0.9904785
+    },
+    {
+      "word": "Google",
+      "start_time": 18.64,
+      "end_time": 19.04,
+      "confidence": 0.99934894
+    },
+    {
+      "word": "IO,",
+      "start_time": 19.04,
+      "end_time": 19.44,
+      "confidence": 0.75342
+    },
+    {
+      "word": "is",
+      "start_time": 19.44,
+      "end_time": 19.68,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "just",
+      "start_time": 19.68,
+      "end_time": 19.88,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "two",
+      "start_time": 19.88,
+      "end_time": 20.08,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "weeks",
+      "start_time": 20.08,
+      "end_time": 20.32,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "away",
+      "start_time": 20.32,
+      "end_time": 20.64,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "and",
+      "start_time": 20.64,
+      "end_time": 20.92,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "that's",
+      "start_time": 20.92,
+      "end_time": 21.12,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "where",
+      "start_time": 21.12,
+      "end_time": 21.24,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "they",
+      "start_time": 21.24,
+      "end_time": 21.4,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "normally",
+      "start_time": 21.4,
+      "end_time": 21.72,
+      "confidence": 0.98669434
+    },
+    {
+      "word": "hype",
+      "start_time": 21.72,
+      "end_time": 22.04,
+      "confidence": 0.9967448
+    },
+    {
+      "word": "up",
+      "start_time": 22.04,
+      "end_time": 22.2,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "their",
+      "start_time": 22.2,
+      "end_time": 22.4,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "best",
+      "start_time": 22.4,
+      "end_time": 22.6,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "new",
+      "start_time": 22.6,
+      "end_time": 22.8,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "tech.",
+      "start_time": 22.8,
+      "end_time": 23.12,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "We've",
+      "start_time": 23.12,
+      "end_time": 23.4,
+      "confidence": 0.790446
+    },
+    {
+      "word": "been",
+      "start_time": 23.4,
+      "end_time": 23.56,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "applying",
+      "start_time": 23.56,
+      "end_time": 24.04,
+      "confidence": 0.90152997
+    },
+    {
+      "word": "AI",
+      "start_time": 24.04,
+      "end_time": 24.48,
+      "confidence": 0.9880371
+    },
+    {
+      "word": "to",
+      "start_time": 24.48,
+      "end_time": 24.68,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "make",
+      "start_time": 24.68,
+      "end_time": 24.84,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "AI.",
+      "start_time": 24.84,
+      "end_time": 25.32,
+      "confidence": 0.9758301
+    },
+    {
+      "word": "AI",
+      "start_time": 25.32,
+      "end_time": 25.76,
+      "confidence": 0.97802734
+    },
+    {
+      "word": "for",
+      "start_time": 25.76,
+      "end_time": 26.04,
+      "confidence": 0.55908203
+    },
+    {
+      "word": "generative",
+      "start_time": 26.04,
+      "end_time": 26.48,
+      "confidence": 0.98999023
+    },
+    {
+      "word": "AI,",
+      "start_time": 26.48,
+      "end_time": 26.88,
+      "confidence": 0.99121094
+    },
+    {
+      "word": "AI",
+      "start_time": 26.88,
+      "end_time": 27.28,
+      "confidence": 0.98168945
+    },
+    {
+      "word": "with",
+      "start_time": 27.28,
+      "end_time": 27.52,
+      "confidence": 0.87841797
+    },
+    {
+      "word": "AI,",
+      "start_time": 27.52,
+      "end_time": 27.96,
+      "confidence": 0.9819336
+    },
+    {
+      "word": "which",
+      "start_time": 27.96,
+      "end_time": 28.2,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "could",
+      "start_time": 28.2,
+      "end_time": 28.36,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "only",
+      "start_time": 28.36,
+      "end_time": 28.56,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "mean",
+      "start_time": 28.56,
+      "end_time": 28.76,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "that",
+      "start_time": 28.76,
+      "end_time": 28.92,
+      "confidence": 0.98046875
+    },
+    {
+      "word": "they",
+      "start_time": 28.92,
+      "end_time": 29.08,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "must",
+      "start_time": 29.08,
+      "end_time": 29.24,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "have",
+      "start_time": 29.24,
+      "end_time": 29.4,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "something",
+      "start_time": 29.4,
+      "end_time": 29.64,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "even",
+      "start_time": 29.64,
+      "end_time": 29.92,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "bigger",
+      "start_time": 29.92,
+      "end_time": 30.28,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "cooking,",
+      "start_time": 30.28,
+      "end_time": 30.68,
+      "confidence": 0.9992676
+    },
+    {
+      "word": "like",
+      "start_time": 30.68,
+      "end_time": 30.92,
+      "confidence": 0.98876953
+    },
+    {
+      "word": "maybe",
+      "start_time": 30.92,
+      "end_time": 31.16,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "Gemini",
+      "start_time": 31.16,
+      "end_time": 31.64,
+      "confidence": 0.99934894
+    },
+    {
+      "word": "3",
+      "start_time": 31.64,
+      "end_time": 31.91,
+      "confidence": 0.99268
+    },
+    {
+      "word": "or",
+      "start_time": 32.14,
+      "end_time": 32.26,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "Gemini",
+      "start_time": 32.26,
+      "end_time": 32.74,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "2.5",
+      "start_time": 32.74,
+      "end_time": 33.3,
+      "confidence": 0.86296
+    },
+    {
+      "word": "ultra.",
+      "start_time": 33.3,
+      "end_time": 33.86,
+      "confidence": 0.9979248
+    },
+    {
+      "word": "Only",
+      "start_time": 33.86,
+      "end_time": 34.14,
+      "confidence": 1.0
+    },
+    {
+      "word": "time",
+      "start_time": 34.14,
+      "end_time": 34.34,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "will",
+      "start_time": 34.34,
+      "end_time": 34.54,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "tell.",
+      "start_time": 34.54,
+      "end_time": 34.82,
+      "confidence": 1.0
+    },
+    {
+      "word": "But",
+      "start_time": 34.82,
+      "end_time": 35.1,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "one",
+      "start_time": 35.1,
+      "end_time": 35.3,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "thing",
+      "start_time": 35.3,
+      "end_time": 35.46,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "we",
+      "start_time": 35.46,
+      "end_time": 35.62,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "do",
+      "start_time": 35.62,
+      "end_time": 35.78,
+      "confidence": 0.9711914
+    },
+    {
+      "word": "know",
+      "start_time": 35.78,
+      "end_time": 35.94,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "for",
+      "start_time": 35.94,
+      "end_time": 36.1,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "sure",
+      "start_time": 36.1,
+      "end_time": 36.38,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "thanks",
+      "start_time": 36.38,
+      "end_time": 36.7,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "to",
+      "start_time": 36.7,
+      "end_time": 36.82,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "an",
+      "start_time": 36.82,
+      "end_time": 37.02,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "accidentally",
+      "start_time": 37.02,
+      "end_time": 37.66,
+      "confidence": 0.9996745
+    },
+    {
+      "word": "published",
+      "start_time": 37.66,
+      "end_time": 38.06,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "blog",
+      "start_time": 38.06,
+      "end_time": 38.38,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "post,",
+      "start_time": 38.38,
+      "end_time": 38.66,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "is",
+      "start_time": 38.66,
+      "end_time": 38.9,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "that",
+      "start_time": 38.9,
+      "end_time": 39.06,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "the",
+      "start_time": 39.06,
+      "end_time": 39.22,
+      "confidence": 0.97265625
+    },
+    {
+      "word": "Android",
+      "start_time": 39.22,
+      "end_time": 39.58,
+      "confidence": 0.98095703
+    },
+    {
+      "word": "16",
+      "start_time": 39.58,
+      "end_time": 39.9,
+      "confidence": 1.0
+    },
+    {
+      "word": "UI",
+      "start_time": 39.98,
+      "end_time": 40.42,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "is",
+      "start_time": 40.42,
+      "end_time": 40.62,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "getting",
+      "start_time": 40.62,
+      "end_time": 40.86,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "a",
+      "start_time": 40.86,
+      "end_time": 41.06,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "major",
+      "start_time": 41.06,
+      "end_time": 41.3,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "overhaul",
+      "start_time": 41.3,
+      "end_time": 41.94,
+      "confidence": 0.998291
+    },
+    {
+      "word": "to",
+      "start_time": 41.94,
+      "end_time": 42.18,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "be",
+      "start_time": 42.18,
+      "end_time": 42.34,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "more",
+      "start_time": 42.34,
+      "end_time": 42.5,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "emotional",
+      "start_time": 42.5,
+      "end_time": 42.94,
+      "confidence": 0.9889323
+    },
+    {
+      "word": "and",
+      "start_time": 42.94,
+      "end_time": 43.22,
+      "confidence": 0.7548828
+    },
+    {
+      "word": "expressive.",
+      "start_time": 43.22,
+      "end_time": 43.9,
+      "confidence": 0.9992676
+    },
+    {
+      "word": "In",
+      "start_time": 43.9,
+      "end_time": 44.18,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "today's",
+      "start_time": 44.18,
+      "end_time": 44.5,
+      "confidence": 0.9978841
+    },
+    {
+      "word": "video,",
+      "start_time": 44.5,
+      "end_time": 44.74,
+      "confidence": 1.0
+    },
+    {
+      "word": "we'll",
+      "start_time": 44.74,
+      "end_time": 45.06,
+      "confidence": 0.9510091
+    },
+    {
+      "word": "try",
+      "start_time": 45.06,
+      "end_time": 45.22,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "out",
+      "start_time": 45.22,
+      "end_time": 45.42,
+      "confidence": 0.9946289
+    },
+    {
+      "word": "Google's",
+      "start_time": 45.42,
+      "end_time": 45.86,
+      "confidence": 0.9988281
+    },
+    {
+      "word": "latest",
+      "start_time": 45.86,
+      "end_time": 46.1,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "model",
+      "start_time": 46.1,
+      "end_time": 46.5,
+      "confidence": 0.8105469
+    },
+    {
+      "word": "and",
+      "start_time": 46.5,
+      "end_time": 46.78,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "look",
+      "start_time": 46.78,
+      "end_time": 46.94,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "at",
+      "start_time": 46.94,
+      "end_time": 47.06,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "other",
+      "start_time": 47.06,
+      "end_time": 47.26,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "recent",
+      "start_time": 47.26,
+      "end_time": 47.54,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "developments",
+      "start_time": 47.54,
+      "end_time": 48.139,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "in",
+      "start_time": 48.139,
+      "end_time": 48.22,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "the",
+      "start_time": 48.22,
+      "end_time": 48.34,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "AI",
+      "start_time": 48.34,
+      "end_time": 48.7,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "space",
+      "start_time": 48.7,
+      "end_time": 48.98,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "that",
+      "start_time": 48.98,
+      "end_time": 49.26,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "every",
+      "start_time": 49.26,
+      "end_time": 49.5,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "vibe",
+      "start_time": 49.5,
+      "end_time": 49.78,
+      "confidence": 0.92993164
+    },
+    {
+      "word": "coder",
+      "start_time": 49.78,
+      "end_time": 50.1,
+      "confidence": 0.9663086
+    },
+    {
+      "word": "needs",
+      "start_time": 50.1,
+      "end_time": 50.34,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "to",
+      "start_time": 50.34,
+      "end_time": 50.46,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "know",
+      "start_time": 50.46,
+      "end_time": 50.62,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "about.",
+      "start_time": 50.62,
+      "end_time": 50.94,
+      "confidence": 0.98876953
+    },
+    {
+      "word": "It",
+      "start_time": 50.94,
+      "end_time": 51.22,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "is",
+      "start_time": 51.22,
+      "end_time": 51.42,
+      "confidence": 0.87890625
+    },
+    {
+      "word": "05-07-2025",
+      "start_time": 51.42,
+      "end_time": 52.78,
+      "confidence": 0.99922
+    },
+    {
+      "word": "and",
+      "start_time": 52.86,
+      "end_time": 53.14,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "you're",
+      "start_time": 53.14,
+      "end_time": 53.38,
+      "confidence": 0.8776042
+    },
+    {
+      "word": "watching",
+      "start_time": 53.38,
+      "end_time": 53.62,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "the",
+      "start_time": 53.62,
+      "end_time": 53.78,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "code",
+      "start_time": 53.78,
+      "end_time": 54.06,
+      "confidence": 0.9923503
+    },
+    {
+      "word": "report",
+      "start_time": 54.06,
+      "end_time": 54.3,
+      "confidence": 0.9916992
+    },
+    {
+      "word": "before",
+      "start_time": 54.62,
+      "end_time": 54.9,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "we",
+      "start_time": 54.9,
+      "end_time": 55.06,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "talk",
+      "start_time": 55.06,
+      "end_time": 55.22,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "about",
+      "start_time": 55.22,
+      "end_time": 55.42,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "Gemini,",
+      "start_time": 55.42,
+      "end_time": 56.06,
+      "confidence": 0.9991862
+    },
+    {
+      "word": "Another",
+      "start_time": 56.06,
+      "end_time": 56.38,
+      "confidence": 1.0
+    },
+    {
+      "word": "huge",
+      "start_time": 56.38,
+      "end_time": 56.7,
+      "confidence": 1.0
+    },
+    {
+      "word": "development",
+      "start_time": 56.7,
+      "end_time": 57.02,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "is",
+      "start_time": 57.1,
+      "end_time": 57.38,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "that",
+      "start_time": 57.38,
+      "end_time": 57.58,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "OpenAI",
+      "start_time": 57.58,
+      "end_time": 58.14,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "is",
+      "start_time": 58.14,
+      "end_time": 58.42,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "abandoning",
+      "start_time": 58.42,
+      "end_time": 58.98,
+      "confidence": 0.9321289
+    },
+    {
+      "word": "its",
+      "start_time": 58.98,
+      "end_time": 59.18,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "plans",
+      "start_time": 59.18,
+      "end_time": 59.54,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "to",
+      "start_time": 59.54,
+      "end_time": 59.7,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "convert",
+      "start_time": 59.7,
+      "end_time": 59.98,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "to",
+      "start_time": 59.98,
+      "end_time": 60.18,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "a",
+      "start_time": 60.18,
+      "end_time": 60.34,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "for",
+      "start_time": 60.34,
+      "end_time": 60.5,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "profit",
+      "start_time": 60.5,
+      "end_time": 60.94,
+      "confidence": 0.89868164
+    },
+    {
+      "word": "company.",
+      "start_time": 60.94,
+      "end_time": 61.26,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "Many",
+      "start_time": 61.42,
+      "end_time": 61.7,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "people,",
+      "start_time": 61.7,
+      "end_time": 61.98,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "and",
+      "start_time": 62.06,
+      "end_time": 62.38,
+      "confidence": 0.9633789
+    },
+    {
+      "word": "especially",
+      "start_time": 62.38,
+      "end_time": 62.7,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "Elon",
+      "start_time": 62.7,
+      "end_time": 63.22,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "Musk",
+      "start_time": 63.22,
+      "end_time": 63.58,
+      "confidence": 0.8251953
+    },
+    {
+      "word": "outraged",
+      "start_time": 63.96,
+      "end_time": 64.36,
+      "confidence": 0.9991862
+    },
+    {
+      "word": "at",
+      "start_time": 64.36,
+      "end_time": 64.56,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "the",
+      "start_time": 64.56,
+      "end_time": 64.68,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "idea",
+      "start_time": 64.68,
+      "end_time": 64.96,
+      "confidence": 1.0
+    },
+    {
+      "word": "of",
+      "start_time": 64.96,
+      "end_time": 65.12,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "OpenAI",
+      "start_time": 65.12,
+      "end_time": 65.64,
+      "confidence": 0.99072266
+    },
+    {
+      "word": "making",
+      "start_time": 65.64,
+      "end_time": 66.0,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "money",
+      "start_time": 66.0,
+      "end_time": 66.36,
+      "confidence": 1.0
+    },
+    {
+      "word": "and",
+      "start_time": 66.36,
+      "end_time": 66.64,
+      "confidence": 0.98095703
+    },
+    {
+      "word": "this",
+      "start_time": 66.64,
+      "end_time": 66.8,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "headline",
+      "start_time": 66.8,
+      "end_time": 67.16,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "sounds",
+      "start_time": 67.16,
+      "end_time": 67.48,
+      "confidence": 0.9991862
+    },
+    {
+      "word": "like",
+      "start_time": 67.48,
+      "end_time": 67.6,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "a",
+      "start_time": 67.6,
+      "end_time": 67.76,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "huge",
+      "start_time": 67.76,
+      "end_time": 68.0,
+      "confidence": 0.998291
+    },
+    {
+      "word": "win",
+      "start_time": 68.0,
+      "end_time": 68.2,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "for",
+      "start_time": 68.2,
+      "end_time": 68.4,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "humanity.",
+      "start_time": 68.4,
+      "end_time": 69.0,
+      "confidence": 0.9992676
+    },
+    {
+      "word": "But",
+      "start_time": 69.0,
+      "end_time": 69.28,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "with",
+      "start_time": 69.28,
+      "end_time": 69.44,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "any",
+      "start_time": 69.44,
+      "end_time": 69.64,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "announcement",
+      "start_time": 69.64,
+      "end_time": 70.12,
+      "confidence": 0.9824219
+    },
+    {
+      "word": "like",
+      "start_time": 70.12,
+      "end_time": 70.32,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "this",
+      "start_time": 70.32,
+      "end_time": 70.56,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "the",
+      "start_time": 70.56,
+      "end_time": 70.84,
+      "confidence": 0.99072266
+    },
+    {
+      "word": "devil",
+      "start_time": 70.84,
+      "end_time": 71.12,
+      "confidence": 0.95214844
+    },
+    {
+      "word": "is",
+      "start_time": 71.12,
+      "end_time": 71.28,
+      "confidence": 0.99316406
+    },
+    {
+      "word": "in",
+      "start_time": 71.28,
+      "end_time": 71.4,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "the",
+      "start_time": 71.4,
+      "end_time": 71.52,
+      "confidence": 0.9946289
+    },
+    {
+      "word": "details",
+      "start_time": 71.52,
+      "end_time": 72.12,
+      "confidence": 0.9992676
+    },
+    {
+      "word": "and",
+      "start_time": 72.12,
+      "end_time": 72.4,
+      "confidence": 0.9921875
+    },
+    {
+      "word": "what",
+      "start_time": 72.4,
+      "end_time": 72.56,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "we",
+      "start_time": 72.56,
+      "end_time": 72.72,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "find",
+      "start_time": 72.72,
+      "end_time": 72.96,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "is",
+      "start_time": 72.96,
+      "end_time": 73.24,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "that",
+      "start_time": 73.24,
+      "end_time": 73.44,
+      "confidence": 0.9897461
+    },
+    {
+      "word": "the",
+      "start_time": 73.44,
+      "end_time": 73.6,
+      "confidence": 0.9916992
+    },
+    {
+      "word": "current",
+      "start_time": 73.6,
+      "end_time": 73.88,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "capped",
+      "start_time": 73.96,
+      "end_time": 74.44,
+      "confidence": 0.99593097
+    },
+    {
+      "word": "profit",
+      "start_time": 74.44,
+      "end_time": 74.88,
+      "confidence": 0.9929199
+    },
+    {
+      "word": "LLC",
+      "start_time": 74.88,
+      "end_time": 75.48,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "will",
+      "start_time": 75.48,
+      "end_time": 75.76,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "become",
+      "start_time": 75.76,
+      "end_time": 75.96,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "an",
+      "start_time": 75.96,
+      "end_time": 76.2,
+      "confidence": 0.9946289
+    },
+    {
+      "word": "uncapped",
+      "start_time": 76.2,
+      "end_time": 76.84,
+      "confidence": 0.99890137
+    },
+    {
+      "word": "profit",
+      "start_time": 76.84,
+      "end_time": 77.36,
+      "confidence": 0.9916992
+    },
+    {
+      "word": "public",
+      "start_time": 77.36,
+      "end_time": 77.68,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "benefit",
+      "start_time": 77.68,
+      "end_time": 78.2,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "corporation,",
+      "start_time": 78.2,
+      "end_time": 78.84,
+      "confidence": 0.9816081
+    },
+    {
+      "word": "the",
+      "start_time": 78.92,
+      "end_time": 79.2,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "key",
+      "start_time": 79.2,
+      "end_time": 79.36,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "word",
+      "start_time": 79.36,
+      "end_time": 79.6,
+      "confidence": 0.9819336
+    },
+    {
+      "word": "there",
+      "start_time": 79.6,
+      "end_time": 79.84,
+      "confidence": 0.9892578
+    },
+    {
+      "word": "being",
+      "start_time": 79.84,
+      "end_time": 80.119,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "uncapped",
+      "start_time": 80.119,
+      "end_time": 80.72,
+      "confidence": 0.9987793
+    },
+    {
+      "word": "profit.",
+      "start_time": 80.72,
+      "end_time": 81.24,
+      "confidence": 0.99438477
+    },
+    {
+      "word": "The",
+      "start_time": 81.24,
+      "end_time": 81.52,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "non",
+      "start_time": 81.52,
+      "end_time": 81.68,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "profit",
+      "start_time": 81.68,
+      "end_time": 82.08,
+      "confidence": 0.7866211
+    },
+    {
+      "word": "will",
+      "start_time": 82.08,
+      "end_time": 82.28,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "continue",
+      "start_time": 82.28,
+      "end_time": 82.56,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "to",
+      "start_time": 82.56,
+      "end_time": 82.8,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "oversee",
+      "start_time": 82.8,
+      "end_time": 83.32,
+      "confidence": 0.9996745
+    },
+    {
+      "word": "and",
+      "start_time": 83.32,
+      "end_time": 83.52,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "be",
+      "start_time": 83.52,
+      "end_time": 83.68,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "a",
+      "start_time": 83.68,
+      "end_time": 83.84,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "shareholder",
+      "start_time": 83.84,
+      "end_time": 84.36,
+      "confidence": 0.9998372
+    },
+    {
+      "word": "in",
+      "start_time": 84.36,
+      "end_time": 84.48,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "the",
+      "start_time": 84.48,
+      "end_time": 84.64,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "PBC",
+      "start_time": 84.64,
+      "end_time": 85.24,
+      "confidence": 0.99641925
+    },
+    {
+      "word": "and",
+      "start_time": 85.24,
+      "end_time": 85.52,
+      "confidence": 0.99121094
+    },
+    {
+      "word": "this",
+      "start_time": 85.52,
+      "end_time": 85.68,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "approach",
+      "start_time": 85.68,
+      "end_time": 85.92,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "has",
+      "start_time": 85.92,
+      "end_time": 86.2,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "much",
+      "start_time": 86.2,
+      "end_time": 86.4,
+      "confidence": 0.9916992
+    },
+    {
+      "word": "better",
+      "start_time": 86.4,
+      "end_time": 86.6,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "optics",
+      "start_time": 86.6,
+      "end_time": 87.04,
+      "confidence": 1.0
+    },
+    {
+      "word": "for",
+      "start_time": 87.04,
+      "end_time": 87.24,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "OpenAI,",
+      "start_time": 87.24,
+      "end_time": 87.8,
+      "confidence": 0.9929199
+    },
+    {
+      "word": "but",
+      "start_time": 88.04,
+      "end_time": 88.28,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "it",
+      "start_time": 88.28,
+      "end_time": 88.4,
+      "confidence": 0.9897461
+    },
+    {
+      "word": "paves",
+      "start_time": 88.4,
+      "end_time": 88.64,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "the",
+      "start_time": 88.64,
+      "end_time": 88.8,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "way",
+      "start_time": 88.8,
+      "end_time": 88.96,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "for",
+      "start_time": 88.96,
+      "end_time": 89.12,
+      "confidence": 0.9946289
+    },
+    {
+      "word": "them",
+      "start_time": 89.12,
+      "end_time": 89.28,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "to",
+      "start_time": 89.28,
+      "end_time": 89.4,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "make",
+      "start_time": 89.4,
+      "end_time": 89.52,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "tons",
+      "start_time": 89.52,
+      "end_time": 89.8,
+      "confidence": 0.99934894
+    },
+    {
+      "word": "of",
+      "start_time": 89.8,
+      "end_time": 89.88,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "money",
+      "start_time": 89.88,
+      "end_time": 90.08,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "without",
+      "start_time": 90.08,
+      "end_time": 90.4,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "much",
+      "start_time": 90.4,
+      "end_time": 90.64,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "friction.",
+      "start_time": 90.64,
+      "end_time": 91.04,
+      "confidence": 0.99886066
+    },
+    {
+      "word": "All",
+      "start_time": 91.04,
+      "end_time": 91.28,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "they",
+      "start_time": 91.28,
+      "end_time": 91.44,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "have",
+      "start_time": 91.44,
+      "end_time": 91.56,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "to",
+      "start_time": 91.56,
+      "end_time": 91.64,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "do",
+      "start_time": 91.64,
+      "end_time": 91.72,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "is",
+      "start_time": 91.72,
+      "end_time": 91.84,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "pretend",
+      "start_time": 91.84,
+      "end_time": 92.12,
+      "confidence": 0.9998372
+    },
+    {
+      "word": "that",
+      "start_time": 92.12,
+      "end_time": 92.24,
+      "confidence": 0.98828125
+    },
+    {
+      "word": "AI",
+      "start_time": 92.24,
+      "end_time": 92.56,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "is",
+      "start_time": 92.56,
+      "end_time": 92.72,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "super",
+      "start_time": 92.72,
+      "end_time": 92.92,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "scary",
+      "start_time": 92.92,
+      "end_time": 93.32,
+      "confidence": 0.9992676
+    },
+    {
+      "word": "and",
+      "start_time": 93.32,
+      "end_time": 93.64,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "convince",
+      "start_time": 93.64,
+      "end_time": 94.0,
+      "confidence": 0.97998047
+    },
+    {
+      "word": "politicians",
+      "start_time": 94.0,
+      "end_time": 94.56,
+      "confidence": 0.9998372
+    },
+    {
+      "word": "that",
+      "start_time": 94.56,
+      "end_time": 94.72,
+      "confidence": 0.9873047
+    },
+    {
+      "word": "they're",
+      "start_time": 94.72,
+      "end_time": 94.92,
+      "confidence": 0.9930013
+    },
+    {
+      "word": "trying",
+      "start_time": 94.92,
+      "end_time": 95.08,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "really",
+      "start_time": 95.08,
+      "end_time": 95.28,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "hard",
+      "start_time": 95.28,
+      "end_time": 95.44,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "to",
+      "start_time": 95.44,
+      "end_time": 95.56,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "keep",
+      "start_time": 95.56,
+      "end_time": 95.71,
+      "confidence": 0.98291016
+    },
+    {
+      "word": "it",
+      "start_time": 95.86,
+      "end_time": 95.94,
+      "confidence": 0.53027344
+    },
+    {
+      "word": "in",
+      "start_time": 95.94,
+      "end_time": 96.02,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "a",
+      "start_time": 96.02,
+      "end_time": 96.1,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "cage",
+      "start_time": 96.1,
+      "end_time": 96.34,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "to",
+      "start_time": 96.34,
+      "end_time": 96.58,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "benefit",
+      "start_time": 96.58,
+      "end_time": 96.94,
+      "confidence": 1.0
+    },
+    {
+      "word": "the",
+      "start_time": 96.94,
+      "end_time": 97.1,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "public.",
+      "start_time": 97.1,
+      "end_time": 97.38,
+      "confidence": 1.0
+    },
+    {
+      "word": "It's",
+      "start_time": 97.46,
+      "end_time": 97.78,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "worth",
+      "start_time": 97.78,
+      "end_time": 97.94,
+      "confidence": 1.0
+    },
+    {
+      "word": "noting",
+      "start_time": 97.94,
+      "end_time": 98.18,
+      "confidence": 0.8635254
+    },
+    {
+      "word": "that",
+      "start_time": 98.18,
+      "end_time": 98.42,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "Anthropic",
+      "start_time": 98.42,
+      "end_time": 99.14,
+      "confidence": 0.99890137
+    },
+    {
+      "word": "and",
+      "start_time": 99.14,
+      "end_time": 99.34,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "XAI",
+      "start_time": 99.34,
+      "end_time": 99.86,
+      "confidence": 0.91137695
+    },
+    {
+      "word": "are",
+      "start_time": 99.94,
+      "end_time": 100.22,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "also",
+      "start_time": 100.22,
+      "end_time": 100.46,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "public",
+      "start_time": 100.46,
+      "end_time": 100.78,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "benefit",
+      "start_time": 100.78,
+      "end_time": 101.26,
+      "confidence": 0.9926758
+    },
+    {
+      "word": "corporations.",
+      "start_time": 101.26,
+      "end_time": 101.86,
+      "confidence": 0.97054034
+    },
+    {
+      "word": "Now,",
+      "start_time": 102.1,
+      "end_time": 102.42,
+      "confidence": 0.9946289
+    },
+    {
+      "word": "despite",
+      "start_time": 102.42,
+      "end_time": 102.7,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "having",
+      "start_time": 102.7,
+      "end_time": 102.98,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "these",
+      "start_time": 102.98,
+      "end_time": 103.22,
+      "confidence": 0.99316406
+    },
+    {
+      "word": "super",
+      "start_time": 103.22,
+      "end_time": 103.46,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "advanced",
+      "start_time": 103.46,
+      "end_time": 103.98,
+      "confidence": 0.99527997
+    },
+    {
+      "word": "AI",
+      "start_time": 103.98,
+      "end_time": 104.3,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "models,",
+      "start_time": 104.3,
+      "end_time": 104.7,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "OpenAI",
+      "start_time": 104.7,
+      "end_time": 105.26,
+      "confidence": 0.9987793
+    },
+    {
+      "word": "just",
+      "start_time": 105.26,
+      "end_time": 105.5,
+      "confidence": 0.9873047
+    },
+    {
+      "word": "agreed",
+      "start_time": 105.5,
+      "end_time": 105.82,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "to",
+      "start_time": 105.82,
+      "end_time": 105.98,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "acquire",
+      "start_time": 105.98,
+      "end_time": 106.38,
+      "confidence": 0.9977214
+    },
+    {
+      "word": "Windsurf",
+      "start_time": 106.38,
+      "end_time": 107.06,
+      "confidence": 0.864624
+    },
+    {
+      "word": "a",
+      "start_time": 107.06,
+      "end_time": 107.22,
+      "confidence": 0.99121094
+    },
+    {
+      "word": "VS",
+      "start_time": 107.22,
+      "end_time": 107.5,
+      "confidence": 0.8947754
+    },
+    {
+      "word": "code",
+      "start_time": 107.5,
+      "end_time": 107.74,
+      "confidence": 0.9554036
+    },
+    {
+      "word": "fork",
+      "start_time": 107.74,
+      "end_time": 108.1,
+      "confidence": 0.99121094
+    },
+    {
+      "word": "for",
+      "start_time": 108.1,
+      "end_time": 108.26,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "an",
+      "start_time": 108.26,
+      "end_time": 108.34,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "incredible",
+      "start_time": 108.34,
+      "end_time": 108.78,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "$3",
+      "start_time": 108.78,
+      "end_time": 109.266,
+      "confidence": 0.98425
+    },
+    {
+      "word": "billion.",
+      "start_time": 109.374,
+      "end_time": 109.86,
+      "confidence": 0.98425
+    },
+    {
+      "word": "Meanwhile,",
+      "start_time": 110.02,
+      "end_time": 110.46,
+      "confidence": 0.9996745
+    },
+    {
+      "word": "OpenAI",
+      "start_time": 110.46,
+      "end_time": 110.94,
+      "confidence": 0.8874512
+    },
+    {
+      "word": "is",
+      "start_time": 110.94,
+      "end_time": 111.18,
+      "confidence": 0.9946289
+    },
+    {
+      "word": "claiming",
+      "start_time": 111.18,
+      "end_time": 111.5,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "that",
+      "start_time": 111.5,
+      "end_time": 111.699,
+      "confidence": 0.98339844
+    },
+    {
+      "word": "their",
+      "start_time": 111.699,
+      "end_time": 111.94,
+      "confidence": 0.9902344
+    },
+    {
+      "word": "AI",
+      "start_time": 111.94,
+      "end_time": 112.3,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "is",
+      "start_time": 112.3,
+      "end_time": 112.46,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "one",
+      "start_time": 112.46,
+      "end_time": 112.58,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "of",
+      "start_time": 112.58,
+      "end_time": 112.66,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "the",
+      "start_time": 112.66,
+      "end_time": 112.78,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "top",
+      "start_time": 112.78,
+      "end_time": 112.98,
+      "confidence": 1.0
+    },
+    {
+      "word": "50",
+      "start_time": 112.98,
+      "end_time": 113.26,
+      "confidence": 0.99951
+    },
+    {
+      "word": "programmers",
+      "start_time": 113.26,
+      "end_time": 113.86,
+      "confidence": 0.99938965
+    },
+    {
+      "word": "in",
+      "start_time": 113.86,
+      "end_time": 113.94,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "the",
+      "start_time": 113.94,
+      "end_time": 114.06,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "world.",
+      "start_time": 114.06,
+      "end_time": 114.34,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "Impressive.",
+      "start_time": 114.5,
+      "end_time": 115.18,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "But",
+      "start_time": 115.18,
+      "end_time": 115.46,
+      "confidence": 0.99316406
+    },
+    {
+      "word": "that",
+      "start_time": 115.46,
+      "end_time": 115.66,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "begs",
+      "start_time": 115.66,
+      "end_time": 115.94,
+      "confidence": 0.99934894
+    },
+    {
+      "word": "the",
+      "start_time": 115.94,
+      "end_time": 116.06,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "question,",
+      "start_time": 116.06,
+      "end_time": 116.34,
+      "confidence": 0.62158203
+    },
+    {
+      "word": "why",
+      "start_time": 116.5,
+      "end_time": 116.78,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "pay",
+      "start_time": 116.78,
+      "end_time": 117.02,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "$3",
+      "start_time": 117.02,
+      "end_time": 117.26,
+      "confidence": 0.99951
+    },
+    {
+      "word": "billion",
+      "start_time": 117.26,
+      "end_time": 117.5,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "for",
+      "start_time": 117.94,
+      "end_time": 118.14,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "a",
+      "start_time": 118.14,
+      "end_time": 118.3,
+      "confidence": 0.9926758
+    },
+    {
+      "word": "VSCode",
+      "start_time": 117.5,
+      "end_time": 118.86,
+      "confidence": 0.89435
+    },
+    {
+      "word": "fork",
+      "start_time": 118.86,
+      "end_time": 119.18,
+      "confidence": 0.998291
+    },
+    {
+      "word": "when",
+      "start_time": 119.18,
+      "end_time": 119.3,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "you",
+      "start_time": 119.3,
+      "end_time": 119.42,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "could",
+      "start_time": 119.42,
+      "end_time": 119.58,
+      "confidence": 0.98291016
+    },
+    {
+      "word": "just",
+      "start_time": 119.58,
+      "end_time": 119.78,
+      "confidence": 0.97802734
+    },
+    {
+      "word": "build",
+      "start_time": 119.78,
+      "end_time": 120.02,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "one",
+      "start_time": 120.02,
+      "end_time": 120.22,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "with",
+      "start_time": 120.22,
+      "end_time": 120.38,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "your",
+      "start_time": 120.38,
+      "end_time": 120.54,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "own",
+      "start_time": 120.54,
+      "end_time": 120.74,
+      "confidence": 0.9897461
+    },
+    {
+      "word": "AI?",
+      "start_time": 120.74,
+      "end_time": 121.18,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "But",
+      "start_time": 121.18,
+      "end_time": 121.42,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "OpenAI",
+      "start_time": 121.42,
+      "end_time": 121.9,
+      "confidence": 0.85717773
+    },
+    {
+      "word": "is",
+      "start_time": 121.9,
+      "end_time": 122.14,
+      "confidence": 0.9941406
+    },
+    {
+      "word": "feeling",
+      "start_time": 122.14,
+      "end_time": 122.42,
+      "confidence": 0.9992676
+    },
+    {
+      "word": "less",
+      "start_time": 122.42,
+      "end_time": 122.62,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "and",
+      "start_time": 122.62,
+      "end_time": 122.74,
+      "confidence": 0.9873047
+    },
+    {
+      "word": "less",
+      "start_time": 122.74,
+      "end_time": 122.9,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "dominant",
+      "start_time": 122.9,
+      "end_time": 123.3,
+      "confidence": 0.9998779
+    },
+    {
+      "word": "in",
+      "start_time": 123.3,
+      "end_time": 123.42,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "the",
+      "start_time": 123.42,
+      "end_time": 123.54,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "AI",
+      "start_time": 123.54,
+      "end_time": 123.86,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "space",
+      "start_time": 123.86,
+      "end_time": 124.1,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "every",
+      "start_time": 124.1,
+      "end_time": 124.34,
+      "confidence": 0.9941406
+    },
+    {
+      "word": "day.",
+      "start_time": 124.34,
+      "end_time": 124.66,
+      "confidence": 0.9501953
+    },
+    {
+      "word": "Gemini",
+      "start_time": 124.66,
+      "end_time": 125.26,
+      "confidence": 0.9996745
+    },
+    {
+      "word": "2.5",
+      "start_time": 125.26,
+      "end_time": 125.86,
+      "confidence": 0.99577
+    },
+    {
+      "word": "is",
+      "start_time": 125.86,
+      "end_time": 126.1,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "completely",
+      "start_time": 126.1,
+      "end_time": 126.54,
+      "confidence": 0.9992676
+    },
+    {
+      "word": "dominating",
+      "start_time": 126.54,
+      "end_time": 126.98,
+      "confidence": 0.99886066
+    },
+    {
+      "word": "L",
+      "start_time": 126.98,
+      "end_time": 127.3,
+      "confidence": 0.81689453
+    },
+    {
+      "word": "arena,",
+      "start_time": 127.68,
+      "end_time": 128.08,
+      "confidence": 0.90283203
+    },
+    {
+      "word": "including",
+      "start_time": 128.08,
+      "end_time": 128.36,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "the",
+      "start_time": 128.36,
+      "end_time": 128.6,
+      "confidence": 0.98291016
+    },
+    {
+      "word": "coding",
+      "start_time": 128.6,
+      "end_time": 129.0,
+      "confidence": 0.99348956
+    },
+    {
+      "word": "and",
+      "start_time": 129.0,
+      "end_time": 129.16,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "web",
+      "start_time": 129.16,
+      "end_time": 129.4,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "dev",
+      "start_time": 129.4,
+      "end_time": 129.6,
+      "confidence": 0.9638672
+    },
+    {
+      "word": "arenas,",
+      "start_time": 129.6,
+      "end_time": 130.16,
+      "confidence": 0.99365234
+    },
+    {
+      "word": "which",
+      "start_time": 130.24,
+      "end_time": 130.52,
+      "confidence": 0.99072266
+    },
+    {
+      "word": "is",
+      "start_time": 130.52,
+      "end_time": 130.68,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "like",
+      "start_time": 130.68,
+      "end_time": 130.84,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "a",
+      "start_time": 130.84,
+      "end_time": 130.96,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "blind",
+      "start_time": 130.96,
+      "end_time": 131.2,
+      "confidence": 0.998291
+    },
+    {
+      "word": "taste",
+      "start_time": 131.2,
+      "end_time": 131.48,
+      "confidence": 0.97835284
+    },
+    {
+      "word": "test",
+      "start_time": 131.48,
+      "end_time": 131.72,
+      "confidence": 1.0
+    },
+    {
+      "word": "where",
+      "start_time": 131.72,
+      "end_time": 131.96,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "people",
+      "start_time": 131.96,
+      "end_time": 132.2,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "choose",
+      "start_time": 132.2,
+      "end_time": 132.64,
+      "confidence": 0.9166667
+    },
+    {
+      "word": "the",
+      "start_time": 132.64,
+      "end_time": 132.8,
+      "confidence": 0.99365234
+    },
+    {
+      "word": "best",
+      "start_time": 132.8,
+      "end_time": 133.0,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "LLM",
+      "start_time": 133.0,
+      "end_time": 133.64,
+      "confidence": 0.98339844
+    },
+    {
+      "word": "based",
+      "start_time": 133.64,
+      "end_time": 133.88,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "on",
+      "start_time": 133.88,
+      "end_time": 134.12,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "actual",
+      "start_time": 134.12,
+      "end_time": 134.48,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "responses.",
+      "start_time": 134.48,
+      "end_time": 135.12,
+      "confidence": 0.9555664
+    },
+    {
+      "word": "However,",
+      "start_time": 135.2,
+      "end_time": 135.6,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "if",
+      "start_time": 135.6,
+      "end_time": 135.84,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "we",
+      "start_time": 135.84,
+      "end_time": 135.96,
+      "confidence": 0.9941406
+    },
+    {
+      "word": "look",
+      "start_time": 135.96,
+      "end_time": 136.08,
+      "confidence": 1.0
+    },
+    {
+      "word": "at",
+      "start_time": 136.08,
+      "end_time": 136.24,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "livebench,",
+      "start_time": 136.24,
+      "end_time": 136.84,
+      "confidence": 0.9144287
+    },
+    {
+      "word": "which",
+      "start_time": 136.84,
+      "end_time": 137.12,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "takes",
+      "start_time": 137.12,
+      "end_time": 137.4,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "a",
+      "start_time": 137.4,
+      "end_time": 137.52,
+      "confidence": 0.99365234
+    },
+    {
+      "word": "more",
+      "start_time": 137.52,
+      "end_time": 137.68,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "scientific",
+      "start_time": 137.68,
+      "end_time": 138.2,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "approach",
+      "start_time": 138.2,
+      "end_time": 138.56,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "and",
+      "start_time": 138.72,
+      "end_time": 139.0,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "tries",
+      "start_time": 139.0,
+      "end_time": 139.2,
+      "confidence": 0.9987793
+    },
+    {
+      "word": "to",
+      "start_time": 139.2,
+      "end_time": 139.32,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "provide",
+      "start_time": 139.32,
+      "end_time": 139.52,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "LLMs",
+      "start_time": 139.52,
+      "end_time": 140.08,
+      "confidence": 0.99194336
+    },
+    {
+      "word": "with",
+      "start_time": 140.08,
+      "end_time": 140.28,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "contamination",
+      "start_time": 140.28,
+      "end_time": 140.84,
+      "confidence": 0.9996745
+    },
+    {
+      "word": "free",
+      "start_time": 140.84,
+      "end_time": 141.16,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "questions,",
+      "start_time": 141.16,
+      "end_time": 141.72,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "you'll",
+      "start_time": 141.72,
+      "end_time": 142.0,
+      "confidence": 0.99397784
+    },
+    {
+      "word": "find",
+      "start_time": 142.0,
+      "end_time": 142.12,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "that",
+      "start_time": 142.12,
+      "end_time": 142.28,
+      "confidence": 0.98583984
+    },
+    {
+      "word": "OpenAI",
+      "start_time": 142.28,
+      "end_time": 142.76,
+      "confidence": 0.9987793
+    },
+    {
+      "word": "is",
+      "start_time": 142.76,
+      "end_time": 142.96,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "still",
+      "start_time": 142.96,
+      "end_time": 143.12,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "on",
+      "start_time": 143.12,
+      "end_time": 143.32,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "top",
+      "start_time": 143.32,
+      "end_time": 143.559,
+      "confidence": 1.0
+    },
+    {
+      "word": "and",
+      "start_time": 143.559,
+      "end_time": 143.84,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "Gemini",
+      "start_time": 143.84,
+      "end_time": 144.36,
+      "confidence": 0.9991862
+    },
+    {
+      "word": "falls",
+      "start_time": 144.36,
+      "end_time": 144.6,
+      "confidence": 1.0
+    },
+    {
+      "word": "behind.",
+      "start_time": 144.6,
+      "end_time": 144.88,
+      "confidence": 1.0
+    },
+    {
+      "word": "Furthermore,",
+      "start_time": 145.2,
+      "end_time": 145.76,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "it",
+      "start_time": 145.76,
+      "end_time": 145.88,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "appears",
+      "start_time": 145.88,
+      "end_time": 146.24,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "Gemini",
+      "start_time": 146.24,
+      "end_time": 146.76,
+      "confidence": 0.99934894
+    },
+    {
+      "word": "falls",
+      "start_time": 146.76,
+      "end_time": 147.0,
+      "confidence": 0.8112793
+    },
+    {
+      "word": "behind",
+      "start_time": 147.0,
+      "end_time": 147.28,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "on",
+      "start_time": 147.28,
+      "end_time": 147.56,
+      "confidence": 0.9926758
+    },
+    {
+      "word": "its",
+      "start_time": 147.56,
+      "end_time": 147.72,
+      "confidence": 0.97753906
+    },
+    {
+      "word": "own",
+      "start_time": 147.72,
+      "end_time": 147.88,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "benchmarks",
+      "start_time": 147.88,
+      "end_time": 148.44,
+      "confidence": 0.95874023
+    },
+    {
+      "word": "compared",
+      "start_time": 148.44,
+      "end_time": 148.84,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "to",
+      "start_time": 148.84,
+      "end_time": 148.96,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "the",
+      "start_time": 148.96,
+      "end_time": 149.08,
+      "confidence": 0.9946289
+    },
+    {
+      "word": "last",
+      "start_time": 149.08,
+      "end_time": 149.28,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "version",
+      "start_time": 149.28,
+      "end_time": 149.56,
+      "confidence": 0.99365234
+    },
+    {
+      "word": "they",
+      "start_time": 149.56,
+      "end_time": 149.76,
+      "confidence": 0.9921875
+    },
+    {
+      "word": "released,",
+      "start_time": 149.76,
+      "end_time": 150.24,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "except",
+      "start_time": 150.24,
+      "end_time": 150.68,
+      "confidence": 0.9501953
+    },
+    {
+      "word": "when",
+      "start_time": 150.68,
+      "end_time": 150.84,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "it",
+      "start_time": 150.84,
+      "end_time": 150.96,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "comes",
+      "start_time": 150.96,
+      "end_time": 151.08,
+      "confidence": 0.9941406
+    },
+    {
+      "word": "to",
+      "start_time": 151.08,
+      "end_time": 151.24,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "coding.",
+      "start_time": 151.24,
+      "end_time": 151.68,
+      "confidence": 0.9996745
+    },
+    {
+      "word": "Like",
+      "start_time": 151.68,
+      "end_time": 151.96,
+      "confidence": 0.9946289
+    },
+    {
+      "word": "I've",
+      "start_time": 151.96,
+      "end_time": 152.2,
+      "confidence": 0.98307294
+    },
+    {
+      "word": "said",
+      "start_time": 152.2,
+      "end_time": 152.36,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "many",
+      "start_time": 152.36,
+      "end_time": 152.56,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "times",
+      "start_time": 152.56,
+      "end_time": 152.8,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "before",
+      "start_time": 152.8,
+      "end_time": 153.08,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "though,",
+      "start_time": 153.08,
+      "end_time": 153.4,
+      "confidence": 0.9033203
+    },
+    {
+      "word": "never",
+      "start_time": 153.4,
+      "end_time": 153.68,
+      "confidence": 1.0
+    },
+    {
+      "word": "trust",
+      "start_time": 153.68,
+      "end_time": 153.96,
+      "confidence": 1.0
+    },
+    {
+      "word": "benchmarks",
+      "start_time": 153.96,
+      "end_time": 154.56,
+      "confidence": 0.9895833
+    },
+    {
+      "word": "and",
+      "start_time": 154.56,
+      "end_time": 154.76,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "just",
+      "start_time": 154.76,
+      "end_time": 154.92,
+      "confidence": 0.98828125
+    },
+    {
+      "word": "try",
+      "start_time": 154.92,
+      "end_time": 155.08,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "it",
+      "start_time": 155.08,
+      "end_time": 155.24,
+      "confidence": 0.9892578
+    },
+    {
+      "word": "for",
+      "start_time": 155.24,
+      "end_time": 155.4,
+      "confidence": 0.96240234
+    },
+    {
+      "word": "yourself.",
+      "start_time": 155.4,
+      "end_time": 155.84,
+      "confidence": 0.9987793
+    },
+    {
+      "word": "The",
+      "start_time": 155.84,
+      "end_time": 156.12,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "first",
+      "start_time": 156.12,
+      "end_time": 156.32,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "test",
+      "start_time": 156.32,
+      "end_time": 156.52,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "I",
+      "start_time": 156.52,
+      "end_time": 156.68,
+      "confidence": 0.9941406
+    },
+    {
+      "word": "usually",
+      "start_time": 156.68,
+      "end_time": 157.0,
+      "confidence": 0.8874512
+    },
+    {
+      "word": "do",
+      "start_time": 157.0,
+      "end_time": 157.28,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "is",
+      "start_time": 157.28,
+      "end_time": 157.48,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "to",
+      "start_time": 157.48,
+      "end_time": 157.64,
+      "confidence": 0.9135742
+    },
+    {
+      "word": "see",
+      "start_time": 157.64,
+      "end_time": 157.76,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "if",
+      "start_time": 157.76,
+      "end_time": 157.88,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "it",
+      "start_time": 157.88,
+      "end_time": 158.0,
+      "confidence": 0.9926758
+    },
+    {
+      "word": "can",
+      "start_time": 158.0,
+      "end_time": 158.12,
+      "confidence": 0.99365234
+    },
+    {
+      "word": "generate",
+      "start_time": 158.12,
+      "end_time": 158.44,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "svelte",
+      "start_time": 158.44,
+      "end_time": 158.84,
+      "confidence": 0.9593099
+    },
+    {
+      "word": "5",
+      "start_time": 158.84,
+      "end_time": 159.04,
+      "confidence": 0.97803
+    },
+    {
+      "word": "runecode,",
+      "start_time": 159.04,
+      "end_time": 159.51,
+      "confidence": 0.8432617
+    },
+    {
+      "word": "and",
+      "start_time": 159.9,
+      "end_time": 160.02,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "surprisingly",
+      "start_time": 160.02,
+      "end_time": 160.54,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "Gemini",
+      "start_time": 160.54,
+      "end_time": 161.1,
+      "confidence": 0.9977214
+    },
+    {
+      "word": "2.5",
+      "start_time": 161.1,
+      "end_time": 161.74,
+      "confidence": 0.9987
+    },
+    {
+      "word": "almost",
+      "start_time": 161.74,
+      "end_time": 162.06,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "did",
+      "start_time": 162.06,
+      "end_time": 162.26,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "it",
+      "start_time": 162.26,
+      "end_time": 162.46,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "right.",
+      "start_time": 162.46,
+      "end_time": 162.74,
+      "confidence": 0.9819336
+    },
+    {
+      "word": "I",
+      "start_time": 162.74,
+      "end_time": 162.98,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "prompted",
+      "start_time": 162.98,
+      "end_time": 163.34,
+      "confidence": 1.0
+    },
+    {
+      "word": "it",
+      "start_time": 163.34,
+      "end_time": 163.46,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "for",
+      "start_time": 163.46,
+      "end_time": 163.62,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "a",
+      "start_time": 163.62,
+      "end_time": 163.78,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "simple",
+      "start_time": 163.78,
+      "end_time": 164.1,
+      "confidence": 0.99780273
+    },
+    {
+      "word": "to",
+      "start_time": 164.1,
+      "end_time": 164.26,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "do",
+      "start_time": 164.26,
+      "end_time": 164.46,
+      "confidence": 0.75341797
+    },
+    {
+      "word": "app",
+      "start_time": 164.46,
+      "end_time": 164.74,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "and",
+      "start_time": 164.74,
+      "end_time": 164.98,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "the",
+      "start_time": 164.98,
+      "end_time": 165.14,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "actual",
+      "start_time": 165.14,
+      "end_time": 165.5,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "syntax",
+      "start_time": 165.5,
+      "end_time": 165.98,
+      "confidence": 0.97021484
+    },
+    {
+      "word": "looks",
+      "start_time": 165.98,
+      "end_time": 166.26,
+      "confidence": 0.9904785
+    },
+    {
+      "word": "correct,",
+      "start_time": 166.26,
+      "end_time": 166.58,
+      "confidence": 0.9318034
+    },
+    {
+      "word": "although",
+      "start_time": 166.58,
+      "end_time": 166.9,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "it",
+      "start_time": 166.9,
+      "end_time": 167.02,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "wasn't",
+      "start_time": 167.02,
+      "end_time": 167.3,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "doing",
+      "start_time": 167.3,
+      "end_time": 167.54,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "things",
+      "start_time": 167.54,
+      "end_time": 167.82,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "correctly",
+      "start_time": 167.82,
+      "end_time": 168.22,
+      "confidence": 0.9996338
+    },
+    {
+      "word": "and",
+      "start_time": 168.22,
+      "end_time": 168.42,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "the",
+      "start_time": 168.42,
+      "end_time": 168.58,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "app",
+      "start_time": 168.58,
+      "end_time": 168.78,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "itself",
+      "start_time": 168.78,
+      "end_time": 169.14,
+      "confidence": 0.8984375
+    },
+    {
+      "word": "didn't",
+      "start_time": 169.14,
+      "end_time": 169.46,
+      "confidence": 0.99934894
+    },
+    {
+      "word": "actually",
+      "start_time": 169.46,
+      "end_time": 169.7,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "run.",
+      "start_time": 169.7,
+      "end_time": 170.06,
+      "confidence": 1.0
+    },
+    {
+      "word": "That's",
+      "start_time": 170.22,
+      "end_time": 170.58,
+      "confidence": 0.90999347
+    },
+    {
+      "word": "disappointing,",
+      "start_time": 170.58,
+      "end_time": 171.18,
+      "confidence": 0.9996338
+    },
+    {
+      "word": "but",
+      "start_time": 171.18,
+      "end_time": 171.42,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "at",
+      "start_time": 171.42,
+      "end_time": 171.62,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "least",
+      "start_time": 171.62,
+      "end_time": 171.78,
+      "confidence": 1.0
+    },
+    {
+      "word": "it's",
+      "start_time": 171.78,
+      "end_time": 172.02,
+      "confidence": 0.9630534
+    },
+    {
+      "word": "a",
+      "start_time": 172.02,
+      "end_time": 172.18,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "step",
+      "start_time": 172.18,
+      "end_time": 172.38,
+      "confidence": 1.0
+    },
+    {
+      "word": "in",
+      "start_time": 172.38,
+      "end_time": 172.54,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "the",
+      "start_time": 172.54,
+      "end_time": 172.62,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "right",
+      "start_time": 172.62,
+      "end_time": 172.78,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "direction.",
+      "start_time": 172.78,
+      "end_time": 173.22,
+      "confidence": 0.9987793
+    },
+    {
+      "word": "The",
+      "start_time": 173.22,
+      "end_time": 173.46,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "next",
+      "start_time": 173.46,
+      "end_time": 173.62,
+      "confidence": 1.0
+    },
+    {
+      "word": "thing",
+      "start_time": 173.62,
+      "end_time": 173.74,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "I",
+      "start_time": 173.74,
+      "end_time": 173.86,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "had",
+      "start_time": 173.86,
+      "end_time": 173.98,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "it",
+      "start_time": 173.98,
+      "end_time": 174.1,
+      "confidence": 0.9199219
+    },
+    {
+      "word": "do",
+      "start_time": 174.1,
+      "end_time": 174.26,
+      "confidence": 0.9897461
+    },
+    {
+      "word": "was",
+      "start_time": 174.26,
+      "end_time": 174.46,
+      "confidence": 0.9892578
+    },
+    {
+      "word": "Vibe",
+      "start_time": 174.46,
+      "end_time": 174.74,
+      "confidence": 0.91186523
+    },
+    {
+      "word": "code",
+      "start_time": 174.74,
+      "end_time": 175.02,
+      "confidence": 0.9505208
+    },
+    {
+      "word": "a",
+      "start_time": 175.02,
+      "end_time": 175.1,
+      "confidence": 0.99365234
+    },
+    {
+      "word": "game",
+      "start_time": 175.1,
+      "end_time": 175.22,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "from",
+      "start_time": 175.22,
+      "end_time": 175.459,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "scratch",
+      "start_time": 175.459,
+      "end_time": 175.86,
+      "confidence": 0.99694824
+    },
+    {
+      "word": "with",
+      "start_time": 175.86,
+      "end_time": 176.06,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "three",
+      "start_time": 176.06,
+      "end_time": 176.3,
+      "confidence": 1.0
+    },
+    {
+      "word": "js",
+      "start_time": 176.3,
+      "end_time": 176.86,
+      "confidence": 0.9885254
+    },
+    {
+      "word": "and",
+      "start_time": 176.86,
+      "end_time": 177.1,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "the",
+      "start_time": 177.1,
+      "end_time": 177.22,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "end",
+      "start_time": 177.22,
+      "end_time": 177.38,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "result",
+      "start_time": 177.38,
+      "end_time": 177.62,
+      "confidence": 1.0
+    },
+    {
+      "word": "was",
+      "start_time": 177.62,
+      "end_time": 177.86,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "pretty",
+      "start_time": 177.86,
+      "end_time": 178.1,
+      "confidence": 0.9998372
+    },
+    {
+      "word": "solid,",
+      "start_time": 178.1,
+      "end_time": 178.42,
+      "confidence": 1.0
+    },
+    {
+      "word": "but",
+      "start_time": 178.42,
+      "end_time": 178.7,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "not",
+      "start_time": 178.7,
+      "end_time": 178.9,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "significantly",
+      "start_time": 178.9,
+      "end_time": 179.46,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "better",
+      "start_time": 179.46,
+      "end_time": 179.66,
+      "confidence": 1.0
+    },
+    {
+      "word": "than",
+      "start_time": 179.66,
+      "end_time": 179.9,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "any",
+      "start_time": 179.9,
+      "end_time": 180.1,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "of",
+      "start_time": 180.1,
+      "end_time": 180.22,
+      "confidence": 0.9785156
+    },
+    {
+      "word": "the",
+      "start_time": 180.22,
+      "end_time": 180.34,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "other",
+      "start_time": 180.34,
+      "end_time": 180.54,
+      "confidence": 0.99316406
+    },
+    {
+      "word": "models",
+      "start_time": 180.54,
+      "end_time": 180.9,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "I've",
+      "start_time": 180.9,
+      "end_time": 181.1,
+      "confidence": 0.9972331
+    },
+    {
+      "word": "tried.",
+      "start_time": 181.1,
+      "end_time": 181.42,
+      "confidence": 1.0
+    },
+    {
+      "word": "But",
+      "start_time": 181.5,
+      "end_time": 181.78,
+      "confidence": 0.99365234
+    },
+    {
+      "word": "one",
+      "start_time": 181.78,
+      "end_time": 181.94,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "thing",
+      "start_time": 181.94,
+      "end_time": 182.06,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "about",
+      "start_time": 182.06,
+      "end_time": 182.22,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "Gemini",
+      "start_time": 182.22,
+      "end_time": 182.82,
+      "confidence": 0.9900716
+    },
+    {
+      "word": "is",
+      "start_time": 182.82,
+      "end_time": 182.98,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "that",
+      "start_time": 182.98,
+      "end_time": 183.1,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "it's",
+      "start_time": 183.1,
+      "end_time": 183.26,
+      "confidence": 0.9967448
+    },
+    {
+      "word": "especially",
+      "start_time": 183.26,
+      "end_time": 183.5,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "good",
+      "start_time": 183.58,
+      "end_time": 183.9,
+      "confidence": 1.0
+    },
+    {
+      "word": "with",
+      "start_time": 183.9,
+      "end_time": 184.14,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "vision",
+      "start_time": 184.14,
+      "end_time": 184.54,
+      "confidence": 0.9992676
+    },
+    {
+      "word": "prompts.",
+      "start_time": 184.54,
+      "end_time": 184.98,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "So",
+      "start_time": 184.98,
+      "end_time": 185.22,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "what",
+      "start_time": 185.22,
+      "end_time": 185.38,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "I",
+      "start_time": 185.38,
+      "end_time": 185.5,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "did",
+      "start_time": 185.5,
+      "end_time": 185.66,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "is",
+      "start_time": 185.66,
+      "end_time": 185.86,
+      "confidence": 0.97558594
+    },
+    {
+      "word": "sketch",
+      "start_time": 185.86,
+      "end_time": 186.14,
+      "confidence": 0.99869794
+    },
+    {
+      "word": "out",
+      "start_time": 186.14,
+      "end_time": 186.3,
+      "confidence": 0.9897461
+    },
+    {
+      "word": "my",
+      "start_time": 186.3,
+      "end_time": 186.46,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "application",
+      "start_time": 186.46,
+      "end_time": 186.9,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "on",
+      "start_time": 186.9,
+      "end_time": 187.06,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "a",
+      "start_time": 187.06,
+      "end_time": 187.18,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "piece",
+      "start_time": 187.18,
+      "end_time": 187.34,
+      "confidence": 0.9996745
+    },
+    {
+      "word": "of",
+      "start_time": 187.34,
+      "end_time": 187.42,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "toilet",
+      "start_time": 187.42,
+      "end_time": 187.74,
+      "confidence": 0.9996745
+    },
+    {
+      "word": "paper.",
+      "start_time": 187.74,
+      "end_time": 188.06,
+      "confidence": 0.9992676
+    },
+    {
+      "word": "Then",
+      "start_time": 188.29,
+      "end_time": 188.41,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "I",
+      "start_time": 188.41,
+      "end_time": 188.61,
+      "confidence": 0.98828125
+    },
+    {
+      "word": "asked",
+      "start_time": 188.61,
+      "end_time": 188.81,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "it",
+      "start_time": 188.81,
+      "end_time": 189.01,
+      "confidence": 0.9902344
+    },
+    {
+      "word": "to",
+      "start_time": 189.01,
+      "end_time": 189.21,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "build",
+      "start_time": 189.21,
+      "end_time": 189.37,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "a",
+      "start_time": 189.37,
+      "end_time": 189.53,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "full",
+      "start_time": 189.53,
+      "end_time": 189.73,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "stack",
+      "start_time": 189.73,
+      "end_time": 190.05,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "application",
+      "start_time": 190.05,
+      "end_time": 190.57,
+      "confidence": 0.9958496
+    },
+    {
+      "word": "with",
+      "start_time": 190.57,
+      "end_time": 190.81,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "a",
+      "start_time": 190.81,
+      "end_time": 191.01,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "postgres",
+      "start_time": 191.01,
+      "end_time": 191.57,
+      "confidence": 0.9630534
+    },
+    {
+      "word": "database",
+      "start_time": 191.57,
+      "end_time": 192.17,
+      "confidence": 0.9998372
+    },
+    {
+      "word": "and",
+      "start_time": 192.17,
+      "end_time": 192.41,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "the",
+      "start_time": 192.41,
+      "end_time": 192.57,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "end",
+      "start_time": 192.57,
+      "end_time": 192.73,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "result",
+      "start_time": 192.73,
+      "end_time": 193.01,
+      "confidence": 1.0
+    },
+    {
+      "word": "actually",
+      "start_time": 193.09,
+      "end_time": 193.45,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "had",
+      "start_time": 193.45,
+      "end_time": 193.73,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "some",
+      "start_time": 193.73,
+      "end_time": 193.93,
+      "confidence": 0.99365234
+    },
+    {
+      "word": "pretty",
+      "start_time": 193.93,
+      "end_time": 194.13,
+      "confidence": 0.99886066
+    },
+    {
+      "word": "solid",
+      "start_time": 194.13,
+      "end_time": 194.41,
+      "confidence": 0.98706055
+    },
+    {
+      "word": "vibes.",
+      "start_time": 194.41,
+      "end_time": 194.93,
+      "confidence": 0.9998372
+    },
+    {
+      "word": "But",
+      "start_time": 194.93,
+      "end_time": 195.21,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "now",
+      "start_time": 195.21,
+      "end_time": 195.37,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "the",
+      "start_time": 195.37,
+      "end_time": 195.49,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "more",
+      "start_time": 195.49,
+      "end_time": 195.61,
+      "confidence": 0.9926758
+    },
+    {
+      "word": "important",
+      "start_time": 195.61,
+      "end_time": 195.85,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "decision",
+      "start_time": 195.85,
+      "end_time": 196.21,
+      "confidence": 0.99365234
+    },
+    {
+      "word": "is",
+      "start_time": 196.37,
+      "end_time": 196.69,
+      "confidence": 0.9736328
+    },
+    {
+      "word": "where",
+      "start_time": 196.69,
+      "end_time": 196.89,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "do",
+      "start_time": 196.89,
+      "end_time": 197.01,
+      "confidence": 0.9926758
+    },
+    {
+      "word": "we",
+      "start_time": 197.01,
+      "end_time": 197.13,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "deploy",
+      "start_time": 197.13,
+      "end_time": 197.45,
+      "confidence": 1.0
+    },
+    {
+      "word": "it?",
+      "start_time": 197.45,
+      "end_time": 197.69,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "Well,",
+      "start_time": 197.69,
+      "end_time": 197.93,
+      "confidence": 0.99316406
+    },
+    {
+      "word": "that's",
+      "start_time": 197.93,
+      "end_time": 198.13,
+      "confidence": 0.99869794
+    },
+    {
+      "word": "why",
+      "start_time": 198.13,
+      "end_time": 198.25,
+      "confidence": 0.99365234
+    },
+    {
+      "word": "you",
+      "start_time": 198.25,
+      "end_time": 198.41,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "need",
+      "start_time": 198.41,
+      "end_time": 198.53,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "to",
+      "start_time": 198.53,
+      "end_time": 198.61,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "know",
+      "start_time": 198.61,
+      "end_time": 198.69,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "about",
+      "start_time": 198.69,
+      "end_time": 198.85,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "Savala,",
+      "start_time": 198.85,
+      "end_time": 199.57,
+      "confidence": 0.8335571
+    },
+    {
+      "word": "the",
+      "start_time": 199.57,
+      "end_time": 199.81,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "sponsor",
+      "start_time": 199.81,
+      "end_time": 200.25,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "of",
+      "start_time": 200.25,
+      "end_time": 200.41,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "today's",
+      "start_time": 200.41,
+      "end_time": 200.73,
+      "confidence": 0.99886066
+    },
+    {
+      "word": "video.",
+      "start_time": 200.73,
+      "end_time": 201.01,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "If",
+      "start_time": 201.09,
+      "end_time": 201.33,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "you're",
+      "start_time": 201.33,
+      "end_time": 201.53,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "old",
+      "start_time": 201.53,
+      "end_time": 201.69,
+      "confidence": 1.0
+    },
+    {
+      "word": "enough",
+      "start_time": 201.69,
+      "end_time": 201.85,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "to",
+      "start_time": 201.85,
+      "end_time": 201.97,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "remember,",
+      "start_time": 201.97,
+      "end_time": 202.21,
+      "confidence": 1.0
+    },
+    {
+      "word": "Heroku,",
+      "start_time": 202.21,
+      "end_time": 202.89,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "Savala",
+      "start_time": 202.89,
+      "end_time": 203.53,
+      "confidence": 0.78686523
+    },
+    {
+      "word": "is",
+      "start_time": 203.53,
+      "end_time": 203.69,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "like",
+      "start_time": 203.69,
+      "end_time": 203.81,
+      "confidence": 0.9941406
+    },
+    {
+      "word": "a",
+      "start_time": 203.81,
+      "end_time": 203.97,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "superior",
+      "start_time": 203.97,
+      "end_time": 204.45,
+      "confidence": 0.98706055
+    },
+    {
+      "word": "modern",
+      "start_time": 204.45,
+      "end_time": 204.85,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "successor",
+      "start_time": 204.85,
+      "end_time": 205.45,
+      "confidence": 0.99731445
+    },
+    {
+      "word": "where",
+      "start_time": 205.45,
+      "end_time": 205.69,
+      "confidence": 0.9941406
+    },
+    {
+      "word": "you",
+      "start_time": 205.69,
+      "end_time": 205.85,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "can",
+      "start_time": 205.85,
+      "end_time": 206.01,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "deploy",
+      "start_time": 206.01,
+      "end_time": 206.37,
+      "confidence": 1.0
+    },
+    {
+      "word": "entire",
+      "start_time": 206.37,
+      "end_time": 206.77,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "full",
+      "start_time": 206.77,
+      "end_time": 207.01,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "stack",
+      "start_time": 207.01,
+      "end_time": 207.33,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "applications,",
+      "start_time": 207.33,
+      "end_time": 207.97,
+      "confidence": 0.99780273
+    },
+    {
+      "word": "databases",
+      "start_time": 208.05,
+      "end_time": 208.77,
+      "confidence": 0.9991862
+    },
+    {
+      "word": "and",
+      "start_time": 208.77,
+      "end_time": 209.09,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "static",
+      "start_time": 209.09,
+      "end_time": 209.57,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "websites,",
+      "start_time": 209.57,
+      "end_time": 210.13,
+      "confidence": 0.9987793
+    },
+    {
+      "word": "all",
+      "start_time": 210.13,
+      "end_time": 210.45,
+      "confidence": 0.99072266
+    },
+    {
+      "word": "backed",
+      "start_time": 210.45,
+      "end_time": 210.73,
+      "confidence": 0.765625
+    },
+    {
+      "word": "by",
+      "start_time": 210.73,
+      "end_time": 210.89,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "Google,",
+      "start_time": 210.89,
+      "end_time": 211.21,
+      "confidence": 0.9998372
+    },
+    {
+      "word": "Kubernetes",
+      "start_time": 211.21,
+      "end_time": 211.73,
+      "confidence": 0.93300784
+    },
+    {
+      "word": "engine",
+      "start_time": 211.73,
+      "end_time": 212.01,
+      "confidence": 0.9992676
+    },
+    {
+      "word": "and",
+      "start_time": 212.01,
+      "end_time": 212.21,
+      "confidence": 0.89941406
+    },
+    {
+      "word": "Cloudflare",
+      "start_time": 212.21,
+      "end_time": 212.85,
+      "confidence": 0.96308595
+    },
+    {
+      "word": "without",
+      "start_time": 212.85,
+      "end_time": 213.17,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "the",
+      "start_time": 213.17,
+      "end_time": 213.33,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "pain",
+      "start_time": 213.33,
+      "end_time": 213.49,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "of",
+      "start_time": 213.49,
+      "end_time": 213.61,
+      "confidence": 0.9941406
+    },
+    {
+      "word": "all",
+      "start_time": 213.61,
+      "end_time": 213.77,
+      "confidence": 0.9716797
+    },
+    {
+      "word": "these",
+      "start_time": 213.77,
+      "end_time": 213.93,
+      "confidence": 0.96728516
+    },
+    {
+      "word": "YAML",
+      "start_time": 213.93,
+      "end_time": 214.37,
+      "confidence": 0.94677734
+    },
+    {
+      "word": "configs.",
+      "start_time": 214.37,
+      "end_time": 214.85,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "We",
+      "start_time": 214.85,
+      "end_time": 215.05,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "can",
+      "start_time": 215.05,
+      "end_time": 215.21,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "easily",
+      "start_time": 215.21,
+      "end_time": 215.45,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "ship",
+      "start_time": 215.45,
+      "end_time": 215.69,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "our",
+      "start_time": 215.69,
+      "end_time": 215.85,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "app",
+      "start_time": 215.85,
+      "end_time": 216.09,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "by",
+      "start_time": 216.09,
+      "end_time": 216.33,
+      "confidence": 0.9868164
+    },
+    {
+      "word": "first",
+      "start_time": 216.33,
+      "end_time": 216.53,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "connecting",
+      "start_time": 216.53,
+      "end_time": 216.89,
+      "confidence": 0.9998372
+    },
+    {
+      "word": "a",
+      "start_time": 216.89,
+      "end_time": 217.01,
+      "confidence": 0.9926758
+    },
+    {
+      "word": "git,",
+      "start_time": 217.01,
+      "end_time": 217.17,
+      "confidence": 0.9926758
+    },
+    {
+      "word": "repo",
+      "start_time": 217.17,
+      "end_time": 217.57,
+      "confidence": 0.7961426
+    },
+    {
+      "word": "or",
+      "start_time": 217.57,
+      "end_time": 217.69,
+      "confidence": 0.9902344
+    },
+    {
+      "word": "docker",
+      "start_time": 217.69,
+      "end_time": 218.09,
+      "confidence": 0.99780273
+    },
+    {
+      "word": "image",
+      "start_time": 218.09,
+      "end_time": 218.29,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "to",
+      "start_time": 218.29,
+      "end_time": 218.45,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "Savala",
+      "start_time": 218.45,
+      "end_time": 219.09,
+      "confidence": 0.92456055
+    },
+    {
+      "word": "and",
+      "start_time": 219.09,
+      "end_time": 219.18,
+      "confidence": 0.3112793
+    },
+    {
+      "word": "provision",
+      "start_time": 219.41,
+      "end_time": 219.69,
+      "confidence": 0.91748047
+    },
+    {
+      "word": "some",
+      "start_time": 219.69,
+      "end_time": 219.93,
+      "confidence": 0.99316406
+    },
+    {
+      "word": "resources",
+      "start_time": 219.93,
+      "end_time": 220.53,
+      "confidence": 0.93880206
+    },
+    {
+      "word": "and",
+      "start_time": 220.53,
+      "end_time": 220.81,
+      "confidence": 0.984375
+    },
+    {
+      "word": "then",
+      "start_time": 220.81,
+      "end_time": 221.01,
+      "confidence": 0.95410156
+    },
+    {
+      "word": "click",
+      "start_time": 221.01,
+      "end_time": 221.25,
+      "confidence": 0.9992676
+    },
+    {
+      "word": "the",
+      "start_time": 221.25,
+      "end_time": 221.37,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "deploy",
+      "start_time": 221.37,
+      "end_time": 221.69,
+      "confidence": 0.99975586
+    },
+    {
+      "word": "button.",
+      "start_time": 221.69,
+      "end_time": 222.05,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "What's",
+      "start_time": 222.13,
+      "end_time": 222.49,
+      "confidence": 0.99625653
+    },
+    {
+      "word": "especially",
+      "start_time": 222.49,
+      "end_time": 222.77,
+      "confidence": 0.97509766
+    },
+    {
+      "word": "awesome",
+      "start_time": 222.77,
+      "end_time": 223.25,
+      "confidence": 0.9998372
+    },
+    {
+      "word": "is",
+      "start_time": 223.25,
+      "end_time": 223.45,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "that",
+      "start_time": 223.45,
+      "end_time": 223.61,
+      "confidence": 0.9873047
+    },
+    {
+      "word": "they",
+      "start_time": 223.61,
+      "end_time": 223.77,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "just",
+      "start_time": 223.77,
+      "end_time": 223.97,
+      "confidence": 0.99121094
+    },
+    {
+      "word": "released",
+      "start_time": 223.97,
+      "end_time": 224.33,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "a",
+      "start_time": 224.33,
+      "end_time": 224.49,
+      "confidence": 0.99365234
+    },
+    {
+      "word": "database",
+      "start_time": 224.49,
+      "end_time": 224.97,
+      "confidence": 0.99934894
+    },
+    {
+      "word": "studio",
+      "start_time": 224.97,
+      "end_time": 225.49,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "that",
+      "start_time": 225.49,
+      "end_time": 225.77,
+      "confidence": 0.9902344
+    },
+    {
+      "word": "allows",
+      "start_time": 225.77,
+      "end_time": 226.05,
+      "confidence": 0.998291
+    },
+    {
+      "word": "us",
+      "start_time": 226.05,
+      "end_time": 226.17,
+      "confidence": 0.9946289
+    },
+    {
+      "word": "to",
+      "start_time": 226.17,
+      "end_time": 226.29,
+      "confidence": 0.9975586
+    },
+    {
+      "word": "manage",
+      "start_time": 226.29,
+      "end_time": 226.49,
+      "confidence": 1.0
+    },
+    {
+      "word": "our",
+      "start_time": 226.49,
+      "end_time": 226.69,
+      "confidence": 0.9951172
+    },
+    {
+      "word": "database",
+      "start_time": 226.69,
+      "end_time": 227.21,
+      "confidence": 0.9977214
+    },
+    {
+      "word": "directly",
+      "start_time": 227.21,
+      "end_time": 227.69,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "from",
+      "start_time": 227.69,
+      "end_time": 227.85,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "their",
+      "start_time": 227.85,
+      "end_time": 228.01,
+      "confidence": 0.99365234
+    },
+    {
+      "word": "web",
+      "start_time": 228.01,
+      "end_time": 228.25,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "ui.",
+      "start_time": 228.25,
+      "end_time": 228.65,
+      "confidence": 0.9838867
+    },
+    {
+      "word": "All",
+      "start_time": 228.65,
+      "end_time": 228.93,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "infrastructure",
+      "start_time": 228.93,
+      "end_time": 229.53,
+      "confidence": 0.9760742
+    },
+    {
+      "word": "and",
+      "start_time": 229.53,
+      "end_time": 229.69,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "data",
+      "start_time": 229.69,
+      "end_time": 229.93,
+      "confidence": 1.0
+    },
+    {
+      "word": "can",
+      "start_time": 229.93,
+      "end_time": 230.13,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "be",
+      "start_time": 230.13,
+      "end_time": 230.25,
+      "confidence": 0.99072266
+    },
+    {
+      "word": "easily",
+      "start_time": 230.25,
+      "end_time": 230.61,
+      "confidence": 0.998291
+    },
+    {
+      "word": "managed",
+      "start_time": 230.61,
+      "end_time": 230.97,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "in",
+      "start_time": 230.97,
+      "end_time": 231.13,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "one",
+      "start_time": 231.13,
+      "end_time": 231.33,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "place.",
+      "start_time": 231.33,
+      "end_time": 231.65,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "Give",
+      "start_time": 231.73,
+      "end_time": 232.05,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "Savala",
+      "start_time": 232.05,
+      "end_time": 232.61,
+      "confidence": 0.800354
+    },
+    {
+      "word": "a",
+      "start_time": 232.61,
+      "end_time": 232.69,
+      "confidence": 0.98779297
+    },
+    {
+      "word": "try",
+      "start_time": 232.69,
+      "end_time": 232.85,
+      "confidence": 0.99853516
+    },
+    {
+      "word": "for",
+      "start_time": 232.85,
+      "end_time": 233.01,
+      "confidence": 0.98876953
+    },
+    {
+      "word": "free",
+      "start_time": 233.01,
+      "end_time": 233.13,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "with",
+      "start_time": 233.13,
+      "end_time": 233.29,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "$50",
+      "start_time": 233.29,
+      "end_time": 233.73,
+      "confidence": 0.94873
+    },
+    {
+      "word": "in",
+      "start_time": 233.73,
+      "end_time": 234.01,
+      "confidence": 0.9013672
+    },
+    {
+      "word": "free",
+      "start_time": 234.01,
+      "end_time": 234.17,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "credits",
+      "start_time": 234.17,
+      "end_time": 234.53,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "using",
+      "start_time": 234.53,
+      "end_time": 234.73,
+      "confidence": 0.99658203
+    },
+    {
+      "word": "the",
+      "start_time": 234.73,
+      "end_time": 234.89,
+      "confidence": 0.99609375
+    },
+    {
+      "word": "link",
+      "start_time": 234.89,
+      "end_time": 235.169,
+      "confidence": 1.0
+    },
+    {
+      "word": "below.",
+      "start_time": 235.169,
+      "end_time": 235.49,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "This",
+      "start_time": 235.57,
+      "end_time": 235.85,
+      "confidence": 0.9980469
+    },
+    {
+      "word": "has",
+      "start_time": 235.85,
+      "end_time": 235.97,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "been",
+      "start_time": 235.97,
+      "end_time": 236.05,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "the",
+      "start_time": 236.05,
+      "end_time": 236.17,
+      "confidence": 0.9970703
+    },
+    {
+      "word": "code",
+      "start_time": 236.17,
+      "end_time": 236.45,
+      "confidence": 0.99072266
+    },
+    {
+      "word": "report.",
+      "start_time": 236.45,
+      "end_time": 236.69,
+      "confidence": 0.99560547
+    },
+    {
+      "word": "Thanks",
+      "start_time": 236.77,
+      "end_time": 237.13,
+      "confidence": 0.99780273
+    },
+    {
+      "word": "for",
+      "start_time": 237.13,
+      "end_time": 237.29,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "watching",
+      "start_time": 237.29,
+      "end_time": 237.65,
+      "confidence": 0.95751953
+    },
+    {
+      "word": "and",
+      "start_time": 237.65,
+      "end_time": 237.93,
+      "confidence": 0.9921875
+    },
+    {
+      "word": "I",
+      "start_time": 237.93,
+      "end_time": 238.05,
+      "confidence": 0.9921875
+    },
+    {
+      "word": "will",
+      "start_time": 238.05,
+      "end_time": 238.17,
+      "confidence": 0.97265625
+    },
+    {
+      "word": "see",
+      "start_time": 238.17,
+      "end_time": 238.33,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "you",
+      "start_time": 238.33,
+      "end_time": 238.45,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "in",
+      "start_time": 238.45,
+      "end_time": 238.57,
+      "confidence": 0.9926758
+    },
+    {
+      "word": "the",
+      "start_time": 238.57,
+      "end_time": 238.69,
+      "confidence": 0.99902344
+    },
+    {
+      "word": "next",
+      "start_time": 238.69,
+      "end_time": 238.85,
+      "confidence": 0.9995117
+    },
+    {
+      "word": "one.",
+      "start_time": 238.85,
+      "end_time": 239.135,
+      "confidence": 0.99316406
+    },
+    {
+      "word": "Thanks",
+      "start_time": 239.135,
+      "end_time": 239.197,
+      "confidence": 0.7036133
+    },
+    {
+      "word": "for",
+      "start_time": 239.197,
+      "end_time": 239.228,
+      "confidence": 0.7163086
+    },
+    {
+      "word": "watching.",
+      "start_time": 239.228,
+      "end_time": 239.26,
+      "confidence": 0.7188721
+    }
+  ],
+  "source_type": "audio_file",
+  "video_id": "youtube_1747076895_uljbox"
+}

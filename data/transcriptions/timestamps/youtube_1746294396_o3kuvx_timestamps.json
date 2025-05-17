@@ -1,0 +1,1634 @@
+{
+  "video_id": "youtube_1746294396_o3kuvx",
+  "raw_timestamps": [
+    {
+      "word": "Sir,",
+      "start_time": 0.08,
+      "end_time": 0.256,
+      "confidence": 0.98528
+    },
+    {
+      "word": "did",
+      "start_time": 0.256,
+      "end_time": 0.4,
+      "confidence": 0.99855
+    },
+    {
+      "word": "you",
+      "start_time": 0.416,
+      "end_time": 0.504,
+      "confidence": 0.9988
+    },
+    {
+      "word": "see",
+      "start_time": 0.512,
+      "end_time": 0.584,
+      "confidence": 0.99835
+    },
+    {
+      "word": "that",
+      "start_time": 0.592,
+      "end_time": 0.712,
+      "confidence": 0.99532
+    },
+    {
+      "word": "Ryan",
+      "start_time": 0.736,
+      "end_time": 0.936,
+      "confidence": 0.81123
+    },
+    {
+      "word": "Coogler's",
+      "start_time": 0.968,
+      "end_time": 1.448,
+      "confidence": 0.98384
+    },
+    {
+      "word": "original",
+      "start_time": 1.464,
+      "end_time": 1.784,
+      "confidence": 0.9986
+    },
+    {
+      "word": "vampire",
+      "start_time": 1.832,
+      "end_time": 2.216,
+      "confidence": 0.99778
+    },
+    {
+      "word": "movie",
+      "start_time": 2.248,
+      "end_time": 2.456,
+      "confidence": 0.99294
+    },
+    {
+      "word": "scared",
+      "start_time": 2.488,
+      "end_time": 2.696,
+      "confidence": 0.99459
+    },
+    {
+      "word": "up",
+      "start_time": 2.728,
+      "end_time": 2.92,
+      "confidence": 0.99589
+    },
+    {
+      "word": "$60",
+      "start_time": 2.96,
+      "end_time": 3.16,
+      "confidence": 0.99788
+    },
+    {
+      "word": "million",
+      "start_time": 3.2,
+      "end_time": 3.448,
+      "confidence": 0.99933
+    },
+    {
+      "word": "at",
+      "start_time": 3.832,
+      "end_time": 3.944,
+      "confidence": 0.99798
+    },
+    {
+      "word": "the",
+      "start_time": 3.952,
+      "end_time": 4.024,
+      "confidence": 0.99932
+    },
+    {
+      "word": "box",
+      "start_time": 4.032,
+      "end_time": 4.216,
+      "confidence": 0.9994
+    },
+    {
+      "word": "office",
+      "start_time": 4.248,
+      "end_time": 4.44,
+      "confidence": 0.99955
+    },
+    {
+      "word": "this",
+      "start_time": 4.48,
+      "end_time": 4.584,
+      "confidence": 0.99465
+    },
+    {
+      "word": "weekend.",
+      "start_time": 4.592,
+      "end_time": 4.856,
+      "confidence": 0.99524
+    },
+    {
+      "word": "It's",
+      "start_time": 4.888,
+      "end_time": 5.048,
+      "confidence": 0.79077
+    },
+    {
+      "word": "the",
+      "start_time": 5.064,
+      "end_time": 5.192,
+      "confidence": 0.99865
+    },
+    {
+      "word": "biggest",
+      "start_time": 5.216,
+      "end_time": 5.416,
+      "confidence": 0.9996
+    },
+    {
+      "word": "opening",
+      "start_time": 5.448,
+      "end_time": 5.688,
+      "confidence": 0.9995
+    },
+    {
+      "word": "for",
+      "start_time": 5.704,
+      "end_time": 5.832,
+      "confidence": 0.99363
+    },
+    {
+      "word": "an",
+      "start_time": 5.856,
+      "end_time": 5.992,
+      "confidence": 0.99365
+    },
+    {
+      "word": "original",
+      "start_time": 6.016,
+      "end_time": 6.344,
+      "confidence": 0.99955
+    },
+    {
+      "word": "movie",
+      "start_time": 6.392,
+      "end_time": 6.664,
+      "confidence": 0.99729
+    },
+    {
+      "word": "this",
+      "start_time": 6.712,
+      "end_time": 6.872,
+      "confidence": 0.99886
+    },
+    {
+      "word": "decade.",
+      "start_time": 6.896,
+      "end_time": 7.368,
+      "confidence": 0.9996
+    },
+    {
+      "word": "Oh,",
+      "start_time": 7.464,
+      "end_time": 7.688,
+      "confidence": 0.49455
+    },
+    {
+      "word": "okay.",
+      "start_time": 7.704,
+      "end_time": 8.024,
+      "confidence": 0.8182
+    },
+    {
+      "word": "This",
+      "start_time": 8.072,
+      "end_time": 8.232,
+      "confidence": 0.99916
+    },
+    {
+      "word": "is",
+      "start_time": 8.256,
+      "end_time": 8.344,
+      "confidence": 0.99822
+    },
+    {
+      "word": "insanely",
+      "start_time": 8.352,
+      "end_time": 8.696,
+      "confidence": 0.99927
+    },
+    {
+      "word": "impressive,",
+      "start_time": 8.728,
+      "end_time": 9.096,
+      "confidence": 0.99899
+    },
+    {
+      "word": "don't",
+      "start_time": 9.128,
+      "end_time": 9.288,
+      "confidence": 0.99251
+    },
+    {
+      "word": "you",
+      "start_time": 9.304,
+      "end_time": 9.384,
+      "confidence": 0.98745
+    },
+    {
+      "word": "think?",
+      "start_time": 9.392,
+      "end_time": 9.56,
+      "confidence": 0.98189
+    },
+    {
+      "word": "Yeah,",
+      "start_time": 9.6,
+      "end_time": 9.768,
+      "confidence": 0.95831
+    },
+    {
+      "word": "yeah,",
+      "start_time": 9.784,
+      "end_time": 9.976,
+      "confidence": 0.93842
+    },
+    {
+      "word": "it's",
+      "start_time": 10.008,
+      "end_time": 10.168,
+      "confidence": 0.95953
+    },
+    {
+      "word": "cool",
+      "start_time": 10.184,
+      "end_time": 10.328,
+      "confidence": 0.99931
+    },
+    {
+      "word": "and",
+      "start_time": 10.344,
+      "end_time": 10.472,
+      "confidence": 0.97994
+    },
+    {
+      "word": "all.",
+      "start_time": 10.496,
+      "end_time": 10.584,
+      "confidence": 0.97918
+    },
+    {
+      "word": "I'm",
+      "start_time": 10.592,
+      "end_time": 10.728,
+      "confidence": 0.97477
+    },
+    {
+      "word": "happy",
+      "start_time": 10.744,
+      "end_time": 10.968,
+      "confidence": 0.99886
+    },
+    {
+      "word": "for",
+      "start_time": 10.984,
+      "end_time": 11.112,
+      "confidence": 0.95229
+    },
+    {
+      "word": "them.",
+      "start_time": 11.136,
+      "end_time": 11.512,
+      "confidence": 0.98841
+    },
+    {
+      "word": "By",
+      "start_time": 11.616,
+      "end_time": 11.784,
+      "confidence": 0.98733
+    },
+    {
+      "word": "the",
+      "start_time": 11.792,
+      "end_time": 11.864,
+      "confidence": 0.99979
+    },
+    {
+      "word": "way,",
+      "start_time": 11.872,
+      "end_time": 11.992,
+      "confidence": 0.997
+    },
+    {
+      "word": "how",
+      "start_time": 12.016,
+      "end_time": 12.104,
+      "confidence": 0.9991
+    },
+    {
+      "word": "much",
+      "start_time": 12.112,
+      "end_time": 12.232,
+      "confidence": 0.99902
+    },
+    {
+      "word": "did",
+      "start_time": 12.256,
+      "end_time": 12.392,
+      "confidence": 0.99553
+    },
+    {
+      "word": "it",
+      "start_time": 12.416,
+      "end_time": 12.504,
+      "confidence": 0.99774
+    },
+    {
+      "word": "cost?",
+      "start_time": 12.512,
+      "end_time": 12.776,
+      "confidence": 0.99944
+    },
+    {
+      "word": "Roughly",
+      "start_time": 12.848,
+      "end_time": 13.272,
+      "confidence": 0.99388
+    },
+    {
+      "word": "90",
+      "start_time": 13.336,
+      "end_time": 13.656,
+      "confidence": 0.999
+    },
+    {
+      "word": "million.",
+      "start_time": 13.728,
+      "end_time": 14.34,
+      "confidence": 0.99866
+    },
+    {
+      "word": "Oh,",
+      "start_time": 14.72,
+      "end_time": 15.512,
+      "confidence": 0.4095
+    },
+    {
+      "word": "last",
+      "start_time": 15.656,
+      "end_time": 15.96,
+      "confidence": 0.99819
+    },
+    {
+      "word": "time",
+      "start_time": 16.0,
+      "end_time": 16.152,
+      "confidence": 0.99764
+    },
+    {
+      "word": "I",
+      "start_time": 16.176,
+      "end_time": 16.312,
+      "confidence": 0.9989
+    },
+    {
+      "word": "checked,",
+      "start_time": 16.336,
+      "end_time": 16.712,
+      "confidence": 0.9846
+    },
+    {
+      "word": "60",
+      "start_time": 16.776,
+      "end_time": 17.048,
+      "confidence": 0.99811
+    },
+    {
+      "word": "million",
+      "start_time": 17.104,
+      "end_time": 17.416,
+      "confidence": 0.99782
+    },
+    {
+      "word": "is",
+      "start_time": 17.488,
+      "end_time": 17.672,
+      "confidence": 0.99448
+    },
+    {
+      "word": "less",
+      "start_time": 17.696,
+      "end_time": 17.88,
+      "confidence": 0.99952
+    },
+    {
+      "word": "than",
+      "start_time": 17.92,
+      "end_time": 18.168,
+      "confidence": 0.99626
+    },
+    {
+      "word": "90",
+      "start_time": 18.224,
+      "end_time": 18.536,
+      "confidence": 0.99937
+    },
+    {
+      "word": "million.",
+      "start_time": 18.608,
+      "end_time": 18.936,
+      "confidence": 0.99754
+    },
+    {
+      "word": "They've",
+      "start_time": 19.008,
+      "end_time": 19.336,
+      "confidence": 0.79438
+    },
+    {
+      "word": "got",
+      "start_time": 19.368,
+      "end_time": 19.56,
+      "confidence": 0.99335
+    },
+    {
+      "word": "a",
+      "start_time": 19.6,
+      "end_time": 19.752,
+      "confidence": 0.99317
+    },
+    {
+      "word": "ways",
+      "start_time": 19.776,
+      "end_time": 20.232,
+      "confidence": 0.91797
+    },
+    {
+      "word": "to",
+      "start_time": 20.296,
+      "end_time": 20.52,
+      "confidence": 0.99873
+    },
+    {
+      "word": "go",
+      "start_time": 20.56,
+      "end_time": 20.76,
+      "confidence": 0.99842
+    },
+    {
+      "word": "until",
+      "start_time": 20.8,
+      "end_time": 21.048,
+      "confidence": 0.99963
+    },
+    {
+      "word": "they're",
+      "start_time": 21.104,
+      "end_time": 21.336,
+      "confidence": 0.9426
+    },
+    {
+      "word": "profitable.",
+      "start_time": 21.368,
+      "end_time": 21.784,
+      "confidence": 0.99792
+    },
+    {
+      "word": "It's",
+      "start_time": 21.832,
+      "end_time": 22.008,
+      "confidence": 0.95503
+    },
+    {
+      "word": "been",
+      "start_time": 22.024,
+      "end_time": 22.152,
+      "confidence": 0.99703
+    },
+    {
+      "word": "one",
+      "start_time": 22.176,
+      "end_time": 22.264,
+      "confidence": 0.99558
+    },
+    {
+      "word": "weekend.",
+      "start_time": 22.272,
+      "end_time": 22.616,
+      "confidence": 0.53051
+    },
+    {
+      "word": "Yeah.",
+      "start_time": 22.648,
+      "end_time": 22.808,
+      "confidence": 0.84486
+    },
+    {
+      "word": "Still,",
+      "start_time": 22.824,
+      "end_time": 23.0,
+      "confidence": 0.94603
+    },
+    {
+      "word": "should",
+      "start_time": 23.04,
+      "end_time": 23.144,
+      "confidence": 0.99547
+    },
+    {
+      "word": "be",
+      "start_time": 23.152,
+      "end_time": 23.224,
+      "confidence": 0.99483
+    },
+    {
+      "word": "a",
+      "start_time": 23.232,
+      "end_time": 23.304,
+      "confidence": 0.97541
+    },
+    {
+      "word": "warning",
+      "start_time": 23.312,
+      "end_time": 23.496,
+      "confidence": 0.9984
+    },
+    {
+      "word": "to",
+      "start_time": 23.528,
+      "end_time": 23.672,
+      "confidence": 0.99797
+    },
+    {
+      "word": "us",
+      "start_time": 23.696,
+      "end_time": 23.832,
+      "confidence": 0.97848
+    },
+    {
+      "word": "studio",
+      "start_time": 23.856,
+      "end_time": 24.136,
+      "confidence": 0.99568
+    },
+    {
+      "word": "heads",
+      "start_time": 24.168,
+      "end_time": 24.408,
+      "confidence": 0.96789
+    },
+    {
+      "word": "that",
+      "start_time": 24.424,
+      "end_time": 24.552,
+      "confidence": 0.99684
+    },
+    {
+      "word": "original",
+      "start_time": 24.576,
+      "end_time": 25.032,
+      "confidence": 0.99974
+    },
+    {
+      "word": "movies",
+      "start_time": 25.096,
+      "end_time": 25.384,
+      "confidence": 0.62178
+    },
+    {
+      "word": "are",
+      "start_time": 25.432,
+      "end_time": 25.592,
+      "confidence": 0.99936
+    },
+    {
+      "word": "risky.",
+      "start_time": 25.616,
+      "end_time": 26.024,
+      "confidence": 0.99351
+    },
+    {
+      "word": "You're",
+      "start_time": 26.072,
+      "end_time": 26.248,
+      "confidence": 0.98578
+    },
+    {
+      "word": "always",
+      "start_time": 26.264,
+      "end_time": 26.44,
+      "confidence": 0.99915
+    },
+    {
+      "word": "complaining",
+      "start_time": 26.48,
+      "end_time": 26.776,
+      "confidence": 0.99925
+    },
+    {
+      "word": "that",
+      "start_time": 26.808,
+      "end_time": 26.952,
+      "confidence": 0.98921
+    },
+    {
+      "word": "no",
+      "start_time": 26.976,
+      "end_time": 27.112,
+      "confidence": 0.99939
+    },
+    {
+      "word": "one's",
+      "start_time": 27.136,
+      "end_time": 27.288,
+      "confidence": 0.8861
+    },
+    {
+      "word": "seeing",
+      "start_time": 27.304,
+      "end_time": 27.496,
+      "confidence": 0.97933
+    },
+    {
+      "word": "original",
+      "start_time": 27.528,
+      "end_time": 27.864,
+      "confidence": 0.99975
+    },
+    {
+      "word": "movies,",
+      "start_time": 27.912,
+      "end_time": 28.328,
+      "confidence": 0.83362
+    },
+    {
+      "word": "and",
+      "start_time": 28.424,
+      "end_time": 28.632,
+      "confidence": 0.99085
+    },
+    {
+      "word": "now",
+      "start_time": 28.656,
+      "end_time": 28.792,
+      "confidence": 0.99837
+    },
+    {
+      "word": "they",
+      "start_time": 28.816,
+      "end_time": 28.904,
+      "confidence": 0.99908
+    },
+    {
+      "word": "are.",
+      "start_time": 28.912,
+      "end_time": 29.08,
+      "confidence": 0.99498
+    },
+    {
+      "word": "I'm",
+      "start_time": 29.12,
+      "end_time": 29.336,
+      "confidence": 0.98985
+    },
+    {
+      "word": "just",
+      "start_time": 29.368,
+      "end_time": 29.464,
+      "confidence": 0.9971
+    },
+    {
+      "word": "saying",
+      "start_time": 29.472,
+      "end_time": 29.64,
+      "confidence": 0.99377
+    },
+    {
+      "word": "maybe",
+      "start_time": 29.68,
+      "end_time": 29.896,
+      "confidence": 0.98732
+    },
+    {
+      "word": "we",
+      "start_time": 29.928,
+      "end_time": 30.072,
+      "confidence": 0.98007
+    },
+    {
+      "word": "shouldn't",
+      "start_time": 30.096,
+      "end_time": 30.248,
+      "confidence": 0.99332
+    },
+    {
+      "word": "be",
+      "start_time": 30.264,
+      "end_time": 30.344,
+      "confidence": 0.99774
+    },
+    {
+      "word": "giving",
+      "start_time": 30.352,
+      "end_time": 30.536,
+      "confidence": 0.99784
+    },
+    {
+      "word": "young",
+      "start_time": 30.568,
+      "end_time": 30.76,
+      "confidence": 0.99572
+    },
+    {
+      "word": "directors",
+      "start_time": 30.8,
+      "end_time": 31.144,
+      "confidence": 0.72797
+    },
+    {
+      "word": "90",
+      "start_time": 31.192,
+      "end_time": 31.352,
+      "confidence": 0.9954
+    },
+    {
+      "word": "million",
+      "start_time": 31.376,
+      "end_time": 31.56,
+      "confidence": 0.99748
+    },
+    {
+      "word": "dol",
+      "start_time": 31.6,
+      "end_time": 31.948,
+      "confidence": 0.99679
+    },
+    {
+      "word": "and",
+      "start_time": 32.024,
+      "end_time": 32.212,
+      "confidence": 0.80529
+    },
+    {
+      "word": "ownership",
+      "start_time": 32.236,
+      "end_time": 32.516,
+      "confidence": 0.56168
+    },
+    {
+      "word": "of",
+      "start_time": 32.548,
+      "end_time": 32.644,
+      "confidence": 0.99671
+    },
+    {
+      "word": "their",
+      "start_time": 32.652,
+      "end_time": 32.772,
+      "confidence": 0.99687
+    },
+    {
+      "word": "own",
+      "start_time": 32.796,
+      "end_time": 32.932,
+      "confidence": 0.99279
+    },
+    {
+      "word": "intellectual",
+      "start_time": 32.956,
+      "end_time": 33.444,
+      "confidence": 0.99678
+    },
+    {
+      "word": "property.",
+      "start_time": 33.492,
+      "end_time": 33.988,
+      "confidence": 0.99939
+    },
+    {
+      "word": "It",
+      "start_time": 34.084,
+      "end_time": 34.292,
+      "confidence": 0.99188
+    },
+    {
+      "word": "sets",
+      "start_time": 34.316,
+      "end_time": 34.548,
+      "confidence": 0.9974
+    },
+    {
+      "word": "a",
+      "start_time": 34.564,
+      "end_time": 34.74,
+      "confidence": 0.99797
+    },
+    {
+      "word": "bad",
+      "start_time": 34.78,
+      "end_time": 35.124,
+      "confidence": 0.9987
+    },
+    {
+      "word": "precedent.",
+      "start_time": 35.212,
+      "end_time": 35.732,
+      "confidence": 0.97835
+    },
+    {
+      "word": "John.",
+      "start_time": 35.796,
+      "end_time": 36.068,
+      "confidence": 0.87702
+    },
+    {
+      "word": "Sony",
+      "start_time": 36.124,
+      "end_time": 36.596,
+      "confidence": 0.60816
+    },
+    {
+      "word": "Pictures.",
+      "start_time": 36.628,
+      "end_time": 36.964,
+      "confidence": 0.97811
+    },
+    {
+      "word": "What",
+      "start_time": 37.012,
+      "end_time": 37.172,
+      "confidence": 0.99469
+    },
+    {
+      "word": "is",
+      "start_time": 37.196,
+      "end_time": 37.284,
+      "confidence": 0.99421
+    },
+    {
+      "word": "this",
+      "start_time": 37.292,
+      "end_time": 37.46,
+      "confidence": 0.9948
+    },
+    {
+      "word": "actually",
+      "start_time": 37.5,
+      "end_time": 37.796,
+      "confidence": 0.99702
+    },
+    {
+      "word": "about?",
+      "start_time": 37.868,
+      "end_time": 38.196,
+      "confidence": 0.99768
+    },
+    {
+      "word": "Every",
+      "start_time": 38.268,
+      "end_time": 38.5,
+      "confidence": 0.99928
+    },
+    {
+      "word": "day",
+      "start_time": 38.54,
+      "end_time": 38.692,
+      "confidence": 0.92807
+    },
+    {
+      "word": "I",
+      "start_time": 38.716,
+      "end_time": 38.852,
+      "confidence": 0.99924
+    },
+    {
+      "word": "have",
+      "start_time": 38.876,
+      "end_time": 38.964,
+      "confidence": 0.99805
+    },
+    {
+      "word": "to",
+      "start_time": 38.972,
+      "end_time": 39.044,
+      "confidence": 0.99888
+    },
+    {
+      "word": "shoot",
+      "start_time": 39.052,
+      "end_time": 39.236,
+      "confidence": 0.99966
+    },
+    {
+      "word": "down",
+      "start_time": 39.268,
+      "end_time": 39.412,
+      "confidence": 0.99769
+    },
+    {
+      "word": "a",
+      "start_time": 39.436,
+      "end_time": 39.572,
+      "confidence": 0.99808
+    },
+    {
+      "word": "dozen",
+      "start_time": 39.596,
+      "end_time": 39.892,
+      "confidence": 0.73096
+    },
+    {
+      "word": "awesome",
+      "start_time": 39.956,
+      "end_time": 40.276,
+      "confidence": 0.99726
+    },
+    {
+      "word": "original",
+      "start_time": 40.308,
+      "end_time": 40.644,
+      "confidence": 0.99862
+    },
+    {
+      "word": "ideas",
+      "start_time": 40.692,
+      "end_time": 40.964,
+      "confidence": 0.98223
+    },
+    {
+      "word": "like",
+      "start_time": 41.012,
+      "end_time": 41.22,
+      "confidence": 0.99703
+    },
+    {
+      "word": "Sinner",
+      "start_time": 41.26,
+      "end_time": 41.636,
+      "confidence": 0.95186
+    },
+    {
+      "word": "so",
+      "start_time": 41.668,
+      "end_time": 41.764,
+      "confidence": 0.99928
+    },
+    {
+      "word": "that",
+      "start_time": 41.772,
+      "end_time": 41.844,
+      "confidence": 0.95826
+    },
+    {
+      "word": "I",
+      "start_time": 41.852,
+      "end_time": 41.924,
+      "confidence": 0.99908
+    },
+    {
+      "word": "can",
+      "start_time": 41.932,
+      "end_time": 42.052,
+      "confidence": 0.99121
+    },
+    {
+      "word": "dump",
+      "start_time": 42.076,
+      "end_time": 42.276,
+      "confidence": 0.99863
+    },
+    {
+      "word": "another",
+      "start_time": 42.308,
+      "end_time": 42.548,
+      "confidence": 0.99828
+    },
+    {
+      "word": "50",
+      "start_time": 42.604,
+      "end_time": 42.868,
+      "confidence": 0.99913
+    },
+    {
+      "word": "million",
+      "start_time": 42.924,
+      "end_time": 43.188,
+      "confidence": 0.99894
+    },
+    {
+      "word": "into",
+      "start_time": 43.244,
+      "end_time": 43.412,
+      "confidence": 0.99116
+    },
+    {
+      "word": "it.",
+      "start_time": 43.436,
+      "end_time": 43.572,
+      "confidence": 0.91491
+    },
+    {
+      "word": "With",
+      "start_time": 43.596,
+      "end_time": 43.732,
+      "confidence": 0.93701
+    },
+    {
+      "word": "the",
+      "start_time": 43.756,
+      "end_time": 43.94,
+      "confidence": 0.85004
+    },
+    {
+      "word": "Captain",
+      "start_time": 43.98,
+      "end_time": 44.404,
+      "confidence": 0.97354
+    },
+    {
+      "word": "Crunch",
+      "start_time": 44.452,
+      "end_time": 44.772,
+      "confidence": 0.70621
+    },
+    {
+      "word": "Frosted",
+      "start_time": 44.836,
+      "end_time": 45.236,
+      "confidence": 0.99657
+    },
+    {
+      "word": "Flakes",
+      "start_time": 45.268,
+      "end_time": 45.7,
+      "confidence": 0.97361
+    },
+    {
+      "word": "crossover",
+      "start_time": 45.78,
+      "end_time": 46.372,
+      "confidence": 0.99162
+    },
+    {
+      "word": "event",
+      "start_time": 46.436,
+      "end_time": 46.708,
+      "confidence": 0.99784
+    },
+    {
+      "word": "movie",
+      "start_time": 46.764,
+      "end_time": 46.996,
+      "confidence": 0.99109
+    },
+    {
+      "word": "starring",
+      "start_time": 47.028,
+      "end_time": 47.236,
+      "confidence": 0.99618
+    },
+    {
+      "word": "Jack",
+      "start_time": 47.268,
+      "end_time": 47.428,
+      "confidence": 0.99816
+    },
+    {
+      "word": "Black",
+      "start_time": 47.444,
+      "end_time": 47.62,
+      "confidence": 0.56177
+    },
+    {
+      "word": "and",
+      "start_time": 47.66,
+      "end_time": 47.812,
+      "confidence": 0.99238
+    },
+    {
+      "word": "Dwayne",
+      "start_time": 47.836,
+      "end_time": 48.116,
+      "confidence": 0.99043
+    },
+    {
+      "word": "the",
+      "start_time": 48.148,
+      "end_time": 48.244,
+      "confidence": 0.99851
+    },
+    {
+      "word": "Rock",
+      "start_time": 48.252,
+      "end_time": 48.388,
+      "confidence": 0.99642
+    },
+    {
+      "word": "Johnson,",
+      "start_time": 48.404,
+      "end_time": 48.724,
+      "confidence": 0.99257
+    },
+    {
+      "word": "I",
+      "start_time": 48.772,
+      "end_time": 48.932,
+      "confidence": 0.99343
+    },
+    {
+      "word": "know",
+      "start_time": 48.956,
+      "end_time": 49.092,
+      "confidence": 0.99947
+    },
+    {
+      "word": "what",
+      "start_time": 49.116,
+      "end_time": 49.3,
+      "confidence": 0.99751
+    },
+    {
+      "word": "people",
+      "start_time": 49.34,
+      "end_time": 49.588,
+      "confidence": 0.99934
+    },
+    {
+      "word": "actually",
+      "start_time": 49.644,
+      "end_time": 49.908,
+      "confidence": 0.99061
+    },
+    {
+      "word": "want",
+      "start_time": 49.964,
+      "end_time": 50.132,
+      "confidence": 0.92694
+    },
+    {
+      "word": "to",
+      "start_time": 50.156,
+      "end_time": 50.292,
+      "confidence": 0.99612
+    },
+    {
+      "word": "see.",
+      "start_time": 50.316,
+      "end_time": 50.74,
+      "confidence": 0.70514
+    },
+    {
+      "word": "They",
+      "start_time": 50.86,
+      "end_time": 51.14,
+      "confidence": 0.99935
+    },
+    {
+      "word": "want",
+      "start_time": 51.18,
+      "end_time": 51.428,
+      "confidence": 0.99943
+    },
+    {
+      "word": "slop.",
+      "start_time": 51.484,
+      "end_time": 52.228,
+      "confidence": 0.87265
+    },
+    {
+      "word": "Deep",
+      "start_time": 52.404,
+      "end_time": 52.852,
+      "confidence": 0.99941
+    },
+    {
+      "word": "down,",
+      "start_time": 52.916,
+      "end_time": 53.284,
+      "confidence": 0.99944
+    },
+    {
+      "word": "they",
+      "start_time": 53.372,
+      "end_time": 53.716,
+      "confidence": 0.99885
+    },
+    {
+      "word": "know",
+      "start_time": 53.788,
+      "end_time": 54.02,
+      "confidence": 0.99891
+    },
+    {
+      "word": "they",
+      "start_time": 54.06,
+      "end_time": 54.26,
+      "confidence": 0.99804
+    },
+    {
+      "word": "want",
+      "start_time": 54.3,
+      "end_time": 54.5,
+      "confidence": 0.99888
+    },
+    {
+      "word": "slop.",
+      "start_time": 54.54,
+      "end_time": 54.932,
+      "confidence": 0.97624
+    },
+    {
+      "word": "That",
+      "start_time": 54.996,
+      "end_time": 55.172,
+      "confidence": 0.98701
+    },
+    {
+      "word": "is",
+      "start_time": 55.196,
+      "end_time": 55.332,
+      "confidence": 0.99675
+    },
+    {
+      "word": "so",
+      "start_time": 55.356,
+      "end_time": 55.492,
+      "confidence": 0.99869
+    },
+    {
+      "word": "cynical.",
+      "start_time": 55.516,
+      "end_time": 55.94,
+      "confidence": 0.99591
+    },
+    {
+      "word": "That's",
+      "start_time": 56.02,
+      "end_time": 56.228,
+      "confidence": 0.99272
+    },
+    {
+      "word": "why",
+      "start_time": 56.244,
+      "end_time": 56.372,
+      "confidence": 0.9993
+    },
+    {
+      "word": "I'm",
+      "start_time": 56.396,
+      "end_time": 56.596,
+      "confidence": 0.82527
+    },
+    {
+      "word": "in",
+      "start_time": 56.628,
+      "end_time": 56.82,
+      "confidence": 0.99706
+    },
+    {
+      "word": "charge.",
+      "start_time": 56.86,
+      "end_time": 57.22,
+      "confidence": 0.93875
+    },
+    {
+      "word": "Me,",
+      "start_time": 57.3,
+      "end_time": 57.588,
+      "confidence": 0.95818
+    },
+    {
+      "word": "Johnsony",
+      "start_time": 57.644,
+      "end_time": 58.516,
+      "confidence": 0.58401
+    },
+    {
+      "word": "Pictures.",
+      "start_time": 58.548,
+      "end_time": 58.932,
+      "confidence": 0.97711
+    },
+    {
+      "word": "So",
+      "start_time": 58.996,
+      "end_time": 59.172,
+      "confidence": 0.9928
+    },
+    {
+      "word": "basically",
+      "start_time": 59.196,
+      "end_time": 59.572,
+      "confidence": 0.9985
+    },
+    {
+      "word": "you're",
+      "start_time": 59.636,
+      "end_time": 59.828,
+      "confidence": 0.98574
+    },
+    {
+      "word": "just",
+      "start_time": 59.844,
+      "end_time": 60.068,
+      "confidence": 0.98786
+    },
+    {
+      "word": "jealous",
+      "start_time": 60.124,
+      "end_time": 60.484,
+      "confidence": 0.99957
+    },
+    {
+      "word": "of",
+      "start_time": 60.532,
+      "end_time": 60.692,
+      "confidence": 0.99831
+    },
+    {
+      "word": "their",
+      "start_time": 60.716,
+      "end_time": 60.9,
+      "confidence": 0.9987
+    },
+    {
+      "word": "success.",
+      "start_time": 60.94,
+      "end_time": 61.52,
+      "confidence": 0.99795
+    },
+    {
+      "word": "Yes.",
+      "start_time": 62.86,
+      "end_time": 63.22,
+      "confidence": 0.93452
+    }
+  ],
+  "formatted_timestamps": [
+    {
+      "text": "Sir, did you see that Ryan Coogler's original vampire movie",
+      "start_time": 0.08,
+      "end_time": 2.456,
+      "display_time": "00:00 - 00:02"
+    },
+    {
+      "text": "scared up $60 million at the box office this weekend.",
+      "start_time": 2.488,
+      "end_time": 4.856,
+      "display_time": "00:02 - 00:04"
+    },
+    {
+      "text": "It's the biggest opening for an original movie this decade.",
+      "start_time": 4.888,
+      "end_time": 7.368,
+      "display_time": "00:04 - 00:07"
+    },
+    {
+      "text": "Oh, okay.",
+      "start_time": 7.464,
+      "end_time": 8.024,
+      "display_time": "00:07 - 00:08"
+    },
+    {
+      "text": "This is insanely impressive, don't you think?",
+      "start_time": 8.072,
+      "end_time": 9.56,
+      "display_time": "00:08 - 00:09"
+    },
+    {
+      "text": "Yeah,",
+      "start_time": 9.6,
+      "end_time": 9.768,
+      "display_time": "00:09 - 00:09"
+    },
+    {
+      "text": "yeah, it's cool and all.",
+      "start_time": 9.784,
+      "end_time": 10.584,
+      "display_time": "00:09 - 00:10"
+    },
+    {
+      "text": "I'm happy for them.",
+      "start_time": 10.592,
+      "end_time": 11.512,
+      "display_time": "00:10 - 00:11"
+    },
+    {
+      "text": "By",
+      "start_time": 11.616,
+      "end_time": 11.784,
+      "display_time": "00:11 - 00:11"
+    },
+    {
+      "text": "the way, how much did it cost?",
+      "start_time": 11.792,
+      "end_time": 12.776,
+      "display_time": "00:11 - 00:12"
+    },
+    {
+      "text": "Roughly 90 million.",
+      "start_time": 12.848,
+      "end_time": 14.34,
+      "display_time": "00:12 - 00:14"
+    },
+    {
+      "text": "Oh, last time I checked, 60 million is less than",
+      "start_time": 14.72,
+      "end_time": 18.168,
+      "display_time": "00:14 - 00:18"
+    },
+    {
+      "text": "90 million.",
+      "start_time": 18.224,
+      "end_time": 18.936,
+      "display_time": "00:18 - 00:18"
+    },
+    {
+      "text": "They've got a ways to go until they're",
+      "start_time": 19.008,
+      "end_time": 21.336,
+      "display_time": "00:19 - 00:21"
+    },
+    {
+      "text": "profitable.",
+      "start_time": 21.368,
+      "end_time": 21.784,
+      "display_time": "00:21 - 00:21"
+    },
+    {
+      "text": "It's been one weekend.",
+      "start_time": 21.832,
+      "end_time": 22.616,
+      "display_time": "00:21 - 00:22"
+    },
+    {
+      "text": "Yeah.",
+      "start_time": 22.648,
+      "end_time": 22.808,
+      "display_time": "00:22 - 00:22"
+    },
+    {
+      "text": "Still, should be a",
+      "start_time": 22.824,
+      "end_time": 23.304,
+      "display_time": "00:22 - 00:23"
+    },
+    {
+      "text": "warning to us studio heads that original movies are risky.",
+      "start_time": 23.312,
+      "end_time": 26.024,
+      "display_time": "00:23 - 00:26"
+    },
+    {
+      "text": "You're always complaining that no one's seeing original movies, and",
+      "start_time": 26.072,
+      "end_time": 28.632,
+      "display_time": "00:26 - 00:28"
+    },
+    {
+      "text": "now they are.",
+      "start_time": 28.656,
+      "end_time": 29.08,
+      "display_time": "00:28 - 00:29"
+    },
+    {
+      "text": "I'm just saying maybe we shouldn't be",
+      "start_time": 29.12,
+      "end_time": 30.344,
+      "display_time": "00:29 - 00:30"
+    },
+    {
+      "text": "giving young directors 90 million dol and ownership of their",
+      "start_time": 30.352,
+      "end_time": 32.772,
+      "display_time": "00:30 - 00:32"
+    },
+    {
+      "text": "own intellectual property.",
+      "start_time": 32.796,
+      "end_time": 33.988,
+      "display_time": "00:32 - 00:33"
+    },
+    {
+      "text": "It sets a bad precedent.",
+      "start_time": 34.084,
+      "end_time": 35.732,
+      "display_time": "00:34 - 00:35"
+    },
+    {
+      "text": "John.",
+      "start_time": 35.796,
+      "end_time": 36.068,
+      "display_time": "00:35 - 00:36"
+    },
+    {
+      "text": "Sony",
+      "start_time": 36.124,
+      "end_time": 36.596,
+      "display_time": "00:36 - 00:36"
+    },
+    {
+      "text": "Pictures.",
+      "start_time": 36.628,
+      "end_time": 36.964,
+      "display_time": "00:36 - 00:36"
+    },
+    {
+      "text": "What is this actually about?",
+      "start_time": 37.012,
+      "end_time": 38.196,
+      "display_time": "00:37 - 00:38"
+    },
+    {
+      "text": "Every day I have",
+      "start_time": 38.268,
+      "end_time": 38.964,
+      "display_time": "00:38 - 00:38"
+    },
+    {
+      "text": "to shoot down a dozen awesome original ideas like Sinner",
+      "start_time": 38.972,
+      "end_time": 41.636,
+      "display_time": "00:38 - 00:41"
+    },
+    {
+      "text": "so that I can dump another 50 million into it.",
+      "start_time": 41.668,
+      "end_time": 43.572,
+      "display_time": "00:41 - 00:43"
+    },
+    {
+      "text": "With the Captain Crunch Frosted Flakes crossover event movie starring",
+      "start_time": 43.596,
+      "end_time": 47.236,
+      "display_time": "00:43 - 00:47"
+    },
+    {
+      "text": "Jack Black and Dwayne the Rock Johnson, I know what",
+      "start_time": 47.268,
+      "end_time": 49.3,
+      "display_time": "00:47 - 00:49"
+    },
+    {
+      "text": "people actually want to see.",
+      "start_time": 49.34,
+      "end_time": 50.74,
+      "display_time": "00:49 - 00:50"
+    },
+    {
+      "text": "They want slop.",
+      "start_time": 50.86,
+      "end_time": 52.228,
+      "display_time": "00:50 - 00:52"
+    },
+    {
+      "text": "Deep down,",
+      "start_time": 52.404,
+      "end_time": 53.284,
+      "display_time": "00:52 - 00:53"
+    },
+    {
+      "text": "they know they want slop.",
+      "start_time": 53.372,
+      "end_time": 54.932,
+      "display_time": "00:53 - 00:54"
+    },
+    {
+      "text": "That is so cynical.",
+      "start_time": 54.996,
+      "end_time": 55.94,
+      "display_time": "00:54 - 00:55"
+    },
+    {
+      "text": "That's",
+      "start_time": 56.02,
+      "end_time": 56.228,
+      "display_time": "00:56 - 00:56"
+    },
+    {
+      "text": "why I'm in charge.",
+      "start_time": 56.244,
+      "end_time": 57.22,
+      "display_time": "00:56 - 00:57"
+    },
+    {
+      "text": "Me, Johnsony Pictures.",
+      "start_time": 57.3,
+      "end_time": 58.932,
+      "display_time": "00:57 - 00:58"
+    },
+    {
+      "text": "So basically you're",
+      "start_time": 58.996,
+      "end_time": 59.828,
+      "display_time": "00:58 - 00:59"
+    },
+    {
+      "text": "just jealous of their success.",
+      "start_time": 59.844,
+      "end_time": 61.52,
+      "display_time": "00:59 - 01:01"
+    },
+    {
+      "text": "Yes.",
+      "start_time": 62.86,
+      "end_time": 63.22,
+      "display_time": "01:02 - 01:03"
+    }
+  ],
+  "created_at": 1746294405.9891012
+}

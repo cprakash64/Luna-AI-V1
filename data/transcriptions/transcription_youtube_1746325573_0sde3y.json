@@ -1,0 +1,8258 @@
+{
+  "text": "Recently I unlocked a new achievement in life a midlife crisis when I came to the realization that I've spent most of my adult life writing code, and most of that code is total garbage. It's code that never saw the light of a production server and was either abandoned, refactored, or left to rot in the graveyard of GitHub. As I reflected upon this further, I realized that many of the best practices, the hot game changing frameworks and the perfect folder structures didn't actually matter to the end user. I wasted countless hours chasing programming dragons that made me feel more productive but ultimately led nowhere. In today's video, we'll debunk nine smart ideas that waste your time as a programmer. And for each myth we'll look at how it lures you in, why it's actually a trap, and most importantly, how to not do the things that I have done now. One of the main goals of this channel is to show you the latest tech you need to use to be relevant, but it's actually a myth that you need to use the latest tech to be relevant. In fact, you might even become more hireable by focusing on old dinosaur technologies like WordPress and PHP still runs most of the web applications out there, Java runs most of the enterprise world, most databases are SQL based and C runs most of the low level systems. However, there are shiny new replacements for tech like this including Next JS, Kotlin, NoSQL and Rust. And the lure is a massive feeling of FOMO if you're not mastering the bleeding edge of these so called superior technologies. To be clear, I'm not discouraging you from learning these. They're awesome. But it's important to understand that most of the real world where the jobs exist are not going to change their dinosaur tech stacks anytime soon. The critical banking systems still run on Cobol and Java will still be powering 3 billion devices long after everybody watches. Watching this is dead. Most CTOs are smart enough to know that if it ain't broke, don't fix it. Here's a real life example. A few years ago engineers from Twitter released a hot new database called Fauna. It was a pretty solid product and I even made a video about it. But the technology was proprietary, VC funded and like most startups, the business failed. Recently. They have no choice but to shut down their servers and if you were an early adopter, you're now screwed and would have been much better off with a boring SQL database. Adopting tech too early is one thing, but adhering to programming dogma can waste even more time the problem with programming is that there many different ways to solve the same problem, but some people out there believe that there's only one true way to write code. Some common cults out there include the object oriented Purists and the Functional Programming extremists. I've been a member of both cults and have learned a lot from them, but dedicating your entire life to just one of them is a waste of time. I mostly code in JavaScript, which is a multi paradigm language that can satisfy all of these cults. In 2018, functional programming was having a renaissance in web development. Back then if you used classes in your code you were literally Hitler and I found myself bending over backwards to try to do everything in the most functional way possible. No mutable state and higher order functions everywhere. But a few years later, after the spell wore off, I eventually realized that classes can be pretty useful and my code today often includes a combination of things I've learned from both of these cults. But another time waster to watch out for is clean Code, which comes from a legendary book written by Uncle Bob Martin known as the Handbook for Agile Software Craftsmanship. Most of the advice in this book is great, use meaningful names, write small functions, use consistent formatting, and so on. But some of the advice is a little more nuanced, like the dry principle of don't repeat your which means you shouldn't duplicate or write the same code over and over again. And on the surface that seems like a good idea, but also when you try too hard to keep things clean, you might end up with an endless layer of wrappers, interfaces, and pointless indirection. It's paralysis by analysis and you end up spending more time refactoring than building actual features that people want. I think a better acronym would be rug Repeat until good, duplicate code at first and then pull it into a single abstraction after the repetition becomes painful. Clean Code also recommends test driven development and testing can be extremely valuable, but it's a myth that one 100% test coverage means that your code is well protected. Your boss, who has no programming experience, is likely a big fan of code coverage tooling that will show how much of your source code is executed when a test suite is run. It's interesting, but optimizing for 100% coverage is often a huge waste of time and can often be misleading because high coverage does not equal high quality. Optimizing for coverage encourages developers to write pointless tests that just touch lines and not catch real bugs. And even worse than wasting time, it provides a false sense of security. And then on top of that it makes your CI builds even slower, which going to cost you more money. When it comes to test coverage, it's quality, not quantity that matters. But one thing that truly must matter is performance. Well, actually it's a myth that you should always optimize for performance. Yet another time waster is benchmarking and optimizing code that just doesn't run at the scale to justify those optimizations. It's far more important to make sure that your code is correct and then only optimize for performance when it becomes painfully obvious that your code sucks in production. On a similar note, you also don't need to optimize your cloud infrastructure like you're about to scale like Facebook. Like I used to think that I needed this comp complex serverless microservice architecture with global sharding and edge caching, but it turns out that one small VPS is perfectly fine for my five users. Then finally that brings us to the elephant in the room, the myth that AI is about to replace all programmers soon. There are some awesome AI code writing tools out there, but it's becoming more and more clear that many programmers are now wasting a bunch of time relying too much on AI. For example, Claude Sonnet 3.7 is really good at writing code, but it's also notoriously verbose. You might ask it to build a simple website and it'll just randomly Engineer some new JavaScript framework from scratch, and because you forgot how to write code, you'll just approve it and move on with your life. AI programming tools are both the greatest productivity booster I've ever seen in my life, but when used improperly, they can also be the biggest time waster. The key to success is to have a solid foundation in problem solving, and you can start building that foundation for free today thanks to this video's sponsor, Brilliant. A hard truth is that code is useless if you don't understand the math and computer science behind it. Brilliant helps you learn these concepts quickly by providing short, fun interactive lessons, which is a method proven to be six times more effective effective than watching video lectures, but most importantly, you'll build critical thinking skills through problem solving, not memorizing. Before you try to jump into vibe coding, I'd highly recommend taking their Thinking in Code course to build a timeless problem solving foundation where you'll learn how to actually think like a programmer. Try everything Brilliant has to offer for free for 30 days by visiting brilliant.org fireship or scan the QR code on screen and get 20% off an annual premium subscription. Thanks for watching and I will see you in the next one.",
+  "segments": [],
+  "timestamps": [
+    {
+      "word": "Recently",
+      "start_time": 0.24,
+      "end_time": 0.496,
+      "confidence": 0.99976
+    },
+    {
+      "word": "I",
+      "start_time": 0.528,
+      "end_time": 0.76,
+      "confidence": 0.99871
+    },
+    {
+      "word": "unlocked",
+      "start_time": 0.8,
+      "end_time": 1.128,
+      "confidence": 0.9974
+    },
+    {
+      "word": "a",
+      "start_time": 1.144,
+      "end_time": 1.272,
+      "confidence": 0.9991
+    },
+    {
+      "word": "new",
+      "start_time": 1.296,
+      "end_time": 1.432,
+      "confidence": 0.99987
+    },
+    {
+      "word": "achievement",
+      "start_time": 1.456,
+      "end_time": 1.816,
+      "confidence": 0.9984
+    },
+    {
+      "word": "in",
+      "start_time": 1.848,
+      "end_time": 1.992,
+      "confidence": 0.99881
+    },
+    {
+      "word": "life",
+      "start_time": 2.016,
+      "end_time": 2.248,
+      "confidence": 0.77671
+    },
+    {
+      "word": "a",
+      "start_time": 2.304,
+      "end_time": 2.52,
+      "confidence": 0.99354
+    },
+    {
+      "word": "midlife",
+      "start_time": 2.56,
+      "end_time": 2.984,
+      "confidence": 0.91448
+    },
+    {
+      "word": "crisis",
+      "start_time": 3.032,
+      "end_time": 3.464,
+      "confidence": 0.99763
+    },
+    {
+      "word": "when",
+      "start_time": 3.512,
+      "end_time": 3.672,
+      "confidence": 0.996
+    },
+    {
+      "word": "I",
+      "start_time": 3.696,
+      "end_time": 3.784,
+      "confidence": 0.99855
+    },
+    {
+      "word": "came",
+      "start_time": 3.792,
+      "end_time": 3.912,
+      "confidence": 0.99291
+    },
+    {
+      "word": "to",
+      "start_time": 3.936,
+      "end_time": 4.072,
+      "confidence": 0.99857
+    },
+    {
+      "word": "the",
+      "start_time": 4.096,
+      "end_time": 4.232,
+      "confidence": 0.9967
+    },
+    {
+      "word": "realization",
+      "start_time": 4.256,
+      "end_time": 4.856,
+      "confidence": 0.99443
+    },
+    {
+      "word": "that",
+      "start_time": 4.968,
+      "end_time": 5.192,
+      "confidence": 0.99668
+    },
+    {
+      "word": "I've",
+      "start_time": 5.216,
+      "end_time": 5.416,
+      "confidence": 0.98066
+    },
+    {
+      "word": "spent",
+      "start_time": 5.448,
+      "end_time": 5.608,
+      "confidence": 0.99926
+    },
+    {
+      "word": "most",
+      "start_time": 5.624,
+      "end_time": 5.752,
+      "confidence": 0.99945
+    },
+    {
+      "word": "of",
+      "start_time": 5.776,
+      "end_time": 5.864,
+      "confidence": 0.99833
+    },
+    {
+      "word": "my",
+      "start_time": 5.872,
+      "end_time": 5.992,
+      "confidence": 0.99885
+    },
+    {
+      "word": "adult",
+      "start_time": 6.016,
+      "end_time": 6.344,
+      "confidence": 0.99962
+    },
+    {
+      "word": "life",
+      "start_time": 6.392,
+      "end_time": 6.6,
+      "confidence": 0.99888
+    },
+    {
+      "word": "writing",
+      "start_time": 6.64,
+      "end_time": 6.952,
+      "confidence": 0.99867
+    },
+    {
+      "word": "code,",
+      "start_time": 7.016,
+      "end_time": 7.4,
+      "confidence": 0.9848
+    },
+    {
+      "word": "and",
+      "start_time": 7.48,
+      "end_time": 7.72,
+      "confidence": 0.9956
+    },
+    {
+      "word": "most",
+      "start_time": 7.76,
+      "end_time": 7.96,
+      "confidence": 0.99961
+    },
+    {
+      "word": "of",
+      "start_time": 8.0,
+      "end_time": 8.104,
+      "confidence": 0.99923
+    },
+    {
+      "word": "that",
+      "start_time": 8.112,
+      "end_time": 8.232,
+      "confidence": 0.99145
+    },
+    {
+      "word": "code",
+      "start_time": 8.256,
+      "end_time": 8.456,
+      "confidence": 0.99855
+    },
+    {
+      "word": "is",
+      "start_time": 8.488,
+      "end_time": 8.68,
+      "confidence": 0.9989
+    },
+    {
+      "word": "total",
+      "start_time": 8.72,
+      "end_time": 8.92,
+      "confidence": 0.99653
+    },
+    {
+      "word": "garbage.",
+      "start_time": 8.96,
+      "end_time": 9.432,
+      "confidence": 0.98185
+    },
+    {
+      "word": "It's",
+      "start_time": 9.496,
+      "end_time": 9.736,
+      "confidence": 0.99374
+    },
+    {
+      "word": "code",
+      "start_time": 9.768,
+      "end_time": 9.928,
+      "confidence": 0.99955
+    },
+    {
+      "word": "that",
+      "start_time": 9.944,
+      "end_time": 10.072,
+      "confidence": 0.99903
+    },
+    {
+      "word": "never",
+      "start_time": 10.096,
+      "end_time": 10.28,
+      "confidence": 0.9997
+    },
+    {
+      "word": "saw",
+      "start_time": 10.32,
+      "end_time": 10.472,
+      "confidence": 0.99962
+    },
+    {
+      "word": "the",
+      "start_time": 10.496,
+      "end_time": 10.632,
+      "confidence": 0.9997
+    },
+    {
+      "word": "light",
+      "start_time": 10.656,
+      "end_time": 10.792,
+      "confidence": 0.99958
+    },
+    {
+      "word": "of",
+      "start_time": 10.816,
+      "end_time": 10.904,
+      "confidence": 0.99942
+    },
+    {
+      "word": "a",
+      "start_time": 10.912,
+      "end_time": 11.032,
+      "confidence": 0.99708
+    },
+    {
+      "word": "production",
+      "start_time": 11.056,
+      "end_time": 11.464,
+      "confidence": 0.99909
+    },
+    {
+      "word": "server",
+      "start_time": 11.512,
+      "end_time": 11.864,
+      "confidence": 0.99951
+    },
+    {
+      "word": "and",
+      "start_time": 11.912,
+      "end_time": 12.072,
+      "confidence": 0.99826
+    },
+    {
+      "word": "was",
+      "start_time": 12.096,
+      "end_time": 12.232,
+      "confidence": 0.9979
+    },
+    {
+      "word": "either",
+      "start_time": 12.256,
+      "end_time": 12.504,
+      "confidence": 0.99947
+    },
+    {
+      "word": "abandoned,",
+      "start_time": 12.552,
+      "end_time": 13.144,
+      "confidence": 0.89302
+    },
+    {
+      "word": "refactored,",
+      "start_time": 13.192,
+      "end_time": 13.784,
+      "confidence": 0.98835
+    },
+    {
+      "word": "or",
+      "start_time": 13.832,
+      "end_time": 14.04,
+      "confidence": 0.99909
+    },
+    {
+      "word": "left",
+      "start_time": 14.08,
+      "end_time": 14.232,
+      "confidence": 0.99993
+    },
+    {
+      "word": "to",
+      "start_time": 14.256,
+      "end_time": 14.392,
+      "confidence": 0.99703
+    },
+    {
+      "word": "rot",
+      "start_time": 14.416,
+      "end_time": 14.696,
+      "confidence": 0.90393
+    },
+    {
+      "word": "in",
+      "start_time": 14.728,
+      "end_time": 14.824,
+      "confidence": 0.99866
+    },
+    {
+      "word": "the",
+      "start_time": 14.832,
+      "end_time": 14.952,
+      "confidence": 0.99806
+    },
+    {
+      "word": "graveyard",
+      "start_time": 14.976,
+      "end_time": 15.368,
+      "confidence": 0.99966
+    },
+    {
+      "word": "of",
+      "start_time": 15.384,
+      "end_time": 15.512,
+      "confidence": 0.99752
+    },
+    {
+      "word": "GitHub.",
+      "start_time": 15.536,
+      "end_time": 15.992,
+      "confidence": 0.99938
+    },
+    {
+      "word": "As",
+      "start_time": 16.056,
+      "end_time": 16.232,
+      "confidence": 0.99884
+    },
+    {
+      "word": "I",
+      "start_time": 16.256,
+      "end_time": 16.344,
+      "confidence": 0.99921
+    },
+    {
+      "word": "reflected",
+      "start_time": 16.352,
+      "end_time": 16.728,
+      "confidence": 0.99746
+    },
+    {
+      "word": "upon",
+      "start_time": 16.744,
+      "end_time": 16.936,
+      "confidence": 0.89746
+    },
+    {
+      "word": "this",
+      "start_time": 16.968,
+      "end_time": 17.208,
+      "confidence": 0.9979
+    },
+    {
+      "word": "further,",
+      "start_time": 17.264,
+      "end_time": 17.576,
+      "confidence": 0.99954
+    },
+    {
+      "word": "I",
+      "start_time": 17.648,
+      "end_time": 17.832,
+      "confidence": 0.99933
+    },
+    {
+      "word": "realized",
+      "start_time": 17.856,
+      "end_time": 18.216,
+      "confidence": 0.99652
+    },
+    {
+      "word": "that",
+      "start_time": 18.248,
+      "end_time": 18.44,
+      "confidence": 0.99383
+    },
+    {
+      "word": "many",
+      "start_time": 18.48,
+      "end_time": 18.632,
+      "confidence": 0.99945
+    },
+    {
+      "word": "of",
+      "start_time": 18.656,
+      "end_time": 18.792,
+      "confidence": 0.99921
+    },
+    {
+      "word": "the",
+      "start_time": 18.816,
+      "end_time": 18.952,
+      "confidence": 0.99806
+    },
+    {
+      "word": "best",
+      "start_time": 18.976,
+      "end_time": 19.16,
+      "confidence": 0.99994
+    },
+    {
+      "word": "practices,",
+      "start_time": 19.2,
+      "end_time": 19.768,
+      "confidence": 0.99928
+    },
+    {
+      "word": "the",
+      "start_time": 19.864,
+      "end_time": 20.072,
+      "confidence": 0.99812
+    },
+    {
+      "word": "hot",
+      "start_time": 20.096,
+      "end_time": 20.28,
+      "confidence": 0.99457
+    },
+    {
+      "word": "game",
+      "start_time": 20.32,
+      "end_time": 20.568,
+      "confidence": 0.99721
+    },
+    {
+      "word": "changing",
+      "start_time": 20.624,
+      "end_time": 20.984,
+      "confidence": 0.9998
+    },
+    {
+      "word": "frameworks",
+      "start_time": 21.032,
+      "end_time": 21.624,
+      "confidence": 0.99804
+    },
+    {
+      "word": "and",
+      "start_time": 21.672,
+      "end_time": 21.832,
+      "confidence": 0.999
+    },
+    {
+      "word": "the",
+      "start_time": 21.856,
+      "end_time": 21.992,
+      "confidence": 0.98653
+    },
+    {
+      "word": "perfect",
+      "start_time": 22.016,
+      "end_time": 22.264,
+      "confidence": 0.99967
+    },
+    {
+      "word": "folder",
+      "start_time": 22.312,
+      "end_time": 22.616,
+      "confidence": 0.99824
+    },
+    {
+      "word": "structures",
+      "start_time": 22.648,
+      "end_time": 23.208,
+      "confidence": 0.9941
+    },
+    {
+      "word": "didn't",
+      "start_time": 23.304,
+      "end_time": 23.656,
+      "confidence": 0.99691
+    },
+    {
+      "word": "actually",
+      "start_time": 23.688,
+      "end_time": 23.976,
+      "confidence": 0.99388
+    },
+    {
+      "word": "matter",
+      "start_time": 24.048,
+      "end_time": 24.28,
+      "confidence": 0.99998
+    },
+    {
+      "word": "to",
+      "start_time": 24.32,
+      "end_time": 24.472,
+      "confidence": 0.99921
+    },
+    {
+      "word": "the",
+      "start_time": 24.496,
+      "end_time": 24.584,
+      "confidence": 0.99852
+    },
+    {
+      "word": "end",
+      "start_time": 24.592,
+      "end_time": 24.76,
+      "confidence": 0.99789
+    },
+    {
+      "word": "user.",
+      "start_time": 24.8,
+      "end_time": 25.144,
+      "confidence": 0.99696
+    },
+    {
+      "word": "I",
+      "start_time": 25.192,
+      "end_time": 25.352,
+      "confidence": 0.99942
+    },
+    {
+      "word": "wasted",
+      "start_time": 25.376,
+      "end_time": 25.736,
+      "confidence": 0.73099
+    },
+    {
+      "word": "countless",
+      "start_time": 25.768,
+      "end_time": 26.104,
+      "confidence": 0.99986
+    },
+    {
+      "word": "hours",
+      "start_time": 26.152,
+      "end_time": 26.456,
+      "confidence": 0.99998
+    },
+    {
+      "word": "chasing",
+      "start_time": 26.528,
+      "end_time": 26.872,
+      "confidence": 0.99925
+    },
+    {
+      "word": "programming",
+      "start_time": 26.936,
+      "end_time": 27.384,
+      "confidence": 0.99863
+    },
+    {
+      "word": "dragons",
+      "start_time": 27.432,
+      "end_time": 27.912,
+      "confidence": 0.98574
+    },
+    {
+      "word": "that",
+      "start_time": 27.976,
+      "end_time": 28.152,
+      "confidence": 0.99853
+    },
+    {
+      "word": "made",
+      "start_time": 28.176,
+      "end_time": 28.312,
+      "confidence": 0.99505
+    },
+    {
+      "word": "me",
+      "start_time": 28.336,
+      "end_time": 28.472,
+      "confidence": 0.99886
+    },
+    {
+      "word": "feel",
+      "start_time": 28.496,
+      "end_time": 28.68,
+      "confidence": 0.99853
+    },
+    {
+      "word": "more",
+      "start_time": 28.72,
+      "end_time": 28.92,
+      "confidence": 0.99787
+    },
+    {
+      "word": "productive",
+      "start_time": 28.96,
+      "end_time": 29.654,
+      "confidence": 0.99699
+    },
+    {
+      "word": "but",
+      "start_time": 29.792,
+      "end_time": 30.09,
+      "confidence": 0.9989
+    },
+    {
+      "word": "ultimately",
+      "start_time": 30.13,
+      "end_time": 30.554,
+      "confidence": 0.9989
+    },
+    {
+      "word": "led",
+      "start_time": 30.602,
+      "end_time": 30.81,
+      "confidence": 0.95031
+    },
+    {
+      "word": "nowhere.",
+      "start_time": 30.85,
+      "end_time": 31.322,
+      "confidence": 0.99863
+    },
+    {
+      "word": "In",
+      "start_time": 31.386,
+      "end_time": 31.562,
+      "confidence": 0.99795
+    },
+    {
+      "word": "today's",
+      "start_time": 31.586,
+      "end_time": 31.898,
+      "confidence": 0.99869
+    },
+    {
+      "word": "video,",
+      "start_time": 31.914,
+      "end_time": 32.186,
+      "confidence": 0.99965
+    },
+    {
+      "word": "we'll",
+      "start_time": 32.258,
+      "end_time": 32.506,
+      "confidence": 0.92763
+    },
+    {
+      "word": "debunk",
+      "start_time": 32.538,
+      "end_time": 33.082,
+      "confidence": 0.98001
+    },
+    {
+      "word": "nine",
+      "start_time": 33.146,
+      "end_time": 33.418,
+      "confidence": 0.99863
+    },
+    {
+      "word": "smart",
+      "start_time": 33.474,
+      "end_time": 33.754,
+      "confidence": 0.99932
+    },
+    {
+      "word": "ideas",
+      "start_time": 33.802,
+      "end_time": 34.202,
+      "confidence": 0.99966
+    },
+    {
+      "word": "that",
+      "start_time": 34.266,
+      "end_time": 34.442,
+      "confidence": 0.99932
+    },
+    {
+      "word": "waste",
+      "start_time": 34.466,
+      "end_time": 34.666,
+      "confidence": 0.99876
+    },
+    {
+      "word": "your",
+      "start_time": 34.698,
+      "end_time": 34.89,
+      "confidence": 0.63471
+    },
+    {
+      "word": "time",
+      "start_time": 34.93,
+      "end_time": 35.082,
+      "confidence": 0.99994
+    },
+    {
+      "word": "as",
+      "start_time": 35.106,
+      "end_time": 35.242,
+      "confidence": 0.99838
+    },
+    {
+      "word": "a",
+      "start_time": 35.266,
+      "end_time": 35.354,
+      "confidence": 0.99912
+    },
+    {
+      "word": "programmer.",
+      "start_time": 35.362,
+      "end_time": 35.882,
+      "confidence": 0.99962
+    },
+    {
+      "word": "And",
+      "start_time": 35.946,
+      "end_time": 36.122,
+      "confidence": 0.98963
+    },
+    {
+      "word": "for",
+      "start_time": 36.146,
+      "end_time": 36.282,
+      "confidence": 0.99912
+    },
+    {
+      "word": "each",
+      "start_time": 36.306,
+      "end_time": 36.49,
+      "confidence": 0.9998
+    },
+    {
+      "word": "myth",
+      "start_time": 36.53,
+      "end_time": 36.794,
+      "confidence": 0.99979
+    },
+    {
+      "word": "we'll",
+      "start_time": 36.842,
+      "end_time": 37.018,
+      "confidence": 0.97116
+    },
+    {
+      "word": "look",
+      "start_time": 37.034,
+      "end_time": 37.162,
+      "confidence": 0.99961
+    },
+    {
+      "word": "at",
+      "start_time": 37.186,
+      "end_time": 37.274,
+      "confidence": 0.99937
+    },
+    {
+      "word": "how",
+      "start_time": 37.282,
+      "end_time": 37.402,
+      "confidence": 0.99954
+    },
+    {
+      "word": "it",
+      "start_time": 37.426,
+      "end_time": 37.562,
+      "confidence": 0.99778
+    },
+    {
+      "word": "lures",
+      "start_time": 37.586,
+      "end_time": 37.882,
+      "confidence": 0.99866
+    },
+    {
+      "word": "you",
+      "start_time": 37.946,
+      "end_time": 38.122,
+      "confidence": 0.9994
+    },
+    {
+      "word": "in,",
+      "start_time": 38.146,
+      "end_time": 38.426,
+      "confidence": 0.998
+    },
+    {
+      "word": "why",
+      "start_time": 38.498,
+      "end_time": 38.73,
+      "confidence": 0.99982
+    },
+    {
+      "word": "it's",
+      "start_time": 38.77,
+      "end_time": 38.986,
+      "confidence": 0.99697
+    },
+    {
+      "word": "actually",
+      "start_time": 39.018,
+      "end_time": 39.21,
+      "confidence": 0.99785
+    },
+    {
+      "word": "a",
+      "start_time": 39.25,
+      "end_time": 39.402,
+      "confidence": 0.99939
+    },
+    {
+      "word": "trap,",
+      "start_time": 39.426,
+      "end_time": 39.722,
+      "confidence": 0.99939
+    },
+    {
+      "word": "and",
+      "start_time": 39.786,
+      "end_time": 39.962,
+      "confidence": 0.99391
+    },
+    {
+      "word": "most",
+      "start_time": 39.986,
+      "end_time": 40.122,
+      "confidence": 0.99771
+    },
+    {
+      "word": "importantly,",
+      "start_time": 40.146,
+      "end_time": 40.714,
+      "confidence": 0.99698
+    },
+    {
+      "word": "how",
+      "start_time": 40.762,
+      "end_time": 40.922,
+      "confidence": 0.9982
+    },
+    {
+      "word": "to",
+      "start_time": 40.946,
+      "end_time": 41.13,
+      "confidence": 0.9773
+    },
+    {
+      "word": "not",
+      "start_time": 41.17,
+      "end_time": 41.37,
+      "confidence": 0.99981
+    },
+    {
+      "word": "do",
+      "start_time": 41.41,
+      "end_time": 41.514,
+      "confidence": 0.99895
+    },
+    {
+      "word": "the",
+      "start_time": 41.522,
+      "end_time": 41.642,
+      "confidence": 0.9961
+    },
+    {
+      "word": "things",
+      "start_time": 41.666,
+      "end_time": 41.85,
+      "confidence": 0.99948
+    },
+    {
+      "word": "that",
+      "start_time": 41.89,
+      "end_time": 42.042,
+      "confidence": 0.96849
+    },
+    {
+      "word": "I",
+      "start_time": 42.066,
+      "end_time": 42.202,
+      "confidence": 0.999
+    },
+    {
+      "word": "have",
+      "start_time": 42.226,
+      "end_time": 42.362,
+      "confidence": 0.96981
+    },
+    {
+      "word": "done",
+      "start_time": 42.386,
+      "end_time": 42.666,
+      "confidence": 0.99864
+    },
+    {
+      "word": "now.",
+      "start_time": 42.738,
+      "end_time": 42.922,
+      "confidence": 0.99015
+    },
+    {
+      "word": "One",
+      "start_time": 42.946,
+      "end_time": 43.082,
+      "confidence": 0.9994
+    },
+    {
+      "word": "of",
+      "start_time": 43.106,
+      "end_time": 43.194,
+      "confidence": 0.99896
+    },
+    {
+      "word": "the",
+      "start_time": 43.202,
+      "end_time": 43.274,
+      "confidence": 0.99914
+    },
+    {
+      "word": "main",
+      "start_time": 43.282,
+      "end_time": 43.45,
+      "confidence": 0.99965
+    },
+    {
+      "word": "goals",
+      "start_time": 43.49,
+      "end_time": 43.706,
+      "confidence": 0.99968
+    },
+    {
+      "word": "of",
+      "start_time": 43.738,
+      "end_time": 43.834,
+      "confidence": 0.99666
+    },
+    {
+      "word": "this",
+      "start_time": 43.842,
+      "end_time": 43.962,
+      "confidence": 0.99645
+    },
+    {
+      "word": "channel",
+      "start_time": 43.986,
+      "end_time": 44.314,
+      "confidence": 0.99871
+    },
+    {
+      "word": "is",
+      "start_time": 44.362,
+      "end_time": 44.522,
+      "confidence": 0.99883
+    },
+    {
+      "word": "to",
+      "start_time": 44.546,
+      "end_time": 44.634,
+      "confidence": 0.99866
+    },
+    {
+      "word": "show",
+      "start_time": 44.642,
+      "end_time": 44.762,
+      "confidence": 0.99984
+    },
+    {
+      "word": "you",
+      "start_time": 44.786,
+      "end_time": 44.922,
+      "confidence": 0.99698
+    },
+    {
+      "word": "the",
+      "start_time": 44.946,
+      "end_time": 45.082,
+      "confidence": 0.99928
+    },
+    {
+      "word": "latest",
+      "start_time": 45.106,
+      "end_time": 45.29,
+      "confidence": 0.99917
+    },
+    {
+      "word": "tech",
+      "start_time": 45.33,
+      "end_time": 45.546,
+      "confidence": 0.99968
+    },
+    {
+      "word": "you",
+      "start_time": 45.578,
+      "end_time": 45.77,
+      "confidence": 0.99785
+    },
+    {
+      "word": "need",
+      "start_time": 45.81,
+      "end_time": 45.914,
+      "confidence": 0.99966
+    },
+    {
+      "word": "to",
+      "start_time": 45.922,
+      "end_time": 46.042,
+      "confidence": 0.99853
+    },
+    {
+      "word": "use",
+      "start_time": 46.066,
+      "end_time": 46.25,
+      "confidence": 0.99885
+    },
+    {
+      "word": "to",
+      "start_time": 46.29,
+      "end_time": 46.394,
+      "confidence": 0.99943
+    },
+    {
+      "word": "be",
+      "start_time": 46.402,
+      "end_time": 46.522,
+      "confidence": 0.99924
+    },
+    {
+      "word": "relevant,",
+      "start_time": 46.546,
+      "end_time": 46.954,
+      "confidence": 0.99938
+    },
+    {
+      "word": "but",
+      "start_time": 47.002,
+      "end_time": 47.162,
+      "confidence": 0.99849
+    },
+    {
+      "word": "it's",
+      "start_time": 47.186,
+      "end_time": 47.386,
+      "confidence": 0.99434
+    },
+    {
+      "word": "actually",
+      "start_time": 47.418,
+      "end_time": 47.61,
+      "confidence": 0.99702
+    },
+    {
+      "word": "a",
+      "start_time": 47.65,
+      "end_time": 47.802,
+      "confidence": 0.99916
+    },
+    {
+      "word": "myth",
+      "start_time": 47.826,
+      "end_time": 48.026,
+      "confidence": 0.9999
+    },
+    {
+      "word": "that",
+      "start_time": 48.058,
+      "end_time": 48.202,
+      "confidence": 0.99318
+    },
+    {
+      "word": "you",
+      "start_time": 48.226,
+      "end_time": 48.362,
+      "confidence": 0.99867
+    },
+    {
+      "word": "need",
+      "start_time": 48.386,
+      "end_time": 48.522,
+      "confidence": 0.99877
+    },
+    {
+      "word": "to",
+      "start_time": 48.546,
+      "end_time": 48.634,
+      "confidence": 0.99652
+    },
+    {
+      "word": "use",
+      "start_time": 48.642,
+      "end_time": 48.762,
+      "confidence": 0.99945
+    },
+    {
+      "word": "the",
+      "start_time": 48.786,
+      "end_time": 48.922,
+      "confidence": 0.9989
+    },
+    {
+      "word": "latest",
+      "start_time": 48.946,
+      "end_time": 49.178,
+      "confidence": 0.99982
+    },
+    {
+      "word": "tech",
+      "start_time": 49.234,
+      "end_time": 49.466,
+      "confidence": 0.99924
+    },
+    {
+      "word": "to",
+      "start_time": 49.498,
+      "end_time": 49.594,
+      "confidence": 0.9994
+    },
+    {
+      "word": "be",
+      "start_time": 49.602,
+      "end_time": 49.722,
+      "confidence": 0.99913
+    },
+    {
+      "word": "relevant.",
+      "start_time": 49.746,
+      "end_time": 50.218,
+      "confidence": 0.32424
+    },
+    {
+      "word": "In",
+      "start_time": 50.314,
+      "end_time": 50.522,
+      "confidence": 0.9991
+    },
+    {
+      "word": "fact,",
+      "start_time": 50.546,
+      "end_time": 50.682,
+      "confidence": 0.99995
+    },
+    {
+      "word": "you",
+      "start_time": 50.706,
+      "end_time": 50.842,
+      "confidence": 0.99905
+    },
+    {
+      "word": "might",
+      "start_time": 50.866,
+      "end_time": 51.002,
+      "confidence": 0.99821
+    },
+    {
+      "word": "even",
+      "start_time": 51.026,
+      "end_time": 51.162,
+      "confidence": 0.99684
+    },
+    {
+      "word": "become",
+      "start_time": 51.186,
+      "end_time": 51.418,
+      "confidence": 0.99579
+    },
+    {
+      "word": "more",
+      "start_time": 51.474,
+      "end_time": 51.642,
+      "confidence": 0.99898
+    },
+    {
+      "word": "hireable",
+      "start_time": 51.666,
+      "end_time": 52.202,
+      "confidence": 0.80791
+    },
+    {
+      "word": "by",
+      "start_time": 52.266,
+      "end_time": 52.442,
+      "confidence": 0.99852
+    },
+    {
+      "word": "focusing",
+      "start_time": 52.466,
+      "end_time": 52.874,
+      "confidence": 0.92387
+    },
+    {
+      "word": "on",
+      "start_time": 52.922,
+      "end_time": 53.13,
+      "confidence": 0.99929
+    },
+    {
+      "word": "old",
+      "start_time": 53.17,
+      "end_time": 53.37,
+      "confidence": 0.99781
+    },
+    {
+      "word": "dinosaur",
+      "start_time": 53.41,
+      "end_time": 54.042,
+      "confidence": 0.69013
+    },
+    {
+      "word": "technologies",
+      "start_time": 54.106,
+      "end_time": 54.746,
+      "confidence": 0.43292
+    },
+    {
+      "word": "like",
+      "start_time": 54.858,
+      "end_time": 55.13,
+      "confidence": 0.99299
+    },
+    {
+      "word": "WordPress",
+      "start_time": 55.17,
+      "end_time": 55.626,
+      "confidence": 0.99906
+    },
+    {
+      "word": "and",
+      "start_time": 55.658,
+      "end_time": 55.802,
+      "confidence": 0.99186
+    },
+    {
+      "word": "PHP",
+      "start_time": 55.826,
+      "end_time": 56.362,
+      "confidence": 0.99466
+    },
+    {
+      "word": "still",
+      "start_time": 56.426,
+      "end_time": 56.65,
+      "confidence": 0.99238
+    },
+    {
+      "word": "runs",
+      "start_time": 56.69,
+      "end_time": 56.986,
+      "confidence": 0.97855
+    },
+    {
+      "word": "most",
+      "start_time": 57.018,
+      "end_time": 57.162,
+      "confidence": 0.99856
+    },
+    {
+      "word": "of",
+      "start_time": 57.186,
+      "end_time": 57.274,
+      "confidence": 0.99313
+    },
+    {
+      "word": "the",
+      "start_time": 57.282,
+      "end_time": 57.402,
+      "confidence": 0.99655
+    },
+    {
+      "word": "web",
+      "start_time": 57.426,
+      "end_time": 57.626,
+      "confidence": 0.99892
+    },
+    {
+      "word": "applications",
+      "start_time": 57.658,
+      "end_time": 58.122,
+      "confidence": 0.99749
+    },
+    {
+      "word": "out",
+      "start_time": 58.186,
+      "end_time": 58.362,
+      "confidence": 0.98982
+    },
+    {
+      "word": "there,",
+      "start_time": 58.386,
+      "end_time": 58.666,
+      "confidence": 0.99755
+    },
+    {
+      "word": "Java",
+      "start_time": 58.738,
+      "end_time": 59.146,
+      "confidence": 0.99932
+    },
+    {
+      "word": "runs",
+      "start_time": 59.178,
+      "end_time": 59.386,
+      "confidence": 0.99862
+    },
+    {
+      "word": "most",
+      "start_time": 59.418,
+      "end_time": 59.562,
+      "confidence": 0.99846
+    },
+    {
+      "word": "of",
+      "start_time": 59.586,
+      "end_time": 59.674,
+      "confidence": 0.99881
+    },
+    {
+      "word": "the",
+      "start_time": 59.682,
+      "end_time": 59.85,
+      "confidence": 0.99925
+    },
+    {
+      "word": "enterprise",
+      "start_time": 59.89,
+      "end_time": 60.314,
+      "confidence": 0.99968
+    },
+    {
+      "word": "world,",
+      "start_time": 60.362,
+      "end_time": 60.666,
+      "confidence": 0.999
+    },
+    {
+      "word": "most",
+      "start_time": 60.738,
+      "end_time": 60.922,
+      "confidence": 0.9992
+    },
+    {
+      "word": "databases",
+      "start_time": 60.946,
+      "end_time": 61.386,
+      "confidence": 0.99859
+    },
+    {
+      "word": "are",
+      "start_time": 61.418,
+      "end_time": 61.694,
+      "confidence": 0.91732
+    },
+    {
+      "word": "SQL",
+      "start_time": 61.762,
+      "end_time": 62.214,
+      "confidence": 0.99714
+    },
+    {
+      "word": "based",
+      "start_time": 62.262,
+      "end_time": 62.566,
+      "confidence": 0.99978
+    },
+    {
+      "word": "and",
+      "start_time": 62.638,
+      "end_time": 62.822,
+      "confidence": 0.9956
+    },
+    {
+      "word": "C",
+      "start_time": 62.846,
+      "end_time": 63.366,
+      "confidence": 0.99991
+    },
+    {
+      "word": "runs",
+      "start_time": 63.518,
+      "end_time": 63.846,
+      "confidence": 0.99837
+    },
+    {
+      "word": "most",
+      "start_time": 63.878,
+      "end_time": 64.022,
+      "confidence": 0.9979
+    },
+    {
+      "word": "of",
+      "start_time": 64.046,
+      "end_time": 64.134,
+      "confidence": 0.99639
+    },
+    {
+      "word": "the",
+      "start_time": 64.142,
+      "end_time": 64.262,
+      "confidence": 0.99236
+    },
+    {
+      "word": "low",
+      "start_time": 64.286,
+      "end_time": 64.47,
+      "confidence": 0.99977
+    },
+    {
+      "word": "level",
+      "start_time": 64.51,
+      "end_time": 64.758,
+      "confidence": 0.99977
+    },
+    {
+      "word": "systems.",
+      "start_time": 64.814,
+      "end_time": 65.35,
+      "confidence": 0.99927
+    },
+    {
+      "word": "However,",
+      "start_time": 65.43,
+      "end_time": 65.718,
+      "confidence": 0.99946
+    },
+    {
+      "word": "there",
+      "start_time": 65.774,
+      "end_time": 65.942,
+      "confidence": 0.99818
+    },
+    {
+      "word": "are",
+      "start_time": 65.966,
+      "end_time": 66.102,
+      "confidence": 0.99702
+    },
+    {
+      "word": "shiny",
+      "start_time": 66.126,
+      "end_time": 66.358,
+      "confidence": 0.99854
+    },
+    {
+      "word": "new",
+      "start_time": 66.374,
+      "end_time": 66.55,
+      "confidence": 0.99689
+    },
+    {
+      "word": "replacements",
+      "start_time": 66.59,
+      "end_time": 67.046,
+      "confidence": 0.57601
+    },
+    {
+      "word": "for",
+      "start_time": 67.078,
+      "end_time": 67.222,
+      "confidence": 0.99919
+    },
+    {
+      "word": "tech",
+      "start_time": 67.246,
+      "end_time": 67.494,
+      "confidence": 0.9977
+    },
+    {
+      "word": "like",
+      "start_time": 67.542,
+      "end_time": 67.702,
+      "confidence": 0.99904
+    },
+    {
+      "word": "this",
+      "start_time": 67.726,
+      "end_time": 67.958,
+      "confidence": 0.99767
+    },
+    {
+      "word": "including",
+      "start_time": 68.014,
+      "end_time": 68.374,
+      "confidence": 0.99714
+    },
+    {
+      "word": "Next",
+      "start_time": 68.462,
+      "end_time": 68.71,
+      "confidence": 0.99815
+    },
+    {
+      "word": "JS,",
+      "start_time": 68.75,
+      "end_time": 69.142,
+      "confidence": 0.75057
+    },
+    {
+      "word": "Kotlin,",
+      "start_time": 69.206,
+      "end_time": 69.798,
+      "confidence": 0.94321
+    },
+    {
+      "word": "NoSQL",
+      "start_time": 69.894,
+      "end_time": 70.566,
+      "confidence": 0.80384
+    },
+    {
+      "word": "and",
+      "start_time": 70.598,
+      "end_time": 70.742,
+      "confidence": 0.99428
+    },
+    {
+      "word": "Rust.",
+      "start_time": 70.766,
+      "end_time": 71.062,
+      "confidence": 0.99944
+    },
+    {
+      "word": "And",
+      "start_time": 71.126,
+      "end_time": 71.254,
+      "confidence": 0.99801
+    },
+    {
+      "word": "the",
+      "start_time": 71.262,
+      "end_time": 71.382,
+      "confidence": 0.99848
+    },
+    {
+      "word": "lure",
+      "start_time": 71.406,
+      "end_time": 71.702,
+      "confidence": 0.89121
+    },
+    {
+      "word": "is",
+      "start_time": 71.766,
+      "end_time": 71.942,
+      "confidence": 0.99914
+    },
+    {
+      "word": "a",
+      "start_time": 71.966,
+      "end_time": 72.054,
+      "confidence": 0.99606
+    },
+    {
+      "word": "massive",
+      "start_time": 72.062,
+      "end_time": 72.374,
+      "confidence": 0.9994
+    },
+    {
+      "word": "feeling",
+      "start_time": 72.422,
+      "end_time": 72.678,
+      "confidence": 0.99959
+    },
+    {
+      "word": "of",
+      "start_time": 72.694,
+      "end_time": 72.822,
+      "confidence": 0.99106
+    },
+    {
+      "word": "FOMO",
+      "start_time": 72.846,
+      "end_time": 73.254,
+      "confidence": 0.99952
+    },
+    {
+      "word": "if",
+      "start_time": 73.302,
+      "end_time": 73.414,
+      "confidence": 0.99927
+    },
+    {
+      "word": "you're",
+      "start_time": 73.422,
+      "end_time": 73.558,
+      "confidence": 0.9928
+    },
+    {
+      "word": "not",
+      "start_time": 73.574,
+      "end_time": 73.75,
+      "confidence": 0.99885
+    },
+    {
+      "word": "mastering",
+      "start_time": 73.79,
+      "end_time": 74.134,
+      "confidence": 0.99957
+    },
+    {
+      "word": "the",
+      "start_time": 74.182,
+      "end_time": 74.294,
+      "confidence": 0.99939
+    },
+    {
+      "word": "bleeding",
+      "start_time": 74.302,
+      "end_time": 74.646,
+      "confidence": 0.98118
+    },
+    {
+      "word": "edge",
+      "start_time": 74.678,
+      "end_time": 74.886,
+      "confidence": 0.99925
+    },
+    {
+      "word": "of",
+      "start_time": 74.918,
+      "end_time": 75.062,
+      "confidence": 0.9993
+    },
+    {
+      "word": "these",
+      "start_time": 75.086,
+      "end_time": 75.27,
+      "confidence": 0.97766
+    },
+    {
+      "word": "so",
+      "start_time": 75.31,
+      "end_time": 75.462,
+      "confidence": 0.99473
+    },
+    {
+      "word": "called",
+      "start_time": 75.486,
+      "end_time": 75.67,
+      "confidence": 0.99979
+    },
+    {
+      "word": "superior",
+      "start_time": 75.71,
+      "end_time": 76.182,
+      "confidence": 0.99992
+    },
+    {
+      "word": "technologies.",
+      "start_time": 76.246,
+      "end_time": 76.998,
+      "confidence": 0.99539
+    },
+    {
+      "word": "To",
+      "start_time": 77.094,
+      "end_time": 77.254,
+      "confidence": 0.9952
+    },
+    {
+      "word": "be",
+      "start_time": 77.262,
+      "end_time": 77.382,
+      "confidence": 0.99985
+    },
+    {
+      "word": "clear,",
+      "start_time": 77.406,
+      "end_time": 77.686,
+      "confidence": 0.98541
+    },
+    {
+      "word": "I'm",
+      "start_time": 77.758,
+      "end_time": 77.958,
+      "confidence": 0.99237
+    },
+    {
+      "word": "not",
+      "start_time": 77.974,
+      "end_time": 78.102,
+      "confidence": 0.99967
+    },
+    {
+      "word": "discouraging",
+      "start_time": 78.126,
+      "end_time": 78.566,
+      "confidence": 0.64923
+    },
+    {
+      "word": "you",
+      "start_time": 78.598,
+      "end_time": 78.742,
+      "confidence": 0.99938
+    },
+    {
+      "word": "from",
+      "start_time": 78.766,
+      "end_time": 78.902,
+      "confidence": 0.999
+    },
+    {
+      "word": "learning",
+      "start_time": 78.926,
+      "end_time": 79.126,
+      "confidence": 0.99978
+    },
+    {
+      "word": "these.",
+      "start_time": 79.158,
+      "end_time": 79.446,
+      "confidence": 0.98808
+    },
+    {
+      "word": "They're",
+      "start_time": 79.518,
+      "end_time": 79.798,
+      "confidence": 0.99487
+    },
+    {
+      "word": "awesome.",
+      "start_time": 79.814,
+      "end_time": 80.182,
+      "confidence": 0.99961
+    },
+    {
+      "word": "But",
+      "start_time": 80.246,
+      "end_time": 80.422,
+      "confidence": 0.99379
+    },
+    {
+      "word": "it's",
+      "start_time": 80.446,
+      "end_time": 80.646,
+      "confidence": 0.99616
+    },
+    {
+      "word": "important",
+      "start_time": 80.678,
+      "end_time": 80.87,
+      "confidence": 0.99992
+    },
+    {
+      "word": "to",
+      "start_time": 80.91,
+      "end_time": 81.062,
+      "confidence": 0.99926
+    },
+    {
+      "word": "understand",
+      "start_time": 81.086,
+      "end_time": 81.558,
+      "confidence": 0.99838
+    },
+    {
+      "word": "that",
+      "start_time": 81.694,
+      "end_time": 81.99,
+      "confidence": 0.99834
+    },
+    {
+      "word": "most",
+      "start_time": 82.03,
+      "end_time": 82.182,
+      "confidence": 0.99847
+    },
+    {
+      "word": "of",
+      "start_time": 82.206,
+      "end_time": 82.342,
+      "confidence": 0.99913
+    },
+    {
+      "word": "the",
+      "start_time": 82.366,
+      "end_time": 82.502,
+      "confidence": 0.99917
+    },
+    {
+      "word": "real",
+      "start_time": 82.526,
+      "end_time": 82.71,
+      "confidence": 0.99873
+    },
+    {
+      "word": "world",
+      "start_time": 82.75,
+      "end_time": 82.998,
+      "confidence": 0.99774
+    },
+    {
+      "word": "where",
+      "start_time": 83.054,
+      "end_time": 83.222,
+      "confidence": 0.9949
+    },
+    {
+      "word": "the",
+      "start_time": 83.246,
+      "end_time": 83.382,
+      "confidence": 0.98677
+    },
+    {
+      "word": "jobs",
+      "start_time": 83.406,
+      "end_time": 83.686,
+      "confidence": 0.99723
+    },
+    {
+      "word": "exist",
+      "start_time": 83.718,
+      "end_time": 84.07,
+      "confidence": 0.81418
+    },
+    {
+      "word": "are",
+      "start_time": 84.15,
+      "end_time": 84.294,
+      "confidence": 0.99881
+    },
+    {
+      "word": "not",
+      "start_time": 84.302,
+      "end_time": 84.422,
+      "confidence": 0.99116
+    },
+    {
+      "word": "going",
+      "start_time": 84.446,
+      "end_time": 84.582,
+      "confidence": 0.9976
+    },
+    {
+      "word": "to",
+      "start_time": 84.606,
+      "end_time": 84.742,
+      "confidence": 0.99771
+    },
+    {
+      "word": "change",
+      "start_time": 84.766,
+      "end_time": 84.998,
+      "confidence": 0.99953
+    },
+    {
+      "word": "their",
+      "start_time": 85.054,
+      "end_time": 85.222,
+      "confidence": 0.99644
+    },
+    {
+      "word": "dinosaur",
+      "start_time": 85.246,
+      "end_time": 85.766,
+      "confidence": 0.99652
+    },
+    {
+      "word": "tech",
+      "start_time": 85.798,
+      "end_time": 86.006,
+      "confidence": 0.9996
+    },
+    {
+      "word": "stacks",
+      "start_time": 86.038,
+      "end_time": 86.358,
+      "confidence": 0.99784
+    },
+    {
+      "word": "anytime",
+      "start_time": 86.374,
+      "end_time": 86.774,
+      "confidence": 0.77097
+    },
+    {
+      "word": "soon.",
+      "start_time": 86.822,
+      "end_time": 87.078,
+      "confidence": 0.99867
+    },
+    {
+      "word": "The",
+      "start_time": 87.134,
+      "end_time": 87.35,
+      "confidence": 0.66647
+    },
+    {
+      "word": "critical",
+      "start_time": 87.39,
+      "end_time": 87.734,
+      "confidence": 0.99895
+    },
+    {
+      "word": "banking",
+      "start_time": 87.782,
+      "end_time": 88.134,
+      "confidence": 0.9966
+    },
+    {
+      "word": "systems",
+      "start_time": 88.182,
+      "end_time": 88.486,
+      "confidence": 0.86573
+    },
+    {
+      "word": "still",
+      "start_time": 88.518,
+      "end_time": 88.71,
+      "confidence": 0.99739
+    },
+    {
+      "word": "run",
+      "start_time": 88.75,
+      "end_time": 88.854,
+      "confidence": 0.99993
+    },
+    {
+      "word": "on",
+      "start_time": 88.862,
+      "end_time": 88.982,
+      "confidence": 0.99408
+    },
+    {
+      "word": "Cobol",
+      "start_time": 89.006,
+      "end_time": 89.59,
+      "confidence": 0.90764
+    },
+    {
+      "word": "and",
+      "start_time": 89.67,
+      "end_time": 89.862,
+      "confidence": 0.99917
+    },
+    {
+      "word": "Java",
+      "start_time": 89.886,
+      "end_time": 90.278,
+      "confidence": 0.991
+    },
+    {
+      "word": "will",
+      "start_time": 90.294,
+      "end_time": 90.422,
+      "confidence": 0.99763
+    },
+    {
+      "word": "still",
+      "start_time": 90.446,
+      "end_time": 90.63,
+      "confidence": 0.98946
+    },
+    {
+      "word": "be",
+      "start_time": 90.67,
+      "end_time": 90.822,
+      "confidence": 0.99859
+    },
+    {
+      "word": "powering",
+      "start_time": 90.846,
+      "end_time": 91.174,
+      "confidence": 0.99853
+    },
+    {
+      "word": "3",
+      "start_time": 91.222,
+      "end_time": 91.43,
+      "confidence": 0.99976
+    },
+    {
+      "word": "billion",
+      "start_time": 91.47,
+      "end_time": 91.718,
+      "confidence": 0.99964
+    },
+    {
+      "word": "devices",
+      "start_time": 91.774,
+      "end_time": 92.278,
+      "confidence": 0.99904
+    },
+    {
+      "word": "long",
+      "start_time": 92.374,
+      "end_time": 92.582,
+      "confidence": 0.99889
+    },
+    {
+      "word": "after",
+      "start_time": 92.606,
+      "end_time": 92.838,
+      "confidence": 0.99402
+    },
+    {
+      "word": "everybody",
+      "start_time": 92.894,
+      "end_time": 93.206,
+      "confidence": 0.98698
+    },
+    {
+      "word": "watches.",
+      "start_time": 93.238,
+      "end_time": 93.514,
+      "confidence": 0.9037
+    },
+    {
+      "word": "Watching",
+      "start_time": 93.542,
+      "end_time": 93.746,
+      "confidence": 0.67297
+    },
+    {
+      "word": "this",
+      "start_time": 93.778,
+      "end_time": 93.922,
+      "confidence": 0.99154
+    },
+    {
+      "word": "is",
+      "start_time": 93.946,
+      "end_time": 94.082,
+      "confidence": 0.99573
+    },
+    {
+      "word": "dead.",
+      "start_time": 94.106,
+      "end_time": 94.402,
+      "confidence": 0.99562
+    },
+    {
+      "word": "Most",
+      "start_time": 94.466,
+      "end_time": 94.69,
+      "confidence": 0.99703
+    },
+    {
+      "word": "CTOs",
+      "start_time": 94.73,
+      "end_time": 95.154,
+      "confidence": 0.93816
+    },
+    {
+      "word": "are",
+      "start_time": 95.202,
+      "end_time": 95.362,
+      "confidence": 0.99932
+    },
+    {
+      "word": "smart",
+      "start_time": 95.386,
+      "end_time": 95.586,
+      "confidence": 0.99987
+    },
+    {
+      "word": "enough",
+      "start_time": 95.618,
+      "end_time": 95.762,
+      "confidence": 0.99944
+    },
+    {
+      "word": "to",
+      "start_time": 95.786,
+      "end_time": 95.922,
+      "confidence": 0.99944
+    },
+    {
+      "word": "know",
+      "start_time": 95.946,
+      "end_time": 96.082,
+      "confidence": 0.9995
+    },
+    {
+      "word": "that",
+      "start_time": 96.106,
+      "end_time": 96.242,
+      "confidence": 0.97364
+    },
+    {
+      "word": "if",
+      "start_time": 96.266,
+      "end_time": 96.354,
+      "confidence": 0.99761
+    },
+    {
+      "word": "it",
+      "start_time": 96.362,
+      "end_time": 96.482,
+      "confidence": 0.98897
+    },
+    {
+      "word": "ain't",
+      "start_time": 96.506,
+      "end_time": 96.754,
+      "confidence": 0.80756
+    },
+    {
+      "word": "broke,",
+      "start_time": 96.802,
+      "end_time": 97.074,
+      "confidence": 0.99898
+    },
+    {
+      "word": "don't",
+      "start_time": 97.122,
+      "end_time": 97.346,
+      "confidence": 0.99796
+    },
+    {
+      "word": "fix",
+      "start_time": 97.378,
+      "end_time": 97.538,
+      "confidence": 0.99971
+    },
+    {
+      "word": "it.",
+      "start_time": 97.554,
+      "end_time": 97.778,
+      "confidence": 0.99585
+    },
+    {
+      "word": "Here's",
+      "start_time": 97.834,
+      "end_time": 98.098,
+      "confidence": 0.99367
+    },
+    {
+      "word": "a",
+      "start_time": 98.114,
+      "end_time": 98.194,
+      "confidence": 0.99599
+    },
+    {
+      "word": "real",
+      "start_time": 98.202,
+      "end_time": 98.322,
+      "confidence": 0.99742
+    },
+    {
+      "word": "life",
+      "start_time": 98.346,
+      "end_time": 98.578,
+      "confidence": 0.99595
+    },
+    {
+      "word": "example.",
+      "start_time": 98.634,
+      "end_time": 99.17,
+      "confidence": 0.66495
+    },
+    {
+      "word": "A",
+      "start_time": 99.25,
+      "end_time": 99.442,
+      "confidence": 0.99627
+    },
+    {
+      "word": "few",
+      "start_time": 99.466,
+      "end_time": 99.602,
+      "confidence": 0.99964
+    },
+    {
+      "word": "years",
+      "start_time": 99.626,
+      "end_time": 99.81,
+      "confidence": 0.99974
+    },
+    {
+      "word": "ago",
+      "start_time": 99.85,
+      "end_time": 100.098,
+      "confidence": 0.99952
+    },
+    {
+      "word": "engineers",
+      "start_time": 100.154,
+      "end_time": 100.594,
+      "confidence": 0.99888
+    },
+    {
+      "word": "from",
+      "start_time": 100.642,
+      "end_time": 100.802,
+      "confidence": 0.99651
+    },
+    {
+      "word": "Twitter",
+      "start_time": 100.826,
+      "end_time": 101.154,
+      "confidence": 0.99958
+    },
+    {
+      "word": "released",
+      "start_time": 101.202,
+      "end_time": 101.554,
+      "confidence": 0.86653
+    },
+    {
+      "word": "a",
+      "start_time": 101.602,
+      "end_time": 101.762,
+      "confidence": 0.99791
+    },
+    {
+      "word": "hot",
+      "start_time": 101.786,
+      "end_time": 101.97,
+      "confidence": 0.9996
+    },
+    {
+      "word": "new",
+      "start_time": 102.01,
+      "end_time": 102.21,
+      "confidence": 0.99637
+    },
+    {
+      "word": "database",
+      "start_time": 102.25,
+      "end_time": 102.706,
+      "confidence": 0.99925
+    },
+    {
+      "word": "called",
+      "start_time": 102.738,
+      "end_time": 102.93,
+      "confidence": 0.99885
+    },
+    {
+      "word": "Fauna.",
+      "start_time": 102.97,
+      "end_time": 103.426,
+      "confidence": 0.79434
+    },
+    {
+      "word": "It",
+      "start_time": 103.458,
+      "end_time": 103.602,
+      "confidence": 0.99612
+    },
+    {
+      "word": "was",
+      "start_time": 103.626,
+      "end_time": 103.762,
+      "confidence": 0.99669
+    },
+    {
+      "word": "a",
+      "start_time": 103.786,
+      "end_time": 103.874,
+      "confidence": 0.99415
+    },
+    {
+      "word": "pretty",
+      "start_time": 103.882,
+      "end_time": 104.018,
+      "confidence": 0.9983
+    },
+    {
+      "word": "solid",
+      "start_time": 104.034,
+      "end_time": 104.322,
+      "confidence": 0.9319
+    },
+    {
+      "word": "product",
+      "start_time": 104.386,
+      "end_time": 104.658,
+      "confidence": 0.99973
+    },
+    {
+      "word": "and",
+      "start_time": 104.714,
+      "end_time": 104.834,
+      "confidence": 0.99092
+    },
+    {
+      "word": "I",
+      "start_time": 104.842,
+      "end_time": 104.962,
+      "confidence": 0.99446
+    },
+    {
+      "word": "even",
+      "start_time": 104.986,
+      "end_time": 105.17,
+      "confidence": 0.99708
+    },
+    {
+      "word": "made",
+      "start_time": 105.21,
+      "end_time": 105.362,
+      "confidence": 0.99917
+    },
+    {
+      "word": "a",
+      "start_time": 105.386,
+      "end_time": 105.474,
+      "confidence": 0.99836
+    },
+    {
+      "word": "video",
+      "start_time": 105.482,
+      "end_time": 105.65,
+      "confidence": 0.99985
+    },
+    {
+      "word": "about",
+      "start_time": 105.69,
+      "end_time": 105.842,
+      "confidence": 0.99674
+    },
+    {
+      "word": "it.",
+      "start_time": 105.866,
+      "end_time": 106.098,
+      "confidence": 0.99365
+    },
+    {
+      "word": "But",
+      "start_time": 106.154,
+      "end_time": 106.322,
+      "confidence": 0.98631
+    },
+    {
+      "word": "the",
+      "start_time": 106.346,
+      "end_time": 106.53,
+      "confidence": 0.99241
+    },
+    {
+      "word": "technology",
+      "start_time": 106.57,
+      "end_time": 106.866,
+      "confidence": 0.99927
+    },
+    {
+      "word": "was",
+      "start_time": 106.938,
+      "end_time": 107.17,
+      "confidence": 0.99849
+    },
+    {
+      "word": "proprietary,",
+      "start_time": 107.21,
+      "end_time": 107.938,
+      "confidence": 0.99688
+    },
+    {
+      "word": "VC",
+      "start_time": 108.034,
+      "end_time": 108.434,
+      "confidence": 0.9918
+    },
+    {
+      "word": "funded",
+      "start_time": 108.482,
+      "end_time": 108.882,
+      "confidence": 0.99902
+    },
+    {
+      "word": "and",
+      "start_time": 108.946,
+      "end_time": 109.122,
+      "confidence": 0.99318
+    },
+    {
+      "word": "like",
+      "start_time": 109.146,
+      "end_time": 109.33,
+      "confidence": 0.99924
+    },
+    {
+      "word": "most",
+      "start_time": 109.37,
+      "end_time": 109.57,
+      "confidence": 0.99981
+    },
+    {
+      "word": "startups,",
+      "start_time": 109.61,
+      "end_time": 110.066,
+      "confidence": 0.99235
+    },
+    {
+      "word": "the",
+      "start_time": 110.098,
+      "end_time": 110.242,
+      "confidence": 0.98526
+    },
+    {
+      "word": "business",
+      "start_time": 110.266,
+      "end_time": 110.546,
+      "confidence": 0.99976
+    },
+    {
+      "word": "failed.",
+      "start_time": 110.618,
+      "end_time": 110.914,
+      "confidence": 0.9996
+    },
+    {
+      "word": "Recently.",
+      "start_time": 110.962,
+      "end_time": 111.314,
+      "confidence": 0.99691
+    },
+    {
+      "word": "They",
+      "start_time": 111.402,
+      "end_time": 111.602,
+      "confidence": 0.99811
+    },
+    {
+      "word": "have",
+      "start_time": 111.626,
+      "end_time": 111.81,
+      "confidence": 0.95237
+    },
+    {
+      "word": "no",
+      "start_time": 111.85,
+      "end_time": 112.002,
+      "confidence": 0.99922
+    },
+    {
+      "word": "choice",
+      "start_time": 112.026,
+      "end_time": 112.226,
+      "confidence": 0.99986
+    },
+    {
+      "word": "but",
+      "start_time": 112.258,
+      "end_time": 112.402,
+      "confidence": 0.99732
+    },
+    {
+      "word": "to",
+      "start_time": 112.426,
+      "end_time": 112.562,
+      "confidence": 0.99209
+    },
+    {
+      "word": "shut",
+      "start_time": 112.586,
+      "end_time": 112.738,
+      "confidence": 0.99984
+    },
+    {
+      "word": "down",
+      "start_time": 112.754,
+      "end_time": 112.882,
+      "confidence": 0.98899
+    },
+    {
+      "word": "their",
+      "start_time": 112.906,
+      "end_time": 113.09,
+      "confidence": 0.99551
+    },
+    {
+      "word": "servers",
+      "start_time": 113.13,
+      "end_time": 113.522,
+      "confidence": 0.99857
+    },
+    {
+      "word": "and",
+      "start_time": 113.586,
+      "end_time": 113.762,
+      "confidence": 0.98755
+    },
+    {
+      "word": "if",
+      "start_time": 113.786,
+      "end_time": 113.874,
+      "confidence": 0.99916
+    },
+    {
+      "word": "you",
+      "start_time": 113.882,
+      "end_time": 114.002,
+      "confidence": 0.99763
+    },
+    {
+      "word": "were",
+      "start_time": 114.026,
+      "end_time": 114.162,
+      "confidence": 0.87136
+    },
+    {
+      "word": "an",
+      "start_time": 114.186,
+      "end_time": 114.322,
+      "confidence": 0.99462
+    },
+    {
+      "word": "early",
+      "start_time": 114.346,
+      "end_time": 114.53,
+      "confidence": 0.99951
+    },
+    {
+      "word": "adopter,",
+      "start_time": 114.57,
+      "end_time": 115.042,
+      "confidence": 0.99614
+    },
+    {
+      "word": "you're",
+      "start_time": 115.106,
+      "end_time": 115.346,
+      "confidence": 0.95577
+    },
+    {
+      "word": "now",
+      "start_time": 115.378,
+      "end_time": 115.57,
+      "confidence": 0.99351
+    },
+    {
+      "word": "screwed",
+      "start_time": 115.61,
+      "end_time": 116.002,
+      "confidence": 0.99921
+    },
+    {
+      "word": "and",
+      "start_time": 116.066,
+      "end_time": 116.242,
+      "confidence": 0.98758
+    },
+    {
+      "word": "would",
+      "start_time": 116.266,
+      "end_time": 116.402,
+      "confidence": 0.99882
+    },
+    {
+      "word": "have",
+      "start_time": 116.426,
+      "end_time": 116.514,
+      "confidence": 0.79058
+    },
+    {
+      "word": "been",
+      "start_time": 116.522,
+      "end_time": 116.642,
+      "confidence": 0.99786
+    },
+    {
+      "word": "much",
+      "start_time": 116.666,
+      "end_time": 116.802,
+      "confidence": 0.9734
+    },
+    {
+      "word": "better",
+      "start_time": 116.826,
+      "end_time": 117.01,
+      "confidence": 0.99993
+    },
+    {
+      "word": "off",
+      "start_time": 117.05,
+      "end_time": 117.202,
+      "confidence": 0.96545
+    },
+    {
+      "word": "with",
+      "start_time": 117.226,
+      "end_time": 117.41,
+      "confidence": 0.99856
+    },
+    {
+      "word": "a",
+      "start_time": 117.45,
+      "end_time": 117.602,
+      "confidence": 0.99088
+    },
+    {
+      "word": "boring",
+      "start_time": 117.626,
+      "end_time": 117.922,
+      "confidence": 0.99943
+    },
+    {
+      "word": "SQL",
+      "start_time": 117.986,
+      "end_time": 118.306,
+      "confidence": 0.99021
+    },
+    {
+      "word": "database.",
+      "start_time": 118.338,
+      "end_time": 118.882,
+      "confidence": 0.9964
+    },
+    {
+      "word": "Adopting",
+      "start_time": 118.946,
+      "end_time": 119.394,
+      "confidence": 0.99923
+    },
+    {
+      "word": "tech",
+      "start_time": 119.442,
+      "end_time": 119.666,
+      "confidence": 0.9982
+    },
+    {
+      "word": "too",
+      "start_time": 119.698,
+      "end_time": 119.842,
+      "confidence": 0.9966
+    },
+    {
+      "word": "early",
+      "start_time": 119.866,
+      "end_time": 120.05,
+      "confidence": 0.99994
+    },
+    {
+      "word": "is",
+      "start_time": 120.09,
+      "end_time": 120.242,
+      "confidence": 0.99758
+    },
+    {
+      "word": "one",
+      "start_time": 120.266,
+      "end_time": 120.45,
+      "confidence": 0.99929
+    },
+    {
+      "word": "thing,",
+      "start_time": 120.49,
+      "end_time": 120.738,
+      "confidence": 0.9991
+    },
+    {
+      "word": "but",
+      "start_time": 120.794,
+      "end_time": 121.01,
+      "confidence": 0.99046
+    },
+    {
+      "word": "adhering",
+      "start_time": 121.05,
+      "end_time": 121.426,
+      "confidence": 0.99963
+    },
+    {
+      "word": "to",
+      "start_time": 121.458,
+      "end_time": 121.602,
+      "confidence": 0.99971
+    },
+    {
+      "word": "programming",
+      "start_time": 121.626,
+      "end_time": 122.034,
+      "confidence": 0.99943
+    },
+    {
+      "word": "dogma",
+      "start_time": 122.082,
+      "end_time": 122.386,
+      "confidence": 0.99913
+    },
+    {
+      "word": "can",
+      "start_time": 122.418,
+      "end_time": 122.61,
+      "confidence": 0.99744
+    },
+    {
+      "word": "waste",
+      "start_time": 122.65,
+      "end_time": 122.866,
+      "confidence": 0.99922
+    },
+    {
+      "word": "even",
+      "start_time": 122.898,
+      "end_time": 123.09,
+      "confidence": 0.99595
+    },
+    {
+      "word": "more",
+      "start_time": 123.13,
+      "end_time": 123.282,
+      "confidence": 0.99975
+    },
+    {
+      "word": "time",
+      "start_time": 123.306,
+      "end_time": 123.634,
+      "confidence": 0.99541
+    },
+    {
+      "word": "the",
+      "start_time": 123.722,
+      "end_time": 123.922,
+      "confidence": 0.99876
+    },
+    {
+      "word": "problem",
+      "start_time": 123.946,
+      "end_time": 124.082,
+      "confidence": 0.99973
+    },
+    {
+      "word": "with",
+      "start_time": 124.106,
+      "end_time": 124.29,
+      "confidence": 0.99776
+    },
+    {
+      "word": "programming",
+      "start_time": 124.33,
+      "end_time": 124.834,
+      "confidence": 0.99934
+    },
+    {
+      "word": "is",
+      "start_time": 124.882,
+      "end_time": 125.042,
+      "confidence": 0.99831
+    },
+    {
+      "word": "that",
+      "start_time": 125.066,
+      "end_time": 125.202,
+      "confidence": 0.98183
+    },
+    {
+      "word": "there",
+      "start_time": 125.226,
+      "end_time": 125.494,
+      "confidence": 0.76504
+    },
+    {
+      "word": "many",
+      "start_time": 125.562,
+      "end_time": 125.742,
+      "confidence": 0.99943
+    },
+    {
+      "word": "different",
+      "start_time": 125.766,
+      "end_time": 125.998,
+      "confidence": 0.99632
+    },
+    {
+      "word": "ways",
+      "start_time": 126.054,
+      "end_time": 126.286,
+      "confidence": 0.99948
+    },
+    {
+      "word": "to",
+      "start_time": 126.318,
+      "end_time": 126.462,
+      "confidence": 0.99692
+    },
+    {
+      "word": "solve",
+      "start_time": 126.486,
+      "end_time": 126.686,
+      "confidence": 0.99967
+    },
+    {
+      "word": "the",
+      "start_time": 126.718,
+      "end_time": 126.862,
+      "confidence": 0.98525
+    },
+    {
+      "word": "same",
+      "start_time": 126.886,
+      "end_time": 127.07,
+      "confidence": 0.99919
+    },
+    {
+      "word": "problem,",
+      "start_time": 127.11,
+      "end_time": 127.55,
+      "confidence": 0.99945
+    },
+    {
+      "word": "but",
+      "start_time": 127.67,
+      "end_time": 127.95,
+      "confidence": 0.99594
+    },
+    {
+      "word": "some",
+      "start_time": 127.99,
+      "end_time": 128.142,
+      "confidence": 0.99489
+    },
+    {
+      "word": "people",
+      "start_time": 128.166,
+      "end_time": 128.35,
+      "confidence": 0.99145
+    },
+    {
+      "word": "out",
+      "start_time": 128.39,
+      "end_time": 128.542,
+      "confidence": 0.96204
+    },
+    {
+      "word": "there",
+      "start_time": 128.566,
+      "end_time": 128.75,
+      "confidence": 0.99866
+    },
+    {
+      "word": "believe",
+      "start_time": 128.79,
+      "end_time": 128.99,
+      "confidence": 0.99936
+    },
+    {
+      "word": "that",
+      "start_time": 129.03,
+      "end_time": 129.182,
+      "confidence": 0.79552
+    },
+    {
+      "word": "there's",
+      "start_time": 129.206,
+      "end_time": 129.486,
+      "confidence": 0.91368
+    },
+    {
+      "word": "only",
+      "start_time": 129.518,
+      "end_time": 129.71,
+      "confidence": 0.99707
+    },
+    {
+      "word": "one",
+      "start_time": 129.75,
+      "end_time": 129.902,
+      "confidence": 0.99815
+    },
+    {
+      "word": "true",
+      "start_time": 129.926,
+      "end_time": 130.126,
+      "confidence": 0.99404
+    },
+    {
+      "word": "way",
+      "start_time": 130.158,
+      "end_time": 130.302,
+      "confidence": 0.99949
+    },
+    {
+      "word": "to",
+      "start_time": 130.326,
+      "end_time": 130.462,
+      "confidence": 0.99883
+    },
+    {
+      "word": "write",
+      "start_time": 130.486,
+      "end_time": 130.686,
+      "confidence": 0.99968
+    },
+    {
+      "word": "code.",
+      "start_time": 130.718,
+      "end_time": 131.022,
+      "confidence": 0.98527
+    },
+    {
+      "word": "Some",
+      "start_time": 131.086,
+      "end_time": 131.262,
+      "confidence": 0.99815
+    },
+    {
+      "word": "common",
+      "start_time": 131.286,
+      "end_time": 131.486,
+      "confidence": 0.99964
+    },
+    {
+      "word": "cults",
+      "start_time": 131.518,
+      "end_time": 131.886,
+      "confidence": 0.91542
+    },
+    {
+      "word": "out",
+      "start_time": 131.918,
+      "end_time": 132.014,
+      "confidence": 0.99179
+    },
+    {
+      "word": "there",
+      "start_time": 132.022,
+      "end_time": 132.19,
+      "confidence": 0.99851
+    },
+    {
+      "word": "include",
+      "start_time": 132.23,
+      "end_time": 132.478,
+      "confidence": 0.99406
+    },
+    {
+      "word": "the",
+      "start_time": 132.534,
+      "end_time": 132.702,
+      "confidence": 0.98662
+    },
+    {
+      "word": "object",
+      "start_time": 132.726,
+      "end_time": 133.102,
+      "confidence": 0.99855
+    },
+    {
+      "word": "oriented",
+      "start_time": 133.166,
+      "end_time": 133.694,
+      "confidence": 0.99406
+    },
+    {
+      "word": "Purists",
+      "start_time": 133.742,
+      "end_time": 134.19,
+      "confidence": 0.75535
+    },
+    {
+      "word": "and",
+      "start_time": 134.27,
+      "end_time": 134.462,
+      "confidence": 0.9984
+    },
+    {
+      "word": "the",
+      "start_time": 134.486,
+      "end_time": 134.622,
+      "confidence": 0.97664
+    },
+    {
+      "word": "Functional",
+      "start_time": 134.646,
+      "end_time": 134.974,
+      "confidence": 0.99886
+    },
+    {
+      "word": "Programming",
+      "start_time": 135.022,
+      "end_time": 135.534,
+      "confidence": 0.99872
+    },
+    {
+      "word": "extremists.",
+      "start_time": 135.582,
+      "end_time": 136.19,
+      "confidence": 0.7491
+    },
+    {
+      "word": "I've",
+      "start_time": 136.27,
+      "end_time": 136.478,
+      "confidence": 0.97788
+    },
+    {
+      "word": "been",
+      "start_time": 136.494,
+      "end_time": 136.622,
+      "confidence": 0.99816
+    },
+    {
+      "word": "a",
+      "start_time": 136.646,
+      "end_time": 136.734,
+      "confidence": 0.99746
+    },
+    {
+      "word": "member",
+      "start_time": 136.742,
+      "end_time": 136.862,
+      "confidence": 0.9997
+    },
+    {
+      "word": "of",
+      "start_time": 136.886,
+      "end_time": 137.022,
+      "confidence": 0.99848
+    },
+    {
+      "word": "both",
+      "start_time": 137.046,
+      "end_time": 137.23,
+      "confidence": 0.99857
+    },
+    {
+      "word": "cults",
+      "start_time": 137.27,
+      "end_time": 137.646,
+      "confidence": 0.99598
+    },
+    {
+      "word": "and",
+      "start_time": 137.678,
+      "end_time": 137.774,
+      "confidence": 0.99644
+    },
+    {
+      "word": "have",
+      "start_time": 137.782,
+      "end_time": 137.902,
+      "confidence": 0.8965
+    },
+    {
+      "word": "learned",
+      "start_time": 137.926,
+      "end_time": 138.126,
+      "confidence": 0.99827
+    },
+    {
+      "word": "a",
+      "start_time": 138.158,
+      "end_time": 138.254,
+      "confidence": 0.99539
+    },
+    {
+      "word": "lot",
+      "start_time": 138.262,
+      "end_time": 138.382,
+      "confidence": 0.99874
+    },
+    {
+      "word": "from",
+      "start_time": 138.406,
+      "end_time": 138.542,
+      "confidence": 0.9957
+    },
+    {
+      "word": "them,",
+      "start_time": 138.566,
+      "end_time": 138.846,
+      "confidence": 0.99591
+    },
+    {
+      "word": "but",
+      "start_time": 138.918,
+      "end_time": 139.102,
+      "confidence": 0.99258
+    },
+    {
+      "word": "dedicating",
+      "start_time": 139.126,
+      "end_time": 139.566,
+      "confidence": 0.99712
+    },
+    {
+      "word": "your",
+      "start_time": 139.598,
+      "end_time": 139.79,
+      "confidence": 0.99821
+    },
+    {
+      "word": "entire",
+      "start_time": 139.83,
+      "end_time": 140.094,
+      "confidence": 0.99155
+    },
+    {
+      "word": "life",
+      "start_time": 140.142,
+      "end_time": 140.302,
+      "confidence": 0.99943
+    },
+    {
+      "word": "to",
+      "start_time": 140.326,
+      "end_time": 140.462,
+      "confidence": 0.99168
+    },
+    {
+      "word": "just",
+      "start_time": 140.486,
+      "end_time": 140.622,
+      "confidence": 0.99056
+    },
+    {
+      "word": "one",
+      "start_time": 140.646,
+      "end_time": 140.782,
+      "confidence": 0.99896
+    },
+    {
+      "word": "of",
+      "start_time": 140.806,
+      "end_time": 140.894,
+      "confidence": 0.95226
+    },
+    {
+      "word": "them",
+      "start_time": 140.902,
+      "end_time": 141.022,
+      "confidence": 0.99868
+    },
+    {
+      "word": "is",
+      "start_time": 141.046,
+      "end_time": 141.134,
+      "confidence": 0.99733
+    },
+    {
+      "word": "a",
+      "start_time": 141.142,
+      "end_time": 141.214,
+      "confidence": 0.99216
+    },
+    {
+      "word": "waste",
+      "start_time": 141.222,
+      "end_time": 141.518,
+      "confidence": 0.99914
+    },
+    {
+      "word": "of",
+      "start_time": 141.534,
+      "end_time": 141.662,
+      "confidence": 0.99973
+    },
+    {
+      "word": "time.",
+      "start_time": 141.686,
+      "end_time": 141.966,
+      "confidence": 0.9982
+    },
+    {
+      "word": "I",
+      "start_time": 142.038,
+      "end_time": 142.222,
+      "confidence": 0.99962
+    },
+    {
+      "word": "mostly",
+      "start_time": 142.246,
+      "end_time": 142.446,
+      "confidence": 0.99959
+    },
+    {
+      "word": "code",
+      "start_time": 142.478,
+      "end_time": 142.686,
+      "confidence": 0.73002
+    },
+    {
+      "word": "in",
+      "start_time": 142.718,
+      "end_time": 142.862,
+      "confidence": 0.99883
+    },
+    {
+      "word": "JavaScript,",
+      "start_time": 142.886,
+      "end_time": 143.406,
+      "confidence": 0.99941
+    },
+    {
+      "word": "which",
+      "start_time": 143.438,
+      "end_time": 143.582,
+      "confidence": 0.99704
+    },
+    {
+      "word": "is",
+      "start_time": 143.606,
+      "end_time": 143.742,
+      "confidence": 0.99921
+    },
+    {
+      "word": "a",
+      "start_time": 143.766,
+      "end_time": 143.854,
+      "confidence": 0.99676
+    },
+    {
+      "word": "multi",
+      "start_time": 143.862,
+      "end_time": 144.126,
+      "confidence": 0.59796
+    },
+    {
+      "word": "paradigm",
+      "start_time": 144.158,
+      "end_time": 144.606,
+      "confidence": 0.99967
+    },
+    {
+      "word": "language",
+      "start_time": 144.638,
+      "end_time": 144.926,
+      "confidence": 0.99976
+    },
+    {
+      "word": "that",
+      "start_time": 144.958,
+      "end_time": 145.102,
+      "confidence": 0.99499
+    },
+    {
+      "word": "can",
+      "start_time": 145.126,
+      "end_time": 145.31,
+      "confidence": 0.99473
+    },
+    {
+      "word": "satisfy",
+      "start_time": 145.35,
+      "end_time": 145.774,
+      "confidence": 0.99579
+    },
+    {
+      "word": "all",
+      "start_time": 145.822,
+      "end_time": 145.982,
+      "confidence": 0.99874
+    },
+    {
+      "word": "of",
+      "start_time": 146.006,
+      "end_time": 146.094,
+      "confidence": 0.94617
+    },
+    {
+      "word": "these",
+      "start_time": 146.102,
+      "end_time": 146.27,
+      "confidence": 0.97818
+    },
+    {
+      "word": "cults.",
+      "start_time": 146.31,
+      "end_time": 146.734,
+      "confidence": 0.97602
+    },
+    {
+      "word": "In",
+      "start_time": 146.782,
+      "end_time": 146.942,
+      "confidence": 0.99823
+    },
+    {
+      "word": "2018,",
+      "start_time": 146.966,
+      "end_time": 147.534,
+      "confidence": 0.99974
+    },
+    {
+      "word": "functional",
+      "start_time": 147.622,
+      "end_time": 148.094,
+      "confidence": 0.99379
+    },
+    {
+      "word": "programming",
+      "start_time": 148.142,
+      "end_time": 148.526,
+      "confidence": 0.9997
+    },
+    {
+      "word": "was",
+      "start_time": 148.558,
+      "end_time": 148.702,
+      "confidence": 0.99925
+    },
+    {
+      "word": "having",
+      "start_time": 148.726,
+      "end_time": 148.862,
+      "confidence": 0.99936
+    },
+    {
+      "word": "a",
+      "start_time": 148.886,
+      "end_time": 149.022,
+      "confidence": 0.99859
+    },
+    {
+      "word": "renaissance",
+      "start_time": 149.046,
+      "end_time": 149.534,
+      "confidence": 0.90247
+    },
+    {
+      "word": "in",
+      "start_time": 149.582,
+      "end_time": 149.79,
+      "confidence": 0.9979
+    },
+    {
+      "word": "web",
+      "start_time": 149.83,
+      "end_time": 150.046,
+      "confidence": 0.99962
+    },
+    {
+      "word": "development.",
+      "start_time": 150.078,
+      "end_time": 150.51,
+      "confidence": 0.99869
+    },
+    {
+      "word": "Back",
+      "start_time": 150.63,
+      "end_time": 150.862,
+      "confidence": 0.99959
+    },
+    {
+      "word": "then",
+      "start_time": 150.886,
+      "end_time": 151.07,
+      "confidence": 0.99948
+    },
+    {
+      "word": "if",
+      "start_time": 151.11,
+      "end_time": 151.262,
+      "confidence": 0.99924
+    },
+    {
+      "word": "you",
+      "start_time": 151.286,
+      "end_time": 151.422,
+      "confidence": 0.99855
+    },
+    {
+      "word": "used",
+      "start_time": 151.446,
+      "end_time": 151.63,
+      "confidence": 0.91391
+    },
+    {
+      "word": "classes",
+      "start_time": 151.67,
+      "end_time": 151.966,
+      "confidence": 0.9973
+    },
+    {
+      "word": "in",
+      "start_time": 151.998,
+      "end_time": 152.142,
+      "confidence": 0.99511
+    },
+    {
+      "word": "your",
+      "start_time": 152.166,
+      "end_time": 152.302,
+      "confidence": 0.99583
+    },
+    {
+      "word": "code",
+      "start_time": 152.326,
+      "end_time": 152.526,
+      "confidence": 0.99958
+    },
+    {
+      "word": "you",
+      "start_time": 152.558,
+      "end_time": 152.654,
+      "confidence": 0.99968
+    },
+    {
+      "word": "were",
+      "start_time": 152.662,
+      "end_time": 152.782,
+      "confidence": 0.99516
+    },
+    {
+      "word": "literally",
+      "start_time": 152.806,
+      "end_time": 153.134,
+      "confidence": 0.99739
+    },
+    {
+      "word": "Hitler",
+      "start_time": 153.182,
+      "end_time": 153.582,
+      "confidence": 0.99952
+    },
+    {
+      "word": "and",
+      "start_time": 153.646,
+      "end_time": 153.822,
+      "confidence": 0.98714
+    },
+    {
+      "word": "I",
+      "start_time": 153.846,
+      "end_time": 153.982,
+      "confidence": 0.9931
+    },
+    {
+      "word": "found",
+      "start_time": 154.006,
+      "end_time": 154.142,
+      "confidence": 0.99893
+    },
+    {
+      "word": "myself",
+      "start_time": 154.166,
+      "end_time": 154.494,
+      "confidence": 0.99951
+    },
+    {
+      "word": "bending",
+      "start_time": 154.542,
+      "end_time": 154.846,
+      "confidence": 0.99974
+    },
+    {
+      "word": "over",
+      "start_time": 154.878,
+      "end_time": 155.07,
+      "confidence": 0.99594
+    },
+    {
+      "word": "backwards",
+      "start_time": 155.11,
+      "end_time": 155.454,
+      "confidence": 0.97496
+    },
+    {
+      "word": "to",
+      "start_time": 155.502,
+      "end_time": 155.662,
+      "confidence": 0.98956
+    },
+    {
+      "word": "try",
+      "start_time": 155.686,
+      "end_time": 155.822,
+      "confidence": 0.99768
+    },
+    {
+      "word": "to",
+      "start_time": 155.846,
+      "end_time": 155.934,
+      "confidence": 0.86511
+    },
+    {
+      "word": "do",
+      "start_time": 155.942,
+      "end_time": 156.11,
+      "confidence": 0.99708
+    },
+    {
+      "word": "everything",
+      "start_time": 156.15,
+      "end_time": 156.35,
+      "confidence": 0.99936
+    },
+    {
+      "word": "in",
+      "start_time": 156.39,
+      "end_time": 156.542,
+      "confidence": 0.98898
+    },
+    {
+      "word": "the",
+      "start_time": 156.566,
+      "end_time": 156.654,
+      "confidence": 0.99564
+    },
+    {
+      "word": "most",
+      "start_time": 156.662,
+      "end_time": 156.782,
+      "confidence": 0.99699
+    },
+    {
+      "word": "functional",
+      "start_time": 156.806,
+      "end_time": 157.134,
+      "confidence": 0.99865
+    },
+    {
+      "word": "way",
+      "start_time": 157.182,
+      "end_time": 157.474,
+      "confidence": 0.86638
+    },
+    {
+      "word": "possible.",
+      "start_time": 157.542,
+      "end_time": 157.962,
+      "confidence": 0.95394
+    },
+    {
+      "word": "No",
+      "start_time": 158.066,
+      "end_time": 158.282,
+      "confidence": 0.99854
+    },
+    {
+      "word": "mutable",
+      "start_time": 158.306,
+      "end_time": 158.714,
+      "confidence": 0.98954
+    },
+    {
+      "word": "state",
+      "start_time": 158.762,
+      "end_time": 159.018,
+      "confidence": 0.99438
+    },
+    {
+      "word": "and",
+      "start_time": 159.074,
+      "end_time": 159.29,
+      "confidence": 0.99593
+    },
+    {
+      "word": "higher",
+      "start_time": 159.33,
+      "end_time": 159.53,
+      "confidence": 0.99893
+    },
+    {
+      "word": "order",
+      "start_time": 159.57,
+      "end_time": 159.818,
+      "confidence": 0.99985
+    },
+    {
+      "word": "functions",
+      "start_time": 159.874,
+      "end_time": 160.282,
+      "confidence": 0.99706
+    },
+    {
+      "word": "everywhere.",
+      "start_time": 160.346,
+      "end_time": 160.81,
+      "confidence": 0.99689
+    },
+    {
+      "word": "But",
+      "start_time": 160.89,
+      "end_time": 161.082,
+      "confidence": 0.99888
+    },
+    {
+      "word": "a",
+      "start_time": 161.106,
+      "end_time": 161.194,
+      "confidence": 0.99737
+    },
+    {
+      "word": "few",
+      "start_time": 161.202,
+      "end_time": 161.322,
+      "confidence": 0.99957
+    },
+    {
+      "word": "years",
+      "start_time": 161.346,
+      "end_time": 161.53,
+      "confidence": 0.99955
+    },
+    {
+      "word": "later,",
+      "start_time": 161.57,
+      "end_time": 161.818,
+      "confidence": 0.99779
+    },
+    {
+      "word": "after",
+      "start_time": 161.874,
+      "end_time": 162.09,
+      "confidence": 0.99958
+    },
+    {
+      "word": "the",
+      "start_time": 162.13,
+      "end_time": 162.282,
+      "confidence": 0.99236
+    },
+    {
+      "word": "spell",
+      "start_time": 162.306,
+      "end_time": 162.506,
+      "confidence": 0.99978
+    },
+    {
+      "word": "wore",
+      "start_time": 162.538,
+      "end_time": 162.746,
+      "confidence": 0.9982
+    },
+    {
+      "word": "off,",
+      "start_time": 162.778,
+      "end_time": 162.97,
+      "confidence": 0.9991
+    },
+    {
+      "word": "I",
+      "start_time": 163.01,
+      "end_time": 163.21,
+      "confidence": 0.99877
+    },
+    {
+      "word": "eventually",
+      "start_time": 163.25,
+      "end_time": 163.594,
+      "confidence": 0.99912
+    },
+    {
+      "word": "realized",
+      "start_time": 163.642,
+      "end_time": 164.074,
+      "confidence": 0.99244
+    },
+    {
+      "word": "that",
+      "start_time": 164.122,
+      "end_time": 164.33,
+      "confidence": 0.9935
+    },
+    {
+      "word": "classes",
+      "start_time": 164.37,
+      "end_time": 164.746,
+      "confidence": 0.99591
+    },
+    {
+      "word": "can",
+      "start_time": 164.778,
+      "end_time": 164.874,
+      "confidence": 0.99869
+    },
+    {
+      "word": "be",
+      "start_time": 164.882,
+      "end_time": 165.002,
+      "confidence": 0.99789
+    },
+    {
+      "word": "pretty",
+      "start_time": 165.026,
+      "end_time": 165.274,
+      "confidence": 0.99485
+    },
+    {
+      "word": "useful",
+      "start_time": 165.322,
+      "end_time": 165.642,
+      "confidence": 0.99978
+    },
+    {
+      "word": "and",
+      "start_time": 165.706,
+      "end_time": 165.834,
+      "confidence": 0.99375
+    },
+    {
+      "word": "my",
+      "start_time": 165.842,
+      "end_time": 165.962,
+      "confidence": 0.99904
+    },
+    {
+      "word": "code",
+      "start_time": 165.986,
+      "end_time": 166.234,
+      "confidence": 0.9983
+    },
+    {
+      "word": "today",
+      "start_time": 166.282,
+      "end_time": 166.538,
+      "confidence": 0.99869
+    },
+    {
+      "word": "often",
+      "start_time": 166.594,
+      "end_time": 166.81,
+      "confidence": 0.99639
+    },
+    {
+      "word": "includes",
+      "start_time": 166.85,
+      "end_time": 167.146,
+      "confidence": 0.77694
+    },
+    {
+      "word": "a",
+      "start_time": 167.178,
+      "end_time": 167.322,
+      "confidence": 0.99929
+    },
+    {
+      "word": "combination",
+      "start_time": 167.346,
+      "end_time": 167.818,
+      "confidence": 0.59742
+    },
+    {
+      "word": "of",
+      "start_time": 167.914,
+      "end_time": 168.122,
+      "confidence": 0.99952
+    },
+    {
+      "word": "things",
+      "start_time": 168.146,
+      "end_time": 168.282,
+      "confidence": 0.9997
+    },
+    {
+      "word": "I've",
+      "start_time": 168.306,
+      "end_time": 168.538,
+      "confidence": 0.96935
+    },
+    {
+      "word": "learned",
+      "start_time": 168.554,
+      "end_time": 168.746,
+      "confidence": 0.99874
+    },
+    {
+      "word": "from",
+      "start_time": 168.778,
+      "end_time": 168.97,
+      "confidence": 0.99683
+    },
+    {
+      "word": "both",
+      "start_time": 169.01,
+      "end_time": 169.162,
+      "confidence": 0.99825
+    },
+    {
+      "word": "of",
+      "start_time": 169.186,
+      "end_time": 169.274,
+      "confidence": 0.94635
+    },
+    {
+      "word": "these",
+      "start_time": 169.282,
+      "end_time": 169.45,
+      "confidence": 0.98228
+    },
+    {
+      "word": "cults.",
+      "start_time": 169.49,
+      "end_time": 169.914,
+      "confidence": 0.98513
+    },
+    {
+      "word": "But",
+      "start_time": 169.962,
+      "end_time": 170.122,
+      "confidence": 0.99418
+    },
+    {
+      "word": "another",
+      "start_time": 170.146,
+      "end_time": 170.378,
+      "confidence": 0.99646
+    },
+    {
+      "word": "time",
+      "start_time": 170.434,
+      "end_time": 170.65,
+      "confidence": 0.99896
+    },
+    {
+      "word": "waster",
+      "start_time": 170.69,
+      "end_time": 170.954,
+      "confidence": 0.58523
+    },
+    {
+      "word": "to",
+      "start_time": 171.002,
+      "end_time": 171.162,
+      "confidence": 0.9963
+    },
+    {
+      "word": "watch",
+      "start_time": 171.186,
+      "end_time": 171.322,
+      "confidence": 0.99978
+    },
+    {
+      "word": "out",
+      "start_time": 171.346,
+      "end_time": 171.482,
+      "confidence": 0.99459
+    },
+    {
+      "word": "for",
+      "start_time": 171.506,
+      "end_time": 171.738,
+      "confidence": 0.99688
+    },
+    {
+      "word": "is",
+      "start_time": 171.794,
+      "end_time": 172.01,
+      "confidence": 0.99832
+    },
+    {
+      "word": "clean",
+      "start_time": 172.05,
+      "end_time": 172.362,
+      "confidence": 0.95164
+    },
+    {
+      "word": "Code,",
+      "start_time": 172.426,
+      "end_time": 172.714,
+      "confidence": 0.72984
+    },
+    {
+      "word": "which",
+      "start_time": 172.762,
+      "end_time": 172.922,
+      "confidence": 0.99708
+    },
+    {
+      "word": "comes",
+      "start_time": 172.946,
+      "end_time": 173.082,
+      "confidence": 0.99375
+    },
+    {
+      "word": "from",
+      "start_time": 173.106,
+      "end_time": 173.29,
+      "confidence": 0.99959
+    },
+    {
+      "word": "a",
+      "start_time": 173.33,
+      "end_time": 173.434,
+      "confidence": 0.99764
+    },
+    {
+      "word": "legendary",
+      "start_time": 173.442,
+      "end_time": 173.914,
+      "confidence": 0.99965
+    },
+    {
+      "word": "book",
+      "start_time": 173.962,
+      "end_time": 174.122,
+      "confidence": 0.99945
+    },
+    {
+      "word": "written",
+      "start_time": 174.146,
+      "end_time": 174.378,
+      "confidence": 0.99804
+    },
+    {
+      "word": "by",
+      "start_time": 174.394,
+      "end_time": 174.57,
+      "confidence": 0.99925
+    },
+    {
+      "word": "Uncle",
+      "start_time": 174.61,
+      "end_time": 174.906,
+      "confidence": 0.99937
+    },
+    {
+      "word": "Bob",
+      "start_time": 174.938,
+      "end_time": 175.146,
+      "confidence": 0.99812
+    },
+    {
+      "word": "Martin",
+      "start_time": 175.178,
+      "end_time": 175.642,
+      "confidence": 0.95738
+    },
+    {
+      "word": "known",
+      "start_time": 175.706,
+      "end_time": 175.882,
+      "confidence": 0.99822
+    },
+    {
+      "word": "as",
+      "start_time": 175.906,
+      "end_time": 175.994,
+      "confidence": 0.99963
+    },
+    {
+      "word": "the",
+      "start_time": 176.002,
+      "end_time": 176.122,
+      "confidence": 0.9968
+    },
+    {
+      "word": "Handbook",
+      "start_time": 176.146,
+      "end_time": 176.522,
+      "confidence": 0.52655
+    },
+    {
+      "word": "for",
+      "start_time": 176.586,
+      "end_time": 176.858,
+      "confidence": 0.99772
+    },
+    {
+      "word": "Agile",
+      "start_time": 176.914,
+      "end_time": 177.37,
+      "confidence": 0.70525
+    },
+    {
+      "word": "Software",
+      "start_time": 177.45,
+      "end_time": 177.834,
+      "confidence": 0.96836
+    },
+    {
+      "word": "Craftsmanship.",
+      "start_time": 177.882,
+      "end_time": 178.65,
+      "confidence": 0.67673
+    },
+    {
+      "word": "Most",
+      "start_time": 178.73,
+      "end_time": 178.922,
+      "confidence": 0.99948
+    },
+    {
+      "word": "of",
+      "start_time": 178.946,
+      "end_time": 179.034,
+      "confidence": 0.99909
+    },
+    {
+      "word": "the",
+      "start_time": 179.042,
+      "end_time": 179.162,
+      "confidence": 0.99813
+    },
+    {
+      "word": "advice",
+      "start_time": 179.186,
+      "end_time": 179.434,
+      "confidence": 0.88668
+    },
+    {
+      "word": "in",
+      "start_time": 179.482,
+      "end_time": 179.594,
+      "confidence": 0.99828
+    },
+    {
+      "word": "this",
+      "start_time": 179.602,
+      "end_time": 179.77,
+      "confidence": 0.98222
+    },
+    {
+      "word": "book",
+      "start_time": 179.81,
+      "end_time": 179.962,
+      "confidence": 0.99887
+    },
+    {
+      "word": "is",
+      "start_time": 179.986,
+      "end_time": 180.122,
+      "confidence": 0.99827
+    },
+    {
+      "word": "great,",
+      "start_time": 180.146,
+      "end_time": 180.426,
+      "confidence": 0.70479
+    },
+    {
+      "word": "use",
+      "start_time": 180.498,
+      "end_time": 180.682,
+      "confidence": 0.99901
+    },
+    {
+      "word": "meaningful",
+      "start_time": 180.706,
+      "end_time": 181.066,
+      "confidence": 0.99938
+    },
+    {
+      "word": "names,",
+      "start_time": 181.098,
+      "end_time": 181.514,
+      "confidence": 0.99919
+    },
+    {
+      "word": "write",
+      "start_time": 181.562,
+      "end_time": 181.834,
+      "confidence": 0.99955
+    },
+    {
+      "word": "small",
+      "start_time": 181.882,
+      "end_time": 182.09,
+      "confidence": 0.99965
+    },
+    {
+      "word": "functions,",
+      "start_time": 182.13,
+      "end_time": 182.666,
+      "confidence": 0.99767
+    },
+    {
+      "word": "use",
+      "start_time": 182.778,
+      "end_time": 183.05,
+      "confidence": 0.99722
+    },
+    {
+      "word": "consistent",
+      "start_time": 183.09,
+      "end_time": 183.466,
+      "confidence": 0.99854
+    },
+    {
+      "word": "formatting,",
+      "start_time": 183.498,
+      "end_time": 183.994,
+      "confidence": 0.99945
+    },
+    {
+      "word": "and",
+      "start_time": 184.042,
+      "end_time": 184.202,
+      "confidence": 0.9962
+    },
+    {
+      "word": "so",
+      "start_time": 184.226,
+      "end_time": 184.362,
+      "confidence": 0.99981
+    },
+    {
+      "word": "on.",
+      "start_time": 184.386,
+      "end_time": 184.618,
+      "confidence": 0.99931
+    },
+    {
+      "word": "But",
+      "start_time": 184.674,
+      "end_time": 184.842,
+      "confidence": 0.99574
+    },
+    {
+      "word": "some",
+      "start_time": 184.866,
+      "end_time": 185.002,
+      "confidence": 0.99921
+    },
+    {
+      "word": "of",
+      "start_time": 185.026,
+      "end_time": 185.114,
+      "confidence": 0.99384
+    },
+    {
+      "word": "the",
+      "start_time": 185.122,
+      "end_time": 185.242,
+      "confidence": 0.98285
+    },
+    {
+      "word": "advice",
+      "start_time": 185.266,
+      "end_time": 185.514,
+      "confidence": 0.99927
+    },
+    {
+      "word": "is",
+      "start_time": 185.562,
+      "end_time": 185.722,
+      "confidence": 0.99878
+    },
+    {
+      "word": "a",
+      "start_time": 185.746,
+      "end_time": 185.834,
+      "confidence": 0.99498
+    },
+    {
+      "word": "little",
+      "start_time": 185.842,
+      "end_time": 185.962,
+      "confidence": 0.9978
+    },
+    {
+      "word": "more",
+      "start_time": 185.986,
+      "end_time": 186.17,
+      "confidence": 0.99879
+    },
+    {
+      "word": "nuanced,",
+      "start_time": 186.21,
+      "end_time": 186.682,
+      "confidence": 0.99472
+    },
+    {
+      "word": "like",
+      "start_time": 186.746,
+      "end_time": 186.922,
+      "confidence": 0.9942
+    },
+    {
+      "word": "the",
+      "start_time": 186.946,
+      "end_time": 187.082,
+      "confidence": 0.99494
+    },
+    {
+      "word": "dry",
+      "start_time": 187.106,
+      "end_time": 187.354,
+      "confidence": 0.86511
+    },
+    {
+      "word": "principle",
+      "start_time": 187.402,
+      "end_time": 187.93,
+      "confidence": 0.47825
+    },
+    {
+      "word": "of",
+      "start_time": 188.01,
+      "end_time": 188.25,
+      "confidence": 0.98711
+    },
+    {
+      "word": "don't",
+      "start_time": 188.29,
+      "end_time": 188.506,
+      "confidence": 0.99671
+    },
+    {
+      "word": "repeat",
+      "start_time": 188.538,
+      "end_time": 188.826,
+      "confidence": 0.99735
+    },
+    {
+      "word": "your",
+      "start_time": 188.858,
+      "end_time": 189.23,
+      "confidence": 0.99558
+    },
+    {
+      "word": "which",
+      "start_time": 189.33,
+      "end_time": 189.59,
+      "confidence": 0.99756
+    },
+    {
+      "word": "means",
+      "start_time": 189.63,
+      "end_time": 189.782,
+      "confidence": 0.9996
+    },
+    {
+      "word": "you",
+      "start_time": 189.806,
+      "end_time": 189.942,
+      "confidence": 0.99755
+    },
+    {
+      "word": "shouldn't",
+      "start_time": 189.966,
+      "end_time": 190.166,
+      "confidence": 0.99905
+    },
+    {
+      "word": "duplicate",
+      "start_time": 190.198,
+      "end_time": 190.694,
+      "confidence": 0.99984
+    },
+    {
+      "word": "or",
+      "start_time": 190.742,
+      "end_time": 190.902,
+      "confidence": 0.99862
+    },
+    {
+      "word": "write",
+      "start_time": 190.926,
+      "end_time": 191.126,
+      "confidence": 0.9998
+    },
+    {
+      "word": "the",
+      "start_time": 191.158,
+      "end_time": 191.254,
+      "confidence": 0.99845
+    },
+    {
+      "word": "same",
+      "start_time": 191.262,
+      "end_time": 191.43,
+      "confidence": 0.99849
+    },
+    {
+      "word": "code",
+      "start_time": 191.47,
+      "end_time": 191.686,
+      "confidence": 0.99922
+    },
+    {
+      "word": "over",
+      "start_time": 191.718,
+      "end_time": 191.91,
+      "confidence": 0.99914
+    },
+    {
+      "word": "and",
+      "start_time": 191.95,
+      "end_time": 192.102,
+      "confidence": 0.99775
+    },
+    {
+      "word": "over",
+      "start_time": 192.126,
+      "end_time": 192.262,
+      "confidence": 0.99974
+    },
+    {
+      "word": "again.",
+      "start_time": 192.286,
+      "end_time": 192.566,
+      "confidence": 0.99676
+    },
+    {
+      "word": "And",
+      "start_time": 192.638,
+      "end_time": 192.87,
+      "confidence": 0.98629
+    },
+    {
+      "word": "on",
+      "start_time": 192.91,
+      "end_time": 193.014,
+      "confidence": 0.99961
+    },
+    {
+      "word": "the",
+      "start_time": 193.022,
+      "end_time": 193.142,
+      "confidence": 0.99969
+    },
+    {
+      "word": "surface",
+      "start_time": 193.166,
+      "end_time": 193.446,
+      "confidence": 0.99977
+    },
+    {
+      "word": "that",
+      "start_time": 193.478,
+      "end_time": 193.67,
+      "confidence": 0.9942
+    },
+    {
+      "word": "seems",
+      "start_time": 193.71,
+      "end_time": 193.878,
+      "confidence": 0.99885
+    },
+    {
+      "word": "like",
+      "start_time": 193.894,
+      "end_time": 194.022,
+      "confidence": 0.99587
+    },
+    {
+      "word": "a",
+      "start_time": 194.046,
+      "end_time": 194.134,
+      "confidence": 0.99852
+    },
+    {
+      "word": "good",
+      "start_time": 194.142,
+      "end_time": 194.31,
+      "confidence": 0.99876
+    },
+    {
+      "word": "idea,",
+      "start_time": 194.35,
+      "end_time": 194.71,
+      "confidence": 0.99749
+    },
+    {
+      "word": "but",
+      "start_time": 194.79,
+      "end_time": 195.03,
+      "confidence": 0.99628
+    },
+    {
+      "word": "also",
+      "start_time": 195.07,
+      "end_time": 195.27,
+      "confidence": 0.99812
+    },
+    {
+      "word": "when",
+      "start_time": 195.31,
+      "end_time": 195.414,
+      "confidence": 0.99802
+    },
+    {
+      "word": "you",
+      "start_time": 195.422,
+      "end_time": 195.542,
+      "confidence": 0.99761
+    },
+    {
+      "word": "try",
+      "start_time": 195.566,
+      "end_time": 195.798,
+      "confidence": 0.99953
+    },
+    {
+      "word": "too",
+      "start_time": 195.854,
+      "end_time": 196.022,
+      "confidence": 0.99223
+    },
+    {
+      "word": "hard",
+      "start_time": 196.046,
+      "end_time": 196.182,
+      "confidence": 0.99898
+    },
+    {
+      "word": "to",
+      "start_time": 196.206,
+      "end_time": 196.342,
+      "confidence": 0.99848
+    },
+    {
+      "word": "keep",
+      "start_time": 196.366,
+      "end_time": 196.502,
+      "confidence": 0.99945
+    },
+    {
+      "word": "things",
+      "start_time": 196.526,
+      "end_time": 196.71,
+      "confidence": 0.99968
+    },
+    {
+      "word": "clean,",
+      "start_time": 196.75,
+      "end_time": 197.11,
+      "confidence": 0.9997
+    },
+    {
+      "word": "you",
+      "start_time": 197.19,
+      "end_time": 197.382,
+      "confidence": 0.99941
+    },
+    {
+      "word": "might",
+      "start_time": 197.406,
+      "end_time": 197.59,
+      "confidence": 0.9983
+    },
+    {
+      "word": "end",
+      "start_time": 197.63,
+      "end_time": 197.782,
+      "confidence": 0.99975
+    },
+    {
+      "word": "up",
+      "start_time": 197.806,
+      "end_time": 197.894,
+      "confidence": 0.99862
+    },
+    {
+      "word": "with",
+      "start_time": 197.902,
+      "end_time": 198.022,
+      "confidence": 0.99767
+    },
+    {
+      "word": "an",
+      "start_time": 198.046,
+      "end_time": 198.182,
+      "confidence": 0.99554
+    },
+    {
+      "word": "endless",
+      "start_time": 198.206,
+      "end_time": 198.534,
+      "confidence": 0.99992
+    },
+    {
+      "word": "layer",
+      "start_time": 198.582,
+      "end_time": 198.806,
+      "confidence": 0.97257
+    },
+    {
+      "word": "of",
+      "start_time": 198.838,
+      "end_time": 198.982,
+      "confidence": 0.99961
+    },
+    {
+      "word": "wrappers,",
+      "start_time": 199.006,
+      "end_time": 199.462,
+      "confidence": 0.99141
+    },
+    {
+      "word": "interfaces,",
+      "start_time": 199.526,
+      "end_time": 200.102,
+      "confidence": 0.99922
+    },
+    {
+      "word": "and",
+      "start_time": 200.166,
+      "end_time": 200.438,
+      "confidence": 0.90442
+    },
+    {
+      "word": "pointless",
+      "start_time": 200.494,
+      "end_time": 200.854,
+      "confidence": 0.99918
+    },
+    {
+      "word": "indirection.",
+      "start_time": 200.902,
+      "end_time": 201.542,
+      "confidence": 0.55306
+    },
+    {
+      "word": "It's",
+      "start_time": 201.606,
+      "end_time": 201.846,
+      "confidence": 0.99026
+    },
+    {
+      "word": "paralysis",
+      "start_time": 201.878,
+      "end_time": 202.486,
+      "confidence": 0.99985
+    },
+    {
+      "word": "by",
+      "start_time": 202.518,
+      "end_time": 202.662,
+      "confidence": 0.99948
+    },
+    {
+      "word": "analysis",
+      "start_time": 202.686,
+      "end_time": 203.254,
+      "confidence": 0.99982
+    },
+    {
+      "word": "and",
+      "start_time": 203.302,
+      "end_time": 203.462,
+      "confidence": 0.99859
+    },
+    {
+      "word": "you",
+      "start_time": 203.486,
+      "end_time": 203.622,
+      "confidence": 0.99938
+    },
+    {
+      "word": "end",
+      "start_time": 203.646,
+      "end_time": 203.782,
+      "confidence": 0.99769
+    },
+    {
+      "word": "up",
+      "start_time": 203.806,
+      "end_time": 203.942,
+      "confidence": 0.99947
+    },
+    {
+      "word": "spending",
+      "start_time": 203.966,
+      "end_time": 204.214,
+      "confidence": 0.82646
+    },
+    {
+      "word": "more",
+      "start_time": 204.262,
+      "end_time": 204.422,
+      "confidence": 0.99977
+    },
+    {
+      "word": "time",
+      "start_time": 204.446,
+      "end_time": 204.63,
+      "confidence": 0.99932
+    },
+    {
+      "word": "refactoring",
+      "start_time": 204.67,
+      "end_time": 205.35,
+      "confidence": 0.98871
+    },
+    {
+      "word": "than",
+      "start_time": 205.43,
+      "end_time": 205.67,
+      "confidence": 0.98732
+    },
+    {
+      "word": "building",
+      "start_time": 205.71,
+      "end_time": 205.958,
+      "confidence": 0.9997
+    },
+    {
+      "word": "actual",
+      "start_time": 206.014,
+      "end_time": 206.374,
+      "confidence": 0.99842
+    },
+    {
+      "word": "features",
+      "start_time": 206.422,
+      "end_time": 206.726,
+      "confidence": 0.99908
+    },
+    {
+      "word": "that",
+      "start_time": 206.758,
+      "end_time": 206.902,
+      "confidence": 0.98942
+    },
+    {
+      "word": "people",
+      "start_time": 206.926,
+      "end_time": 207.158,
+      "confidence": 0.99941
+    },
+    {
+      "word": "want.",
+      "start_time": 207.214,
+      "end_time": 207.478,
+      "confidence": 0.99991
+    },
+    {
+      "word": "I",
+      "start_time": 207.534,
+      "end_time": 207.654,
+      "confidence": 0.99929
+    },
+    {
+      "word": "think",
+      "start_time": 207.662,
+      "end_time": 207.782,
+      "confidence": 0.99996
+    },
+    {
+      "word": "a",
+      "start_time": 207.806,
+      "end_time": 207.894,
+      "confidence": 0.99923
+    },
+    {
+      "word": "better",
+      "start_time": 207.902,
+      "end_time": 208.07,
+      "confidence": 0.99967
+    },
+    {
+      "word": "acronym",
+      "start_time": 208.11,
+      "end_time": 208.566,
+      "confidence": 0.97054
+    },
+    {
+      "word": "would",
+      "start_time": 208.598,
+      "end_time": 208.694,
+      "confidence": 0.9994
+    },
+    {
+      "word": "be",
+      "start_time": 208.702,
+      "end_time": 208.87,
+      "confidence": 0.99648
+    },
+    {
+      "word": "rug",
+      "start_time": 208.91,
+      "end_time": 209.27,
+      "confidence": 0.82429
+    },
+    {
+      "word": "Repeat",
+      "start_time": 209.35,
+      "end_time": 209.686,
+      "confidence": 0.99405
+    },
+    {
+      "word": "until",
+      "start_time": 209.718,
+      "end_time": 210.006,
+      "confidence": 0.99633
+    },
+    {
+      "word": "good,",
+      "start_time": 210.078,
+      "end_time": 210.454,
+      "confidence": 0.99633
+    },
+    {
+      "word": "duplicate",
+      "start_time": 210.542,
+      "end_time": 211.046,
+      "confidence": 0.99936
+    },
+    {
+      "word": "code",
+      "start_time": 211.078,
+      "end_time": 211.286,
+      "confidence": 0.98123
+    },
+    {
+      "word": "at",
+      "start_time": 211.318,
+      "end_time": 211.462,
+      "confidence": 0.97503
+    },
+    {
+      "word": "first",
+      "start_time": 211.486,
+      "end_time": 211.718,
+      "confidence": 0.99971
+    },
+    {
+      "word": "and",
+      "start_time": 211.774,
+      "end_time": 211.942,
+      "confidence": 0.97444
+    },
+    {
+      "word": "then",
+      "start_time": 211.966,
+      "end_time": 212.102,
+      "confidence": 0.98175
+    },
+    {
+      "word": "pull",
+      "start_time": 212.126,
+      "end_time": 212.278,
+      "confidence": 0.99666
+    },
+    {
+      "word": "it",
+      "start_time": 212.294,
+      "end_time": 212.422,
+      "confidence": 0.98777
+    },
+    {
+      "word": "into",
+      "start_time": 212.446,
+      "end_time": 212.63,
+      "confidence": 0.98783
+    },
+    {
+      "word": "a",
+      "start_time": 212.67,
+      "end_time": 212.774,
+      "confidence": 0.99698
+    },
+    {
+      "word": "single",
+      "start_time": 212.782,
+      "end_time": 213.046,
+      "confidence": 0.99956
+    },
+    {
+      "word": "abstraction",
+      "start_time": 213.078,
+      "end_time": 213.734,
+      "confidence": 0.91469
+    },
+    {
+      "word": "after",
+      "start_time": 213.782,
+      "end_time": 213.99,
+      "confidence": 0.99975
+    },
+    {
+      "word": "the",
+      "start_time": 214.03,
+      "end_time": 214.182,
+      "confidence": 0.99702
+    },
+    {
+      "word": "repetition",
+      "start_time": 214.206,
+      "end_time": 214.694,
+      "confidence": 0.99927
+    },
+    {
+      "word": "becomes",
+      "start_time": 214.742,
+      "end_time": 215.046,
+      "confidence": 0.99862
+    },
+    {
+      "word": "painful.",
+      "start_time": 215.078,
+      "end_time": 215.51,
+      "confidence": 0.99945
+    },
+    {
+      "word": "Clean",
+      "start_time": 215.59,
+      "end_time": 215.894,
+      "confidence": 0.61251
+    },
+    {
+      "word": "Code",
+      "start_time": 215.942,
+      "end_time": 216.246,
+      "confidence": 0.99048
+    },
+    {
+      "word": "also",
+      "start_time": 216.278,
+      "end_time": 216.47,
+      "confidence": 0.99729
+    },
+    {
+      "word": "recommends",
+      "start_time": 216.51,
+      "end_time": 216.966,
+      "confidence": 0.6783
+    },
+    {
+      "word": "test",
+      "start_time": 216.998,
+      "end_time": 217.19,
+      "confidence": 0.99965
+    },
+    {
+      "word": "driven",
+      "start_time": 217.23,
+      "end_time": 217.494,
+      "confidence": 0.99966
+    },
+    {
+      "word": "development",
+      "start_time": 217.542,
+      "end_time": 217.99,
+      "confidence": 0.99985
+    },
+    {
+      "word": "and",
+      "start_time": 218.11,
+      "end_time": 218.342,
+      "confidence": 0.99764
+    },
+    {
+      "word": "testing",
+      "start_time": 218.366,
+      "end_time": 218.646,
+      "confidence": 0.99956
+    },
+    {
+      "word": "can",
+      "start_time": 218.678,
+      "end_time": 218.822,
+      "confidence": 0.99909
+    },
+    {
+      "word": "be",
+      "start_time": 218.846,
+      "end_time": 218.982,
+      "confidence": 0.99961
+    },
+    {
+      "word": "extremely",
+      "start_time": 219.006,
+      "end_time": 219.366,
+      "confidence": 0.81358
+    },
+    {
+      "word": "valuable,",
+      "start_time": 219.398,
+      "end_time": 219.878,
+      "confidence": 0.88698
+    },
+    {
+      "word": "but",
+      "start_time": 219.974,
+      "end_time": 220.182,
+      "confidence": 0.99861
+    },
+    {
+      "word": "it's",
+      "start_time": 220.206,
+      "end_time": 220.358,
+      "confidence": 0.99454
+    },
+    {
+      "word": "a",
+      "start_time": 220.374,
+      "end_time": 220.454,
+      "confidence": 0.99859
+    },
+    {
+      "word": "myth",
+      "start_time": 220.462,
+      "end_time": 220.646,
+      "confidence": 0.9997
+    },
+    {
+      "word": "that",
+      "start_time": 220.678,
+      "end_time": 220.822,
+      "confidence": 0.98986
+    },
+    {
+      "word": "one",
+      "start_time": 220.846,
+      "end_time": 221.066,
+      "confidence": 0.9153
+    },
+    {
+      "word": "100%",
+      "start_time": 221.118,
+      "end_time": 221.698,
+      "confidence": 0.95679
+    },
+    {
+      "word": "test",
+      "start_time": 221.754,
+      "end_time": 221.97,
+      "confidence": 0.99697
+    },
+    {
+      "word": "coverage",
+      "start_time": 222.01,
+      "end_time": 222.402,
+      "confidence": 0.99979
+    },
+    {
+      "word": "means",
+      "start_time": 222.466,
+      "end_time": 222.69,
+      "confidence": 0.9987
+    },
+    {
+      "word": "that",
+      "start_time": 222.73,
+      "end_time": 222.882,
+      "confidence": 0.96974
+    },
+    {
+      "word": "your",
+      "start_time": 222.906,
+      "end_time": 223.042,
+      "confidence": 0.99608
+    },
+    {
+      "word": "code",
+      "start_time": 223.066,
+      "end_time": 223.266,
+      "confidence": 0.99818
+    },
+    {
+      "word": "is",
+      "start_time": 223.298,
+      "end_time": 223.49,
+      "confidence": 0.99903
+    },
+    {
+      "word": "well",
+      "start_time": 223.53,
+      "end_time": 223.682,
+      "confidence": 0.99878
+    },
+    {
+      "word": "protected.",
+      "start_time": 223.706,
+      "end_time": 224.13,
+      "confidence": 0.65013
+    },
+    {
+      "word": "Your",
+      "start_time": 224.21,
+      "end_time": 224.45,
+      "confidence": 0.99269
+    },
+    {
+      "word": "boss,",
+      "start_time": 224.49,
+      "end_time": 224.706,
+      "confidence": 0.9999
+    },
+    {
+      "word": "who",
+      "start_time": 224.738,
+      "end_time": 224.882,
+      "confidence": 0.99859
+    },
+    {
+      "word": "has",
+      "start_time": 224.906,
+      "end_time": 225.042,
+      "confidence": 0.9987
+    },
+    {
+      "word": "no",
+      "start_time": 225.066,
+      "end_time": 225.202,
+      "confidence": 0.99979
+    },
+    {
+      "word": "programming",
+      "start_time": 225.226,
+      "end_time": 225.634,
+      "confidence": 0.99892
+    },
+    {
+      "word": "experience,",
+      "start_time": 225.682,
+      "end_time": 226.13,
+      "confidence": 0.99835
+    },
+    {
+      "word": "is",
+      "start_time": 226.25,
+      "end_time": 226.482,
+      "confidence": 0.99758
+    },
+    {
+      "word": "likely",
+      "start_time": 226.506,
+      "end_time": 226.69,
+      "confidence": 0.99978
+    },
+    {
+      "word": "a",
+      "start_time": 226.73,
+      "end_time": 226.834,
+      "confidence": 0.99747
+    },
+    {
+      "word": "big",
+      "start_time": 226.842,
+      "end_time": 226.962,
+      "confidence": 0.99492
+    },
+    {
+      "word": "fan",
+      "start_time": 226.986,
+      "end_time": 227.138,
+      "confidence": 0.9997
+    },
+    {
+      "word": "of",
+      "start_time": 227.154,
+      "end_time": 227.282,
+      "confidence": 0.99901
+    },
+    {
+      "word": "code",
+      "start_time": 227.306,
+      "end_time": 227.506,
+      "confidence": 0.98762
+    },
+    {
+      "word": "coverage",
+      "start_time": 227.538,
+      "end_time": 227.826,
+      "confidence": 0.99976
+    },
+    {
+      "word": "tooling",
+      "start_time": 227.858,
+      "end_time": 228.242,
+      "confidence": 0.99922
+    },
+    {
+      "word": "that",
+      "start_time": 228.306,
+      "end_time": 228.434,
+      "confidence": 0.99786
+    },
+    {
+      "word": "will",
+      "start_time": 228.442,
+      "end_time": 228.562,
+      "confidence": 0.99616
+    },
+    {
+      "word": "show",
+      "start_time": 228.586,
+      "end_time": 228.722,
+      "confidence": 0.99981
+    },
+    {
+      "word": "how",
+      "start_time": 228.746,
+      "end_time": 228.882,
+      "confidence": 0.99946
+    },
+    {
+      "word": "much",
+      "start_time": 228.906,
+      "end_time": 229.09,
+      "confidence": 0.99943
+    },
+    {
+      "word": "of",
+      "start_time": 229.13,
+      "end_time": 229.234,
+      "confidence": 0.98714
+    },
+    {
+      "word": "your",
+      "start_time": 229.242,
+      "end_time": 229.41,
+      "confidence": 0.99755
+    },
+    {
+      "word": "source",
+      "start_time": 229.45,
+      "end_time": 229.666,
+      "confidence": 0.9987
+    },
+    {
+      "word": "code",
+      "start_time": 229.698,
+      "end_time": 229.906,
+      "confidence": 0.99852
+    },
+    {
+      "word": "is",
+      "start_time": 229.938,
+      "end_time": 230.178,
+      "confidence": 0.99883
+    },
+    {
+      "word": "executed",
+      "start_time": 230.234,
+      "end_time": 230.706,
+      "confidence": 0.99942
+    },
+    {
+      "word": "when",
+      "start_time": 230.738,
+      "end_time": 230.882,
+      "confidence": 0.99862
+    },
+    {
+      "word": "a",
+      "start_time": 230.906,
+      "end_time": 231.042,
+      "confidence": 0.99608
+    },
+    {
+      "word": "test",
+      "start_time": 231.066,
+      "end_time": 231.25,
+      "confidence": 0.99939
+    },
+    {
+      "word": "suite",
+      "start_time": 231.29,
+      "end_time": 231.506,
+      "confidence": 0.86655
+    },
+    {
+      "word": "is",
+      "start_time": 231.538,
+      "end_time": 231.682,
+      "confidence": 0.9979
+    },
+    {
+      "word": "run.",
+      "start_time": 231.706,
+      "end_time": 232.082,
+      "confidence": 0.99873
+    },
+    {
+      "word": "It's",
+      "start_time": 232.186,
+      "end_time": 232.418,
+      "confidence": 0.99734
+    },
+    {
+      "word": "interesting,",
+      "start_time": 232.434,
+      "end_time": 232.93,
+      "confidence": 0.99971
+    },
+    {
+      "word": "but",
+      "start_time": 233.01,
+      "end_time": 233.298,
+      "confidence": 0.99929
+    },
+    {
+      "word": "optimizing",
+      "start_time": 233.354,
+      "end_time": 233.954,
+      "confidence": 0.99782
+    },
+    {
+      "word": "for",
+      "start_time": 234.002,
+      "end_time": 234.258,
+      "confidence": 0.99964
+    },
+    {
+      "word": "100%",
+      "start_time": 234.314,
+      "end_time": 234.898,
+      "confidence": 0.99676
+    },
+    {
+      "word": "coverage",
+      "start_time": 234.954,
+      "end_time": 235.346,
+      "confidence": 0.99978
+    },
+    {
+      "word": "is",
+      "start_time": 235.378,
+      "end_time": 235.57,
+      "confidence": 0.99895
+    },
+    {
+      "word": "often",
+      "start_time": 235.61,
+      "end_time": 235.81,
+      "confidence": 0.9992
+    },
+    {
+      "word": "a",
+      "start_time": 235.85,
+      "end_time": 236.002,
+      "confidence": 0.99671
+    },
+    {
+      "word": "huge",
+      "start_time": 236.026,
+      "end_time": 236.226,
+      "confidence": 0.99709
+    },
+    {
+      "word": "waste",
+      "start_time": 236.258,
+      "end_time": 236.466,
+      "confidence": 0.99982
+    },
+    {
+      "word": "of",
+      "start_time": 236.498,
+      "end_time": 236.642,
+      "confidence": 0.99913
+    },
+    {
+      "word": "time",
+      "start_time": 236.666,
+      "end_time": 236.898,
+      "confidence": 0.99995
+    },
+    {
+      "word": "and",
+      "start_time": 236.954,
+      "end_time": 237.17,
+      "confidence": 0.99863
+    },
+    {
+      "word": "can",
+      "start_time": 237.21,
+      "end_time": 237.362,
+      "confidence": 0.99836
+    },
+    {
+      "word": "often",
+      "start_time": 237.386,
+      "end_time": 237.522,
+      "confidence": 0.99769
+    },
+    {
+      "word": "be",
+      "start_time": 237.546,
+      "end_time": 237.682,
+      "confidence": 0.99921
+    },
+    {
+      "word": "misleading",
+      "start_time": 237.706,
+      "end_time": 238.322,
+      "confidence": 0.75383
+    },
+    {
+      "word": "because",
+      "start_time": 238.386,
+      "end_time": 238.658,
+      "confidence": 0.99932
+    },
+    {
+      "word": "high",
+      "start_time": 238.714,
+      "end_time": 238.93,
+      "confidence": 0.99969
+    },
+    {
+      "word": "coverage",
+      "start_time": 238.97,
+      "end_time": 239.362,
+      "confidence": 0.98751
+    },
+    {
+      "word": "does",
+      "start_time": 239.426,
+      "end_time": 239.602,
+      "confidence": 0.99611
+    },
+    {
+      "word": "not",
+      "start_time": 239.626,
+      "end_time": 239.81,
+      "confidence": 0.99964
+    },
+    {
+      "word": "equal",
+      "start_time": 239.85,
+      "end_time": 240.114,
+      "confidence": 0.99941
+    },
+    {
+      "word": "high",
+      "start_time": 240.162,
+      "end_time": 240.37,
+      "confidence": 0.99743
+    },
+    {
+      "word": "quality.",
+      "start_time": 240.41,
+      "end_time": 240.85,
+      "confidence": 0.99711
+    },
+    {
+      "word": "Optimizing",
+      "start_time": 240.93,
+      "end_time": 241.458,
+      "confidence": 0.67735
+    },
+    {
+      "word": "for",
+      "start_time": 241.474,
+      "end_time": 241.65,
+      "confidence": 0.9997
+    },
+    {
+      "word": "coverage",
+      "start_time": 241.69,
+      "end_time": 242.034,
+      "confidence": 0.99988
+    },
+    {
+      "word": "encourages",
+      "start_time": 242.082,
+      "end_time": 242.562,
+      "confidence": 0.89301
+    },
+    {
+      "word": "developers",
+      "start_time": 242.626,
+      "end_time": 243.026,
+      "confidence": 0.99875
+    },
+    {
+      "word": "to",
+      "start_time": 243.058,
+      "end_time": 243.202,
+      "confidence": 0.99665
+    },
+    {
+      "word": "write",
+      "start_time": 243.226,
+      "end_time": 243.426,
+      "confidence": 0.99968
+    },
+    {
+      "word": "pointless",
+      "start_time": 243.458,
+      "end_time": 243.794,
+      "confidence": 0.99984
+    },
+    {
+      "word": "tests",
+      "start_time": 243.842,
+      "end_time": 244.146,
+      "confidence": 0.99625
+    },
+    {
+      "word": "that",
+      "start_time": 244.178,
+      "end_time": 244.322,
+      "confidence": 0.99936
+    },
+    {
+      "word": "just",
+      "start_time": 244.346,
+      "end_time": 244.482,
+      "confidence": 0.99606
+    },
+    {
+      "word": "touch",
+      "start_time": 244.506,
+      "end_time": 244.754,
+      "confidence": 0.99969
+    },
+    {
+      "word": "lines",
+      "start_time": 244.802,
+      "end_time": 245.122,
+      "confidence": 0.99645
+    },
+    {
+      "word": "and",
+      "start_time": 245.186,
+      "end_time": 245.41,
+      "confidence": 0.98166
+    },
+    {
+      "word": "not",
+      "start_time": 245.45,
+      "end_time": 245.602,
+      "confidence": 0.9996
+    },
+    {
+      "word": "catch",
+      "start_time": 245.626,
+      "end_time": 245.874,
+      "confidence": 0.99913
+    },
+    {
+      "word": "real",
+      "start_time": 245.922,
+      "end_time": 246.13,
+      "confidence": 0.99893
+    },
+    {
+      "word": "bugs.",
+      "start_time": 246.17,
+      "end_time": 246.562,
+      "confidence": 0.99958
+    },
+    {
+      "word": "And",
+      "start_time": 246.626,
+      "end_time": 246.802,
+      "confidence": 0.98754
+    },
+    {
+      "word": "even",
+      "start_time": 246.826,
+      "end_time": 246.962,
+      "confidence": 0.99903
+    },
+    {
+      "word": "worse",
+      "start_time": 246.986,
+      "end_time": 247.186,
+      "confidence": 0.9987
+    },
+    {
+      "word": "than",
+      "start_time": 247.218,
+      "end_time": 247.362,
+      "confidence": 0.99879
+    },
+    {
+      "word": "wasting",
+      "start_time": 247.386,
+      "end_time": 247.73,
+      "confidence": 0.9574
+    },
+    {
+      "word": "time,",
+      "start_time": 247.81,
+      "end_time": 248.05,
+      "confidence": 0.99912
+    },
+    {
+      "word": "it",
+      "start_time": 248.09,
+      "end_time": 248.29,
+      "confidence": 0.99803
+    },
+    {
+      "word": "provides",
+      "start_time": 248.33,
+      "end_time": 248.626,
+      "confidence": 0.9992
+    },
+    {
+      "word": "a",
+      "start_time": 248.658,
+      "end_time": 248.802,
+      "confidence": 0.99863
+    },
+    {
+      "word": "false",
+      "start_time": 248.826,
+      "end_time": 249.074,
+      "confidence": 0.37297
+    },
+    {
+      "word": "sense",
+      "start_time": 249.122,
+      "end_time": 249.298,
+      "confidence": 0.99981
+    },
+    {
+      "word": "of",
+      "start_time": 249.314,
+      "end_time": 249.442,
+      "confidence": 0.99966
+    },
+    {
+      "word": "security.",
+      "start_time": 249.466,
+      "end_time": 249.842,
+      "confidence": 0.99979
+    },
+    {
+      "word": "And",
+      "start_time": 249.946,
+      "end_time": 250.162,
+      "confidence": 0.9879
+    },
+    {
+      "word": "then",
+      "start_time": 250.186,
+      "end_time": 250.322,
+      "confidence": 0.98473
+    },
+    {
+      "word": "on",
+      "start_time": 250.346,
+      "end_time": 250.482,
+      "confidence": 0.99866
+    },
+    {
+      "word": "top",
+      "start_time": 250.506,
+      "end_time": 250.642,
+      "confidence": 0.99962
+    },
+    {
+      "word": "of",
+      "start_time": 250.666,
+      "end_time": 250.802,
+      "confidence": 0.99898
+    },
+    {
+      "word": "that",
+      "start_time": 250.826,
+      "end_time": 251.01,
+      "confidence": 0.99862
+    },
+    {
+      "word": "it",
+      "start_time": 251.05,
+      "end_time": 251.202,
+      "confidence": 0.9953
+    },
+    {
+      "word": "makes",
+      "start_time": 251.226,
+      "end_time": 251.362,
+      "confidence": 0.99795
+    },
+    {
+      "word": "your",
+      "start_time": 251.386,
+      "end_time": 251.57,
+      "confidence": 0.99783
+    },
+    {
+      "word": "CI",
+      "start_time": 251.61,
+      "end_time": 251.906,
+      "confidence": 0.99895
+    },
+    {
+      "word": "builds",
+      "start_time": 251.938,
+      "end_time": 252.226,
+      "confidence": 0.85035
+    },
+    {
+      "word": "even",
+      "start_time": 252.258,
+      "end_time": 252.402,
+      "confidence": 0.99631
+    },
+    {
+      "word": "slower,",
+      "start_time": 252.426,
+      "end_time": 252.674,
+      "confidence": 0.99384
+    },
+    {
+      "word": "which",
+      "start_time": 252.722,
+      "end_time": 253.062,
+      "confidence": 0.92983
+    },
+    {
+      "word": "going",
+      "start_time": 253.146,
+      "end_time": 253.342,
+      "confidence": 0.99796
+    },
+    {
+      "word": "to",
+      "start_time": 253.366,
+      "end_time": 253.454,
+      "confidence": 0.99927
+    },
+    {
+      "word": "cost",
+      "start_time": 253.462,
+      "end_time": 253.63,
+      "confidence": 0.99943
+    },
+    {
+      "word": "you",
+      "start_time": 253.67,
+      "end_time": 253.822,
+      "confidence": 0.99106
+    },
+    {
+      "word": "more",
+      "start_time": 253.846,
+      "end_time": 253.982,
+      "confidence": 0.99926
+    },
+    {
+      "word": "money.",
+      "start_time": 254.006,
+      "end_time": 254.286,
+      "confidence": 0.98961
+    },
+    {
+      "word": "When",
+      "start_time": 254.358,
+      "end_time": 254.542,
+      "confidence": 0.99918
+    },
+    {
+      "word": "it",
+      "start_time": 254.566,
+      "end_time": 254.654,
+      "confidence": 0.99978
+    },
+    {
+      "word": "comes",
+      "start_time": 254.662,
+      "end_time": 254.734,
+      "confidence": 0.99972
+    },
+    {
+      "word": "to",
+      "start_time": 254.742,
+      "end_time": 254.862,
+      "confidence": 0.99675
+    },
+    {
+      "word": "test",
+      "start_time": 254.886,
+      "end_time": 255.118,
+      "confidence": 0.99855
+    },
+    {
+      "word": "coverage,",
+      "start_time": 255.174,
+      "end_time": 255.614,
+      "confidence": 0.99988
+    },
+    {
+      "word": "it's",
+      "start_time": 255.662,
+      "end_time": 255.934,
+      "confidence": 0.72614
+    },
+    {
+      "word": "quality,",
+      "start_time": 255.982,
+      "end_time": 256.43,
+      "confidence": 0.99728
+    },
+    {
+      "word": "not",
+      "start_time": 256.51,
+      "end_time": 256.75,
+      "confidence": 0.9985
+    },
+    {
+      "word": "quantity",
+      "start_time": 256.79,
+      "end_time": 257.134,
+      "confidence": 0.99905
+    },
+    {
+      "word": "that",
+      "start_time": 257.182,
+      "end_time": 257.342,
+      "confidence": 0.99851
+    },
+    {
+      "word": "matters.",
+      "start_time": 257.366,
+      "end_time": 257.838,
+      "confidence": 0.9992
+    },
+    {
+      "word": "But",
+      "start_time": 257.934,
+      "end_time": 258.142,
+      "confidence": 0.99703
+    },
+    {
+      "word": "one",
+      "start_time": 258.166,
+      "end_time": 258.302,
+      "confidence": 0.99818
+    },
+    {
+      "word": "thing",
+      "start_time": 258.326,
+      "end_time": 258.462,
+      "confidence": 0.99924
+    },
+    {
+      "word": "that",
+      "start_time": 258.486,
+      "end_time": 258.622,
+      "confidence": 0.99874
+    },
+    {
+      "word": "truly",
+      "start_time": 258.646,
+      "end_time": 258.926,
+      "confidence": 0.98393
+    },
+    {
+      "word": "must",
+      "start_time": 258.958,
+      "end_time": 259.198,
+      "confidence": 0.99886
+    },
+    {
+      "word": "matter",
+      "start_time": 259.254,
+      "end_time": 259.518,
+      "confidence": 0.9997
+    },
+    {
+      "word": "is",
+      "start_time": 259.574,
+      "end_time": 259.79,
+      "confidence": 0.99852
+    },
+    {
+      "word": "performance.",
+      "start_time": 259.83,
+      "end_time": 260.27,
+      "confidence": 0.99946
+    },
+    {
+      "word": "Well,",
+      "start_time": 260.39,
+      "end_time": 260.67,
+      "confidence": 0.99591
+    },
+    {
+      "word": "actually",
+      "start_time": 260.71,
+      "end_time": 261.102,
+      "confidence": 0.99985
+    },
+    {
+      "word": "it's",
+      "start_time": 261.206,
+      "end_time": 261.486,
+      "confidence": 0.99053
+    },
+    {
+      "word": "a",
+      "start_time": 261.518,
+      "end_time": 261.614,
+      "confidence": 0.99904
+    },
+    {
+      "word": "myth",
+      "start_time": 261.622,
+      "end_time": 261.806,
+      "confidence": 0.99991
+    },
+    {
+      "word": "that",
+      "start_time": 261.838,
+      "end_time": 261.982,
+      "confidence": 0.98427
+    },
+    {
+      "word": "you",
+      "start_time": 262.006,
+      "end_time": 262.142,
+      "confidence": 0.99911
+    },
+    {
+      "word": "should",
+      "start_time": 262.166,
+      "end_time": 262.35,
+      "confidence": 0.99811
+    },
+    {
+      "word": "always",
+      "start_time": 262.39,
+      "end_time": 262.638,
+      "confidence": 0.9985
+    },
+    {
+      "word": "optimize",
+      "start_time": 262.694,
+      "end_time": 263.166,
+      "confidence": 0.99665
+    },
+    {
+      "word": "for",
+      "start_time": 263.198,
+      "end_time": 263.39,
+      "confidence": 0.99955
+    },
+    {
+      "word": "performance.",
+      "start_time": 263.43,
+      "end_time": 263.87,
+      "confidence": 0.99922
+    },
+    {
+      "word": "Yet",
+      "start_time": 263.99,
+      "end_time": 264.27,
+      "confidence": 0.9996
+    },
+    {
+      "word": "another",
+      "start_time": 264.31,
+      "end_time": 264.51,
+      "confidence": 0.99997
+    },
+    {
+      "word": "time",
+      "start_time": 264.55,
+      "end_time": 264.75,
+      "confidence": 0.99884
+    },
+    {
+      "word": "waster",
+      "start_time": 264.79,
+      "end_time": 265.182,
+      "confidence": 0.99764
+    },
+    {
+      "word": "is",
+      "start_time": 265.246,
+      "end_time": 265.47,
+      "confidence": 0.99765
+    },
+    {
+      "word": "benchmarking",
+      "start_time": 265.51,
+      "end_time": 266.094,
+      "confidence": 0.39595
+    },
+    {
+      "word": "and",
+      "start_time": 266.142,
+      "end_time": 266.302,
+      "confidence": 0.99061
+    },
+    {
+      "word": "optimizing",
+      "start_time": 266.326,
+      "end_time": 266.894,
+      "confidence": 0.55835
+    },
+    {
+      "word": "code",
+      "start_time": 266.942,
+      "end_time": 267.31,
+      "confidence": 0.99372
+    },
+    {
+      "word": "that",
+      "start_time": 267.39,
+      "end_time": 267.63,
+      "confidence": 0.99067
+    },
+    {
+      "word": "just",
+      "start_time": 267.67,
+      "end_time": 267.822,
+      "confidence": 0.98482
+    },
+    {
+      "word": "doesn't",
+      "start_time": 267.846,
+      "end_time": 268.046,
+      "confidence": 0.99584
+    },
+    {
+      "word": "run",
+      "start_time": 268.078,
+      "end_time": 268.222,
+      "confidence": 0.99976
+    },
+    {
+      "word": "at",
+      "start_time": 268.246,
+      "end_time": 268.334,
+      "confidence": 0.99684
+    },
+    {
+      "word": "the",
+      "start_time": 268.342,
+      "end_time": 268.462,
+      "confidence": 0.97506
+    },
+    {
+      "word": "scale",
+      "start_time": 268.486,
+      "end_time": 268.734,
+      "confidence": 0.99976
+    },
+    {
+      "word": "to",
+      "start_time": 268.782,
+      "end_time": 269.038,
+      "confidence": 0.99918
+    },
+    {
+      "word": "justify",
+      "start_time": 269.094,
+      "end_time": 269.454,
+      "confidence": 0.99982
+    },
+    {
+      "word": "those",
+      "start_time": 269.502,
+      "end_time": 269.71,
+      "confidence": 0.99099
+    },
+    {
+      "word": "optimizations.",
+      "start_time": 269.75,
+      "end_time": 270.638,
+      "confidence": 0.99234
+    },
+    {
+      "word": "It's",
+      "start_time": 270.734,
+      "end_time": 271.006,
+      "confidence": 0.9937
+    },
+    {
+      "word": "far",
+      "start_time": 271.038,
+      "end_time": 271.182,
+      "confidence": 0.99825
+    },
+    {
+      "word": "more",
+      "start_time": 271.206,
+      "end_time": 271.342,
+      "confidence": 0.99979
+    },
+    {
+      "word": "important",
+      "start_time": 271.366,
+      "end_time": 271.646,
+      "confidence": 0.99976
+    },
+    {
+      "word": "to",
+      "start_time": 271.718,
+      "end_time": 271.902,
+      "confidence": 0.99871
+    },
+    {
+      "word": "make",
+      "start_time": 271.926,
+      "end_time": 272.014,
+      "confidence": 0.9975
+    },
+    {
+      "word": "sure",
+      "start_time": 272.022,
+      "end_time": 272.142,
+      "confidence": 0.9996
+    },
+    {
+      "word": "that",
+      "start_time": 272.166,
+      "end_time": 272.302,
+      "confidence": 0.86406
+    },
+    {
+      "word": "your",
+      "start_time": 272.326,
+      "end_time": 272.414,
+      "confidence": 0.99766
+    },
+    {
+      "word": "code",
+      "start_time": 272.422,
+      "end_time": 272.606,
+      "confidence": 0.99965
+    },
+    {
+      "word": "is",
+      "start_time": 272.638,
+      "end_time": 272.782,
+      "confidence": 0.9991
+    },
+    {
+      "word": "correct",
+      "start_time": 272.806,
+      "end_time": 273.134,
+      "confidence": 0.88059
+    },
+    {
+      "word": "and",
+      "start_time": 273.182,
+      "end_time": 273.342,
+      "confidence": 0.99554
+    },
+    {
+      "word": "then",
+      "start_time": 273.366,
+      "end_time": 273.55,
+      "confidence": 0.99037
+    },
+    {
+      "word": "only",
+      "start_time": 273.59,
+      "end_time": 273.79,
+      "confidence": 0.99954
+    },
+    {
+      "word": "optimize",
+      "start_time": 273.83,
+      "end_time": 274.286,
+      "confidence": 0.99203
+    },
+    {
+      "word": "for",
+      "start_time": 274.318,
+      "end_time": 274.51,
+      "confidence": 0.99928
+    },
+    {
+      "word": "performance",
+      "start_time": 274.55,
+      "end_time": 274.894,
+      "confidence": 0.9999
+    },
+    {
+      "word": "when",
+      "start_time": 274.982,
+      "end_time": 275.182,
+      "confidence": 0.99813
+    },
+    {
+      "word": "it",
+      "start_time": 275.206,
+      "end_time": 275.342,
+      "confidence": 0.99862
+    },
+    {
+      "word": "becomes",
+      "start_time": 275.366,
+      "end_time": 275.646,
+      "confidence": 0.99631
+    },
+    {
+      "word": "painfully",
+      "start_time": 275.678,
+      "end_time": 276.046,
+      "confidence": 0.99883
+    },
+    {
+      "word": "obvious",
+      "start_time": 276.078,
+      "end_time": 276.414,
+      "confidence": 0.99996
+    },
+    {
+      "word": "that",
+      "start_time": 276.462,
+      "end_time": 276.574,
+      "confidence": 0.99568
+    },
+    {
+      "word": "your",
+      "start_time": 276.582,
+      "end_time": 276.702,
+      "confidence": 0.99689
+    },
+    {
+      "word": "code",
+      "start_time": 276.726,
+      "end_time": 276.974,
+      "confidence": 0.99957
+    },
+    {
+      "word": "sucks",
+      "start_time": 277.022,
+      "end_time": 277.246,
+      "confidence": 0.99947
+    },
+    {
+      "word": "in",
+      "start_time": 277.278,
+      "end_time": 277.422,
+      "confidence": 0.99894
+    },
+    {
+      "word": "production.",
+      "start_time": 277.446,
+      "end_time": 277.902,
+      "confidence": 0.99986
+    },
+    {
+      "word": "On",
+      "start_time": 277.966,
+      "end_time": 278.142,
+      "confidence": 0.9992
+    },
+    {
+      "word": "a",
+      "start_time": 278.166,
+      "end_time": 278.254,
+      "confidence": 0.99861
+    },
+    {
+      "word": "similar",
+      "start_time": 278.262,
+      "end_time": 278.526,
+      "confidence": 0.99926
+    },
+    {
+      "word": "note,",
+      "start_time": 278.598,
+      "end_time": 278.846,
+      "confidence": 0.99858
+    },
+    {
+      "word": "you",
+      "start_time": 278.878,
+      "end_time": 279.022,
+      "confidence": 0.9993
+    },
+    {
+      "word": "also",
+      "start_time": 279.046,
+      "end_time": 279.23,
+      "confidence": 0.99784
+    },
+    {
+      "word": "don't",
+      "start_time": 279.27,
+      "end_time": 279.486,
+      "confidence": 0.99633
+    },
+    {
+      "word": "need",
+      "start_time": 279.518,
+      "end_time": 279.614,
+      "confidence": 0.99818
+    },
+    {
+      "word": "to",
+      "start_time": 279.622,
+      "end_time": 279.79,
+      "confidence": 0.99719
+    },
+    {
+      "word": "optimize",
+      "start_time": 279.83,
+      "end_time": 280.286,
+      "confidence": 0.99763
+    },
+    {
+      "word": "your",
+      "start_time": 280.318,
+      "end_time": 280.462,
+      "confidence": 0.99904
+    },
+    {
+      "word": "cloud",
+      "start_time": 280.486,
+      "end_time": 280.686,
+      "confidence": 0.99964
+    },
+    {
+      "word": "infrastructure",
+      "start_time": 280.718,
+      "end_time": 281.374,
+      "confidence": 0.99953
+    },
+    {
+      "word": "like",
+      "start_time": 281.422,
+      "end_time": 281.582,
+      "confidence": 0.99716
+    },
+    {
+      "word": "you're",
+      "start_time": 281.606,
+      "end_time": 281.806,
+      "confidence": 0.98739
+    },
+    {
+      "word": "about",
+      "start_time": 281.838,
+      "end_time": 281.982,
+      "confidence": 0.99866
+    },
+    {
+      "word": "to",
+      "start_time": 282.006,
+      "end_time": 282.142,
+      "confidence": 0.99864
+    },
+    {
+      "word": "scale",
+      "start_time": 282.166,
+      "end_time": 282.414,
+      "confidence": 0.99963
+    },
+    {
+      "word": "like",
+      "start_time": 282.462,
+      "end_time": 282.67,
+      "confidence": 0.99451
+    },
+    {
+      "word": "Facebook.",
+      "start_time": 282.71,
+      "end_time": 283.15,
+      "confidence": 0.99941
+    },
+    {
+      "word": "Like",
+      "start_time": 283.27,
+      "end_time": 283.502,
+      "confidence": 0.97605
+    },
+    {
+      "word": "I",
+      "start_time": 283.526,
+      "end_time": 283.662,
+      "confidence": 0.99876
+    },
+    {
+      "word": "used",
+      "start_time": 283.686,
+      "end_time": 283.822,
+      "confidence": 0.99832
+    },
+    {
+      "word": "to",
+      "start_time": 283.846,
+      "end_time": 283.934,
+      "confidence": 0.99903
+    },
+    {
+      "word": "think",
+      "start_time": 283.942,
+      "end_time": 284.062,
+      "confidence": 0.99867
+    },
+    {
+      "word": "that",
+      "start_time": 284.086,
+      "end_time": 284.174,
+      "confidence": 0.87574
+    },
+    {
+      "word": "I",
+      "start_time": 284.182,
+      "end_time": 284.302,
+      "confidence": 0.99595
+    },
+    {
+      "word": "needed",
+      "start_time": 284.326,
+      "end_time": 284.478,
+      "confidence": 0.99629
+    },
+    {
+      "word": "this",
+      "start_time": 284.494,
+      "end_time": 284.622,
+      "confidence": 0.99032
+    },
+    {
+      "word": "comp",
+      "start_time": 284.646,
+      "end_time": 284.914,
+      "confidence": 0.49262
+    },
+    {
+      "word": "complex",
+      "start_time": 284.982,
+      "end_time": 285.354,
+      "confidence": 0.99332
+    },
+    {
+      "word": "serverless",
+      "start_time": 285.402,
+      "end_time": 285.834,
+      "confidence": 0.99501
+    },
+    {
+      "word": "microservice",
+      "start_time": 285.882,
+      "end_time": 286.586,
+      "confidence": 0.98518
+    },
+    {
+      "word": "architecture",
+      "start_time": 286.618,
+      "end_time": 287.162,
+      "confidence": 0.99889
+    },
+    {
+      "word": "with",
+      "start_time": 287.226,
+      "end_time": 287.402,
+      "confidence": 0.9982
+    },
+    {
+      "word": "global",
+      "start_time": 287.426,
+      "end_time": 287.658,
+      "confidence": 0.99962
+    },
+    {
+      "word": "sharding",
+      "start_time": 287.714,
+      "end_time": 288.138,
+      "confidence": 0.87871
+    },
+    {
+      "word": "and",
+      "start_time": 288.154,
+      "end_time": 288.282,
+      "confidence": 0.99679
+    },
+    {
+      "word": "edge",
+      "start_time": 288.306,
+      "end_time": 288.506,
+      "confidence": 0.99851
+    },
+    {
+      "word": "caching,",
+      "start_time": 288.538,
+      "end_time": 288.922,
+      "confidence": 0.67424
+    },
+    {
+      "word": "but",
+      "start_time": 288.986,
+      "end_time": 289.162,
+      "confidence": 0.99379
+    },
+    {
+      "word": "it",
+      "start_time": 289.186,
+      "end_time": 289.322,
+      "confidence": 0.9929
+    },
+    {
+      "word": "turns",
+      "start_time": 289.346,
+      "end_time": 289.578,
+      "confidence": 0.99947
+    },
+    {
+      "word": "out",
+      "start_time": 289.594,
+      "end_time": 289.722,
+      "confidence": 0.99929
+    },
+    {
+      "word": "that",
+      "start_time": 289.746,
+      "end_time": 289.882,
+      "confidence": 0.97654
+    },
+    {
+      "word": "one",
+      "start_time": 289.906,
+      "end_time": 290.09,
+      "confidence": 0.99848
+    },
+    {
+      "word": "small",
+      "start_time": 290.13,
+      "end_time": 290.33,
+      "confidence": 0.99925
+    },
+    {
+      "word": "VPS",
+      "start_time": 290.37,
+      "end_time": 290.858,
+      "confidence": 0.98961
+    },
+    {
+      "word": "is",
+      "start_time": 290.954,
+      "end_time": 291.162,
+      "confidence": 0.99913
+    },
+    {
+      "word": "perfectly",
+      "start_time": 291.186,
+      "end_time": 291.546,
+      "confidence": 0.99442
+    },
+    {
+      "word": "fine",
+      "start_time": 291.578,
+      "end_time": 291.786,
+      "confidence": 0.99976
+    },
+    {
+      "word": "for",
+      "start_time": 291.818,
+      "end_time": 292.01,
+      "confidence": 0.99911
+    },
+    {
+      "word": "my",
+      "start_time": 292.05,
+      "end_time": 292.25,
+      "confidence": 0.99903
+    },
+    {
+      "word": "five",
+      "start_time": 292.29,
+      "end_time": 292.442,
+      "confidence": 0.99966
+    },
+    {
+      "word": "users.",
+      "start_time": 292.466,
+      "end_time": 293.018,
+      "confidence": 0.99919
+    },
+    {
+      "word": "Then",
+      "start_time": 293.114,
+      "end_time": 293.418,
+      "confidence": 0.98216
+    },
+    {
+      "word": "finally",
+      "start_time": 293.474,
+      "end_time": 293.754,
+      "confidence": 0.9989
+    },
+    {
+      "word": "that",
+      "start_time": 293.802,
+      "end_time": 293.962,
+      "confidence": 0.98643
+    },
+    {
+      "word": "brings",
+      "start_time": 293.986,
+      "end_time": 294.138,
+      "confidence": 0.99835
+    },
+    {
+      "word": "us",
+      "start_time": 294.154,
+      "end_time": 294.282,
+      "confidence": 0.99836
+    },
+    {
+      "word": "to",
+      "start_time": 294.306,
+      "end_time": 294.394,
+      "confidence": 0.99766
+    },
+    {
+      "word": "the",
+      "start_time": 294.402,
+      "end_time": 294.522,
+      "confidence": 0.99148
+    },
+    {
+      "word": "elephant",
+      "start_time": 294.546,
+      "end_time": 294.826,
+      "confidence": 0.98322
+    },
+    {
+      "word": "in",
+      "start_time": 294.858,
+      "end_time": 295.002,
+      "confidence": 0.9986
+    },
+    {
+      "word": "the",
+      "start_time": 295.026,
+      "end_time": 295.162,
+      "confidence": 0.99704
+    },
+    {
+      "word": "room,",
+      "start_time": 295.186,
+      "end_time": 295.466,
+      "confidence": 0.56177
+    },
+    {
+      "word": "the",
+      "start_time": 295.538,
+      "end_time": 295.722,
+      "confidence": 0.96652
+    },
+    {
+      "word": "myth",
+      "start_time": 295.746,
+      "end_time": 295.994,
+      "confidence": 0.99978
+    },
+    {
+      "word": "that",
+      "start_time": 296.042,
+      "end_time": 296.202,
+      "confidence": 0.9954
+    },
+    {
+      "word": "AI",
+      "start_time": 296.226,
+      "end_time": 296.506,
+      "confidence": 0.99811
+    },
+    {
+      "word": "is",
+      "start_time": 296.538,
+      "end_time": 296.682,
+      "confidence": 0.99741
+    },
+    {
+      "word": "about",
+      "start_time": 296.706,
+      "end_time": 296.842,
+      "confidence": 0.99922
+    },
+    {
+      "word": "to",
+      "start_time": 296.866,
+      "end_time": 297.002,
+      "confidence": 0.99884
+    },
+    {
+      "word": "replace",
+      "start_time": 297.026,
+      "end_time": 297.306,
+      "confidence": 0.89317
+    },
+    {
+      "word": "all",
+      "start_time": 297.338,
+      "end_time": 297.53,
+      "confidence": 0.99848
+    },
+    {
+      "word": "programmers",
+      "start_time": 297.57,
+      "end_time": 298.106,
+      "confidence": 0.99866
+    },
+    {
+      "word": "soon.",
+      "start_time": 298.138,
+      "end_time": 298.426,
+      "confidence": 0.99894
+    },
+    {
+      "word": "There",
+      "start_time": 298.498,
+      "end_time": 298.682,
+      "confidence": 0.99757
+    },
+    {
+      "word": "are",
+      "start_time": 298.706,
+      "end_time": 298.842,
+      "confidence": 0.58558
+    },
+    {
+      "word": "some",
+      "start_time": 298.866,
+      "end_time": 299.002,
+      "confidence": 0.99171
+    },
+    {
+      "word": "awesome",
+      "start_time": 299.026,
+      "end_time": 299.274,
+      "confidence": 0.99799
+    },
+    {
+      "word": "AI",
+      "start_time": 299.322,
+      "end_time": 299.546,
+      "confidence": 0.99565
+    },
+    {
+      "word": "code",
+      "start_time": 299.578,
+      "end_time": 299.786,
+      "confidence": 0.87636
+    },
+    {
+      "word": "writing",
+      "start_time": 299.818,
+      "end_time": 300.074,
+      "confidence": 0.9904
+    },
+    {
+      "word": "tools",
+      "start_time": 300.122,
+      "end_time": 300.346,
+      "confidence": 0.99938
+    },
+    {
+      "word": "out",
+      "start_time": 300.378,
+      "end_time": 300.522,
+      "confidence": 0.99648
+    },
+    {
+      "word": "there,",
+      "start_time": 300.546,
+      "end_time": 300.874,
+      "confidence": 0.99948
+    },
+    {
+      "word": "but",
+      "start_time": 300.962,
+      "end_time": 301.162,
+      "confidence": 0.99852
+    },
+    {
+      "word": "it's",
+      "start_time": 301.186,
+      "end_time": 301.338,
+      "confidence": 0.98583
+    },
+    {
+      "word": "becoming",
+      "start_time": 301.354,
+      "end_time": 301.594,
+      "confidence": 0.99601
+    },
+    {
+      "word": "more",
+      "start_time": 301.642,
+      "end_time": 301.802,
+      "confidence": 0.99867
+    },
+    {
+      "word": "and",
+      "start_time": 301.826,
+      "end_time": 301.962,
+      "confidence": 0.9969
+    },
+    {
+      "word": "more",
+      "start_time": 301.986,
+      "end_time": 302.122,
+      "confidence": 0.99948
+    },
+    {
+      "word": "clear",
+      "start_time": 302.146,
+      "end_time": 302.426,
+      "confidence": 0.99975
+    },
+    {
+      "word": "that",
+      "start_time": 302.498,
+      "end_time": 302.73,
+      "confidence": 0.99816
+    },
+    {
+      "word": "many",
+      "start_time": 302.77,
+      "end_time": 302.97,
+      "confidence": 0.99864
+    },
+    {
+      "word": "programmers",
+      "start_time": 303.01,
+      "end_time": 303.498,
+      "confidence": 0.9986
+    },
+    {
+      "word": "are",
+      "start_time": 303.514,
+      "end_time": 303.642,
+      "confidence": 0.99564
+    },
+    {
+      "word": "now",
+      "start_time": 303.666,
+      "end_time": 303.85,
+      "confidence": 0.98571
+    },
+    {
+      "word": "wasting",
+      "start_time": 303.89,
+      "end_time": 304.154,
+      "confidence": 0.99804
+    },
+    {
+      "word": "a",
+      "start_time": 304.202,
+      "end_time": 304.362,
+      "confidence": 0.99746
+    },
+    {
+      "word": "bunch",
+      "start_time": 304.386,
+      "end_time": 304.522,
+      "confidence": 0.45561
+    },
+    {
+      "word": "of",
+      "start_time": 304.546,
+      "end_time": 304.682,
+      "confidence": 0.99959
+    },
+    {
+      "word": "time",
+      "start_time": 304.706,
+      "end_time": 304.986,
+      "confidence": 0.99729
+    },
+    {
+      "word": "relying",
+      "start_time": 305.058,
+      "end_time": 305.482,
+      "confidence": 0.99937
+    },
+    {
+      "word": "too",
+      "start_time": 305.546,
+      "end_time": 305.722,
+      "confidence": 0.99941
+    },
+    {
+      "word": "much",
+      "start_time": 305.746,
+      "end_time": 305.93,
+      "confidence": 0.9996
+    },
+    {
+      "word": "on",
+      "start_time": 305.97,
+      "end_time": 306.17,
+      "confidence": 0.99799
+    },
+    {
+      "word": "AI.",
+      "start_time": 306.21,
+      "end_time": 306.65,
+      "confidence": 0.99262
+    },
+    {
+      "word": "For",
+      "start_time": 306.73,
+      "end_time": 306.922,
+      "confidence": 0.99705
+    },
+    {
+      "word": "example,",
+      "start_time": 306.946,
+      "end_time": 307.322,
+      "confidence": 0.89999
+    },
+    {
+      "word": "Claude",
+      "start_time": 307.386,
+      "end_time": 307.786,
+      "confidence": 0.61301
+    },
+    {
+      "word": "Sonnet",
+      "start_time": 307.818,
+      "end_time": 308.186,
+      "confidence": 0.79088
+    },
+    {
+      "word": "3.7",
+      "start_time": 308.218,
+      "end_time": 308.858,
+      "confidence": 0.99893
+    },
+    {
+      "word": "is",
+      "start_time": 308.914,
+      "end_time": 309.082,
+      "confidence": 0.99884
+    },
+    {
+      "word": "really",
+      "start_time": 309.106,
+      "end_time": 309.242,
+      "confidence": 0.99662
+    },
+    {
+      "word": "good",
+      "start_time": 309.266,
+      "end_time": 309.402,
+      "confidence": 0.99948
+    },
+    {
+      "word": "at",
+      "start_time": 309.426,
+      "end_time": 309.562,
+      "confidence": 0.9988
+    },
+    {
+      "word": "writing",
+      "start_time": 309.586,
+      "end_time": 309.786,
+      "confidence": 0.99956
+    },
+    {
+      "word": "code,",
+      "start_time": 309.818,
+      "end_time": 310.17,
+      "confidence": 0.99828
+    },
+    {
+      "word": "but",
+      "start_time": 310.25,
+      "end_time": 310.442,
+      "confidence": 0.99435
+    },
+    {
+      "word": "it's",
+      "start_time": 310.466,
+      "end_time": 310.666,
+      "confidence": 0.96018
+    },
+    {
+      "word": "also",
+      "start_time": 310.698,
+      "end_time": 310.89,
+      "confidence": 0.99836
+    },
+    {
+      "word": "notoriously",
+      "start_time": 310.93,
+      "end_time": 311.594,
+      "confidence": 0.99858
+    },
+    {
+      "word": "verbose.",
+      "start_time": 311.642,
+      "end_time": 312.122,
+      "confidence": 0.94615
+    },
+    {
+      "word": "You",
+      "start_time": 312.186,
+      "end_time": 312.362,
+      "confidence": 0.95182
+    },
+    {
+      "word": "might",
+      "start_time": 312.386,
+      "end_time": 312.522,
+      "confidence": 0.99878
+    },
+    {
+      "word": "ask",
+      "start_time": 312.546,
+      "end_time": 312.682,
+      "confidence": 0.99967
+    },
+    {
+      "word": "it",
+      "start_time": 312.706,
+      "end_time": 312.842,
+      "confidence": 0.99617
+    },
+    {
+      "word": "to",
+      "start_time": 312.866,
+      "end_time": 312.954,
+      "confidence": 0.99859
+    },
+    {
+      "word": "build",
+      "start_time": 312.962,
+      "end_time": 313.082,
+      "confidence": 0.9991
+    },
+    {
+      "word": "a",
+      "start_time": 313.106,
+      "end_time": 313.242,
+      "confidence": 0.99895
+    },
+    {
+      "word": "simple",
+      "start_time": 313.266,
+      "end_time": 313.514,
+      "confidence": 0.99935
+    },
+    {
+      "word": "website",
+      "start_time": 313.562,
+      "end_time": 313.914,
+      "confidence": 0.99725
+    },
+    {
+      "word": "and",
+      "start_time": 314.002,
+      "end_time": 314.202,
+      "confidence": 0.99503
+    },
+    {
+      "word": "it'll",
+      "start_time": 314.226,
+      "end_time": 314.506,
+      "confidence": 0.95079
+    },
+    {
+      "word": "just",
+      "start_time": 314.538,
+      "end_time": 314.682,
+      "confidence": 0.99324
+    },
+    {
+      "word": "randomly",
+      "start_time": 314.706,
+      "end_time": 315.114,
+      "confidence": 0.99816
+    },
+    {
+      "word": "Engineer",
+      "start_time": 315.162,
+      "end_time": 315.546,
+      "confidence": 0.99897
+    },
+    {
+      "word": "some",
+      "start_time": 315.578,
+      "end_time": 315.722,
+      "confidence": 0.99627
+    },
+    {
+      "word": "new",
+      "start_time": 315.746,
+      "end_time": 315.93,
+      "confidence": 0.99845
+    },
+    {
+      "word": "JavaScript",
+      "start_time": 315.97,
+      "end_time": 316.426,
+      "confidence": 0.9981
+    },
+    {
+      "word": "framework",
+      "start_time": 316.458,
+      "end_time": 316.83,
+      "confidence": 0.99785
+    },
+    {
+      "word": "from",
+      "start_time": 316.89,
+      "end_time": 317.062,
+      "confidence": 0.97389
+    },
+    {
+      "word": "scratch,",
+      "start_time": 317.086,
+      "end_time": 317.51,
+      "confidence": 0.99869
+    },
+    {
+      "word": "and",
+      "start_time": 317.59,
+      "end_time": 317.782,
+      "confidence": 0.9953
+    },
+    {
+      "word": "because",
+      "start_time": 317.806,
+      "end_time": 317.942,
+      "confidence": 0.99971
+    },
+    {
+      "word": "you",
+      "start_time": 317.966,
+      "end_time": 318.102,
+      "confidence": 0.99872
+    },
+    {
+      "word": "forgot",
+      "start_time": 318.126,
+      "end_time": 318.406,
+      "confidence": 0.99686
+    },
+    {
+      "word": "how",
+      "start_time": 318.438,
+      "end_time": 318.534,
+      "confidence": 0.9913
+    },
+    {
+      "word": "to",
+      "start_time": 318.542,
+      "end_time": 318.662,
+      "confidence": 0.99932
+    },
+    {
+      "word": "write",
+      "start_time": 318.686,
+      "end_time": 318.838,
+      "confidence": 0.99964
+    },
+    {
+      "word": "code,",
+      "start_time": 318.854,
+      "end_time": 319.142,
+      "confidence": 0.99674
+    },
+    {
+      "word": "you'll",
+      "start_time": 319.206,
+      "end_time": 319.398,
+      "confidence": 0.99214
+    },
+    {
+      "word": "just",
+      "start_time": 319.414,
+      "end_time": 319.542,
+      "confidence": 0.99813
+    },
+    {
+      "word": "approve",
+      "start_time": 319.566,
+      "end_time": 319.878,
+      "confidence": 0.96165
+    },
+    {
+      "word": "it",
+      "start_time": 319.894,
+      "end_time": 320.022,
+      "confidence": 0.99798
+    },
+    {
+      "word": "and",
+      "start_time": 320.046,
+      "end_time": 320.23,
+      "confidence": 0.99941
+    },
+    {
+      "word": "move",
+      "start_time": 320.27,
+      "end_time": 320.422,
+      "confidence": 0.99977
+    },
+    {
+      "word": "on",
+      "start_time": 320.446,
+      "end_time": 320.582,
+      "confidence": 0.99902
+    },
+    {
+      "word": "with",
+      "start_time": 320.606,
+      "end_time": 320.742,
+      "confidence": 0.99566
+    },
+    {
+      "word": "your",
+      "start_time": 320.766,
+      "end_time": 320.854,
+      "confidence": 0.99495
+    },
+    {
+      "word": "life.",
+      "start_time": 320.862,
+      "end_time": 321.126,
+      "confidence": 0.99894
+    },
+    {
+      "word": "AI",
+      "start_time": 321.198,
+      "end_time": 321.526,
+      "confidence": 0.99637
+    },
+    {
+      "word": "programming",
+      "start_time": 321.558,
+      "end_time": 321.974,
+      "confidence": 0.99932
+    },
+    {
+      "word": "tools",
+      "start_time": 322.022,
+      "end_time": 322.374,
+      "confidence": 0.99946
+    },
+    {
+      "word": "are",
+      "start_time": 322.422,
+      "end_time": 322.582,
+      "confidence": 0.99896
+    },
+    {
+      "word": "both",
+      "start_time": 322.606,
+      "end_time": 322.742,
+      "confidence": 0.99916
+    },
+    {
+      "word": "the",
+      "start_time": 322.766,
+      "end_time": 322.902,
+      "confidence": 0.99416
+    },
+    {
+      "word": "greatest",
+      "start_time": 322.926,
+      "end_time": 323.254,
+      "confidence": 0.99927
+    },
+    {
+      "word": "productivity",
+      "start_time": 323.302,
+      "end_time": 323.846,
+      "confidence": 0.99906
+    },
+    {
+      "word": "booster",
+      "start_time": 323.878,
+      "end_time": 324.246,
+      "confidence": 0.9878
+    },
+    {
+      "word": "I've",
+      "start_time": 324.278,
+      "end_time": 324.438,
+      "confidence": 0.99096
+    },
+    {
+      "word": "ever",
+      "start_time": 324.454,
+      "end_time": 324.582,
+      "confidence": 0.98824
+    },
+    {
+      "word": "seen",
+      "start_time": 324.606,
+      "end_time": 324.79,
+      "confidence": 0.9995
+    },
+    {
+      "word": "in",
+      "start_time": 324.83,
+      "end_time": 324.934,
+      "confidence": 0.99912
+    },
+    {
+      "word": "my",
+      "start_time": 324.942,
+      "end_time": 325.062,
+      "confidence": 0.99861
+    },
+    {
+      "word": "life,",
+      "start_time": 325.086,
+      "end_time": 325.318,
+      "confidence": 0.99988
+    },
+    {
+      "word": "but",
+      "start_time": 325.374,
+      "end_time": 325.542,
+      "confidence": 0.99489
+    },
+    {
+      "word": "when",
+      "start_time": 325.566,
+      "end_time": 325.702,
+      "confidence": 0.99972
+    },
+    {
+      "word": "used",
+      "start_time": 325.726,
+      "end_time": 325.958,
+      "confidence": 0.99986
+    },
+    {
+      "word": "improperly,",
+      "start_time": 326.014,
+      "end_time": 326.534,
+      "confidence": 0.92405
+    },
+    {
+      "word": "they",
+      "start_time": 326.582,
+      "end_time": 326.742,
+      "confidence": 0.99728
+    },
+    {
+      "word": "can",
+      "start_time": 326.766,
+      "end_time": 326.902,
+      "confidence": 0.99381
+    },
+    {
+      "word": "also",
+      "start_time": 326.926,
+      "end_time": 327.11,
+      "confidence": 0.9956
+    },
+    {
+      "word": "be",
+      "start_time": 327.15,
+      "end_time": 327.302,
+      "confidence": 0.99925
+    },
+    {
+      "word": "the",
+      "start_time": 327.326,
+      "end_time": 327.462,
+      "confidence": 0.99916
+    },
+    {
+      "word": "biggest",
+      "start_time": 327.486,
+      "end_time": 327.686,
+      "confidence": 0.99938
+    },
+    {
+      "word": "time",
+      "start_time": 327.718,
+      "end_time": 327.91,
+      "confidence": 0.99843
+    },
+    {
+      "word": "waster.",
+      "start_time": 327.95,
+      "end_time": 328.358,
+      "confidence": 0.83444
+    },
+    {
+      "word": "The",
+      "start_time": 328.454,
+      "end_time": 328.614,
+      "confidence": 0.99751
+    },
+    {
+      "word": "key",
+      "start_time": 328.622,
+      "end_time": 328.742,
+      "confidence": 0.99987
+    },
+    {
+      "word": "to",
+      "start_time": 328.766,
+      "end_time": 328.95,
+      "confidence": 0.99969
+    },
+    {
+      "word": "success",
+      "start_time": 328.99,
+      "end_time": 329.286,
+      "confidence": 0.99993
+    },
+    {
+      "word": "is",
+      "start_time": 329.358,
+      "end_time": 329.542,
+      "confidence": 0.99968
+    },
+    {
+      "word": "to",
+      "start_time": 329.566,
+      "end_time": 329.702,
+      "confidence": 0.9986
+    },
+    {
+      "word": "have",
+      "start_time": 329.726,
+      "end_time": 329.862,
+      "confidence": 0.99961
+    },
+    {
+      "word": "a",
+      "start_time": 329.886,
+      "end_time": 330.022,
+      "confidence": 0.99769
+    },
+    {
+      "word": "solid",
+      "start_time": 330.046,
+      "end_time": 330.342,
+      "confidence": 0.99935
+    },
+    {
+      "word": "foundation",
+      "start_time": 330.406,
+      "end_time": 330.774,
+      "confidence": 0.99983
+    },
+    {
+      "word": "in",
+      "start_time": 330.822,
+      "end_time": 331.03,
+      "confidence": 0.98619
+    },
+    {
+      "word": "problem",
+      "start_time": 331.07,
+      "end_time": 331.318,
+      "confidence": 0.99967
+    },
+    {
+      "word": "solving,",
+      "start_time": 331.374,
+      "end_time": 331.702,
+      "confidence": 0.99862
+    },
+    {
+      "word": "and",
+      "start_time": 331.766,
+      "end_time": 331.942,
+      "confidence": 0.99358
+    },
+    {
+      "word": "you",
+      "start_time": 331.966,
+      "end_time": 332.102,
+      "confidence": 0.99923
+    },
+    {
+      "word": "can",
+      "start_time": 332.126,
+      "end_time": 332.262,
+      "confidence": 0.99817
+    },
+    {
+      "word": "start",
+      "start_time": 332.286,
+      "end_time": 332.422,
+      "confidence": 0.99955
+    },
+    {
+      "word": "building",
+      "start_time": 332.446,
+      "end_time": 332.678,
+      "confidence": 0.99988
+    },
+    {
+      "word": "that",
+      "start_time": 332.734,
+      "end_time": 332.95,
+      "confidence": 0.99409
+    },
+    {
+      "word": "foundation",
+      "start_time": 332.99,
+      "end_time": 333.414,
+      "confidence": 0.99925
+    },
+    {
+      "word": "for",
+      "start_time": 333.462,
+      "end_time": 333.622,
+      "confidence": 0.999
+    },
+    {
+      "word": "free",
+      "start_time": 333.646,
+      "end_time": 333.83,
+      "confidence": 0.99997
+    },
+    {
+      "word": "today",
+      "start_time": 333.87,
+      "end_time": 334.166,
+      "confidence": 0.99837
+    },
+    {
+      "word": "thanks",
+      "start_time": 334.238,
+      "end_time": 334.486,
+      "confidence": 0.99972
+    },
+    {
+      "word": "to",
+      "start_time": 334.518,
+      "end_time": 334.662,
+      "confidence": 0.99827
+    },
+    {
+      "word": "this",
+      "start_time": 334.686,
+      "end_time": 334.822,
+      "confidence": 0.99629
+    },
+    {
+      "word": "video's",
+      "start_time": 334.846,
+      "end_time": 335.254,
+      "confidence": 0.81174
+    },
+    {
+      "word": "sponsor,",
+      "start_time": 335.302,
+      "end_time": 335.734,
+      "confidence": 0.94938
+    },
+    {
+      "word": "Brilliant.",
+      "start_time": 335.782,
+      "end_time": 336.342,
+      "confidence": 0.98325
+    },
+    {
+      "word": "A",
+      "start_time": 336.406,
+      "end_time": 336.582,
+      "confidence": 0.99602
+    },
+    {
+      "word": "hard",
+      "start_time": 336.606,
+      "end_time": 336.79,
+      "confidence": 0.99931
+    },
+    {
+      "word": "truth",
+      "start_time": 336.83,
+      "end_time": 337.126,
+      "confidence": 0.97374
+    },
+    {
+      "word": "is",
+      "start_time": 337.158,
+      "end_time": 337.35,
+      "confidence": 0.99921
+    },
+    {
+      "word": "that",
+      "start_time": 337.39,
+      "end_time": 337.542,
+      "confidence": 0.99865
+    },
+    {
+      "word": "code",
+      "start_time": 337.566,
+      "end_time": 337.766,
+      "confidence": 0.99805
+    },
+    {
+      "word": "is",
+      "start_time": 337.798,
+      "end_time": 337.942,
+      "confidence": 0.99959
+    },
+    {
+      "word": "useless",
+      "start_time": 337.966,
+      "end_time": 338.374,
+      "confidence": 0.99991
+    },
+    {
+      "word": "if",
+      "start_time": 338.422,
+      "end_time": 338.582,
+      "confidence": 0.99963
+    },
+    {
+      "word": "you",
+      "start_time": 338.606,
+      "end_time": 338.742,
+      "confidence": 0.99949
+    },
+    {
+      "word": "don't",
+      "start_time": 338.766,
+      "end_time": 338.966,
+      "confidence": 0.99865
+    },
+    {
+      "word": "understand",
+      "start_time": 338.998,
+      "end_time": 339.286,
+      "confidence": 0.99985
+    },
+    {
+      "word": "the",
+      "start_time": 339.358,
+      "end_time": 339.542,
+      "confidence": 0.9985
+    },
+    {
+      "word": "math",
+      "start_time": 339.566,
+      "end_time": 339.766,
+      "confidence": 0.99987
+    },
+    {
+      "word": "and",
+      "start_time": 339.798,
+      "end_time": 339.99,
+      "confidence": 0.99861
+    },
+    {
+      "word": "computer",
+      "start_time": 340.03,
+      "end_time": 340.326,
+      "confidence": 0.99801
+    },
+    {
+      "word": "science",
+      "start_time": 340.358,
+      "end_time": 340.758,
+      "confidence": 0.99955
+    },
+    {
+      "word": "behind",
+      "start_time": 340.854,
+      "end_time": 341.11,
+      "confidence": 0.99989
+    },
+    {
+      "word": "it.",
+      "start_time": 341.15,
+      "end_time": 341.446,
+      "confidence": 0.9988
+    },
+    {
+      "word": "Brilliant",
+      "start_time": 341.518,
+      "end_time": 341.974,
+      "confidence": 0.85155
+    },
+    {
+      "word": "helps",
+      "start_time": 342.022,
+      "end_time": 342.198,
+      "confidence": 0.99747
+    },
+    {
+      "word": "you",
+      "start_time": 342.214,
+      "end_time": 342.342,
+      "confidence": 0.99487
+    },
+    {
+      "word": "learn",
+      "start_time": 342.366,
+      "end_time": 342.518,
+      "confidence": 0.99951
+    },
+    {
+      "word": "these",
+      "start_time": 342.534,
+      "end_time": 342.71,
+      "confidence": 0.99257
+    },
+    {
+      "word": "concepts",
+      "start_time": 342.75,
+      "end_time": 343.094,
+      "confidence": 0.99853
+    },
+    {
+      "word": "quickly",
+      "start_time": 343.142,
+      "end_time": 343.59,
+      "confidence": 0.99891
+    },
+    {
+      "word": "by",
+      "start_time": 343.67,
+      "end_time": 343.91,
+      "confidence": 0.99678
+    },
+    {
+      "word": "providing",
+      "start_time": 343.95,
+      "end_time": 344.31,
+      "confidence": 0.94899
+    },
+    {
+      "word": "short,",
+      "start_time": 344.39,
+      "end_time": 344.726,
+      "confidence": 0.99929
+    },
+    {
+      "word": "fun",
+      "start_time": 344.798,
+      "end_time": 345.126,
+      "confidence": 0.99852
+    },
+    {
+      "word": "interactive",
+      "start_time": 345.198,
+      "end_time": 345.734,
+      "confidence": 0.97936
+    },
+    {
+      "word": "lessons,",
+      "start_time": 345.782,
+      "end_time": 346.278,
+      "confidence": 0.99835
+    },
+    {
+      "word": "which",
+      "start_time": 346.374,
+      "end_time": 346.582,
+      "confidence": 0.97579
+    },
+    {
+      "word": "is",
+      "start_time": 346.606,
+      "end_time": 346.742,
+      "confidence": 0.99596
+    },
+    {
+      "word": "a",
+      "start_time": 346.766,
+      "end_time": 346.902,
+      "confidence": 0.9981
+    },
+    {
+      "word": "method",
+      "start_time": 346.926,
+      "end_time": 347.174,
+      "confidence": 0.99981
+    },
+    {
+      "word": "proven",
+      "start_time": 347.222,
+      "end_time": 347.526,
+      "confidence": 0.98832
+    },
+    {
+      "word": "to",
+      "start_time": 347.558,
+      "end_time": 347.654,
+      "confidence": 0.99823
+    },
+    {
+      "word": "be",
+      "start_time": 347.662,
+      "end_time": 347.782,
+      "confidence": 0.99939
+    },
+    {
+      "word": "six",
+      "start_time": 347.806,
+      "end_time": 347.99,
+      "confidence": 0.99981
+    },
+    {
+      "word": "times",
+      "start_time": 348.03,
+      "end_time": 348.23,
+      "confidence": 0.98989
+    },
+    {
+      "word": "more",
+      "start_time": 348.27,
+      "end_time": 348.422,
+      "confidence": 0.994
+    },
+    {
+      "word": "effective",
+      "start_time": 348.446,
+      "end_time": 348.714,
+      "confidence": 0.85417
+    },
+    {
+      "word": "effective",
+      "start_time": 348.742,
+      "end_time": 349.026,
+      "confidence": 0.59412
+    },
+    {
+      "word": "than",
+      "start_time": 349.058,
+      "end_time": 349.202,
+      "confidence": 0.99653
+    },
+    {
+      "word": "watching",
+      "start_time": 349.226,
+      "end_time": 349.522,
+      "confidence": 0.9858
+    },
+    {
+      "word": "video",
+      "start_time": 349.586,
+      "end_time": 349.906,
+      "confidence": 0.99973
+    },
+    {
+      "word": "lectures,",
+      "start_time": 349.978,
+      "end_time": 350.45,
+      "confidence": 0.99952
+    },
+    {
+      "word": "but",
+      "start_time": 350.53,
+      "end_time": 350.77,
+      "confidence": 0.99442
+    },
+    {
+      "word": "most",
+      "start_time": 350.81,
+      "end_time": 350.962,
+      "confidence": 0.99875
+    },
+    {
+      "word": "importantly,",
+      "start_time": 350.986,
+      "end_time": 351.474,
+      "confidence": 0.99723
+    },
+    {
+      "word": "you'll",
+      "start_time": 351.522,
+      "end_time": 351.746,
+      "confidence": 0.9716
+    },
+    {
+      "word": "build",
+      "start_time": 351.778,
+      "end_time": 351.97,
+      "confidence": 0.99963
+    },
+    {
+      "word": "critical",
+      "start_time": 352.01,
+      "end_time": 352.354,
+      "confidence": 0.99992
+    },
+    {
+      "word": "thinking",
+      "start_time": 352.402,
+      "end_time": 352.674,
+      "confidence": 0.977
+    },
+    {
+      "word": "skills",
+      "start_time": 352.722,
+      "end_time": 353.074,
+      "confidence": 0.9991
+    },
+    {
+      "word": "through",
+      "start_time": 353.122,
+      "end_time": 353.33,
+      "confidence": 0.99781
+    },
+    {
+      "word": "problem",
+      "start_time": 353.37,
+      "end_time": 353.618,
+      "confidence": 0.99973
+    },
+    {
+      "word": "solving,",
+      "start_time": 353.674,
+      "end_time": 354.146,
+      "confidence": 0.97061
+    },
+    {
+      "word": "not",
+      "start_time": 354.258,
+      "end_time": 354.53,
+      "confidence": 0.99563
+    },
+    {
+      "word": "memorizing.",
+      "start_time": 354.57,
+      "end_time": 355.17,
+      "confidence": 0.99869
+    },
+    {
+      "word": "Before",
+      "start_time": 355.25,
+      "end_time": 355.442,
+      "confidence": 0.99979
+    },
+    {
+      "word": "you",
+      "start_time": 355.466,
+      "end_time": 355.602,
+      "confidence": 0.99892
+    },
+    {
+      "word": "try",
+      "start_time": 355.626,
+      "end_time": 355.762,
+      "confidence": 0.99716
+    },
+    {
+      "word": "to",
+      "start_time": 355.786,
+      "end_time": 355.874,
+      "confidence": 0.98529
+    },
+    {
+      "word": "jump",
+      "start_time": 355.882,
+      "end_time": 356.066,
+      "confidence": 0.99979
+    },
+    {
+      "word": "into",
+      "start_time": 356.098,
+      "end_time": 356.29,
+      "confidence": 0.99308
+    },
+    {
+      "word": "vibe",
+      "start_time": 356.33,
+      "end_time": 356.594,
+      "confidence": 0.98308
+    },
+    {
+      "word": "coding,",
+      "start_time": 356.642,
+      "end_time": 357.042,
+      "confidence": 0.87935
+    },
+    {
+      "word": "I'd",
+      "start_time": 357.106,
+      "end_time": 357.346,
+      "confidence": 0.99277
+    },
+    {
+      "word": "highly",
+      "start_time": 357.378,
+      "end_time": 357.586,
+      "confidence": 0.99693
+    },
+    {
+      "word": "recommend",
+      "start_time": 357.618,
+      "end_time": 358.002,
+      "confidence": 0.78456
+    },
+    {
+      "word": "taking",
+      "start_time": 358.066,
+      "end_time": 358.338,
+      "confidence": 0.99921
+    },
+    {
+      "word": "their",
+      "start_time": 358.394,
+      "end_time": 358.562,
+      "confidence": 0.99867
+    },
+    {
+      "word": "Thinking",
+      "start_time": 358.586,
+      "end_time": 358.866,
+      "confidence": 0.99894
+    },
+    {
+      "word": "in",
+      "start_time": 358.898,
+      "end_time": 359.042,
+      "confidence": 0.69658
+    },
+    {
+      "word": "Code",
+      "start_time": 359.066,
+      "end_time": 359.346,
+      "confidence": 0.99385
+    },
+    {
+      "word": "course",
+      "start_time": 359.378,
+      "end_time": 359.714,
+      "confidence": 0.98991
+    },
+    {
+      "word": "to",
+      "start_time": 359.802,
+      "end_time": 360.002,
+      "confidence": 0.99654
+    },
+    {
+      "word": "build",
+      "start_time": 360.026,
+      "end_time": 360.162,
+      "confidence": 0.999
+    },
+    {
+      "word": "a",
+      "start_time": 360.186,
+      "end_time": 360.322,
+      "confidence": 0.99927
+    },
+    {
+      "word": "timeless",
+      "start_time": 360.346,
+      "end_time": 360.754,
+      "confidence": 0.99931
+    },
+    {
+      "word": "problem",
+      "start_time": 360.802,
+      "end_time": 361.058,
+      "confidence": 0.99945
+    },
+    {
+      "word": "solving",
+      "start_time": 361.114,
+      "end_time": 361.49,
+      "confidence": 0.9648
+    },
+    {
+      "word": "foundation",
+      "start_time": 361.57,
+      "end_time": 362.002,
+      "confidence": 0.99905
+    },
+    {
+      "word": "where",
+      "start_time": 362.066,
+      "end_time": 362.242,
+      "confidence": 0.99876
+    },
+    {
+      "word": "you'll",
+      "start_time": 362.266,
+      "end_time": 362.466,
+      "confidence": 0.98614
+    },
+    {
+      "word": "learn",
+      "start_time": 362.498,
+      "end_time": 362.658,
+      "confidence": 0.99944
+    },
+    {
+      "word": "how",
+      "start_time": 362.674,
+      "end_time": 362.85,
+      "confidence": 0.99133
+    },
+    {
+      "word": "to",
+      "start_time": 362.89,
+      "end_time": 363.09,
+      "confidence": 0.99626
+    },
+    {
+      "word": "actually",
+      "start_time": 363.13,
+      "end_time": 363.378,
+      "confidence": 0.99733
+    },
+    {
+      "word": "think",
+      "start_time": 363.434,
+      "end_time": 363.65,
+      "confidence": 0.99953
+    },
+    {
+      "word": "like",
+      "start_time": 363.69,
+      "end_time": 363.842,
+      "confidence": 0.99933
+    },
+    {
+      "word": "a",
+      "start_time": 363.866,
+      "end_time": 364.002,
+      "confidence": 0.99876
+    },
+    {
+      "word": "programmer.",
+      "start_time": 364.026,
+      "end_time": 364.658,
+      "confidence": 0.9995
+    },
+    {
+      "word": "Try",
+      "start_time": 364.754,
+      "end_time": 365.01,
+      "confidence": 0.9999
+    },
+    {
+      "word": "everything",
+      "start_time": 365.05,
+      "end_time": 365.346,
+      "confidence": 0.99928
+    },
+    {
+      "word": "Brilliant",
+      "start_time": 365.418,
+      "end_time": 365.874,
+      "confidence": 0.9998
+    },
+    {
+      "word": "has",
+      "start_time": 365.922,
+      "end_time": 366.082,
+      "confidence": 0.99703
+    },
+    {
+      "word": "to",
+      "start_time": 366.106,
+      "end_time": 366.194,
+      "confidence": 0.99767
+    },
+    {
+      "word": "offer",
+      "start_time": 366.202,
+      "end_time": 366.418,
+      "confidence": 0.99977
+    },
+    {
+      "word": "for",
+      "start_time": 366.474,
+      "end_time": 366.69,
+      "confidence": 0.83045
+    },
+    {
+      "word": "free",
+      "start_time": 366.73,
+      "end_time": 366.93,
+      "confidence": 0.9999
+    },
+    {
+      "word": "for",
+      "start_time": 366.97,
+      "end_time": 367.17,
+      "confidence": 0.97631
+    },
+    {
+      "word": "30",
+      "start_time": 367.21,
+      "end_time": 367.41,
+      "confidence": 0.99984
+    },
+    {
+      "word": "days",
+      "start_time": 367.45,
+      "end_time": 367.746,
+      "confidence": 0.99928
+    },
+    {
+      "word": "by",
+      "start_time": 367.818,
+      "end_time": 368.002,
+      "confidence": 0.98472
+    },
+    {
+      "word": "visiting",
+      "start_time": 368.026,
+      "end_time": 368.402,
+      "confidence": 0.99777
+    },
+    {
+      "word": "brilliant.org",
+      "start_time": 368.466,
+      "end_time": 369.243,
+      "confidence": 0.99217
+    },
+    {
+      "word": "fireship",
+      "start_time": 369.416,
+      "end_time": 370.194,
+      "confidence": 0.99217
+    },
+    {
+      "word": "or",
+      "start_time": 370.242,
+      "end_time": 370.402,
+      "confidence": 0.99829
+    },
+    {
+      "word": "scan",
+      "start_time": 370.426,
+      "end_time": 370.626,
+      "confidence": 0.99987
+    },
+    {
+      "word": "the",
+      "start_time": 370.658,
+      "end_time": 370.754,
+      "confidence": 0.99603
+    },
+    {
+      "word": "QR",
+      "start_time": 370.762,
+      "end_time": 371.026,
+      "confidence": 0.99916
+    },
+    {
+      "word": "code",
+      "start_time": 371.058,
+      "end_time": 371.266,
+      "confidence": 0.99798
+    },
+    {
+      "word": "on",
+      "start_time": 371.298,
+      "end_time": 371.442,
+      "confidence": 0.99474
+    },
+    {
+      "word": "screen",
+      "start_time": 371.466,
+      "end_time": 371.762,
+      "confidence": 0.9857
+    },
+    {
+      "word": "and",
+      "start_time": 371.826,
+      "end_time": 372.002,
+      "confidence": 0.97094
+    },
+    {
+      "word": "get",
+      "start_time": 372.026,
+      "end_time": 372.21,
+      "confidence": 0.99961
+    },
+    {
+      "word": "20%",
+      "start_time": 372.25,
+      "end_time": 372.706,
+      "confidence": 0.99863
+    },
+    {
+      "word": "off",
+      "start_time": 372.778,
+      "end_time": 372.962,
+      "confidence": 0.99644
+    },
+    {
+      "word": "an",
+      "start_time": 372.986,
+      "end_time": 373.17,
+      "confidence": 0.99309
+    },
+    {
+      "word": "annual",
+      "start_time": 373.21,
+      "end_time": 373.554,
+      "confidence": 0.99984
+    },
+    {
+      "word": "premium",
+      "start_time": 373.602,
+      "end_time": 373.954,
+      "confidence": 0.99962
+    },
+    {
+      "word": "subscription.",
+      "start_time": 374.002,
+      "end_time": 374.61,
+      "confidence": 0.95215
+    },
+    {
+      "word": "Thanks",
+      "start_time": 374.69,
+      "end_time": 374.946,
+      "confidence": 0.99749
+    },
+    {
+      "word": "for",
+      "start_time": 374.978,
+      "end_time": 375.122,
+      "confidence": 0.99983
+    },
+    {
+      "word": "watching",
+      "start_time": 375.146,
+      "end_time": 375.49,
+      "confidence": 0.85181
+    },
+    {
+      "word": "and",
+      "start_time": 375.57,
+      "end_time": 375.762,
+      "confidence": 0.99443
+    },
+    {
+      "word": "I",
+      "start_time": 375.786,
+      "end_time": 375.874,
+      "confidence": 0.99258
+    },
+    {
+      "word": "will",
+      "start_time": 375.882,
+      "end_time": 376.002,
+      "confidence": 0.91223
+    },
+    {
+      "word": "see",
+      "start_time": 376.026,
+      "end_time": 376.162,
+      "confidence": 0.99977
+    },
+    {
+      "word": "you",
+      "start_time": 376.186,
+      "end_time": 376.322,
+      "confidence": 0.99937
+    },
+    {
+      "word": "in",
+      "start_time": 376.346,
+      "end_time": 376.434,
+      "confidence": 0.9939
+    },
+    {
+      "word": "the",
+      "start_time": 376.442,
+      "end_time": 376.514,
+      "confidence": 0.99859
+    },
+    {
+      "word": "next",
+      "start_time": 376.522,
+      "end_time": 376.69,
+      "confidence": 0.99986
+    },
+    {
+      "word": "one.",
+      "start_time": 376.73,
+      "end_time": 376.81,
+      "confidence": 0.99305
+    }
+  ],
+  "source_type": "audio_file",
+  "video_id": "youtube_1746325573_0sde3y"
+}

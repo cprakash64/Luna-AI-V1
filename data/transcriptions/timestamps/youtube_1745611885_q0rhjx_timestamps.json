@@ -1,0 +1,294 @@
+{
+  "video_id": "youtube_1745611885_q0rhjx",
+  "raw_timestamps": [
+    {
+      "word": "[Unable",
+      "start_time": 0.0,
+      "end_time": 6.0
+    },
+    {
+      "word": "to",
+      "start_time": 6.0,
+      "end_time": 12.0
+    },
+    {
+      "word": "transcribe",
+      "start_time": 12.0,
+      "end_time": 18.0
+    },
+    {
+      "word": "video",
+      "start_time": 18.0,
+      "end_time": 24.0
+    },
+    {
+      "word": "due",
+      "start_time": 24.0,
+      "end_time": 30.0
+    },
+    {
+      "word": "to",
+      "start_time": 30.0,
+      "end_time": 36.0
+    },
+    {
+      "word": "download",
+      "start_time": 36.0,
+      "end_time": 42.0
+    },
+    {
+      "word": "error:",
+      "start_time": 42.0,
+      "end_time": 48.0
+    },
+    {
+      "word": "YouTube",
+      "start_time": 48.0,
+      "end_time": 54.0
+    },
+    {
+      "word": "extraction",
+      "start_time": 54.0,
+      "end_time": 60.0
+    },
+    {
+      "word": "failed",
+      "start_time": 60.0,
+      "end_time": 66.0
+    },
+    {
+      "word": "-",
+      "start_time": 66.0,
+      "end_time": 72.0
+    },
+    {
+      "word": "possible",
+      "start_time": 72.0,
+      "end_time": 78.0
+    },
+    {
+      "word": "restrictions",
+      "start_time": 78.0,
+      "end_time": 84.0
+    },
+    {
+      "word": "or",
+      "start_time": 84.0,
+      "end_time": 90.0
+    },
+    {
+      "word": "regional",
+      "start_time": 90.0,
+      "end_time": 96.0
+    },
+    {
+      "word": "blocks]",
+      "start_time": 96.0,
+      "end_time": 102.0
+    },
+    {
+      "word": "This",
+      "start_time": 102.0,
+      "end_time": 108.0
+    },
+    {
+      "word": "video",
+      "start_time": 108.0,
+      "end_time": 114.0
+    },
+    {
+      "word": "appears",
+      "start_time": 114.0,
+      "end_time": 120.0
+    },
+    {
+      "word": "to",
+      "start_time": 120.0,
+      "end_time": 126.0
+    },
+    {
+      "word": "be",
+      "start_time": 126.0,
+      "end_time": 132.0
+    },
+    {
+      "word": "titled",
+      "start_time": 132.0,
+      "end_time": 138.0
+    },
+    {
+      "word": "'Unknown",
+      "start_time": 138.0,
+      "end_time": 144.0
+    },
+    {
+      "word": "YouTube",
+      "start_time": 144.0,
+      "end_time": 150.0
+    },
+    {
+      "word": "Video'",
+      "start_time": 150.0,
+      "end_time": 156.0
+    },
+    {
+      "word": "with",
+      "start_time": 156.0,
+      "end_time": 162.0
+    },
+    {
+      "word": "approximately",
+      "start_time": 162.0,
+      "end_time": 168.0
+    },
+    {
+      "word": "300",
+      "start_time": 168.0,
+      "end_time": 174.0
+    },
+    {
+      "word": "seconds",
+      "start_time": 174.0,
+      "end_time": 180.0
+    },
+    {
+      "word": "duration.",
+      "start_time": 180.0,
+      "end_time": 186.0
+    },
+    {
+      "word": "Video",
+      "start_time": 186.0,
+      "end_time": 192.0
+    },
+    {
+      "word": "ID:",
+      "start_time": 192.0,
+      "end_time": 198.0
+    },
+    {
+      "word": "youtube_1745611885_q0rhjx",
+      "start_time": 198.0,
+      "end_time": 204.0
+    },
+    {
+      "word": "URL:",
+      "start_time": 204.0,
+      "end_time": 210.0
+    },
+    {
+      "word": "https://www.youtube.com/shorts/Ah_LMYqd2CE",
+      "start_time": 210.0,
+      "end_time": 216.0
+    },
+    {
+      "word": "The",
+      "start_time": 216.0,
+      "end_time": 222.0
+    },
+    {
+      "word": "video",
+      "start_time": 222.0,
+      "end_time": 228.0
+    },
+    {
+      "word": "content",
+      "start_time": 228.0,
+      "end_time": 234.0
+    },
+    {
+      "word": "could",
+      "start_time": 234.0,
+      "end_time": 240.0
+    },
+    {
+      "word": "not",
+      "start_time": 240.0,
+      "end_time": 246.0
+    },
+    {
+      "word": "be",
+      "start_time": 246.0,
+      "end_time": 252.0
+    },
+    {
+      "word": "accessed",
+      "start_time": 252.0,
+      "end_time": 258.0
+    },
+    {
+      "word": "due",
+      "start_time": 258.0,
+      "end_time": 264.0
+    },
+    {
+      "word": "to",
+      "start_time": 264.0,
+      "end_time": 270.0
+    },
+    {
+      "word": "YouTube",
+      "start_time": 270.0,
+      "end_time": 276.0
+    },
+    {
+      "word": "restrictions",
+      "start_time": 276.0,
+      "end_time": 282.0
+    },
+    {
+      "word": "or",
+      "start_time": 282.0,
+      "end_time": 288.0
+    },
+    {
+      "word": "connection",
+      "start_time": 288.0,
+      "end_time": 294.0
+    },
+    {
+      "word": "issues.",
+      "start_time": 294.0,
+      "end_time": 300.0
+    }
+  ],
+  "formatted_timestamps": [
+    {
+      "text": "[Unable to transcribe video due to download error: YouTube extraction",
+      "start_time": 0.0,
+      "end_time": 60.0,
+      "display_time": "00:00 - 01:00"
+    },
+    {
+      "text": "failed - possible restrictions or regional blocks] This video appears",
+      "start_time": 60.0,
+      "end_time": 120.0,
+      "display_time": "01:00 - 02:00"
+    },
+    {
+      "text": "to be titled 'Unknown YouTube Video' with approximately 300 seconds",
+      "start_time": 120.0,
+      "end_time": 180.0,
+      "display_time": "02:00 - 03:00"
+    },
+    {
+      "text": "duration.",
+      "start_time": 180.0,
+      "end_time": 186.0,
+      "display_time": "03:00 - 03:06"
+    },
+    {
+      "text": "Video ID: youtube_1745611885_q0rhjx URL: https://www.youtube.com/shorts/Ah_LMYqd2CE The video content could",
+      "start_time": 186.0,
+      "end_time": 240.0,
+      "display_time": "03:06 - 04:00"
+    },
+    {
+      "text": "not be accessed due to YouTube restrictions or connection issues.",
+      "start_time": 240.0,
+      "end_time": 300.0,
+      "display_time": "04:00 - 05:00"
+    }
+  ],
+  "created_at": 1745611897.1255732
+}

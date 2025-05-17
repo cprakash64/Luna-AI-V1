@@ -1,0 +1,376 @@
+/* src/pages/HomeStyles.css */
+
+/* Global reset for the Luna AI home page */
+body.luna-home {
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: linear-gradient(-45deg, #292E49, #536976, #BBD2C5);
+    color: #E6E6E6;
+    overflow: hidden;
+}
+
+/* Forcefully hide any headers, navigation, or layout elements from parent application */
+body.luna-home header,
+body.luna-home nav,
+body.luna-home .app-header,
+body.luna-home .navbar,
+body.luna-home .nav-bar,
+body.luna-home .header-container {
+    display: none !important;
+}
+
+/* Make sure the entire app takes full viewport height */
+body.luna-home #root,
+body.luna-home .app,
+body.luna-home div[role="main"] {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Main container for the search form */
+.search-container {
+    background-color: rgba(10, 20, 30, 0.85);
+    padding: 80px;
+    border-radius: 40px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 95%;
+    max-width: 800px;
+    backdrop-filter: blur(20px);
+    border: 3px solid rgba(255, 255, 255, 0.15);
+    transition: all 0.4s ease-in-out;
+    z-index: 10;
+}
+
+.search-container h1 {
+    font-size: 42px;
+    margin-bottom: 45px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+#youtubeForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"],
+input[type="file"] {
+    width: 100%;
+    padding: 24px;
+    margin: 15px 0;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 3px solid #00B4D8;
+    color: #E6E6E6;
+    font-size: 19px;
+    transition: all 0.3s ease;
+    text-align: center;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="file"]:focus {
+    border-color: #80FFDB;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+input::placeholder {
+    color: #A8DADC;
+    font-size: 17px;
+}
+
+button {
+    padding: 24px 50px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(to right, #00B4D8, #80FFDB);
+    color: white;
+    font-size: 21px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    box-shadow: 0 10px 20px rgba(0, 180, 216, 0.7);
+}
+
+button:hover:not(:disabled) {
+    background: linear-gradient(to right, #80FFDB, #00B4D8);
+    box-shadow: 0 12px 25px rgba(128, 255, 219, 0.8);
+}
+
+button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.or-separator {
+    color: #A8DADC;
+    margin: 40px 0;
+    font-size: 18px;
+}
+
+/* Loading animation bar */
+.loading-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    z-index: 9999;
+}
+
+.bar {
+    background: #3498db;
+    height: 5px;
+    width: 0%;
+    position: absolute;
+}
+
+.bar.top {
+    top: 0;
+    animation: loadTop 3s linear infinite;
+}
+
+.bar.right {
+    right: 0;
+    animation: loadRight 3s linear infinite;
+    animation-delay: 0.75s;
+}
+
+.bar.bottom {
+    bottom: 0;
+    animation: loadBottom 3s linear infinite;
+    animation-delay: 1.5s;
+}
+
+.bar.left {
+    left: 0;
+    animation: loadLeft 3s linear infinite;
+    animation-delay: 2.25s;
+}
+
+@keyframes loadTop {
+    from {
+        left: 100%;
+        width: 0;
+    }
+    to {
+        left: 0;
+        width: 100%;
+    }
+}
+
+@keyframes loadRight {
+    from {
+        top: 100%;
+        height: 0;
+    }
+    to {
+        top: 0;
+        height: 100%;
+    }
+}
+
+@keyframes loadBottom {
+    from {
+        right: 100%;
+        width: 0;
+    }
+    to {
+        right: 0;
+        width: 100%;
+    }
+}
+
+@keyframes loadLeft {
+    from {
+        bottom: 100%;
+        height: 0;
+    }
+    to {
+        bottom: 0;
+        height: 100%;
+    }
+}
+
+/* Drag and Drop Overlay */
+.drag-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    font-size: 24px;
+    z-index: 9998;
+    pointer-events: none;
+}
+
+.drag-overlay.active {
+    display: flex;
+    pointer-events: all;
+}
+
+.drag-over {
+    border: 2px dashed #3498db;
+    border-radius: 30px;
+}
+
+/* Error message styling */
+.error-message {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgba(231, 76, 60, 0.3);
+    border: 1px solid rgba(231, 76, 60, 0.5);
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+    body.luna-home {
+        background: linear-gradient(-45deg, #1B263B, #415A77, #778DA9);
+    }
+
+    .search-container {
+        background-color: rgba(15, 25, 35, 0.85);
+    }
+
+    input[type="text"],
+    input[type="file"] {
+        border-color: #1FA2FF;
+    }
+
+    button {
+        background: linear-gradient(to right, #1FA2FF, #12D8FA, #A6FFCB);
+    }
+
+    button:hover:not(:disabled) {
+        background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);
+    }
+}
+
+/* Light mode adjustments */
+@media (prefers-color-scheme: light) {
+    body.luna-home {
+        background: linear-gradient(-45deg, #f5f7fa, #ffffff, #f5f7fa);
+        color: #444;
+    }
+
+    .search-container {
+        background-color: rgba(255, 255, 255, 0.95);
+        border-color: rgba(0, 0, 0, 0.1);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    }
+
+    .search-container h1 {
+        color: #333;
+        text-shadow: none;
+    }
+
+    input[type="text"],
+    input[type="file"] {
+        border-color: #ccc;
+        color: #444;
+        background-color: #ffffff;
+    }
+
+    input[type="text"]:focus,
+    input[type="file"]:focus {
+        border-color: #3498db;
+        background-color: #f5f7fa;
+    }
+
+    input::placeholder {
+        color: #888;
+    }
+
+    button {
+        background: linear-gradient(to right, #3498db, #56ccf2);
+        box-shadow: 0 10px 20px rgba(52, 152, 219, 0.3);
+    }
+
+    button:hover:not(:disabled) {
+        background: linear-gradient(to right, #56ccf2, #3498db);
+        box-shadow: 0 12px 25px rgba(86, 204, 242, 0.4);
+    }
+
+    .or-separator {
+        color: #777;
+    }
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .search-container {
+        padding: 40px;
+        width: 90%;
+        max-width: 500px;
+    }
+
+    .search-container h1 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    input[type="text"],
+    input[type="file"] {
+        padding: 18px;
+        font-size: 16px;
+    }
+
+    button {
+        padding: 18px 40px;
+        font-size: 18px;
+    }
+
+    .or-separator {
+        margin: 30px 0;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .search-container {
+        padding: 30px;
+        width: 90%;
+        border-radius: 25px;
+    }
+
+    .search-container h1 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    input[type="text"],
+    input[type="file"] {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    button {
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+}

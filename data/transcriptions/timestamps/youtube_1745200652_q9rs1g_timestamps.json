@@ -1,0 +1,1946 @@
+{
+  "video_id": "youtube_1745200652_q9rs1g",
+  "raw_timestamps": [
+    {
+      "word": "You",
+      "start_time": 0.16,
+      "end_time": 0.272,
+      "confidence": 0.99922
+    },
+    {
+      "word": "can",
+      "start_time": 0.272,
+      "end_time": 0.456,
+      "confidence": 0.99809
+    },
+    {
+      "word": "now",
+      "start_time": 0.48,
+      "end_time": 0.68,
+      "confidence": 0.99708
+    },
+    {
+      "word": "talk",
+      "start_time": 0.72,
+      "end_time": 0.92,
+      "confidence": 0.99984
+    },
+    {
+      "word": "to",
+      "start_time": 0.96,
+      "end_time": 1.112,
+      "confidence": 0.99848
+    },
+    {
+      "word": "Dolphins",
+      "start_time": 1.136,
+      "end_time": 1.624,
+      "confidence": 0.93176
+    },
+    {
+      "word": "thanks",
+      "start_time": 1.672,
+      "end_time": 1.896,
+      "confidence": 0.99953
+    },
+    {
+      "word": "to",
+      "start_time": 1.928,
+      "end_time": 2.072,
+      "confidence": 0.99868
+    },
+    {
+      "word": "DeepMind's",
+      "start_time": 2.096,
+      "end_time": 2.648,
+      "confidence": 0.94024
+    },
+    {
+      "word": "dolphin",
+      "start_time": 2.664,
+      "end_time": 2.968,
+      "confidence": 0.99375
+    },
+    {
+      "word": "Gemma,",
+      "start_time": 2.984,
+      "end_time": 3.336,
+      "confidence": 0.75903
+    },
+    {
+      "word": "an",
+      "start_time": 3.368,
+      "end_time": 3.512,
+      "confidence": 0.96655
+    },
+    {
+      "word": "LLM",
+      "start_time": 3.536,
+      "end_time": 3.896,
+      "confidence": 0.98615
+    },
+    {
+      "word": "trained",
+      "start_time": 3.928,
+      "end_time": 4.184,
+      "confidence": 0.99891
+    },
+    {
+      "word": "not",
+      "start_time": 4.232,
+      "end_time": 4.392,
+      "confidence": 0.99896
+    },
+    {
+      "word": "on",
+      "start_time": 4.416,
+      "end_time": 4.552,
+      "confidence": 0.99491
+    },
+    {
+      "word": "words,",
+      "start_time": 4.576,
+      "end_time": 4.872,
+      "confidence": 0.99729
+    },
+    {
+      "word": "but",
+      "start_time": 4.936,
+      "end_time": 5.112,
+      "confidence": 0.99804
+    },
+    {
+      "word": "over",
+      "start_time": 5.136,
+      "end_time": 5.368,
+      "confidence": 0.99898
+    },
+    {
+      "word": "40",
+      "start_time": 5.424,
+      "end_time": 5.688,
+      "confidence": 0.99927
+    },
+    {
+      "word": "years",
+      "start_time": 5.744,
+      "end_time": 5.96,
+      "confidence": 0.99982
+    },
+    {
+      "word": "of",
+      "start_time": 6.0,
+      "end_time": 6.2,
+      "confidence": 0.99846
+    },
+    {
+      "word": "real",
+      "start_time": 6.24,
+      "end_time": 6.488,
+      "confidence": 0.99868
+    },
+    {
+      "word": "dolphin",
+      "start_time": 6.544,
+      "end_time": 7.016,
+      "confidence": 0.95839
+    },
+    {
+      "word": "sounds.",
+      "start_time": 7.048,
+      "end_time": 7.384,
+      "confidence": 0.99514
+    },
+    {
+      "word": "But",
+      "start_time": 7.432,
+      "end_time": 7.592,
+      "confidence": 0.99299
+    },
+    {
+      "word": "how?",
+      "start_time": 7.616,
+      "end_time": 7.896,
+      "confidence": 0.99917
+    },
+    {
+      "word": "Well,",
+      "start_time": 7.968,
+      "end_time": 8.152,
+      "confidence": 0.98523
+    },
+    {
+      "word": "researchers",
+      "start_time": 8.176,
+      "end_time": 8.632,
+      "confidence": 0.99811
+    },
+    {
+      "word": "first",
+      "start_time": 8.696,
+      "end_time": 8.92,
+      "confidence": 0.99622
+    },
+    {
+      "word": "spent",
+      "start_time": 8.96,
+      "end_time": 9.224,
+      "confidence": 0.96999
+    },
+    {
+      "word": "decades",
+      "start_time": 9.272,
+      "end_time": 9.784,
+      "confidence": 0.99948
+    },
+    {
+      "word": "recording",
+      "start_time": 9.832,
+      "end_time": 10.184,
+      "confidence": 0.9988
+    },
+    {
+      "word": "real",
+      "start_time": 10.232,
+      "end_time": 10.44,
+      "confidence": 0.99856
+    },
+    {
+      "word": "dolphin",
+      "start_time": 10.48,
+      "end_time": 10.904,
+      "confidence": 0.99017
+    },
+    {
+      "word": "sounds,",
+      "start_time": 10.952,
+      "end_time": 11.304,
+      "confidence": 0.99312
+    },
+    {
+      "word": "capturing",
+      "start_time": 11.352,
+      "end_time": 11.752,
+      "confidence": 0.98683
+    },
+    {
+      "word": "every",
+      "start_time": 11.816,
+      "end_time": 12.04,
+      "confidence": 0.99962
+    },
+    {
+      "word": "click,",
+      "start_time": 12.08,
+      "end_time": 12.344,
+      "confidence": 0.9992
+    },
+    {
+      "word": "whistle",
+      "start_time": 12.392,
+      "end_time": 12.696,
+      "confidence": 0.99953
+    },
+    {
+      "word": "and",
+      "start_time": 12.728,
+      "end_time": 12.872,
+      "confidence": 0.99841
+    },
+    {
+      "word": "pulse",
+      "start_time": 12.896,
+      "end_time": 13.096,
+      "confidence": 0.99372
+    },
+    {
+      "word": "they",
+      "start_time": 13.128,
+      "end_time": 13.272,
+      "confidence": 0.99495
+    },
+    {
+      "word": "made.",
+      "start_time": 13.296,
+      "end_time": 13.528,
+      "confidence": 0.99407
+    },
+    {
+      "word": "Think",
+      "start_time": 13.584,
+      "end_time": 13.752,
+      "confidence": 0.99897
+    },
+    {
+      "word": "of",
+      "start_time": 13.776,
+      "end_time": 13.864,
+      "confidence": 0.99938
+    },
+    {
+      "word": "it",
+      "start_time": 13.872,
+      "end_time": 13.992,
+      "confidence": 0.99898
+    },
+    {
+      "word": "like",
+      "start_time": 14.016,
+      "end_time": 14.2,
+      "confidence": 0.99795
+    },
+    {
+      "word": "collecting",
+      "start_time": 14.24,
+      "end_time": 14.584,
+      "confidence": 0.99926
+    },
+    {
+      "word": "voice",
+      "start_time": 14.632,
+      "end_time": 14.904,
+      "confidence": 0.99882
+    },
+    {
+      "word": "notes",
+      "start_time": 14.952,
+      "end_time": 15.256,
+      "confidence": 0.99178
+    },
+    {
+      "word": "every",
+      "start_time": 15.288,
+      "end_time": 15.432,
+      "confidence": 0.99806
+    },
+    {
+      "word": "day",
+      "start_time": 15.456,
+      "end_time": 15.64,
+      "confidence": 0.93953
+    },
+    {
+      "word": "for",
+      "start_time": 15.68,
+      "end_time": 15.976,
+      "confidence": 0.99916
+    },
+    {
+      "word": "40",
+      "start_time": 16.048,
+      "end_time": 16.328,
+      "confidence": 0.99868
+    },
+    {
+      "word": "years",
+      "start_time": 16.384,
+      "end_time": 16.696,
+      "confidence": 0.99974
+    },
+    {
+      "word": "and",
+      "start_time": 16.768,
+      "end_time": 16.952,
+      "confidence": 0.99786
+    },
+    {
+      "word": "building",
+      "start_time": 16.976,
+      "end_time": 17.208,
+      "confidence": 0.99918
+    },
+    {
+      "word": "a",
+      "start_time": 17.264,
+      "end_time": 17.384,
+      "confidence": 0.99947
+    },
+    {
+      "word": "data",
+      "start_time": 17.392,
+      "end_time": 17.608,
+      "confidence": 0.99957
+    },
+    {
+      "word": "set",
+      "start_time": 17.664,
+      "end_time": 17.928,
+      "confidence": 0.72983
+    },
+    {
+      "word": "of",
+      "start_time": 17.984,
+      "end_time": 18.248,
+      "confidence": 0.9987
+    },
+    {
+      "word": "millions",
+      "start_time": 18.304,
+      "end_time": 18.648,
+      "confidence": 0.99721
+    },
+    {
+      "word": "of",
+      "start_time": 18.664,
+      "end_time": 18.84,
+      "confidence": 0.99946
+    },
+    {
+      "word": "real",
+      "start_time": 18.88,
+      "end_time": 19.08,
+      "confidence": 0.99826
+    },
+    {
+      "word": "dolphin",
+      "start_time": 19.12,
+      "end_time": 19.576,
+      "confidence": 0.94304
+    },
+    {
+      "word": "sounds.",
+      "start_time": 19.608,
+      "end_time": 19.992,
+      "confidence": 0.99863
+    },
+    {
+      "word": "Now,",
+      "start_time": 20.056,
+      "end_time": 20.232,
+      "confidence": 0.97651
+    },
+    {
+      "word": "once",
+      "start_time": 20.256,
+      "end_time": 20.44,
+      "confidence": 0.99869
+    },
+    {
+      "word": "they",
+      "start_time": 20.48,
+      "end_time": 20.632,
+      "confidence": 0.99912
+    },
+    {
+      "word": "had",
+      "start_time": 20.656,
+      "end_time": 20.84,
+      "confidence": 0.99668
+    },
+    {
+      "word": "this",
+      "start_time": 20.88,
+      "end_time": 21.128,
+      "confidence": 0.99531
+    },
+    {
+      "word": "massive",
+      "start_time": 21.184,
+      "end_time": 21.544,
+      "confidence": 0.99956
+    },
+    {
+      "word": "audio",
+      "start_time": 21.592,
+      "end_time": 21.944,
+      "confidence": 0.99935
+    },
+    {
+      "word": "library,",
+      "start_time": 21.992,
+      "end_time": 22.44,
+      "confidence": 0.65109
+    },
+    {
+      "word": "DeepMind",
+      "start_time": 22.52,
+      "end_time": 23.144,
+      "confidence": 0.83069
+    },
+    {
+      "word": "trained",
+      "start_time": 23.192,
+      "end_time": 23.416,
+      "confidence": 0.9985
+    },
+    {
+      "word": "a",
+      "start_time": 23.448,
+      "end_time": 23.592,
+      "confidence": 0.99728
+    },
+    {
+      "word": "special",
+      "start_time": 23.616,
+      "end_time": 23.896,
+      "confidence": 0.99931
+    },
+    {
+      "word": "kind",
+      "start_time": 23.968,
+      "end_time": 24.104,
+      "confidence": 0.99918
+    },
+    {
+      "word": "of",
+      "start_time": 24.112,
+      "end_time": 24.232,
+      "confidence": 0.99948
+    },
+    {
+      "word": "AI",
+      "start_time": 24.256,
+      "end_time": 24.584,
+      "confidence": 0.99401
+    },
+    {
+      "word": "called",
+      "start_time": 24.632,
+      "end_time": 24.84,
+      "confidence": 0.99773
+    },
+    {
+      "word": "Dolphin",
+      "start_time": 24.88,
+      "end_time": 25.256,
+      "confidence": 0.99642
+    },
+    {
+      "word": "Gemma.",
+      "start_time": 25.288,
+      "end_time": 25.704,
+      "confidence": 0.87882
+    },
+    {
+      "word": "But",
+      "start_time": 25.752,
+      "end_time": 25.864,
+      "confidence": 0.99366
+    },
+    {
+      "word": "unlike",
+      "start_time": 25.872,
+      "end_time": 26.104,
+      "confidence": 0.99956
+    },
+    {
+      "word": "ChatGPT,",
+      "start_time": 26.152,
+      "end_time": 26.888,
+      "confidence": 0.95097
+    },
+    {
+      "word": "which",
+      "start_time": 26.984,
+      "end_time": 27.288,
+      "confidence": 0.99887
+    },
+    {
+      "word": "learns",
+      "start_time": 27.344,
+      "end_time": 27.656,
+      "confidence": 0.99689
+    },
+    {
+      "word": "from",
+      "start_time": 27.688,
+      "end_time": 27.832,
+      "confidence": 0.99973
+    },
+    {
+      "word": "splitting",
+      "start_time": 27.856,
+      "end_time": 28.344,
+      "confidence": 0.96161
+    },
+    {
+      "word": "massive",
+      "start_time": 28.392,
+      "end_time": 28.648,
+      "confidence": 0.99916
+    },
+    {
+      "word": "amounts",
+      "start_time": 28.664,
+      "end_time": 28.968,
+      "confidence": 0.99549
+    },
+    {
+      "word": "of",
+      "start_time": 28.984,
+      "end_time": 29.064,
+      "confidence": 0.99918
+    },
+    {
+      "word": "texts",
+      "start_time": 29.072,
+      "end_time": 29.568,
+      "confidence": 0.91559
+    },
+    {
+      "word": "into",
+      "start_time": 29.624,
+      "end_time": 29.84,
+      "confidence": 0.99126
+    },
+    {
+      "word": "chunks",
+      "start_time": 29.88,
+      "end_time": 30.144,
+      "confidence": 0.96663
+    },
+    {
+      "word": "called",
+      "start_time": 30.192,
+      "end_time": 30.4,
+      "confidence": 0.99845
+    },
+    {
+      "word": "tokens,",
+      "start_time": 30.44,
+      "end_time": 30.992,
+      "confidence": 0.99463
+    },
+    {
+      "word": "this",
+      "start_time": 31.056,
+      "end_time": 31.28,
+      "confidence": 0.99732
+    },
+    {
+      "word": "AI",
+      "start_time": 31.32,
+      "end_time": 31.664,
+      "confidence": 0.9977
+    },
+    {
+      "word": "learns",
+      "start_time": 31.712,
+      "end_time": 31.968,
+      "confidence": 0.9924
+    },
+    {
+      "word": "by",
+      "start_time": 31.984,
+      "end_time": 32.112,
+      "confidence": 0.99852
+    },
+    {
+      "word": "splitting",
+      "start_time": 32.136,
+      "end_time": 32.464,
+      "confidence": 0.80938
+    },
+    {
+      "word": "dolphin",
+      "start_time": 32.512,
+      "end_time": 33.024,
+      "confidence": 0.84008
+    },
+    {
+      "word": "sounds",
+      "start_time": 33.072,
+      "end_time": 33.472,
+      "confidence": 0.99417
+    },
+    {
+      "word": "into",
+      "start_time": 33.536,
+      "end_time": 33.76,
+      "confidence": 0.99613
+    },
+    {
+      "word": "tiny",
+      "start_time": 33.8,
+      "end_time": 34.096,
+      "confidence": 0.99728
+    },
+    {
+      "word": "audio",
+      "start_time": 34.128,
+      "end_time": 34.464,
+      "confidence": 0.99878
+    },
+    {
+      "word": "chunks.",
+      "start_time": 34.512,
+      "end_time": 34.88,
+      "confidence": 0.72884
+    },
+    {
+      "word": "Let's",
+      "start_time": 34.96,
+      "end_time": 35.216,
+      "confidence": 0.91206
+    },
+    {
+      "word": "call",
+      "start_time": 35.248,
+      "end_time": 35.344,
+      "confidence": 0.99456
+    },
+    {
+      "word": "it",
+      "start_time": 35.352,
+      "end_time": 35.472,
+      "confidence": 0.99655
+    },
+    {
+      "word": "audio",
+      "start_time": 35.496,
+      "end_time": 35.824,
+      "confidence": 0.999
+    },
+    {
+      "word": "tokens.",
+      "start_time": 35.872,
+      "end_time": 36.352,
+      "confidence": 0.99396
+    },
+    {
+      "word": "And",
+      "start_time": 36.416,
+      "end_time": 36.592,
+      "confidence": 0.99681
+    },
+    {
+      "word": "analyzes",
+      "start_time": 36.616,
+      "end_time": 37.088,
+      "confidence": 0.85788
+    },
+    {
+      "word": "different",
+      "start_time": 37.104,
+      "end_time": 37.328,
+      "confidence": 0.9993
+    },
+    {
+      "word": "patterns",
+      "start_time": 37.384,
+      "end_time": 37.808,
+      "confidence": 0.70467
+    },
+    {
+      "word": "and",
+      "start_time": 37.824,
+      "end_time": 37.952,
+      "confidence": 0.99304
+    },
+    {
+      "word": "sequences",
+      "start_time": 37.976,
+      "end_time": 38.384,
+      "confidence": 0.99812
+    },
+    {
+      "word": "within",
+      "start_time": 38.432,
+      "end_time": 38.64,
+      "confidence": 0.99677
+    },
+    {
+      "word": "them.",
+      "start_time": 38.68,
+      "end_time": 38.928,
+      "confidence": 0.96125
+    },
+    {
+      "word": "For",
+      "start_time": 38.984,
+      "end_time": 39.104,
+      "confidence": 0.99587
+    },
+    {
+      "word": "example,",
+      "start_time": 39.112,
+      "end_time": 39.552,
+      "confidence": 0.99354
+    },
+    {
+      "word": "it",
+      "start_time": 39.616,
+      "end_time": 39.84,
+      "confidence": 0.9973
+    },
+    {
+      "word": "might",
+      "start_time": 39.88,
+      "end_time": 40.032,
+      "confidence": 0.99943
+    },
+    {
+      "word": "recognize",
+      "start_time": 40.056,
+      "end_time": 40.464,
+      "confidence": 0.64281
+    },
+    {
+      "word": "that",
+      "start_time": 40.512,
+      "end_time": 40.672,
+      "confidence": 0.99842
+    },
+    {
+      "word": "a",
+      "start_time": 40.696,
+      "end_time": 40.832,
+      "confidence": 0.99746
+    },
+    {
+      "word": "specific",
+      "start_time": 40.856,
+      "end_time": 41.232,
+      "confidence": 0.99947
+    },
+    {
+      "word": "sequence",
+      "start_time": 41.296,
+      "end_time": 41.616,
+      "confidence": 0.9233
+    },
+    {
+      "word": "of",
+      "start_time": 41.648,
+      "end_time": 41.84,
+      "confidence": 0.99924
+    },
+    {
+      "word": "clicks",
+      "start_time": 41.88,
+      "end_time": 42.304,
+      "confidence": 0.87258
+    },
+    {
+      "word": "is",
+      "start_time": 42.352,
+      "end_time": 42.512,
+      "confidence": 0.99916
+    },
+    {
+      "word": "often",
+      "start_time": 42.536,
+      "end_time": 42.72,
+      "confidence": 0.99865
+    },
+    {
+      "word": "followed",
+      "start_time": 42.76,
+      "end_time": 43.056,
+      "confidence": 0.98874
+    },
+    {
+      "word": "by",
+      "start_time": 43.088,
+      "end_time": 43.184,
+      "confidence": 0.99976
+    },
+    {
+      "word": "a",
+      "start_time": 43.192,
+      "end_time": 43.312,
+      "confidence": 0.99804
+    },
+    {
+      "word": "whistle,",
+      "start_time": 43.336,
+      "end_time": 43.664,
+      "confidence": 0.99978
+    },
+    {
+      "word": "indicating",
+      "start_time": 43.712,
+      "end_time": 44.096,
+      "confidence": 0.9993
+    },
+    {
+      "word": "a",
+      "start_time": 44.128,
+      "end_time": 44.224,
+      "confidence": 0.99809
+    },
+    {
+      "word": "certain",
+      "start_time": 44.232,
+      "end_time": 44.4,
+      "confidence": 0.99877
+    },
+    {
+      "word": "type",
+      "start_time": 44.44,
+      "end_time": 44.608,
+      "confidence": 0.99513
+    },
+    {
+      "word": "of",
+      "start_time": 44.624,
+      "end_time": 44.8,
+      "confidence": 0.99947
+    },
+    {
+      "word": "communication,",
+      "start_time": 44.84,
+      "end_time": 45.312,
+      "confidence": 0.99828
+    },
+    {
+      "word": "like",
+      "start_time": 45.376,
+      "end_time": 45.648,
+      "confidence": 0.99844
+    },
+    {
+      "word": "excitement",
+      "start_time": 45.704,
+      "end_time": 46.224,
+      "confidence": 0.99949
+    },
+    {
+      "word": "or",
+      "start_time": 46.272,
+      "end_time": 46.432,
+      "confidence": 0.99835
+    },
+    {
+      "word": "a",
+      "start_time": 46.456,
+      "end_time": 46.544,
+      "confidence": 0.99213
+    },
+    {
+      "word": "call",
+      "start_time": 46.552,
+      "end_time": 46.72,
+      "confidence": 0.99962
+    },
+    {
+      "word": "for",
+      "start_time": 46.76,
+      "end_time": 46.912,
+      "confidence": 0.99862
+    },
+    {
+      "word": "attention.",
+      "start_time": 46.936,
+      "end_time": 47.36,
+      "confidence": 0.99913
+    },
+    {
+      "word": "Just",
+      "start_time": 47.44,
+      "end_time": 47.632,
+      "confidence": 0.9946
+    },
+    {
+      "word": "like",
+      "start_time": 47.656,
+      "end_time": 47.744,
+      "confidence": 0.99861
+    },
+    {
+      "word": "how",
+      "start_time": 47.752,
+      "end_time": 47.872,
+      "confidence": 0.99245
+    },
+    {
+      "word": "we",
+      "start_time": 47.896,
+      "end_time": 48.032,
+      "confidence": 0.99718
+    },
+    {
+      "word": "can",
+      "start_time": 48.056,
+      "end_time": 48.192,
+      "confidence": 0.99359
+    },
+    {
+      "word": "tell",
+      "start_time": 48.216,
+      "end_time": 48.4,
+      "confidence": 0.9996
+    },
+    {
+      "word": "someone's",
+      "start_time": 48.44,
+      "end_time": 48.736,
+      "confidence": 0.97357
+    },
+    {
+      "word": "mood",
+      "start_time": 48.768,
+      "end_time": 49.024,
+      "confidence": 0.99898
+    },
+    {
+      "word": "based",
+      "start_time": 49.072,
+      "end_time": 49.232,
+      "confidence": 0.99949
+    },
+    {
+      "word": "on",
+      "start_time": 49.256,
+      "end_time": 49.392,
+      "confidence": 0.99916
+    },
+    {
+      "word": "the",
+      "start_time": 49.416,
+      "end_time": 49.552,
+      "confidence": 0.99796
+    },
+    {
+      "word": "tone",
+      "start_time": 49.576,
+      "end_time": 49.776,
+      "confidence": 0.99969
+    },
+    {
+      "word": "of",
+      "start_time": 49.808,
+      "end_time": 49.904,
+      "confidence": 0.99907
+    },
+    {
+      "word": "their",
+      "start_time": 49.912,
+      "end_time": 50.032,
+      "confidence": 0.98849
+    },
+    {
+      "word": "voice.",
+      "start_time": 50.056,
+      "end_time": 50.352,
+      "confidence": 0.99967
+    },
+    {
+      "word": "But",
+      "start_time": 50.416,
+      "end_time": 50.592,
+      "confidence": 0.99594
+    },
+    {
+      "word": "here's",
+      "start_time": 50.616,
+      "end_time": 50.848,
+      "confidence": 0.98918
+    },
+    {
+      "word": "where",
+      "start_time": 50.864,
+      "end_time": 50.944,
+      "confidence": 0.99817
+    },
+    {
+      "word": "it",
+      "start_time": 50.952,
+      "end_time": 51.072,
+      "confidence": 0.99757
+    },
+    {
+      "word": "gets",
+      "start_time": 51.096,
+      "end_time": 51.296,
+      "confidence": 0.99594
+    },
+    {
+      "word": "wild.",
+      "start_time": 51.328,
+      "end_time": 51.584,
+      "confidence": 0.96729
+    },
+    {
+      "word": "When",
+      "start_time": 51.632,
+      "end_time": 51.792,
+      "confidence": 0.99848
+    },
+    {
+      "word": "they",
+      "start_time": 51.816,
+      "end_time": 51.952,
+      "confidence": 0.99746
+    },
+    {
+      "word": "paired",
+      "start_time": 51.976,
+      "end_time": 52.176,
+      "confidence": 0.99654
+    },
+    {
+      "word": "it",
+      "start_time": 52.208,
+      "end_time": 52.352,
+      "confidence": 0.99756
+    },
+    {
+      "word": "with",
+      "start_time": 52.376,
+      "end_time": 52.512,
+      "confidence": 0.99834
+    },
+    {
+      "word": "a",
+      "start_time": 52.536,
+      "end_time": 52.72,
+      "confidence": 0.99111
+    },
+    {
+      "word": "real",
+      "start_time": 52.76,
+      "end_time": 52.96,
+      "confidence": 0.99947
+    },
+    {
+      "word": "time",
+      "start_time": 53.0,
+      "end_time": 53.2,
+      "confidence": 0.92734
+    },
+    {
+      "word": "headset,",
+      "start_time": 53.24,
+      "end_time": 53.76,
+      "confidence": 0.99697
+    },
+    {
+      "word": "researchers",
+      "start_time": 53.84,
+      "end_time": 54.304,
+      "confidence": 0.98729
+    },
+    {
+      "word": "where",
+      "start_time": 54.352,
+      "end_time": 54.56,
+      "confidence": 0.68813
+    },
+    {
+      "word": "in",
+      "start_time": 54.6,
+      "end_time": 54.752,
+      "confidence": 0.99565
+    },
+    {
+      "word": "the",
+      "start_time": 54.776,
+      "end_time": 54.912,
+      "confidence": 0.98132
+    },
+    {
+      "word": "ocean",
+      "start_time": 54.936,
+      "end_time": 55.264,
+      "confidence": 0.99869
+    },
+    {
+      "word": "called",
+      "start_time": 55.312,
+      "end_time": 55.52,
+      "confidence": 0.99765
+    },
+    {
+      "word": "Chat,",
+      "start_time": 55.56,
+      "end_time": 55.92,
+      "confidence": 0.66831
+    },
+    {
+      "word": "the",
+      "start_time": 56.0,
+      "end_time": 56.192,
+      "confidence": 0.99559
+    },
+    {
+      "word": "AI",
+      "start_time": 56.216,
+      "end_time": 56.544,
+      "confidence": 0.99237
+    },
+    {
+      "word": "successfully",
+      "start_time": 56.592,
+      "end_time": 57.056,
+      "confidence": 0.99165
+    },
+    {
+      "word": "listened",
+      "start_time": 57.088,
+      "end_time": 57.408,
+      "confidence": 0.98965
+    },
+    {
+      "word": "to",
+      "start_time": 57.424,
+      "end_time": 57.552,
+      "confidence": 0.99935
+    },
+    {
+      "word": "dolphin",
+      "start_time": 57.576,
+      "end_time": 57.936,
+      "confidence": 0.52569
+    },
+    {
+      "word": "sounds",
+      "start_time": 57.968,
+      "end_time": 58.304,
+      "confidence": 0.99795
+    },
+    {
+      "word": "and",
+      "start_time": 58.352,
+      "end_time": 58.512,
+      "confidence": 0.99754
+    },
+    {
+      "word": "quickly",
+      "start_time": 58.536,
+      "end_time": 58.864,
+      "confidence": 0.99837
+    },
+    {
+      "word": "translated",
+      "start_time": 58.912,
+      "end_time": 59.424,
+      "confidence": 0.99862
+    },
+    {
+      "word": "them",
+      "start_time": 59.472,
+      "end_time": 59.68,
+      "confidence": 0.99536
+    },
+    {
+      "word": "into",
+      "start_time": 59.72,
+      "end_time": 59.92,
+      "confidence": 0.994
+    },
+    {
+      "word": "the",
+      "start_time": 59.96,
+      "end_time": 60.112,
+      "confidence": 0.99493
+    },
+    {
+      "word": "closest",
+      "start_time": 60.136,
+      "end_time": 60.544,
+      "confidence": 0.99848
+    },
+    {
+      "word": "human",
+      "start_time": 60.592,
+      "end_time": 60.8,
+      "confidence": 0.99918
+    },
+    {
+      "word": "interpretation,",
+      "start_time": 60.84,
+      "end_time": 61.556,
+      "confidence": 0.64974
+    },
+    {
+      "word": "in",
+      "start_time": 61.648,
+      "end_time": 61.804,
+      "confidence": 0.9279
+    },
+    {
+      "word": "English.",
+      "start_time": 61.812,
+      "end_time": 62.14,
+      "confidence": 0.59212
+    },
+    {
+      "word": "But",
+      "start_time": 62.22,
+      "end_time": 62.364,
+      "confidence": 0.9959
+    },
+    {
+      "word": "the",
+      "start_time": 62.372,
+      "end_time": 62.54,
+      "confidence": 0.99565
+    },
+    {
+      "word": "real",
+      "start_time": 62.58,
+      "end_time": 62.828,
+      "confidence": 0.99849
+    },
+    {
+      "word": "magic",
+      "start_time": 62.884,
+      "end_time": 63.244,
+      "confidence": 0.99957
+    },
+    {
+      "word": "happened",
+      "start_time": 63.292,
+      "end_time": 63.596,
+      "confidence": 0.99734
+    },
+    {
+      "word": "when",
+      "start_time": 63.628,
+      "end_time": 63.82,
+      "confidence": 0.99863
+    },
+    {
+      "word": "researchers",
+      "start_time": 63.86,
+      "end_time": 64.364,
+      "confidence": 0.99843
+    },
+    {
+      "word": "could",
+      "start_time": 64.412,
+      "end_time": 64.62,
+      "confidence": 0.98853
+    },
+    {
+      "word": "also",
+      "start_time": 64.66,
+      "end_time": 64.908,
+      "confidence": 0.99007
+    },
+    {
+      "word": "respond",
+      "start_time": 64.964,
+      "end_time": 65.372,
+      "confidence": 0.93894
+    },
+    {
+      "word": "back",
+      "start_time": 65.436,
+      "end_time": 65.708,
+      "confidence": 0.99696
+    },
+    {
+      "word": "and",
+      "start_time": 65.764,
+      "end_time": 65.932,
+      "confidence": 0.99415
+    },
+    {
+      "word": "the",
+      "start_time": 65.956,
+      "end_time": 66.14,
+      "confidence": 0.99423
+    },
+    {
+      "word": "system",
+      "start_time": 66.18,
+      "end_time": 66.428,
+      "confidence": 0.99954
+    },
+    {
+      "word": "would",
+      "start_time": 66.484,
+      "end_time": 66.7,
+      "confidence": 0.98858
+    },
+    {
+      "word": "convert",
+      "start_time": 66.74,
+      "end_time": 67.004,
+      "confidence": 0.99907
+    },
+    {
+      "word": "their",
+      "start_time": 67.052,
+      "end_time": 67.26,
+      "confidence": 0.97942
+    },
+    {
+      "word": "messages",
+      "start_time": 67.3,
+      "end_time": 67.692,
+      "confidence": 0.99023
+    },
+    {
+      "word": "into",
+      "start_time": 67.756,
+      "end_time": 68.028,
+      "confidence": 0.99493
+    },
+    {
+      "word": "dolphin",
+      "start_time": 68.084,
+      "end_time": 68.524,
+      "confidence": 0.99606
+    },
+    {
+      "word": "like",
+      "start_time": 68.572,
+      "end_time": 68.78,
+      "confidence": 0.99812
+    },
+    {
+      "word": "sounds.",
+      "start_time": 68.82,
+      "end_time": 69.212,
+      "confidence": 0.99637
+    },
+    {
+      "word": "Now,",
+      "start_time": 69.276,
+      "end_time": 69.548,
+      "confidence": 0.96534
+    },
+    {
+      "word": "while",
+      "start_time": 69.604,
+      "end_time": 69.772,
+      "confidence": 0.99831
+    },
+    {
+      "word": "we",
+      "start_time": 69.796,
+      "end_time": 69.884,
+      "confidence": 0.99844
+    },
+    {
+      "word": "can't",
+      "start_time": 69.892,
+      "end_time": 70.156,
+      "confidence": 0.96636
+    },
+    {
+      "word": "confirm",
+      "start_time": 70.188,
+      "end_time": 70.476,
+      "confidence": 0.99859
+    },
+    {
+      "word": "if",
+      "start_time": 70.508,
+      "end_time": 70.652,
+      "confidence": 0.99687
+    },
+    {
+      "word": "the",
+      "start_time": 70.676,
+      "end_time": 70.812,
+      "confidence": 0.96222
+    },
+    {
+      "word": "dolphins",
+      "start_time": 70.836,
+      "end_time": 71.244,
+      "confidence": 0.99572
+    },
+    {
+      "word": "fully",
+      "start_time": 71.292,
+      "end_time": 71.516,
+      "confidence": 0.9885
+    },
+    {
+      "word": "understand",
+      "start_time": 71.548,
+      "end_time": 71.788,
+      "confidence": 0.9995
+    },
+    {
+      "word": "these",
+      "start_time": 71.844,
+      "end_time": 72.06,
+      "confidence": 0.98857
+    },
+    {
+      "word": "sounds",
+      "start_time": 72.1,
+      "end_time": 72.316,
+      "confidence": 0.53072
+    },
+    {
+      "word": "yet,",
+      "start_time": 72.348,
+      "end_time": 72.588,
+      "confidence": 0.98459
+    },
+    {
+      "word": "imagine",
+      "start_time": 72.644,
+      "end_time": 72.956,
+      "confidence": 0.99936
+    },
+    {
+      "word": "the",
+      "start_time": 72.988,
+      "end_time": 73.132,
+      "confidence": 0.99751
+    },
+    {
+      "word": "implications",
+      "start_time": 73.156,
+      "end_time": 73.66,
+      "confidence": 0.99547
+    },
+    {
+      "word": "if",
+      "start_time": 73.74,
+      "end_time": 73.932,
+      "confidence": 0.99396
+    },
+    {
+      "word": "this",
+      "start_time": 73.956,
+      "end_time": 74.092,
+      "confidence": 0.9851
+    },
+    {
+      "word": "tech",
+      "start_time": 74.116,
+      "end_time": 74.396,
+      "confidence": 0.97466
+    },
+    {
+      "word": "holds",
+      "start_time": 74.428,
+      "end_time": 74.668,
+      "confidence": 0.99527
+    },
+    {
+      "word": "up.",
+      "start_time": 74.684,
+      "end_time": 74.86,
+      "confidence": 0.99429
+    },
+    {
+      "word": "We",
+      "start_time": 74.9,
+      "end_time": 75.052,
+      "confidence": 0.99785
+    },
+    {
+      "word": "could",
+      "start_time": 75.076,
+      "end_time": 75.212,
+      "confidence": 0.99746
+    },
+    {
+      "word": "decode",
+      "start_time": 75.236,
+      "end_time": 75.724,
+      "confidence": 0.99835
+    },
+    {
+      "word": "complex",
+      "start_time": 75.772,
+      "end_time": 76.124,
+      "confidence": 0.99965
+    },
+    {
+      "word": "animal",
+      "start_time": 76.172,
+      "end_time": 76.524,
+      "confidence": 0.98986
+    },
+    {
+      "word": "societies,",
+      "start_time": 76.572,
+      "end_time": 77.1,
+      "confidence": 0.99725
+    },
+    {
+      "word": "map",
+      "start_time": 77.18,
+      "end_time": 77.484,
+      "confidence": 0.99827
+    },
+    {
+      "word": "their",
+      "start_time": 77.532,
+      "end_time": 77.692,
+      "confidence": 0.99546
+    },
+    {
+      "word": "feelings,",
+      "start_time": 77.716,
+      "end_time": 78.012,
+      "confidence": 0.59119
+    },
+    {
+      "word": "and",
+      "start_time": 78.076,
+      "end_time": 78.3,
+      "confidence": 0.99363
+    },
+    {
+      "word": "even",
+      "start_time": 78.34,
+      "end_time": 78.54,
+      "confidence": 0.99044
+    },
+    {
+      "word": "talk",
+      "start_time": 78.58,
+      "end_time": 78.78,
+      "confidence": 0.99981
+    },
+    {
+      "word": "to",
+      "start_time": 78.82,
+      "end_time": 79.068,
+      "confidence": 0.99693
+    },
+    {
+      "word": "and",
+      "start_time": 79.124,
+      "end_time": 79.388,
+      "confidence": 0.99196
+    },
+    {
+      "word": "understand",
+      "start_time": 79.444,
+      "end_time": 79.9,
+      "confidence": 0.99976
+    },
+    {
+      "word": "our",
+      "start_time": 80.02,
+      "end_time": 80.252,
+      "confidence": 0.99607
+    },
+    {
+      "word": "pet",
+      "start_time": 80.276,
+      "end_time": 80.46,
+      "confidence": 0.9991
+    },
+    {
+      "word": "dogs.",
+      "start_time": 80.5,
+      "end_time": 80.892,
+      "confidence": 0.99259
+    },
+    {
+      "word": "Something",
+      "start_time": 80.956,
+      "end_time": 81.132,
+      "confidence": 0.9977
+    },
+    {
+      "word": "we've",
+      "start_time": 81.156,
+      "end_time": 81.388,
+      "confidence": 0.89396
+    },
+    {
+      "word": "all",
+      "start_time": 81.404,
+      "end_time": 81.532,
+      "confidence": 0.99603
+    },
+    {
+      "word": "wanted",
+      "start_time": 81.556,
+      "end_time": 81.836,
+      "confidence": 0.9965
+    },
+    {
+      "word": "to",
+      "start_time": 81.868,
+      "end_time": 81.964,
+      "confidence": 0.99692
+    },
+    {
+      "word": "do.",
+      "start_time": 81.972,
+      "end_time": 82.14,
+      "confidence": 0.99449
+    },
+    {
+      "word": "What",
+      "start_time": 82.18,
+      "end_time": 82.332,
+      "confidence": 0.62137
+    },
+    {
+      "word": "do",
+      "start_time": 82.356,
+      "end_time": 82.492,
+      "confidence": 0.99633
+    },
+    {
+      "word": "you",
+      "start_time": 82.516,
+      "end_time": 82.652,
+      "confidence": 0.99881
+    },
+    {
+      "word": "think?",
+      "start_time": 82.676,
+      "end_time": 82.74,
+      "confidence": 0.99779
+    }
+  ],
+  "formatted_timestamps": [
+    {
+      "text": "You can now talk to Dolphins thanks to DeepMind's dolphin",
+      "start_time": 0.16,
+      "end_time": 2.968,
+      "display_time": "00:00 - 00:02"
+    },
+    {
+      "text": "Gemma, an LLM trained not on words, but over 40",
+      "start_time": 2.984,
+      "end_time": 5.688,
+      "display_time": "00:02 - 00:05"
+    },
+    {
+      "text": "years of real dolphin sounds.",
+      "start_time": 5.744,
+      "end_time": 7.384,
+      "display_time": "00:05 - 00:07"
+    },
+    {
+      "text": "But how?",
+      "start_time": 7.432,
+      "end_time": 7.896,
+      "display_time": "00:07 - 00:07"
+    },
+    {
+      "text": "Well, researchers first",
+      "start_time": 7.968,
+      "end_time": 8.92,
+      "display_time": "00:07 - 00:08"
+    },
+    {
+      "text": "spent decades recording real dolphin sounds, capturing every click, whistle",
+      "start_time": 8.96,
+      "end_time": 12.696,
+      "display_time": "00:08 - 00:12"
+    },
+    {
+      "text": "and pulse they made.",
+      "start_time": 12.728,
+      "end_time": 13.528,
+      "display_time": "00:12 - 00:13"
+    },
+    {
+      "text": "Think of it like collecting voice",
+      "start_time": 13.584,
+      "end_time": 14.904,
+      "display_time": "00:13 - 00:14"
+    },
+    {
+      "text": "notes every day for 40 years and building a data",
+      "start_time": 14.952,
+      "end_time": 17.608,
+      "display_time": "00:14 - 00:17"
+    },
+    {
+      "text": "set of millions of real dolphin sounds.",
+      "start_time": 17.664,
+      "end_time": 19.992,
+      "display_time": "00:17 - 00:19"
+    },
+    {
+      "text": "Now, once they",
+      "start_time": 20.056,
+      "end_time": 20.632,
+      "display_time": "00:20 - 00:20"
+    },
+    {
+      "text": "had this massive audio library, DeepMind trained a special kind",
+      "start_time": 20.656,
+      "end_time": 24.104,
+      "display_time": "00:20 - 00:24"
+    },
+    {
+      "text": "of AI called Dolphin Gemma.",
+      "start_time": 24.112,
+      "end_time": 25.704,
+      "display_time": "00:24 - 00:25"
+    },
+    {
+      "text": "But unlike ChatGPT, which learns",
+      "start_time": 25.752,
+      "end_time": 27.656,
+      "display_time": "00:25 - 00:27"
+    },
+    {
+      "text": "from splitting massive amounts of texts into chunks called tokens,",
+      "start_time": 27.688,
+      "end_time": 30.992,
+      "display_time": "00:27 - 00:30"
+    },
+    {
+      "text": "this AI learns by splitting dolphin sounds into tiny audio",
+      "start_time": 31.056,
+      "end_time": 34.464,
+      "display_time": "00:31 - 00:34"
+    },
+    {
+      "text": "chunks.",
+      "start_time": 34.512,
+      "end_time": 34.88,
+      "display_time": "00:34 - 00:34"
+    },
+    {
+      "text": "Let's call it audio tokens.",
+      "start_time": 34.96,
+      "end_time": 36.352,
+      "display_time": "00:34 - 00:36"
+    },
+    {
+      "text": "And analyzes different patterns",
+      "start_time": 36.416,
+      "end_time": 37.808,
+      "display_time": "00:36 - 00:37"
+    },
+    {
+      "text": "and sequences within them.",
+      "start_time": 37.824,
+      "end_time": 38.928,
+      "display_time": "00:37 - 00:38"
+    },
+    {
+      "text": "For example, it might recognize that",
+      "start_time": 38.984,
+      "end_time": 40.672,
+      "display_time": "00:38 - 00:40"
+    },
+    {
+      "text": "a specific sequence of clicks is often followed by a",
+      "start_time": 40.696,
+      "end_time": 43.312,
+      "display_time": "00:40 - 00:43"
+    },
+    {
+      "text": "whistle, indicating a certain type of communication, like excitement or",
+      "start_time": 43.336,
+      "end_time": 46.432,
+      "display_time": "00:43 - 00:46"
+    },
+    {
+      "text": "a call for attention.",
+      "start_time": 46.456,
+      "end_time": 47.36,
+      "display_time": "00:46 - 00:47"
+    },
+    {
+      "text": "Just like how we can tell",
+      "start_time": 47.44,
+      "end_time": 48.4,
+      "display_time": "00:47 - 00:48"
+    },
+    {
+      "text": "someone's mood based on the tone of their voice.",
+      "start_time": 48.44,
+      "end_time": 50.352,
+      "display_time": "00:48 - 00:50"
+    },
+    {
+      "text": "But",
+      "start_time": 50.416,
+      "end_time": 50.592,
+      "display_time": "00:50 - 00:50"
+    },
+    {
+      "text": "here's where it gets wild.",
+      "start_time": 50.616,
+      "end_time": 51.584,
+      "display_time": "00:50 - 00:51"
+    },
+    {
+      "text": "When they paired it with",
+      "start_time": 51.632,
+      "end_time": 52.512,
+      "display_time": "00:51 - 00:52"
+    },
+    {
+      "text": "a real time headset, researchers where in the ocean called",
+      "start_time": 52.536,
+      "end_time": 55.52,
+      "display_time": "00:52 - 00:55"
+    },
+    {
+      "text": "Chat, the AI successfully listened to dolphin sounds and quickly",
+      "start_time": 55.56,
+      "end_time": 58.864,
+      "display_time": "00:55 - 00:58"
+    },
+    {
+      "text": "translated them into the closest human interpretation, in English.",
+      "start_time": 58.912,
+      "end_time": 62.14,
+      "display_time": "00:58 - 01:02"
+    },
+    {
+      "text": "But",
+      "start_time": 62.22,
+      "end_time": 62.364,
+      "display_time": "01:02 - 01:02"
+    },
+    {
+      "text": "the real magic happened when researchers could also respond back",
+      "start_time": 62.372,
+      "end_time": 65.708,
+      "display_time": "01:02 - 01:05"
+    },
+    {
+      "text": "and the system would convert their messages into dolphin like",
+      "start_time": 65.764,
+      "end_time": 68.78,
+      "display_time": "01:05 - 01:08"
+    },
+    {
+      "text": "sounds.",
+      "start_time": 68.82,
+      "end_time": 69.212,
+      "display_time": "01:08 - 01:09"
+    },
+    {
+      "text": "Now, while we can't confirm if the dolphins fully",
+      "start_time": 69.276,
+      "end_time": 71.516,
+      "display_time": "01:09 - 01:11"
+    },
+    {
+      "text": "understand these sounds yet, imagine the implications if this tech",
+      "start_time": 71.548,
+      "end_time": 74.396,
+      "display_time": "01:11 - 01:14"
+    },
+    {
+      "text": "holds up.",
+      "start_time": 74.428,
+      "end_time": 74.86,
+      "display_time": "01:14 - 01:14"
+    },
+    {
+      "text": "We could decode complex animal societies, map their",
+      "start_time": 74.9,
+      "end_time": 77.692,
+      "display_time": "01:14 - 01:17"
+    },
+    {
+      "text": "feelings, and even talk to and understand our pet dogs.",
+      "start_time": 77.716,
+      "end_time": 80.892,
+      "display_time": "01:17 - 01:20"
+    },
+    {
+      "text": "Something we've all wanted to do.",
+      "start_time": 80.956,
+      "end_time": 82.14,
+      "display_time": "01:20 - 01:22"
+    },
+    {
+      "text": "What do you think?",
+      "start_time": 82.18,
+      "end_time": 82.74,
+      "display_time": "01:22 - 01:22"
+    }
+  ],
+  "created_at": 1745200661.245984
+}

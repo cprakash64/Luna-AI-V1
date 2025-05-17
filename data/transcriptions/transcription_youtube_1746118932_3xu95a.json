@@ -1,0 +1,844 @@
+{
+  "text": "Elon Musk thinks there's massive fraud in the government because a database has the same Social Security number twice. Who's going to tell him that a SQL database and an Excel spreadsheet aren't the same thing? Let me make this really simple. If you record some Social Security recipients payment for July and then record their next payment in August, congratulations. You now have duplicate SSNs in the database. 3. Thankfully, we've developed cutting edge technology to only get unique SSNs using SQL. And yes, as someone who briefly worked in government using SQL, we exist. And Elon, I have great news for you. They even have an equivalent in Excel. Not that I would recommend storing all of our personal data in an Excel spreadsheet on your desktop. Please don't do that. You're not doing that right.",
+  "segments": [],
+  "timestamps": [
+    {
+      "word": "Elon",
+      "start_time": 0.16,
+      "end_time": 0.416,
+      "confidence": 0.99872
+    },
+    {
+      "word": "Musk",
+      "start_time": 0.416,
+      "end_time": 0.672,
+      "confidence": 0.91413
+    },
+    {
+      "word": "thinks",
+      "start_time": 0.712,
+      "end_time": 0.936,
+      "confidence": 0.99918
+    },
+    {
+      "word": "there's",
+      "start_time": 0.968,
+      "end_time": 1.224,
+      "confidence": 0.97929
+    },
+    {
+      "word": "massive",
+      "start_time": 1.272,
+      "end_time": 1.576,
+      "confidence": 0.99977
+    },
+    {
+      "word": "fraud",
+      "start_time": 1.608,
+      "end_time": 1.896,
+      "confidence": 0.73101
+    },
+    {
+      "word": "in",
+      "start_time": 1.928,
+      "end_time": 2.024,
+      "confidence": 0.99912
+    },
+    {
+      "word": "the",
+      "start_time": 2.032,
+      "end_time": 2.152,
+      "confidence": 0.99797
+    },
+    {
+      "word": "government",
+      "start_time": 2.176,
+      "end_time": 2.504,
+      "confidence": 0.99955
+    },
+    {
+      "word": "because",
+      "start_time": 2.592,
+      "end_time": 2.792,
+      "confidence": 0.99965
+    },
+    {
+      "word": "a",
+      "start_time": 2.816,
+      "end_time": 2.952,
+      "confidence": 0.67746
+    },
+    {
+      "word": "database",
+      "start_time": 2.976,
+      "end_time": 3.384,
+      "confidence": 0.99967
+    },
+    {
+      "word": "has",
+      "start_time": 3.432,
+      "end_time": 3.592,
+      "confidence": 0.99897
+    },
+    {
+      "word": "the",
+      "start_time": 3.616,
+      "end_time": 3.704,
+      "confidence": 0.9994
+    },
+    {
+      "word": "same",
+      "start_time": 3.712,
+      "end_time": 3.976,
+      "confidence": 0.79815
+    },
+    {
+      "word": "Social",
+      "start_time": 4.048,
+      "end_time": 4.328,
+      "confidence": 0.99953
+    },
+    {
+      "word": "Security",
+      "start_time": 4.384,
+      "end_time": 4.744,
+      "confidence": 0.99986
+    },
+    {
+      "word": "number",
+      "start_time": 4.832,
+      "end_time": 5.128,
+      "confidence": 0.99954
+    },
+    {
+      "word": "twice.",
+      "start_time": 5.184,
+      "end_time": 5.82,
+      "confidence": 0.99899
+    },
+    {
+      "word": "Who's",
+      "start_time": 7.04,
+      "end_time": 7.496,
+      "confidence": 0.69723
+    },
+    {
+      "word": "going",
+      "start_time": 7.528,
+      "end_time": 7.672,
+      "confidence": 0.74277
+    },
+    {
+      "word": "to",
+      "start_time": 7.696,
+      "end_time": 7.784,
+      "confidence": 0.99863
+    },
+    {
+      "word": "tell",
+      "start_time": 7.792,
+      "end_time": 8.008,
+      "confidence": 0.99989
+    },
+    {
+      "word": "him",
+      "start_time": 8.064,
+      "end_time": 8.28,
+      "confidence": 0.99893
+    },
+    {
+      "word": "that",
+      "start_time": 8.32,
+      "end_time": 8.472,
+      "confidence": 0.99841
+    },
+    {
+      "word": "a",
+      "start_time": 8.496,
+      "end_time": 8.584,
+      "confidence": 0.99622
+    },
+    {
+      "word": "SQL",
+      "start_time": 8.592,
+      "end_time": 8.856,
+      "confidence": 0.97985
+    },
+    {
+      "word": "database",
+      "start_time": 8.888,
+      "end_time": 9.384,
+      "confidence": 0.99972
+    },
+    {
+      "word": "and",
+      "start_time": 9.432,
+      "end_time": 9.64,
+      "confidence": 0.59219
+    },
+    {
+      "word": "an",
+      "start_time": 9.68,
+      "end_time": 9.832,
+      "confidence": 0.99604
+    },
+    {
+      "word": "Excel",
+      "start_time": 9.856,
+      "end_time": 10.184,
+      "confidence": 0.99975
+    },
+    {
+      "word": "spreadsheet",
+      "start_time": 10.232,
+      "end_time": 11.016,
+      "confidence": 0.99642
+    },
+    {
+      "word": "aren't",
+      "start_time": 11.128,
+      "end_time": 11.544,
+      "confidence": 0.99677
+    },
+    {
+      "word": "the",
+      "start_time": 11.592,
+      "end_time": 11.8,
+      "confidence": 0.99967
+    },
+    {
+      "word": "same",
+      "start_time": 11.84,
+      "end_time": 12.136,
+      "confidence": 0.99979
+    },
+    {
+      "word": "thing?",
+      "start_time": 12.208,
+      "end_time": 12.584,
+      "confidence": 0.99229
+    },
+    {
+      "word": "Let",
+      "start_time": 12.672,
+      "end_time": 12.872,
+      "confidence": 0.99924
+    },
+    {
+      "word": "me",
+      "start_time": 12.896,
+      "end_time": 13.08,
+      "confidence": 0.99963
+    },
+    {
+      "word": "make",
+      "start_time": 13.12,
+      "end_time": 13.32,
+      "confidence": 0.99968
+    },
+    {
+      "word": "this",
+      "start_time": 13.36,
+      "end_time": 13.8,
+      "confidence": 0.99899
+    },
+    {
+      "word": "really",
+      "start_time": 13.92,
+      "end_time": 14.296,
+      "confidence": 0.99717
+    },
+    {
+      "word": "simple.",
+      "start_time": 14.368,
+      "end_time": 14.984,
+      "confidence": 0.85867
+    },
+    {
+      "word": "If",
+      "start_time": 15.112,
+      "end_time": 15.4,
+      "confidence": 0.99918
+    },
+    {
+      "word": "you",
+      "start_time": 15.44,
+      "end_time": 15.592,
+      "confidence": 0.9992
+    },
+    {
+      "word": "record",
+      "start_time": 15.616,
+      "end_time": 16.088,
+      "confidence": 0.99917
+    },
+    {
+      "word": "some",
+      "start_time": 16.224,
+      "end_time": 16.52,
+      "confidence": 0.99913
+    },
+    {
+      "word": "Social",
+      "start_time": 16.56,
+      "end_time": 16.808,
+      "confidence": 0.99867
+    },
+    {
+      "word": "Security",
+      "start_time": 16.864,
+      "end_time": 17.224,
+      "confidence": 0.99968
+    },
+    {
+      "word": "recipients",
+      "start_time": 17.312,
+      "end_time": 17.88,
+      "confidence": 0.53081
+    },
+    {
+      "word": "payment",
+      "start_time": 17.96,
+      "end_time": 18.392,
+      "confidence": 0.98134
+    },
+    {
+      "word": "for",
+      "start_time": 18.456,
+      "end_time": 18.728,
+      "confidence": 0.99794
+    },
+    {
+      "word": "July",
+      "start_time": 18.784,
+      "end_time": 19.38,
+      "confidence": 0.99953
+    },
+    {
+      "word": "and",
+      "start_time": 19.68,
+      "end_time": 19.992,
+      "confidence": 0.99802
+    },
+    {
+      "word": "then",
+      "start_time": 20.016,
+      "end_time": 20.152,
+      "confidence": 0.99698
+    },
+    {
+      "word": "record",
+      "start_time": 20.176,
+      "end_time": 20.408,
+      "confidence": 0.99953
+    },
+    {
+      "word": "their",
+      "start_time": 20.464,
+      "end_time": 20.68,
+      "confidence": 0.99895
+    },
+    {
+      "word": "next",
+      "start_time": 20.72,
+      "end_time": 20.968,
+      "confidence": 0.99965
+    },
+    {
+      "word": "payment",
+      "start_time": 21.024,
+      "end_time": 21.48,
+      "confidence": 0.99941
+    },
+    {
+      "word": "in",
+      "start_time": 21.56,
+      "end_time": 21.8,
+      "confidence": 0.99744
+    },
+    {
+      "word": "August,",
+      "start_time": 21.84,
+      "end_time": 22.552,
+      "confidence": 0.9975
+    },
+    {
+      "word": "congratulations.",
+      "start_time": 22.696,
+      "end_time": 23.896,
+      "confidence": 0.99578
+    },
+    {
+      "word": "You",
+      "start_time": 24.008,
+      "end_time": 24.28,
+      "confidence": 0.99898
+    },
+    {
+      "word": "now",
+      "start_time": 24.32,
+      "end_time": 24.52,
+      "confidence": 0.99567
+    },
+    {
+      "word": "have",
+      "start_time": 24.56,
+      "end_time": 24.808,
+      "confidence": 0.99975
+    },
+    {
+      "word": "duplicate",
+      "start_time": 24.864,
+      "end_time": 25.336,
+      "confidence": 0.99365
+    },
+    {
+      "word": "SSNs",
+      "start_time": 25.368,
+      "end_time": 26.104,
+      "confidence": 0.91334
+    },
+    {
+      "word": "in",
+      "start_time": 26.152,
+      "end_time": 26.264,
+      "confidence": 0.99956
+    },
+    {
+      "word": "the",
+      "start_time": 26.272,
+      "end_time": 26.392,
+      "confidence": 0.99874
+    },
+    {
+      "word": "database.",
+      "start_time": 26.416,
+      "end_time": 27.048,
+      "confidence": 0.99825
+    },
+    {
+      "word": "3.",
+      "start_time": 27.144,
+      "end_time": 27.36,
+      "confidence": 0.24339
+    },
+    {
+      "word": "Thankfully,",
+      "start_time": 27.39,
+      "end_time": 27.804,
+      "confidence": 0.99639
+    },
+    {
+      "word": "we've",
+      "start_time": 27.852,
+      "end_time": 28.156,
+      "confidence": 0.98541
+    },
+    {
+      "word": "developed",
+      "start_time": 28.188,
+      "end_time": 28.604,
+      "confidence": 0.99894
+    },
+    {
+      "word": "cutting",
+      "start_time": 28.652,
+      "end_time": 29.052,
+      "confidence": 0.70485
+    },
+    {
+      "word": "edge",
+      "start_time": 29.116,
+      "end_time": 29.452,
+      "confidence": 0.99879
+    },
+    {
+      "word": "technology",
+      "start_time": 29.516,
+      "end_time": 30.124,
+      "confidence": 0.99937
+    },
+    {
+      "word": "to",
+      "start_time": 30.292,
+      "end_time": 30.62,
+      "confidence": 0.99933
+    },
+    {
+      "word": "only",
+      "start_time": 30.66,
+      "end_time": 30.908,
+      "confidence": 0.99876
+    },
+    {
+      "word": "get",
+      "start_time": 30.964,
+      "end_time": 31.18,
+      "confidence": 0.99663
+    },
+    {
+      "word": "unique",
+      "start_time": 31.22,
+      "end_time": 31.564,
+      "confidence": 0.99894
+    },
+    {
+      "word": "SSNs",
+      "start_time": 31.612,
+      "end_time": 32.508,
+      "confidence": 0.91566
+    },
+    {
+      "word": "using",
+      "start_time": 32.604,
+      "end_time": 32.908,
+      "confidence": 0.99902
+    },
+    {
+      "word": "SQL.",
+      "start_time": 32.964,
+      "end_time": 33.42,
+      "confidence": 0.86531
+    },
+    {
+      "word": "And",
+      "start_time": 33.5,
+      "end_time": 33.692,
+      "confidence": 0.97018
+    },
+    {
+      "word": "yes,",
+      "start_time": 33.716,
+      "end_time": 33.916,
+      "confidence": 0.9926
+    },
+    {
+      "word": "as",
+      "start_time": 33.948,
+      "end_time": 34.14,
+      "confidence": 0.99766
+    },
+    {
+      "word": "someone",
+      "start_time": 34.18,
+      "end_time": 34.38,
+      "confidence": 0.99872
+    },
+    {
+      "word": "who",
+      "start_time": 34.42,
+      "end_time": 34.62,
+      "confidence": 0.9986
+    },
+    {
+      "word": "briefly",
+      "start_time": 34.66,
+      "end_time": 34.956,
+      "confidence": 0.99825
+    },
+    {
+      "word": "worked",
+      "start_time": 34.988,
+      "end_time": 35.244,
+      "confidence": 0.99849
+    },
+    {
+      "word": "in",
+      "start_time": 35.292,
+      "end_time": 35.452,
+      "confidence": 0.99808
+    },
+    {
+      "word": "government",
+      "start_time": 35.476,
+      "end_time": 35.756,
+      "confidence": 0.99968
+    },
+    {
+      "word": "using",
+      "start_time": 35.828,
+      "end_time": 36.108,
+      "confidence": 0.99853
+    },
+    {
+      "word": "SQL,",
+      "start_time": 36.164,
+      "end_time": 36.844,
+      "confidence": 0.9436
+    },
+    {
+      "word": "we",
+      "start_time": 36.972,
+      "end_time": 37.26,
+      "confidence": 0.99648
+    },
+    {
+      "word": "exist.",
+      "start_time": 37.3,
+      "end_time": 37.772,
+      "confidence": 0.99426
+    },
+    {
+      "word": "And",
+      "start_time": 37.836,
+      "end_time": 38.012,
+      "confidence": 0.96198
+    },
+    {
+      "word": "Elon,",
+      "start_time": 38.036,
+      "end_time": 38.668,
+      "confidence": 0.96295
+    },
+    {
+      "word": "I",
+      "start_time": 38.764,
+      "end_time": 39.02,
+      "confidence": 0.99932
+    },
+    {
+      "word": "have",
+      "start_time": 39.06,
+      "end_time": 39.212,
+      "confidence": 0.99832
+    },
+    {
+      "word": "great",
+      "start_time": 39.236,
+      "end_time": 39.42,
+      "confidence": 0.99838
+    },
+    {
+      "word": "news",
+      "start_time": 39.46,
+      "end_time": 39.66,
+      "confidence": 0.99754
+    },
+    {
+      "word": "for",
+      "start_time": 39.7,
+      "end_time": 39.852,
+      "confidence": 0.99856
+    },
+    {
+      "word": "you.",
+      "start_time": 39.876,
+      "end_time": 40.396,
+      "confidence": 0.86659
+    },
+    {
+      "word": "They",
+      "start_time": 40.548,
+      "end_time": 40.908,
+      "confidence": 0.99725
+    },
+    {
+      "word": "even",
+      "start_time": 40.964,
+      "end_time": 41.276,
+      "confidence": 0.99883
+    },
+    {
+      "word": "have",
+      "start_time": 41.348,
+      "end_time": 41.532,
+      "confidence": 0.99925
+    },
+    {
+      "word": "an",
+      "start_time": 41.556,
+      "end_time": 41.692,
+      "confidence": 0.99632
+    },
+    {
+      "word": "equivalent",
+      "start_time": 41.716,
+      "end_time": 42.476,
+      "confidence": 0.99927
+    },
+    {
+      "word": "in",
+      "start_time": 42.588,
+      "end_time": 42.86,
+      "confidence": 0.99818
+    },
+    {
+      "word": "Excel.",
+      "start_time": 42.9,
+      "end_time": 43.436,
+      "confidence": 0.99916
+    },
+    {
+      "word": "Not",
+      "start_time": 43.548,
+      "end_time": 43.772,
+      "confidence": 0.99883
+    },
+    {
+      "word": "that",
+      "start_time": 43.796,
+      "end_time": 43.932,
+      "confidence": 0.99731
+    },
+    {
+      "word": "I",
+      "start_time": 43.956,
+      "end_time": 44.044,
+      "confidence": 0.99968
+    },
+    {
+      "word": "would",
+      "start_time": 44.052,
+      "end_time": 44.172,
+      "confidence": 0.98712
+    },
+    {
+      "word": "recommend",
+      "start_time": 44.196,
+      "end_time": 44.524,
+      "confidence": 0.98162
+    },
+    {
+      "word": "storing",
+      "start_time": 44.572,
+      "end_time": 44.796,
+      "confidence": 0.6308
+    },
+    {
+      "word": "all",
+      "start_time": 44.828,
+      "end_time": 44.972,
+      "confidence": 0.99382
+    },
+    {
+      "word": "of",
+      "start_time": 44.996,
+      "end_time": 45.084,
+      "confidence": 0.94136
+    },
+    {
+      "word": "our",
+      "start_time": 45.092,
+      "end_time": 45.212,
+      "confidence": 0.99689
+    },
+    {
+      "word": "personal",
+      "start_time": 45.236,
+      "end_time": 45.468,
+      "confidence": 0.99834
+    },
+    {
+      "word": "data",
+      "start_time": 45.524,
+      "end_time": 45.884,
+      "confidence": 0.99986
+    },
+    {
+      "word": "in",
+      "start_time": 45.972,
+      "end_time": 46.172,
+      "confidence": 0.99624
+    },
+    {
+      "word": "an",
+      "start_time": 46.196,
+      "end_time": 46.38,
+      "confidence": 0.99567
+    },
+    {
+      "word": "Excel",
+      "start_time": 46.42,
+      "end_time": 46.716,
+      "confidence": 0.99929
+    },
+    {
+      "word": "spreadsheet",
+      "start_time": 46.748,
+      "end_time": 47.58,
+      "confidence": 0.99818
+    },
+    {
+      "word": "on",
+      "start_time": 47.74,
+      "end_time": 48.06,
+      "confidence": 0.99697
+    },
+    {
+      "word": "your",
+      "start_time": 48.1,
+      "end_time": 48.252,
+      "confidence": 0.99773
+    },
+    {
+      "word": "desktop.",
+      "start_time": 48.276,
+      "end_time": 49.04,
+      "confidence": 0.57844
+    },
+    {
+      "word": "Please",
+      "start_time": 49.46,
+      "end_time": 49.772,
+      "confidence": 0.99852
+    },
+    {
+      "word": "don't",
+      "start_time": 49.796,
+      "end_time": 49.948,
+      "confidence": 0.99839
+    },
+    {
+      "word": "do",
+      "start_time": 49.964,
+      "end_time": 50.092,
+      "confidence": 0.99658
+    },
+    {
+      "word": "that.",
+      "start_time": 50.116,
+      "end_time": 50.492,
+      "confidence": 0.99741
+    },
+    {
+      "word": "You're",
+      "start_time": 50.596,
+      "end_time": 50.828,
+      "confidence": 0.97129
+    },
+    {
+      "word": "not",
+      "start_time": 50.844,
+      "end_time": 50.972,
+      "confidence": 0.99933
+    },
+    {
+      "word": "doing",
+      "start_time": 50.996,
+      "end_time": 51.132,
+      "confidence": 0.99855
+    },
+    {
+      "word": "that",
+      "start_time": 51.156,
+      "end_time": 51.34,
+      "confidence": 0.99535
+    },
+    {
+      "word": "right.",
+      "start_time": 51.38,
+      "end_time": 51.46,
+      "confidence": 0.98489
+    }
+  ],
+  "video_id": "youtube_1746118932_3xu95a",
+  "metadata": {
+    "source_url": "https://www.youtube.com/shorts/Ah_LMYqd2CE",
+    "youtube_info": {
+      "path": "/Users/chotu/Documents/MY_AI/Luna/data/temp/youtube_1745449717_cfkdai.mp4",
+      "video_title": "Downloaded with yt-dlp",
+      "author": "Unknown",
+      "length": 0
+    }
+  }
+}
